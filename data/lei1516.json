@@ -1,0 +1,221 @@
+{
+  "clubCode": "LEI1516",
+  "club": "Leicester",
+  "season": "2015-16",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "LEI1516_RANIERI",
+      "fullname": "Claudio Ranieri",
+      "surname": "Ranieri",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LEI1516_KASPER_SCHMEICHEL",
+      "fullname": "Kasper Schmeichel",
+      "surname": "Schmeichel",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LEI1516_JAMIE_VARDY",
+      "fullname": "Jamie Vardy",
+      "surname": "Vardy",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "LEI1516_RIYAD_MAHREZ",
+      "fullname": "Riyad Mahrez",
+      "surname": "Mahrez",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "LEI1516_ROBERT_HUTH",
+      "fullname": "Robert Huth",
+      "surname": "Huth",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "LEI1516_DANNY_DRINKWATER",
+      "fullname": "Danny Drinkwater",
+      "surname": "Drinkwater",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "LEI1516_MARC_ALBRIGHTON",
+      "fullname": "Marc Albrighton",
+      "surname": "Albrighton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LEI1516_NGOLO_KANT",
+      "fullname": "N'Golo Kanté",
+      "surname": "Kanté",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "LEI1516_CHRISTIAN_FUCHS",
+      "fullname": "Christian Fuchs",
+      "surname": "Fuchs",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "LEI1516_DANNY_SIMPSON",
+      "fullname": "Danny Simpson",
+      "surname": "Simpson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "LEI1516_SHINJI_OKAZAKI",
+      "fullname": "Shinji Okazaki",
+      "surname": "Okazaki",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "LEI1516_JEFFREY_SCHLUPP",
+      "fullname": "Jeffrey Schlupp",
+      "surname": "Schlupp",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "LEI1516_ANDY_KING",
+      "fullname": "Andy King",
+      "surname": "King",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "LEI1516_LEONARDO_ULLOA",
+      "fullname": "Leonardo Ulloa",
+      "surname": "Ulloa",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "LEI1516_RITCHIE_DE_LAET",
+      "fullname": "Ritchie De Laet",
+      "surname": "Laet",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "LEI1516_MARCIN_WASILEWSKI",
+      "fullname": "Marcin Wasilewski",
+      "surname": "Wasilewski",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "LEI1516_GKHAN_INLER",
+      "fullname": "Gökhan Inler",
+      "surname": "Inler",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "LEI1516_DEMARAI_GRAY",
+      "fullname": "Demarai Gray",
+      "surname": "Gray",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "LEI1516_DANIEL_AMARTEY",
+      "fullname": "Daniel Amartey",
+      "surname": "Amartey",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "LEI1516_NATHAN_DYER",
+      "fullname": "Nathan Dyer",
+      "surname": "Dyer",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "LEI1516_YOHAN_BENALOUANE",
+      "fullname": "Yohan Benalouane",
+      "surname": "Benalouane",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "LEI1516_ANDREJ_KRAMARI",
+      "fullname": "Andrej Kramarić",
+      "surname": "Kramarić",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "LEI1516_JOE_DODOO",
+      "fullname": "Joe Dodoo",
+      "surname": "Dodoo",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1
+    }
+  ]
+}

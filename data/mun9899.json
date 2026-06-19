@@ -1,0 +1,231 @@
+{
+  "clubCode": "MUN9899",
+  "club": "Manchester United",
+  "season": "1998-99",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MUN9899_FERGUSON",
+      "fullname": "Alex Ferguson",
+      "surname": "Ferguson",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "MUN9899_PETER_SCHMEICHEL",
+      "fullname": "Peter Schmeichel",
+      "surname": "Schmeichel",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "MUN9899_GARY_NEVILLE",
+      "fullname": "Gary Neville",
+      "surname": "Neville",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "MUN9899_DAVID_BECKHAM",
+      "fullname": "David Beckham",
+      "surname": "Beckham",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "MUN9899_ROY_KEANE",
+      "fullname": "Roy Keane",
+      "surname": "Keane",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "MUN9899_DWIGHT_YORKE",
+      "fullname": "Dwight Yorke",
+      "surname": "Yorke",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "MUN9899_JAAP_STAM",
+      "fullname": "Jaap Stam",
+      "surname": "Stam",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "MUN9899_ANDY_COLE",
+      "fullname": "Andy Cole",
+      "surname": "Cole",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "MUN9899_DENIS_IRWIN",
+      "fullname": "Denis Irwin",
+      "surname": "Irwin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "MUN9899_PAUL_SCHOLES",
+      "fullname": "Paul Scholes",
+      "surname": "Scholes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "MUN9899_NICKY_BUTT",
+      "fullname": "Nicky Butt",
+      "surname": "Butt",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "MUN9899_RYAN_GIGGS",
+      "fullname": "Ryan Giggs",
+      "surname": "Giggs",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "MUN9899_JESPER_BLOMQVIST",
+      "fullname": "Jesper Blomqvist",
+      "surname": "Blomqvist",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "MUN9899_PHIL_NEVILLE",
+      "fullname": "Phil Neville",
+      "surname": "Neville",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "MUN9899_RONNY_JOHNSEN",
+      "fullname": "Ronny Johnsen",
+      "surname": "Johnsen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22
+    },
+    {
+      "id": "MUN9899_WES_BROWN",
+      "fullname": "Wes Brown",
+      "surname": "Brown",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "MUN9899_HENNING_BERG",
+      "fullname": "Henning Berg",
+      "surname": "Berg",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "MUN9899_OLE_GUNNAR_SOLSKJR",
+      "fullname": "Ole Gunnar Solskjær",
+      "surname": "Solskjær",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "MUN9899_TEDDY_SHERINGHAM",
+      "fullname": "Teddy Sheringham",
+      "surname": "Sheringham",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "MUN9899_DAVID_MAY",
+      "fullname": "David May",
+      "surname": "May",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "MUN9899_RAIMOND_VAN_DER_GOUW",
+      "fullname": "Raimond van der Gouw",
+      "surname": "Gouw",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "MUN9899_JOHN_CURTIS",
+      "fullname": "John Curtis",
+      "surname": "Curtis",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "MUN9899_JORDI_CRUYFF",
+      "fullname": "Jordi Cruyff",
+      "surname": "Cruyff",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "MUN9899_JONATHAN_GREENING",
+      "fullname": "Jonathan Greening",
+      "surname": "Greening",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3
+    }
+  ]
+}

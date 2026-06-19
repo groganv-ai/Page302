@@ -1,0 +1,262 @@
+{
+  "clubCode": "COV0001",
+  "club": "Coventry",
+  "season": "2000-01",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "COV0001_STRACHAN",
+      "fullname": "Gordon Strachan",
+      "surname": "Strachan",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "COV0001_GARY_BREEN",
+      "fullname": "Gary Breen",
+      "surname": "Breen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "COV0001_MUSTAPHA_HADJI",
+      "fullname": "Mustapha Hadji",
+      "surname": "Hadji",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "COV0001_PAUL_WILLIAMS",
+      "fullname": "Paul Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "COV0001_PAUL_TELFER",
+      "fullname": "Paul Telfer",
+      "surname": "Telfer",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "COV0001_BARRY_QUINN",
+      "fullname": "Barry Quinn",
+      "surname": "Quinn",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "COV0001_RICHARD_SHAW",
+      "fullname": "Richard Shaw",
+      "surname": "Shaw",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "COV0001_CHRIS_KIRKLAND",
+      "fullname": "Chris Kirkland",
+      "surname": "Kirkland",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "COV0001_JOHN_EUSTACE",
+      "fullname": "John Eustace",
+      "surname": "Eustace",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "COV0001_DAVID_THOMPSON",
+      "fullname": "David Thompson",
+      "surname": "Thompson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "COV0001_MARCUS_HALL",
+      "fullname": "Marcus Hall",
+      "surname": "Hall",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "COV0001_LEE_CARSLEY",
+      "fullname": "Lee Carsley",
+      "surname": "Carsley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "COV0001_MARC_EDWORTHY",
+      "fullname": "Marc Edworthy",
+      "surname": "Edworthy",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "COV0001_YOUSSEF_CHIPPO",
+      "fullname": "Youssef Chippo",
+      "surname": "Chippo",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "COV0001_MAGNUS_HEDMAN",
+      "fullname": "Magnus Hedman",
+      "surname": "Hedman",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "COV0001_CARLTON_PALMER",
+      "fullname": "Carlton Palmer",
+      "surname": "Palmer",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "COV0001_JOHN_HARTSON",
+      "fullname": "John Hartson",
+      "surname": "Hartson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "COV0001_CDRIC_ROUSSEL",
+      "fullname": "Cédric Roussel",
+      "surname": "Roussel",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "COV0001_JOHN_ALOISI",
+      "fullname": "John Aloisi",
+      "surname": "Aloisi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "COV0001_MUHAMED_KONJI",
+      "fullname": "Muhamed Konjić",
+      "surname": "Konjić",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "COV0001_YSRAEL_ZIGA",
+      "fullname": "Ysrael Zúñiga",
+      "surname": "Zúñiga",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "COV0001_JAY_BOTHROYD",
+      "fullname": "Jay Bothroyd",
+      "surname": "Bothroyd",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "COV0001_IVN_GUERRERO",
+      "fullname": "Iván Guerrero",
+      "surname": "Guerrero",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "COV0001_GAVIN_STRACHAN",
+      "fullname": "Gavin Strachan",
+      "surname": "Strachan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "COV0001_COLIN_HENDRY",
+      "fullname": "Colin Hendry",
+      "surname": "Hendry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "COV0001_ALAN_MILLER",
+      "fullname": "Alan Miller",
+      "surname": "Miller",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "COV0001_CALUM_DAVENPORT",
+      "fullname": "Calum Davenport",
+      "surname": "Davenport",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "COV0001_ROBERT_BETTS",
+      "fullname": "Robert Betts",
+      "surname": "Betts",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1
+    }
+  ]
+}
