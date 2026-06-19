@@ -1,0 +1,237 @@
+{
+  "clubCode": "LIV1920",
+  "club": "Liverpool",
+  "season": "2019-20",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "LIV1920_KLOPP",
+      "fullname": "Jurgen Klopp",
+      "surname": "Klopp",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LIV1920_VIRGIL_VAN_DIJK",
+      "fullname": "Virgil van Dijk",
+      "surname": "Dijk",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LIV1920_TRENT_ALEXANDER_ARNOLD",
+      "fullname": "Trent Alexander-Arnold",
+      "surname": "Alexander-Arnold",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LIV1920_GEORGINIO_WIJNALDUM",
+      "fullname": "Georginio Wijnaldum",
+      "surname": "Wijnaldum",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "LIV1920_ANDY_ROBERTSON",
+      "fullname": "Andy Robertson",
+      "surname": "Robertson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "LIV1920_ROBERTO_FIRMINO",
+      "fullname": "Roberto Firmino",
+      "surname": "Firmino",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "LIV1920_MOHAMED_SALAH",
+      "fullname": "Mohamed Salah",
+      "surname": "Salah",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "LIV1920_SADIO_MAN",
+      "fullname": "Sadio Mané",
+      "surname": "Mané",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "LIV1920_ALISSON",
+      "fullname": "Alisson",
+      "surname": "Alisson",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "LIV1920_JORDAN_HENDERSON",
+      "fullname": "Jordan Henderson",
+      "surname": "Henderson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "LIV1920_FABINHO",
+      "fullname": "Fabinho",
+      "surname": "Fabinho",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "LIV1920_JOE_GOMEZ",
+      "fullname": "Joe Gomez",
+      "surname": "Gomez",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "LIV1920_ALEX_OXLADE_CHAMBERLAIN",
+      "fullname": "Alex Oxlade-Chamberlain",
+      "surname": "Oxlade-Chamberlain",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "LIV1920_JAMES_MILNER",
+      "fullname": "James Milner",
+      "surname": "Milner",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 22
+    },
+    {
+      "id": "LIV1920_ADRIN",
+      "fullname": "Adrián",
+      "surname": "Adrián",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 11
+    },
+    {
+      "id": "LIV1920_NABY_KETA",
+      "fullname": "Naby Keïta",
+      "surname": "Keïta",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "LIV1920_DEJAN_LOVREN",
+      "fullname": "Dejan Lovren",
+      "surname": "Lovren",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "LIV1920_JOL_MATIP",
+      "fullname": "Joël Matip",
+      "surname": "Matip",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9
+    },
+    {
+      "id": "LIV1920_DIVOCK_ORIGI",
+      "fullname": "Divock Origi",
+      "surname": "Origi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "LIV1920_ADAM_LALLANA",
+      "fullname": "Adam Lallana",
+      "surname": "Lallana",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "LIV1920_NECO_WILLIAMS",
+      "fullname": "Neco Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "LIV1920_TAKUMI_MINAMINO",
+      "fullname": "Takumi Minamino",
+      "surname": "Minamino",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "LIV1920_XHERDAN_SHAQIRI",
+      "fullname": "Xherdan Shaqiri",
+      "surname": "Shaqiri",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7
+    },
+    {
+      "id": "LIV1920_CURTIS_JONES",
+      "fullname": "Curtis Jones",
+      "surname": "Jones",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "LIV1920_HARVEY_ELLIOTT",
+      "fullname": "Harvey Elliott",
+      "surname": "Elliott",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2
+    }
+  ]
+}

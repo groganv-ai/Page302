@@ -1,0 +1,217 @@
+{
+  "clubCode": "NFO9293",
+  "club": "Nottingham Forest",
+  "season": "1992-93",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "NFO9293_CLOUGH",
+      "fullname": "Brian Clough",
+      "surname": "Clough",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 42
+    },
+    {
+      "id": "NFO9293_ROY_KEANE",
+      "fullname": "Roy Keane",
+      "surname": "Keane",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 40
+    },
+    {
+      "id": "NFO9293_MARK_CROSSLEY",
+      "fullname": "Mark Crossley",
+      "surname": "Crossley",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "NFO9293_CARL_TILER",
+      "fullname": "Carl Tiler",
+      "surname": "Tiler",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "NFO9293_SCOT_GEMMILL",
+      "fullname": "Scot Gemmill",
+      "surname": "Gemmill",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "NFO9293_BRIAN_LAWS",
+      "fullname": "Brian Laws",
+      "surname": "Laws",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "NFO9293_STEVE_CHETTLE",
+      "fullname": "Steve Chettle",
+      "surname": "Chettle",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "NFO9293_GARY_BANNISTER",
+      "fullname": "Gary Bannister",
+      "surname": "Bannister",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "NFO9293_IAN_WOAN",
+      "fullname": "Ian Woan",
+      "surname": "Woan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "NFO9293_STUART_PEARCE",
+      "fullname": "Stuart Pearce",
+      "surname": "Pearce",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "NFO9293_GARY_CROSBY",
+      "fullname": "Gary Crosby",
+      "surname": "Crosby",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "NFO9293_KINGSLEY_BLACK",
+      "fullname": "Kingsley Black",
+      "surname": "Black",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "NFO9293_ORVALDUR_RLYGSSON",
+      "fullname": "Þorvaldur Örlygsson",
+      "surname": "Örlygsson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "NFO9293_GARY_CHARLES",
+      "fullname": "Gary Charles",
+      "surname": "Charles",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "NFO9293_STEVE_STONE",
+      "fullname": "Steve Stone",
+      "surname": "Stone",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "NFO9293_ROBERT_ROSARIO",
+      "fullname": "Robert Rosario",
+      "surname": "Rosario",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "NFO9293_LEE_GLOVER",
+      "fullname": "Lee Glover",
+      "surname": "Glover",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "NFO9293_NEIL_WEBB",
+      "fullname": "Neil Webb",
+      "surname": "Webb",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 9
+    },
+    {
+      "id": "NFO9293_BRETT_WILLIAMS",
+      "fullname": "Brett Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "NFO9293_ANDY_MARRIOTT",
+      "fullname": "Andy Marriott",
+      "surname": "Marriott",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "NFO9293_TERRY_WILSON",
+      "fullname": "Terry Wilson",
+      "surname": "Wilson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "NFO9293_RAY_MCKINNON",
+      "fullname": "Ray McKinnon",
+      "surname": "McKinnon",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "NFO9293_TEDDY_SHERINGHAM",
+      "fullname": "Teddy Sheringham",
+      "surname": "Sheringham",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3
+    }
+  ]
+}

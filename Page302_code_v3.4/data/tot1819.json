@@ -1,0 +1,281 @@
+{
+  "clubCode": "TOT1819",
+  "club": "Tottenham Hotspur",
+  "season": "2018-19",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "TOT1819_POCHETTINO",
+      "fullname": "Mauricio Pochettino",
+      "surname": "Pochettino",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "TOT1819_HUGO_LLORIS",
+      "fullname": "Hugo Lloris",
+      "surname": "Lloris",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "TOT1819_TOBY_ALDERWEIRELD",
+      "fullname": "Toby Alderweireld",
+      "surname": "Alderweireld",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "TOT1819_CHRISTIAN_ERIKSEN",
+      "fullname": "Christian Eriksen",
+      "surname": "Eriksen",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "TOT1819_HARRY_KANE",
+      "fullname": "Harry Kane",
+      "surname": "Kane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "TOT1819_MOUSSA_SISSOKO",
+      "fullname": "Moussa Sissoko",
+      "surname": "Sissoko",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "TOT1819_KIERAN_TRIPPIER",
+      "fullname": "Kieran Trippier",
+      "surname": "Trippier",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "TOT1819_LUCAS_MOURA",
+      "fullname": "Lucas Moura",
+      "surname": "Moura",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "TOT1819_SON_HEUNG_MIN",
+      "fullname": "Son Heung-min",
+      "surname": "Heung-min",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "TOT1819_DAVINSON_SNCHEZ",
+      "fullname": "Davinson Sánchez",
+      "surname": "Sánchez",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "TOT1819_JAN_VERTONGHEN",
+      "fullname": "Jan Vertonghen",
+      "surname": "Vertonghen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22
+    },
+    {
+      "id": "TOT1819_DELE_ALLI",
+      "fullname": "Dele Alli",
+      "surname": "Alli",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "TOT1819_BEN_DAVIES",
+      "fullname": "Ben Davies",
+      "surname": "Davies",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "TOT1819_DANNY_ROSE",
+      "fullname": "Danny Rose",
+      "surname": "Rose",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "TOT1819_ERIC_DIER",
+      "fullname": "Eric Dier",
+      "surname": "Dier",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "TOT1819_HARRY_WINKS",
+      "fullname": "Harry Winks",
+      "surname": "Winks",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "TOT1819_JUAN_FOYTH",
+      "fullname": "Juan Foyth",
+      "surname": "Foyth",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "TOT1819_RIK_LAMELA",
+      "fullname": "Érik Lamela",
+      "surname": "Lamela",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "TOT1819_MOUSA_DEMBL",
+      "fullname": "Mousa Dembélé",
+      "surname": "Dembélé",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "TOT1819_FERNANDO_LLORENTE",
+      "fullname": "Fernando Llorente",
+      "surname": "Llorente",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "TOT1819_SERGE_AURIER",
+      "fullname": "Serge Aurier",
+      "surname": "Aurier",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "TOT1819_VICTOR_WANYAMA",
+      "fullname": "Victor Wanyama",
+      "surname": "Wanyama",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "TOT1819_KYLE_WALKER_PETERS",
+      "fullname": "Kyle Walker-Peters",
+      "surname": "Walker-Peters",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "TOT1819_PAULO_GAZZANIGA",
+      "fullname": "Paulo Gazzaniga",
+      "surname": "Gazzaniga",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "TOT1819_OLIVER_SKIPP",
+      "fullname": "Oliver Skipp",
+      "surname": "Skipp",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "TOT1819_MICHEL_VORM",
+      "fullname": "Michel Vorm",
+      "surname": "Vorm",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "TOT1819_VINCENT_JANSSEN",
+      "fullname": "Vincent Janssen",
+      "surname": "Janssen",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "TOT1819_GEORGES_KVIN_NKOUDOU",
+      "fullname": "Georges-Kévin N'Koudou",
+      "surname": "N'Koudou",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "TOT1819_LUKE_AMOS",
+      "fullname": "Luke Amos",
+      "surname": "Amos",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1
+    }
+  ]
+}

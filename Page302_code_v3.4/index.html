@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>PAGE 302</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+
+    <div class="topBar">
+
+        <div>
+            P302 CEEFAX 302
+        </div>
+
+        <div>
+            DAILY TELE-SQUAD GRID
+        </div>
+
+        <div>
+            DEMO BUILD
+        </div>
+
+    </div>
+
+
+    <!-- MAIN TITLE -->
+
+    <div class="mainBanner">
+
+        DAILY TELE-SQUAD GRID
+
+    </div>
+
+
+    <!-- GUIDE BAR -->
+
+    <div class="guideBar">
+
+        <div>
+
+            GAME GUIDE
+
+        </div>
+
+        <button
+            class="newGameButton"
+            onclick="newGame()"
+        >
+
+            NEW GAME
+
+        </button>
+
+    </div>
+
+
+    <!-- FORMATION / SCORE -->
+
+ <div class="statusBar">
+
+    <div id="formationDisplay">
+
+        FORMATION : 4-4-2
+
+    </div>
+
+    <div id="scoreDisplay">
+
+        SCORE : 0
+
+    </div>
+
+    <div id="guessDisplay">
+
+        GUESSES : 0
+
+    </div>
+
+</div>
+
+
+    <!-- MAIN PLAY AREA -->
+
+    <div class="gameGrid">
+
+        <!-- LEFT -->
+
+        <div class="panel">
+
+            <div class="panelHeader">
+
+                SQUAD SHEET
+
+            </div>
+
+    <div id="squadBoard">
+
+       Loading Squad...
+
+    </div>
+
+        </div>
+
+
+        <!-- RIGHT -->
+
+        <div class="panel">
+
+            <div class="panelHeader">
+
+                TARGET CLUB
+
+            </div>
+
+            <div id="clubTitle">
+
+                Loading Club...
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- INPUT AREA -->
+
+    <div class="inputArea">
+
+  <div class="inputLeft">
+
+    <div class="answerRow">
+
+        <label>ANSWER :</label>
+
+        <input
+            type="text"
+            id="answer"
+            autocomplete="off"
+            placeholder="POS Surname Club"
+        >
+
+    </div>
+
+    <button onclick="submitAnswer()">
+        SUBMIT
+    </button>
+
+</div>
+
+        <div class="inputRight">
+
+            <pre id="result">
+
+Nothing submitted yet.
+
+            </pre>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footerBar">
+
+        <div>Football</div>
+
+        <div>Vidi</div>
+
+        <div>Tables</div>
+
+        <div>Top Scorers</div>
+
+        <div>Sport</div>
+
+        <div>News Index</div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
