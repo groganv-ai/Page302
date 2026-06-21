@@ -215,7 +215,7 @@ body {
 
 #squadBoard {
 
-    color: white;
+    color: rgb(255, 255, 255);
 
     font-size: 22px;
 
@@ -234,11 +234,11 @@ body {
 
     color: cyan;
 
-    font-size: 28px;
+    font-size: 22px;
 
     font-weight: bold;
 
-    text-align: center;
+    text-align: left;
 
     margin-top: 20px;
 

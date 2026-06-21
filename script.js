@@ -56,7 +56,11 @@ let lastRarity = null;
 
 let lastSquadIndex = -1;
 
+let lastClubCode = null;
+
 let squadDisplay = {};
+
+let clubUsage = {};
 
 async function loadClub() {
 
@@ -195,44 +199,48 @@ function submitAnswer() {
     playerAnswer =
     playerAnswer.trim();
 
-    let parts =
+let parts =
 
-    playerAnswer
-    .trim()
-    .split(/\s+/);
+playerAnswer
+.trim()
+.split(/\s+/);
 
-    if (
+if (
 
-        parts.length != 3
+    parts.length < 3
 
-    ) {
+) {
 
-        setStatus(
+    setStatus(
 
-            "FORMAT: AT PLANK GER"
+        "FORMAT: AT PLANK GER"
 
-        );
+    );
 
-        return;
+    return;
 
-    }
+}
 
-    let position =
+let position =
 
     parts[0]
-    .trim()
     .toUpperCase();
 
-    let surname =
+let clubCode =
 
-    parts[1]
-    .trim();
-
-    let clubCode =
-
-    parts[2]
-    .trim()
+    parts[
+        parts.length - 1
+    ]
     .toUpperCase();
+
+let surname =
+
+    parts
+    .slice(
+        1,
+        parts.length - 1
+    )
+    .join(" ");
 
     if (
 
@@ -357,12 +365,31 @@ else if (
         lastPlayer =
         player.surname;
 
+        lastClubCode =
+        clubCode;
+
         lastRarity =
         rarity;
 
-        addPlayerToSquad(
-        player
-        );
+        if (
+
+            clubUsage[clubCode] == null
+
+        ) {
+
+            clubUsage[clubCode] = 0;
+
+        }
+
+        clubUsage[clubCode]++;
+
+        console.log(clubUsage);
+
+    addPlayerToSquad(
+        player,
+        position,
+        clubCode
+    );
 
         currentGame.score =
         currentGame.score +
@@ -552,6 +579,59 @@ function getRarity(player) {
     }
 
 }
+function getClubTier(
+
+    clubCode
+
+) {
+
+    let usage =
+
+        clubUsage[clubCode];
+
+    if (
+
+        usage <= 1
+
+    ) {
+
+        return 1;
+
+    }
+
+    else if (
+
+        usage == 2
+
+    ) {
+
+        return 2;
+
+    }
+
+    else if (
+
+        usage == 3
+
+    ) {
+
+        return 3;
+
+    }
+
+    else if (
+
+        usage == 4
+
+    ) {
+
+        return 4;
+
+    }
+
+    return 5;
+
+}
 function drawSquad() {
 
     let html = "";
@@ -568,70 +648,79 @@ function drawSquad() {
 
         let line = squad[i];
 
-        if (
+ if (
 
-            squadDisplay[i]
+    squadDisplay[i]
 
-        ) {
+) {
 
-            let colour = "white";
+    let colour = "white";
 
-            if (
+    if (
 
-                squadDisplay[i].rarity == "UNI"
+        squadDisplay[i].rarity == "UNI"
 
-            ) {
+    ) {
 
-                colour = "#ff55ff";
+        colour = "#ff55ff";
 
-            }
+    }
 
-            else if (
+    else if (
 
-                squadDisplay[i].rarity == "SUB"
+        squadDisplay[i].rarity == "SUB"
 
-            ) {
+    ) {
 
-                colour = "#55ffff";
+        colour = "#55ffff";
 
-            }
+    }
 
-            else if (
+    else if (
 
-                squadDisplay[i].rarity == "UTL"
+        squadDisplay[i].rarity == "UTL"
 
-            ) {
+    ) {
 
-                colour = "#55ff55";
+        colour = "#55ff55";
 
-            }
+    }
 
-            else if (
+    else if (
 
-                squadDisplay[i].rarity == "ENG"
+        squadDisplay[i].rarity == "ENG"
 
-            ) {
+    ) {
 
-                colour = "#ffff55";
+        colour = "#ffff55";
 
-            }
+    }
 
-            let badge =
+        else if (
 
-            "<span style='color:" +
+        squadDisplay[i].rarity == "LEG"
 
-            colour +
+    ) {
 
-            "; font-weight:bold;'>" +
+        colour = "#ffffff";
 
-            squadDisplay[i].score +
+    }
 
-            " " +
+    let badge =
 
-            squadDisplay[i].rarity +
+    "<span style='color:" +
 
-            "</span>";
+    colour +
 
+    "; font-weight:bold;'>" +
+
+    squadDisplay[i].club +
+
+    " × " +
+
+    squadDisplay[i].rarity +
+
+    "</span>";
             line =
 
             line +
@@ -807,9 +896,7 @@ function buildSquad() {
 }
 function drawClubTitle() {
 
-    let text =
-
-        "TARGET CLUBS\n\n";
+    let html = "";
 
     for (
 
@@ -830,7 +917,71 @@ function drawClubTitle() {
             club.clubCode
             .substring(0, 3);
 
-        text +=
+        let usage =
+
+            clubUsage[shortCode] == null
+
+            ?
+
+            0
+
+            :
+
+            clubUsage[shortCode];
+
+let colour = "white";
+
+if (
+
+    usage == 1
+
+) {
+
+    colour = "#ff55ff";
+
+}
+
+else if (
+
+    usage == 2
+
+) {
+
+    colour = "#55ffff";
+
+}
+
+else if (
+
+    usage == 3
+
+) {
+
+    colour = "#55ff55";
+
+}
+
+else if (
+
+    usage == 4
+
+) {
+
+    colour = "#ffff55";
+
+}
+
+else if (
+
+    usage >= 5
+
+) {
+
+    colour = "#ffffff";
+
+}
+
+        let line =
 
             "(" +
 
@@ -844,13 +995,47 @@ function drawClubTitle() {
 
             club.season +
 
-            "\n";
+            " [" +
+
+            usage +
+
+            "]";
+
+        if (
+
+            shortCode ==
+
+            lastClubCode
+
+        ) {
+
+            line =
+
+                "► " +
+
+                line +
+
+                " ◄";
+
+        }
+
+        html +=
+
+            "<div style='color:" +
+
+            colour +
+
+            ";'>" +
+
+            line +
+
+            "</div>";
 
     }
 
     document.getElementById(
         "clubTitle"
-    ).innerText = text;
+    ).innerHTML = html;
 
 }
 function refreshScreen() {
@@ -903,6 +1088,8 @@ function setStatus(text) {
 async function startGame() {
 
     await loadClub();
+
+    clubUsage = {};
 
     console.log(clubData);
 
@@ -1092,7 +1279,11 @@ function hasFreePosition(player) {
     return false;
 
 }
-function addPlayerToSquad(player) {
+function addPlayerToSquad(
+    player,
+    selectedPosition,
+    clubCode
+) {
 
     for (
 
@@ -1104,58 +1295,46 @@ function addPlayerToSquad(player) {
 
     ) {
 
-        for (
+        if (
 
-            let j = 0;
+            squad[i] ==
 
-            j < player.positions.length;
-
-            j++
+            selectedPosition + "  --------"
 
         ) {
 
-            let position =
-            player.positions[j];
+            squad[i] =
 
-            if (
-
-                squad[i] ==
-
-                position + "  --------"
-
-            ) {
-
-                squad[i] =
-
-                position +
+                selectedPosition +
 
                 "  " +
 
                 player.surname;
 
-                lastSquadIndex = i;
+            lastSquadIndex = i;
 
-                squadDisplay[i] = {
+    squadDisplay[i] = {
 
-                    score:
-                    lastRarity == null
-                    ?
-                    0
-                    :
-                    lastRarity.points,
+        score:
+        lastRarity == null
+        ?
+        0
+        :
+        lastRarity.points,
 
-                    rarity:
-                    lastRarity == null
-                    ?
-                    ""
-                    :
-                    lastRarity.short
+        rarity:
+        lastRarity == null
+        ?
+        ""
+        :
+        lastRarity.short,
 
-                };
+        club:
+        clubCode
 
-                return;
+};
 
-            }
+            return;
 
         }
 
