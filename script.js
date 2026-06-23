@@ -143,7 +143,13 @@ async function newGame() {
 
     lastSquadIndex = -1;
 
+    lastClubCode = null;
+
     squadDisplay = {};
+
+    clubUsage = {};
+
+    squad = [];
 
     document.getElementById(
         "answer"
@@ -163,15 +169,15 @@ async function newGame() {
         "answer"
     ).value = "";
 
-setStatus(
+    setStatus(
 
-    "ENTER ANSWER AS" +
+        "ENTER ANSWER AS" +
 
-    "\n\nPOS SURNAME CLUB" +
+        "\n\nPOS SURNAME CLUB" +
 
-    "\n\ne.g. AT PLANK GER"
+        "\n\ne.g. AT PLANK GER"
 
-);
+    );
 
     buildSquad();
 
@@ -336,7 +342,7 @@ else if (
 else if (
 
     hasFreePosition(
-    player
+    position
     ) == false
 
 ) {
@@ -391,13 +397,31 @@ else if (
         clubCode
     );
 
-        currentGame.score =
-        currentGame.score +
-        rarity.points;
+let clubTier =
+
+    getClubTier(
+        clubCode
+    );
+
+let multiplier =
+
+    getClubMultiplier(
+        clubTier
+    );
+
+let points =
+
+    rarity.points *
+    multiplier;
+
+    currentGame.score =
+
+    currentGame.score +
+    points;
 
         refreshScreen();
 
-if (
+    if (
 
     squadComplete()
 
@@ -632,6 +656,55 @@ function getClubTier(
     return 5;
 
 }
+function getClubMultiplier(
+
+    clubTier
+
+) {
+
+    if (
+
+        clubTier == 1
+
+    ) {
+
+        return 13;
+
+    }
+
+    else if (
+
+        clubTier == 2
+
+    ) {
+
+        return 8;
+
+    }
+
+    else if (
+
+        clubTier == 3
+
+    ) {
+
+        return 5;
+
+    }
+
+    else if (
+
+        clubTier == 4
+
+    ) {
+
+        return 3;
+
+    }
+
+    return 1;
+
+}
 function drawSquad() {
 
     let html = "";
@@ -706,17 +779,67 @@ function drawSquad() {
 
     }
 
-    let badge =
+    let clubColour = "#ffffff";
+
+if (
+
+    squadDisplay[i].clubTier == 1
+
+) {
+
+    clubColour = "#ff55ff";
+
+}
+
+else if (
+
+    squadDisplay[i].clubTier == 2
+
+) {
+
+    clubColour = "#55ffff";
+
+}
+
+else if (
+
+    squadDisplay[i].clubTier == 3
+
+) {
+
+    clubColour = "#55ff55";
+
+}
+
+else if (
+
+    squadDisplay[i].clubTier == 4
+
+) {
+
+    clubColour = "#ffff55";
+
+}
+
+let badge =
+
+    "<span style='color:" +
+
+    clubColour +
+
+    "; font-weight:bold;'>" +
+
+    squadDisplay[i].club +
+
+    "</span>" +
+
+    " × " +
 
     "<span style='color:" +
 
     colour +
 
     "; font-weight:bold;'>" +
-
-    squadDisplay[i].club +
-
-    " × " +
 
     squadDisplay[i].rarity +
 
@@ -1235,7 +1358,7 @@ function playerExistsAtClub(
     return false;
 
 }
-function hasFreePosition(player) {
+function hasFreePosition(position) {
 
     for (
 
@@ -1247,30 +1370,15 @@ function hasFreePosition(player) {
 
     ) {
 
-        for (
+        if (
 
-            let j = 0;
+            squad[i] ==
 
-            j < player.positions.length;
-
-            j++
+            position + "  --------"
 
         ) {
 
-            let position =
-            player.positions[j];
-
-            if (
-
-                squad[i] ==
-
-                position + "  --------"
-
-            ) {
-
-                return true;
-
-            }
+            return true;
 
         }
 
@@ -1313,24 +1421,29 @@ function addPlayerToSquad(
 
             lastSquadIndex = i;
 
-    squadDisplay[i] = {
+squadDisplay[i] = {
 
-        score:
-        lastRarity == null
-        ?
-        0
-        :
-        lastRarity.points,
+    score:
+    lastRarity == null
+    ?
+    0
+    :
+    lastRarity.points,
 
-        rarity:
-        lastRarity == null
-        ?
-        ""
-        :
-        lastRarity.short,
+    rarity:
+    lastRarity == null
+    ?
+    ""
+    :
+    lastRarity.short,
 
-        club:
+    club:
+    clubCode,
+
+    clubTier:
+    getClubTier(
         clubCode
+    )
 
 };
 
