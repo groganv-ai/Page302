@@ -13,82 +13,92 @@ body {
     padding: 10px;
 
 }
-
-
 /* ======================================== */
-/* TOP BAR                                  */
+/* PAGE HEADER                              */
 /* ======================================== */
 
-.topBar {
+.pageHeader {
 
-    display: flex;
+    padding: 6px 10px 0;
 
-    justify-content: space-between;
-
-    align-items: center;
-
-    font-size: 18px;
-
-    font-weight: bold;
-
-    color: white;
-
-    margin-bottom: 8px;
+    margin-bottom: 0;
 
 }
 
-
-/* ======================================== */
-/* MAIN TITLE                               */
-/* ======================================== */
-
-.mainBanner {
-
-    background: blue;
-
-    color: #00ff00;
-
-    text-align: center;
-
-    font-size: 48px;
-
-    font-weight: bold;
-
-    padding: 8px;
-
-    margin-bottom: 15px;
-
-    text-shadow: 3px 3px black;
-
-}
-
-
-/* ======================================== */
-/* GUIDE BAR                                */
-/* ======================================== */
-
-.guideBar {
+.headerTop {
 
     display: flex;
-
-    justify-content: space-between;
-
     align-items: center;
-
-    background: blue;
-
-    color: yellow;
-
-    padding: 8px 15px;
-
-    margin-bottom: 10px;
 
     font-size: 22px;
-
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 1;
 
 }
 
+.headerInfo {
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.pageNumber {
+
+    margin-right: 2ch;
+
+}
+
+.serviceName {
+
+    margin-right: 3ch;
+
+}
+
+.pageDescription {
+
+    white-space: nowrap;
+
+}
+
+.buildLabel {
+
+    margin-left: auto;
+
+    color: #FFFF00;
+
+    white-space: nowrap;
+
+}
+
+.headerLogo {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 2px 0 0 0;
+
+    padding: 2px;
+
+}
+.pageLogo {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 900px;
+
+    height: auto;
+
+    margin: 0;
+
+}
 
 /* ======================================== */
 /* NEW GAME                                 */
@@ -135,9 +145,9 @@ body {
 
     background: black;
 
-    border-top: 3px solid blue;
+    border-top: 3px solid #00FF00;
 
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #00FF00;
 
     padding: 8px 15px;
 
@@ -161,12 +171,11 @@ body {
 
 }
 
-
 /* ======================================== */
 /* MAIN GAME GRID                           */
 /* ======================================== */
 
-.gameGrid {
+.mainLayout {
 
     display: grid;
 
@@ -178,10 +187,9 @@ body {
 
 }
 
-
 .panel {
 
-    border: 3px solid blue;
+    border: 3px solid #00FF00;
 
     padding: 10px;
 
@@ -192,9 +200,9 @@ body {
 
 .panelHeader {
 
-    background: blue;
+    background: #0000ff;
 
-    color: yellow;
+    color: #ffffff;
 
     text-align: center;
 
@@ -257,14 +265,14 @@ body {
 
     gap: 20px;
 
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 
 }
 
 
 .inputLeft {
 
-    border: 3px solid blue;
+    border: 3px solid #00FF00;
 
     padding: 18px;
 
@@ -369,7 +377,7 @@ button:hover {
 
 .inputRight {
 
-    border: 3px solid blue;
+    border: 3px solid #00FF00;
 
     padding: 10px;
 
@@ -399,9 +407,11 @@ button:hover {
 
     justify-content: space-around;
 
-    background: blue;
+    align-items: center;
 
-    padding: 8px;
+    background: #000000;
+
+    padding: 4px 8px 6px;
 
     font-size: 18px;
 
@@ -443,5 +453,77 @@ button:hover {
 .footerBar div:nth-child(6) {
 
     color: magenta;
+
+}
+
+/* ======================================== */
+/* LEGEND ROW                               */
+/* ======================================== */
+
+.legendRow {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+
+    margin-bottom: 12px;
+
+}
+
+.legendPanel {
+
+    border: 2px solid #00FF00;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.legendTitle {
+
+    color: #FFFFFF;
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+}
+
+.legendContent {
+
+    font-size: 20px;
+
+}
+
+.rarityUni {
+
+    color: #FF00FF;
+
+}
+
+.raritySub {
+
+    color: #00FFFF;
+
+}
+
+.rarityUtl {
+
+    color: #00FF00;
+
+}
+
+.rarityEng {
+
+    color: #FFFF00;
+
+}
+
+.rarityLeg {
+
+    color: #FFFFFF;
 
 }

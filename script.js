@@ -1132,13 +1132,7 @@ else if (
 
         ) {
 
-            line =
-
-                "► " +
-
-                line +
-
-                " ◄";
+            line = line;
 
         }
 

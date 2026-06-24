@@ -12,56 +12,43 @@
 
 <body>
 
-    <!-- TOP BAR -->
+<!-- PAGE HEADER -->
 
-    <div class="topBar">
+<div class="pageHeader">
 
-        <div>
-            P302 CEEFAX 302
+    <div class="headerTop">
+
+        <div class="headerInfo">
+
+            <span class="pageNumber">P302</span>
+
+            <span class="serviceName">VGGFAX 302</span>
+
+            <span class="pageDescription">
+                THE TELETEXT FOOTBALL GAME
+            </span>
+
         </div>
 
-        <div>
-            DAILY TELE-SQUAD GRID
-        </div>
+        <div class="buildLabel">
 
-        <div>
-            DEMO BUILD
+            DEMO BUILD v3.5.01
+
         </div>
 
     </div>
 
+<div class="headerLogo">
 
-    <!-- MAIN TITLE -->
+    <img
+        src="assets/page302-logo.png"
+        alt="PAGE302 Logo"
+        class="pageLogo"
+    >
 
-    <div class="mainBanner">
+</div>
 
-        DAILY TELE-SQUAD GRID
-
-    </div>
-
-
-    <!-- GUIDE BAR -->
-
-    <div class="guideBar">
-
-        <div>
-
-            GAME GUIDE
-
-        </div>
-
-        <button
-            class="newGameButton"
-            onclick="newGame()"
-        >
-
-            NEW GAME
-
-        </button>
-
-    </div>
-
-
+</div>
     <!-- FORMATION / SCORE -->
 
  <div class="statusBar">
@@ -86,20 +73,85 @@
 
 </div>
 
+<!-- LEGEND ROW -->
+
+<div class="legendRow">
+
+    <div class="legendPanel">
+
+        <div class="legendTitle">
+            RARITY
+        </div>
+
+        <div class="legendContent">
+
+            <span class="rarityUni">UNI</span>
+
+            >
+
+            <span class="raritySub">SUB</span>
+
+            >
+
+            <span class="rarityUtl">UTL</span>
+
+            >
+
+            <span class="rarityEng">ENG</span>
+
+            >
+
+            <span class="rarityLeg">LEG</span>
+
+        </div>
+
+    </div>
+
+    <div class="legendPanel">
+
+        <div class="legendTitle">
+            CLUB BONUS
+        </div>
+
+        <div class="legendContent">
+
+            <span class="rarityUni">1st</span>
+
+            >
+
+            <span class="raritySub">2nd</span>
+
+            >
+
+            <span class="rarityUtl">3rd</span>
+
+            >
+
+            <span class="rarityEng">4th</span>
+
+            >
+
+            <span class="rarityLeg">5th+</span>
+
+        </div>
+
+    </div>
+
+</div>
 
     <!-- MAIN PLAY AREA -->
 
-    <div class="gameGrid">
+    <div class="mainLayout">
 
         <!-- LEFT -->
 
         <div class="panel">
 
-            <div class="panelHeader">
+ <div class="panelHeader">
 
-                SQUAD SHEET
+    SQUAD
 
-            </div>
+</div>
 
     <div id="squadBoard">
 
@@ -114,12 +166,11 @@
 
         <div class="panel">
 
-            <div class="panelHeader">
+         <div class="panelHeader">
 
-                TARGET CLUB
+    TARGET CLUBS
 
-            </div>
-
+</div>
             <div id="clubTitle">
 
                 Loading Club...
@@ -130,8 +181,7 @@
 
     </div>
 
-
-    <!-- INPUT AREA -->
+<!-- ANSWER BAR -->
 
     <div class="inputArea">
 
@@ -171,21 +221,17 @@ Nothing submitted yet.
 
     <!-- FOOTER -->
 
-    <div class="footerBar">
+<div class="footerBar">
 
-        <div>Football</div>
+    <div>HELP</div>
 
-        <div>Vidi</div>
+    <div>SCORES</div>
 
-        <div>Tables</div>
+    <div>ABOUT</div>
 
-        <div>Top Scorers</div>
+    <div>NEW GAME</div>
 
-        <div>Sport</div>
-
-        <div>News Index</div>
-
-    </div>
+</div>
 
 
     <script src="script.js"></script>
