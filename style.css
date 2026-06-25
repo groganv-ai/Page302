@@ -259,11 +259,7 @@ body {
 
 .inputArea {
 
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 20px;
+    display: block;
 
     margin-bottom: 8px;
 
@@ -275,6 +271,10 @@ body {
     border: 3px solid #00FF00;
 
     padding: 18px;
+
+    width: 100%;
+
+    box-sizing: border-box;
 
 }
 
@@ -305,7 +305,7 @@ body {
 
 #answer {
 
-    width: 340px;
+    display: flex;
 
     height: 38px;
 
