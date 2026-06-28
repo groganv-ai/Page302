@@ -25,24 +25,16 @@ let formations = [
 let squad = [
 
     "GK  --------",
-    "",
-
     "DF  --------",
     "DF  --------",
     "DF  --------",
     "DF  --------",
-    "",
-
     "MD  --------",
     "MD  --------",
     "MD  --------",
     "MD  --------",
-    "",
-
     "AT  --------",
     "AT  --------",
-    "",
-
     "MAN  --------"
 
 ];
@@ -905,24 +897,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
-
+    
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -934,24 +922,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -963,24 +947,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -992,24 +972,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -1475,6 +1451,21 @@ function squadComplete() {
     }
 
     return true;
+
+}
+function showHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "flex";
+
+}
+
+function hideHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "none";
 
 }
 startGame();
