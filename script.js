@@ -25,24 +25,16 @@ let formations = [
 let squad = [
 
     "GK  --------",
-    "",
-
     "DF  --------",
     "DF  --------",
     "DF  --------",
     "DF  --------",
-    "",
-
     "MD  --------",
     "MD  --------",
     "MD  --------",
     "MD  --------",
-    "",
-
     "AT  --------",
     "AT  --------",
-    "",
-
     "MAN  --------"
 
 ];
@@ -480,6 +472,10 @@ else {
     "answer"
     ).value = "";
 
+    document.getElementById("answer").focus();
+
+document.getElementById("answer").select();
+
 }
 function getClubByCode(
 
@@ -905,24 +901,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
-
+    
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -934,24 +926,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -963,24 +951,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -992,24 +976,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -1197,9 +1177,7 @@ function drawGuesses() {
 }
 function setStatus(text) {
 
-    document.getElementById(
-    "result"
-    ).innerText = text;
+document.getElementById("result").textContent = text;
 
 }
 async function startGame() {
@@ -1477,4 +1455,42 @@ function squadComplete() {
     return true;
 
 }
+function showHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "flex";
+
+}
+
+function hideHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "none";
+
+}
+document
+    .getElementById("answer")
+    .addEventListener(
+
+        "keydown",
+
+        function(event) {
+
+            if (
+
+                event.key === "Enter"
+
+            ) {
+
+                event.preventDefault();
+
+                submitAnswer();
+
+            }
+
+        }
+
+    );
 startGame();

@@ -4,6 +4,13 @@
 
 <head>
 
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>PAGE 302</title>
 
     <link rel="stylesheet" href="style.css">
@@ -32,7 +39,7 @@
 
         <div class="buildLabel">
 
-            DEMO BUILD v3.5.01
+            DEMO BUILD v3.5.09MT
 
         </div>
 
@@ -187,49 +194,87 @@
 
   <div class="inputLeft">
 
-    <div class="answerRow">
+<div class="answerRow">
 
-        <label>ANSWER :</label>
+    <div
+        class="answerButton"
+        onclick="submitAnswer()"
+    >
 
-        <input
-            type="text"
-            id="answer"
-            autocomplete="off"
-            placeholder="POS Surname Club"
-        >
+        ANSWER
 
     </div>
 
-    <button onclick="submitAnswer()">
-        SUBMIT
-    </button>
+    <input
+        type="text"
+        id="answer"
+        autocomplete="off"
+        placeholder="POS SURNAME CLUB"
+    >
 
 </div>
 
-        <div class="inputRight">
+</div>
 
-            <pre id="result">
+<div id="result">
 
-Nothing submitted yet.
+    <span class="helpLabel">ENTER ANSWER AS</span>
 
-            </pre>
+    <span class="helpWhite">POS SURNAME CLUB</span>
 
-        </div>
+    <span class="helpExample">e.g.</span>
 
-    </div>
+    <span class="helpWhite">AT PLANK GER</span>
+
+</div>
 
 
     <!-- FOOTER -->
 
 <div class="footerBar">
 
-    <div>HELP</div>
+<div
+    class="footerHelp"
+    onclick="showHelp()"
+>
 
-    <div>SCORES</div>
+    HELP
 
-    <div>ABOUT</div>
+</div>
 
-    <div>NEW GAME</div>
+    <div class="footerScores">
+        SCORES
+    </div>
+
+    <div class="footerAbout">
+        ABOUT
+    </div>
+
+    <div
+        class="footerNewGame"
+        onclick="newGame()"
+    >
+        NEW GAME
+    </div>
+
+</div>
+
+<div class="copyright">
+
+    © 2026 Vincent Grogan. All rights reserved.
+
+</div>
+
+<div
+    id="helpOverlay"
+    class="helpOverlay"
+    onclick="hideHelp()"
+>
+
+    <img
+        src="images/help-page.png"
+        alt="How to Play"
+    >
 
 </div>
 
