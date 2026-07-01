@@ -1,286 +1,223 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>PAGE 302</title>
-
-    <link rel="stylesheet" href="style.css">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PAGE 302</title>
+<link href="style.css" rel="stylesheet"/>
 </head>
-
 <body>
-
 <!-- PAGE HEADER -->
-
 <div class="pageHeader">
-
-    <div class="headerTop">
-
-        <div class="headerInfo">
-
-            <span class="pageNumber">P302</span>
-
-            <span class="serviceName">VGGFAX 302</span>
-
-            <span class="pageDescription">
+<div class="headerTop">
+<div class="headerInfo">
+<span class="pageNumber">P302</span>
+<span class="serviceName">VGGFAX 302</span>
+<span class="pageDescription">
                 THE TELETEXT FOOTBALL GAME
             </span>
+</div>
+<div class="buildLabel">
+
+            DEMO BUILD v3.5.07
 
         </div>
-
-        <div class="buildLabel">
-
-            DEMO BUILD v3.5.09MT
-
-        </div>
-
-    </div>
-
+</div>
 <div class="headerLogo">
-
-    <img
-        src="assets/page302-logo.png"
-        alt="PAGE302 Logo"
-        class="pageLogo"
-    >
-
+<img alt="PAGE302 Logo" class="pageLogo" src="assets/page302-logo.png"/>
 </div>
-
 </div>
-    <!-- FORMATION / SCORE -->
-
- <div class="statusBar">
-
-    <div id="formationDisplay">
+<!-- FORMATION / SCORE -->
+<div class="statusBar">
+<div id="formationDisplay">
 
         FORMATION : 4-4-2
 
     </div>
-
-    <div id="scoreDisplay">
+<div id="scoreDisplay">
 
         SCORE : 0
 
     </div>
-
-    <div id="guessDisplay">
+<div id="guessDisplay">
 
         GUESSES : 0
 
     </div>
-
 </div>
-
 <!-- LEGEND ROW -->
-
-<div class="legendRow">
-
-    <div class="legendPanel">
-
-        <div class="legendTitle">
+<div class="legendRow legendRowDesktop">
+<div class="legendPanel">
+<div class="legendTitle">
             RARITY
         </div>
+<div class="legendContent">
+<span class="rarityUni">UNI</span>
 
-        <div class="legendContent">
-
-            <span class="rarityUni">UNI</span>
-
-            >
+            &gt;
 
             <span class="raritySub">SUB</span>
 
-            >
+            &gt;
 
             <span class="rarityUtl">UTL</span>
 
-            >
+            &gt;
 
             <span class="rarityEng">ENG</span>
 
-            >
+            &gt;
 
             <span class="rarityLeg">LEG</span>
-
-        </div>
-
-    </div>
-
-    <div class="legendPanel">
-
-        <div class="legendTitle">
+</div>
+</div>
+<div class="legendPanel">
+<div class="legendTitle">
             CLUB BONUS
         </div>
+<div class="legendContent">
+<span class="rarityUni">1st</span>
 
-        <div class="legendContent">
-
-            <span class="rarityUni">1st</span>
-
-            >
+            &gt;
 
             <span class="raritySub">2nd</span>
 
-            >
+            &gt;
 
             <span class="rarityUtl">3rd</span>
 
-            >
+            &gt;
 
             <span class="rarityEng">4th</span>
 
-            >
+            &gt;
 
             <span class="rarityLeg">5th+</span>
-
-        </div>
-
-    </div>
-
 </div>
-
-    <!-- MAIN PLAY AREA -->
-
-    <div class="mainLayout">
-
-        <!-- LEFT -->
-
-        <div class="panel">
-
- <div class="panelHeader">
+</div>
+</div>
+<!-- MAIN PLAY AREA -->
+<div class="mainLayout">
+<!-- LEFT -->
+<div class="panel">
+<div class="panelHeader">
 
     SQUAD
 
 </div>
-
-    <div id="squadBoard">
+<div id="squadBoard">
 
        Loading Squad...
 
     </div>
-
-        </div>
-
-
-        <!-- RIGHT -->
-
-        <div class="panel">
-
-         <div class="panelHeader">
+</div>
+<!-- RIGHT -->
+<div class="panel">
+<div class="panelHeader">
 
     TARGET CLUBS
 
 </div>
-            <div id="clubTitle">
+<div id="clubTitle">
 
                 Loading Club...
 
             </div>
-
-        </div>
-
-    </div>
-
+</div>
+</div>
 <!-- ANSWER BAR -->
-
-    <div class="inputArea">
-
-  <div class="inputLeft">
-
+<div class="inputArea">
+<div class="inputLeft">
 <div class="answerRow">
-
-    <div
-        class="answerButton"
-        onclick="submitAnswer()"
-    >
+<div class="answerButton" onclick="submitAnswer()">
 
         ANSWER
 
     </div>
-
-    <input
-        type="text"
-        id="answer"
-        autocomplete="off"
-        placeholder="POS SURNAME CLUB"
-    >
-
+<input autocomplete="off" id="answer" placeholder="POS SURNAME CLUB" type="text"/>
 </div>
-
 </div>
-
 <div id="result">
+<span class="helpLabel">ENTER ANSWER AS</span>
+<span class="helpWhite">POS SURNAME CLUB</span>
+<span class="helpExample">e.g.</span>
+<span class="helpWhite">AT PLANK GER</span>
+</div><div class="legendRow legendRowMobile">
+<div class="legendPanel">
+<div class="legendTitle">
+            RARITY
+        </div>
+<div class="legendContent">
+<span class="rarityUni">UNI</span>
 
-    <span class="helpLabel">ENTER ANSWER AS</span>
+            &gt;
 
-    <span class="helpWhite">POS SURNAME CLUB</span>
+            <span class="raritySub">SUB</span>
 
-    <span class="helpExample">e.g.</span>
+            &gt;
 
-    <span class="helpWhite">AT PLANK GER</span>
+            <span class="rarityUtl">UTL</span>
 
+            &gt;
+
+            <span class="rarityEng">ENG</span>
+
+            &gt;
+
+            <span class="rarityLeg">LEG</span>
 </div>
+</div>
+<div class="legendPanel">
+<div class="legendTitle">
+            CLUB BONUS
+        </div>
+<div class="legendContent">
+<span class="rarityUni">1st</span>
 
+            &gt;
 
-    <!-- FOOTER -->
+            <span class="raritySub">2nd</span>
 
+            &gt;
+
+            <span class="rarityUtl">3rd</span>
+
+            &gt;
+
+            <span class="rarityEng">4th</span>
+
+            &gt;
+
+            <span class="rarityLeg">5th+</span>
+</div>
+</div>
+</div>
+<!-- FOOTER -->
 <div class="footerBar">
-
-<div
-    class="footerHelp"
-    onclick="showHelp()"
->
+<div class="footerHelp" onclick="showHelp()">
 
     HELP
 
 </div>
-
-    <div class="footerScores">
+<div class="footerScores">
         SCORES
     </div>
-
-    <div class="footerAbout">
+<div class="footerAbout">
         ABOUT
     </div>
-
-    <div
-        class="footerNewGame"
-        onclick="newGame()"
-    >
+<div class="footerNewGame" onclick="newGame()">
         NEW GAME
     </div>
-
 </div>
-
 <div class="copyright">
 
     © 2026 Vincent Grogan. All rights reserved.
 
 </div>
-
-<div
-    id="helpOverlay"
-    class="helpOverlay"
-    onclick="hideHelp()"
->
-
-    <img
-        src="images/help-page.png"
-        alt="How to Play"
-    >
-
+<div class="helpOverlay" id="helpOverlay" onclick="hideHelp()">
+<img alt="How to Play" src="images/help-page.png"/>
 </div>
-
-
-    <script src="script.js"></script>
-
-</body>
-
+<script src="script.js"></script>
+</div></body>
 </html>

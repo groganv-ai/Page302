@@ -1,69 +1,650 @@
+body {
 
-*,
-*::before,
-*::after{box-sizing:border-box;}
-html{-webkit-text-size-adjust:100%;}
-body{
-margin:0 auto;
-padding:10px;
-max-width:1200px;
-width:100%;
-background:#000;
-color:#fff;
-font-family:"Courier New",monospace;
-overflow-x:hidden;
+    background: black;
+
+    color: white;
+
+    font-family: "Courier New", monospace;
+
+    max-width: 1200px;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    margin: auto;
+
+    padding: 10px;
+
 }
-img{max-width:100%;height:auto;display:block;}
-.pageHeader{padding:6px 10px 0;}
-.headerTop{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:clamp(14px,2vw,22px);font-weight:700;line-height:1.2}
-.headerInfo{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
-.pageDescription,.buildLabel{white-space:nowrap}
-.buildLabel{margin-left:auto;color:#ff0}
-.headerLogo{display:flex;justify-content:center;padding:2px}
-.pageLogo{width:min(100%,900px)}
-.newGameButton{background:transparent;border:2px solid #ff0;color:#ff0;font:700 clamp(15px,2vw,18px) inherit;padding:.5rem .9rem;cursor:pointer}
-.newGameButton:hover{background:#ff0;color:#000}
-.statusBar{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;border-top:3px solid #0f0;border-bottom:3px solid #0f0;padding:.6rem 1rem;font-size:clamp(16px,2vw,22px);font-weight:bold}
-#formationDisplay{color:#0ff}#scoreDisplay{color:#ff0}
-.legendRow,.mainLayout{display:grid;gap:12px}
-.legendRow{grid-template-columns:repeat(2,minmax(0,1fr))}
-.mainLayout{grid-template-columns:repeat(2,minmax(0,1fr))}
-.legendPanel,.panel{border:3px solid #0f0;padding:10px;min-width:0}
-.panel{min-height:360px}
-.panelHeader{background:#00f;color:#fff;text-align:center;padding:.35rem;font-size:clamp(18px,2vw,24px);font-weight:bold;margin-bottom:.8rem}
-#squadBoard,#clubTitle{font-size:clamp(17px,2vw,22px);font-weight:bold;line-height:1.2;overflow-wrap:anywhere}
-#clubTitle{color:#0ff;margin-top:20px}
-.inputArea{border-top:3px solid #0f0;padding:14px 0 10px}
-.answerRow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.answerButton{background:#00f;color:#fff;padding:.45rem .8rem;font-size:clamp(16px,2vw,22px);font-weight:bold;cursor:pointer}
-#answer{flex:1 1 240px;min-width:0;background:transparent;border:none;outline:none;color:#fff;font:700 clamp(16px,2vw,22px) "Courier New",monospace;letter-spacing:2px}
-#answer::placeholder{color:#777}
-.answerHelp{margin-top:12px;font-size:clamp(14px,2vw,18px);line-height:1.4}
-.answerHelp span{margin-right:10px}
-.cyan{color:#0ff}.white{color:#fff}
-.footerBar{border-top:3px solid #0f0;margin-top:8px;padding-top:14px;display:flex;justify-content:space-evenly;align-items:center;gap:6px;flex-wrap:nowrap;font-size:clamp(13px,1.8vw,18px);font-weight:bold;overflow:hidden}
-.footerHelp{color:red}.footerScores{color:#0f0}.footerAbout{color:#ff0}.footerNewGame{color:#0ff;cursor:pointer}
-.footerButton{cursor:pointer;padding:.35rem .5rem}
-.footerButton:hover,.footerNewGame:hover{background:#0ff;color:#000}
-.legendTitle{font-size:clamp(18px,2vw,24px);font-weight:bold;margin-bottom:.5rem}
-.legendContent{font-size:clamp(16px,2vw,20px);font-weight:bold}
-.rarityUni{color:#f0f}.raritySub{color:#0ff}.rarityUtl{color:#0f0}.rarityEng{color:#ff0}.rarityLeg{color:#fff}
-.copyright{text-align:center;color:#777;font-size:12px;margin:10px 0}
-.helpOverlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);justify-content:center;align-items:center;z-index:9999}
-.helpOverlay img{max-width:95vw;max-height:95vh;border:3px solid #0f0}
-@media (max-width:900px){
-.legendRow,.mainLayout{grid-template-columns:1fr}
-.panel{min-height:auto}
+/* ======================================== */
+/* PAGE HEADER                              */
+/* ======================================== */
+
+.pageHeader {
+
+    padding: 6px 10px 0;
+
+    margin-bottom: 0;
+
 }
+
+.headerTop {
+
+    display: flex;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+
+}
+
+.headerInfo {
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.pageNumber {
+
+    margin-right: 2ch;
+
+}
+
+.serviceName {
+
+    margin-right: 3ch;
+
+}
+
+.pageDescription {
+
+    white-space: nowrap;
+
+}
+
+.buildLabel {
+
+    margin-left: auto;
+
+    color: #FFFF00;
+
+    white-space: nowrap;
+
+}
+
+.headerLogo {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 2px 0 0 0;
+
+    padding: 2px;
+
+}
+.pageLogo {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 900px;
+
+    height: auto;
+
+    margin: 0;
+
+}
+
+/* ======================================== */
+/* NEW GAME                                 */
+/* ======================================== */
+
+.newGameButton {
+
+    background: transparent;
+
+    border: 2px solid yellow;
+
+    color: yellow;
+
+    font-family: inherit;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    padding: 4px 12px;
+
+    cursor: pointer;
+
+}
+
+.newGameButton:hover {
+
+    background: yellow;
+
+    color: black;
+
+}
+
+
+/* ======================================== */
+/* STATUS BAR                               */
+/* ======================================== */
+
+.statusBar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    background: black;
+
+    border-top: 3px solid #00FF00;
+
+    border-bottom: 3px solid #00FF00;
+
+    padding: 8px 15px;
+
+    margin-bottom: 15px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+#formationDisplay {
+
+    color: cyan;
+
+}
+
+#scoreDisplay {
+
+    color: yellow;
+
+}
+
+/* ======================================== */
+/* MAIN GAME GRID                           */
+/* ======================================== */
+
+.mainLayout {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+
+    margin-bottom: 10px;
+
+}
+
+.panel {
+
+    border: 3px solid #00FF00;
+
+    padding: 6px;
+
+    min-height: 360px;
+
+}
+
+
+.panelHeader {
+
+    background: #0000ff;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+    padding: 5px;
+
+}
+
+
+/* ======================================== */
+/* SQUAD                                    */
+/* ======================================== */
+
+#squadBoard {
+
+    color: rgb(255, 255, 255);
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    line-height: 1;
+
+    margin: 0;
+
+}
+
+
+/* ======================================== */
+/* CLUB                                     */
+/* ======================================== */
+
+#clubTitle {
+
+    color: cyan;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    text-align: left;
+
+    margin-top: 20px;
+
+}
+
+
+/* ======================================== */
+/* INPUT AREA                               */
+/* ======================================== */
+
+.inputArea {
+
+    border-top: 3px solid #00FF00;
+
+    padding: 14px 0 12px;
+
+    margin: 12px 0;
+
+}
+
+.inputLeft {
+
+    padding: 0;
+
+}
+
+.answerRow {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+.answerButton {
+
+    background: #0000FF;
+
+    color: #FFFFFF;
+
+    padding: 8px 16px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    user-select: none;
+
+}
+
+.answerButton:hover {
+
+    background: #FFFFFF;
+
+    color: #0000FF;
+
+}
+
+#answer {
+
+    flex: 1;
+
+    background: transparent;
+
+    border: none;
+
+    outline: none;
+
+    appearance: none;
+
+    -webkit-appearance: none;
+
+    box-shadow: none;
+
+    color: #FFFFFF;
+
+    font: inherit;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    padding: 0;
+
+}
+
+#answer::placeholder {
+
+    color: #666666;
+
+    opacity: 1;
+
+}
+
+#result {
+
+    margin-top: 14px;
+
+    color: #00FFFF;
+
+    font-size: 18px;
+
+    line-height: 1.4;
+
+}
+
+/* ======================================== */
+/* FOOTER                                   */
+/* ======================================== */
+
+.footerBar {
+
+    border-top: 3px solid #00FF00;
+
+    margin-top: 14px;
+
+    padding-top: 10px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+.footerHelp {
+
+    color: red;
+
+}
+
+.footerScores {
+
+    color: lime;
+
+}
+
+.footerAbout {
+
+    color: yellow;
+
+}
+
+.footerNewGame {
+
+    color: cyan;
+
+    cursor: pointer;
+
+    padding: 0 4px;
+
+    transition: background-color 0.1s;
+
+}
+.footerNewGame:hover {
+
+    background: cyan;
+
+    color: #000000;
+
+}
+
+.footerButton {
+
+    cursor: pointer;
+
+}
+
+.footerButton:hover {
+
+    color: white;
+
+}
+
+
+/* ======================================== */
+/* LEGEND ROW                               */
+/* ======================================== */
+
+.legendRow {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+
+    margin-bottom: 12px;
+
+}
+
+.legendPanel {
+
+    border: 2px solid #00FF00;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.legendTitle {
+
+    color: #FFFFFF;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.legendContent {
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.rarityUni {
+
+    color: #FF00FF;
+
+}
+
+.raritySub {
+
+    color: #00FFFF;
+
+}
+
+.rarityUtl {
+
+    color: #00FF00;
+
+}
+
+.rarityEng {
+
+    color: #FFFF00;
+
+}
+
+.rarityLeg {
+
+    color: #FFFFFF;
+
+}
+/* ======================================== */
+/* COPYRIGHT                                */
+/* ======================================== */
+
+.copyright {
+
+    text-align: center;
+
+    color: #777777;
+
+    font-size: 12px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+/* ======================================== */
+/* MOBILE                                   */
+/* ======================================== */
+
+@media (max-width: 700px) {
+
+    body {
+
+        padding: 6px;
+
+    }
+
+    .headerTop {
+
+        font-size: 16px;
+
+    }
+
+    .statusBar {
+
+        font-size: 18px;
+
+        padding: 6px 10px;
+
+    }
+
+    #squadBoard,
+    #clubTitle {
+
+        font-size: 18px;
+
+    }
+
+    .panelHeader {
+
+        font-size: 20px;
+
+    }
+
+    .legendTitle {
+
+        font-size: 20px;
+
+    }
+
+    .legendContent {
+
+        font-size: 17px;
+
+    }
+
+    #answer {
+
+        font-size: 18px;
+
+    }
+
+    .copyright {
+
+    text-align: center;
+
+    color: #666666;
+
+    font-size: 11px;
+
+    margin-top: 10px;
+
+    padding-bottom: 10px;
+
+}
+}
+/* ======================================== */
+/* HELP OVERLAY                             */
+/* ======================================== */
+
+.helpOverlay {
+
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.90);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+
+}
+
+.helpOverlay img {
+
+    max-width: 95vw;
+
+    max-height: 95vh;
+
+    border: 3px solid #00FF00;
+
+}
+
 @media (max-width:700px){
-body{padding:6px}
-.headerTop{display:grid;grid-template-columns:auto 1fr;align-items:center;column-gap:8px}
-.headerInfo{display:flex;flex-wrap:nowrap;justify-content:space-between;width:100%;font-size:13px}
-.pageDescription{overflow:hidden;text-overflow:ellipsis}
-.buildLabel{margin-left:8px;font-size:12px}
-.statusBar{justify-content:space-between;text-align:center;font-size:15px}
-.answerRow{flex-wrap:nowrap}
-#answer{min-width:0}
-.footerBar{flex-wrap:nowrap;justify-content:space-between;font-size:12px}
-.footerButton{padding:.2rem .25rem;white-space:nowrap}
+.legendRowDesktop{display:none;}
+.legendRowMobile{display:flex;flex-direction:column;gap:12px;margin-top:16px;}
+.mainLayout{display:flex!important;flex-direction:column;}
+.panel{width:100%;}
+.statusBar{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;font-size:16px;}
+#result{line-height:1.5;}
+#result .helpExample{display:block;margin-top:6px;}
+.footerBar{display:flex;flex-wrap:nowrap;justify-content:space-between;font-size:14px;}
+.buildLabel{display:none;}
+.copyright::after{content:"  BUILD v3.5.07";}
 }
+@media (min-width:701px){.legendRowMobile{display:none;}}
