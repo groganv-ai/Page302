@@ -349,6 +349,8 @@ body {
 
     color: #666666;
 
+    font-weight: bold;
+
     opacity: 1;
 
 }
@@ -357,11 +359,25 @@ body {
 
     margin-top: 14px;
 
-    color: #00FFFF;
+    text-align: left;
 
     font-size: 18px;
 
+    font-weight: bold;
+
     line-height: 1.4;
+
+}
+
+.helpLabel {
+
+    color: #00FFFF;
+
+}
+
+.helpWhite {
+
+    color: #FFFFFF;
 
 }
 
