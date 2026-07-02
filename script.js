@@ -25,24 +25,16 @@ let formations = [
 let squad = [
 
     "GK  --------",
-    "",
-
     "DF  --------",
     "DF  --------",
     "DF  --------",
     "DF  --------",
-    "",
-
     "MD  --------",
     "MD  --------",
     "MD  --------",
     "MD  --------",
-    "",
-
     "AT  --------",
     "AT  --------",
-    "",
-
     "MAN  --------"
 
 ];
@@ -61,6 +53,8 @@ let lastClubCode = null;
 let squadDisplay = {};
 
 let clubUsage = {};
+
+let gameComplete = false;
 
 async function loadClub() {
 
@@ -186,6 +180,339 @@ async function newGame() {
     alert("New game started!");
 
 }
+
+function getClubSquare(tier) {
+
+    switch (tier) {
+
+        case 1:
+            return "<span class='shareSquare ceefaxMagenta'></span>";
+
+        case 2:
+            return "<span class='shareSquare ceefaxCyan'></span>";
+
+        case 3:
+            return "<span class='shareSquare ceefaxGreen'></span>";
+
+        case 4:
+            return "<span class='shareSquare ceefaxYellow'></span>";
+
+        default:
+            return "<span class='shareSquare ceefaxWhite'></span>";
+
+    }
+
+}
+
+function getRaritySquare(rarity) {
+
+    switch (rarity) {
+
+        case "UNI":
+            return "<span class='shareSquare ceefaxMagenta'></span>";
+
+        case "SUB":
+            return "<span class='shareSquare ceefaxCyan'></span>";
+
+        case "UTL":
+            return "<span class='shareSquare ceefaxGreen'></span>";
+
+        case "ENG":
+            return "<span class='shareSquare ceefaxYellow'></span>";
+
+        default:
+            return "<span class='shareSquare ceefaxWhite'></span>";
+
+    }
+
+}
+function getClubEmoji(tier){
+
+    switch(tier){
+
+        case 1: return "🟪";
+
+        case 2: return "🟦";
+
+        case 3: return "🟩";
+
+        case 4: return "🟨";
+
+        default: return "⬜";
+
+    }
+
+}
+
+function getRarityEmoji(rarity){
+
+    switch(rarity){
+
+        case "UNI": return "🟪";
+
+        case "SUB": return "🟦";
+
+        case "UTL": return "🟩";
+
+        case "ENG": return "🟨";
+
+        default: return "⬜";
+
+    }
+
+}
+
+function buildCompleteGrid() {
+
+    let html = "";
+
+    for (
+
+        let i = 0;
+
+        i < squad.length;
+
+        i++
+
+    ) {
+
+        if (
+
+            squad[i] == ""
+
+        ) {
+
+            continue;
+
+        }
+
+        let position =
+
+            squad[i]
+            .split(" ")[0];
+
+        let clubSquare =
+
+            "";
+
+        let raritySquare =
+
+            "";
+
+        if (
+
+            squadDisplay[i]
+
+        ) {
+
+            clubSquare =
+
+                getClubSquare(
+
+                    squadDisplay[i].clubTier
+
+                );
+
+            raritySquare =
+
+                getRaritySquare(
+
+                    squadDisplay[i].rarity
+
+                );
+
+        }
+
+        html +=
+
+            "<div class='completeRow'>" +
+
+            "<span class='completePosition'>" +
+
+            position +
+
+            "</span>" +
+
+            clubSquare +
+
+            raritySquare +
+
+            "</div>";
+
+    }
+
+    document.getElementById(
+
+        "completeGrid"
+
+    ).innerHTML = html;
+
+}
+
+function completeGame() {
+
+    gameComplete = true;
+
+    currentGame.gameOver = true;
+
+    document.getElementById(
+        "answer"
+    ).disabled = true;
+
+    document.getElementById(
+        "completeScoreValue"
+    ).innerText =
+    currentGame.score;
+
+    buildCompleteGrid();
+
+    document.getElementById(
+        "gameCompleteOverlay"
+    ).style.display = "flex";
+
+}
+
+function closeCompleteGame() {
+
+    document.getElementById(
+        "gameCompleteOverlay"
+    ).style.display = "none";
+
+}
+
+async function shareResult() {
+
+    let shareText =
+
+        "PAGE302\n\n" +
+
+        "GAME #001\n\n" +
+
+        "SCORE: " +
+
+        currentGame.score +
+
+        "\n\n" +
+
+        "SQUAD GRID\n\n";
+
+    for (
+
+        let i = 0;
+
+        i < squad.length;
+
+        i++
+
+    ) {
+
+        if (
+
+            squad[i] == ""
+
+        ) {
+
+            continue;
+
+        }
+
+        let position =
+
+            squad[i]
+            .split(" ")[0];
+
+        let clubEmoji =
+
+            getClubEmoji(
+
+                squadDisplay[i].clubTier
+
+            );
+
+        let rarityEmoji =
+
+            getRarityEmoji(
+
+                squadDisplay[i].rarity
+
+            );
+
+        shareText +=
+
+            position +
+
+            " " +
+
+            clubEmoji +
+
+            rarityEmoji +
+
+            "\n";
+
+    }
+
+    shareText +=
+
+        "\nCAN YOU BEAT MY PAGE302 SCORE?\n\n" +
+
+        "https://groganv-ai.github.io/Page302/";
+
+ let mobile =
+
+    /Android|iPhone|iPad|iPod/i.test(
+
+        navigator.userAgent
+
+    );
+
+if (
+
+    mobile &&
+
+    navigator.share
+
+) {
+
+    await navigator.share({
+
+        text: shareText
+
+    });
+
+}
+
+else {
+
+    await navigator.clipboard.writeText(
+
+        shareText
+
+    );
+
+    let button =
+
+        document.getElementById(
+
+            "shareButton"
+
+        );
+
+    button.innerText =
+
+        "COPIED ✓";
+
+    setTimeout(function(){
+
+        button.innerText =
+
+        "SHARE";
+
+    },2000);
+
+}
+
+}
+
 function submitAnswer() {
 
     if (currentGame.gameOver) {
@@ -421,18 +748,11 @@ let points =
 
         refreshScreen();
 
-    if (
+if (
 
     squadComplete()
 
 ) {
-
-    currentGame.gameOver =
-    true;
-
-    document.getElementById(
-    "answer"
-    ).disabled = true;
 
     setStatus(
 
@@ -442,19 +762,15 @@ let points =
 
         player.surname.toUpperCase() +
 
-        " - CORRECT" +
-
-        "\n\nTEAM COMPLETE" +
-
-        "\n\nFINAL SCORE : " +
-
-        currentGame.score +
-
-        "\n\nTOTAL GUESSES : " +
-
-        currentGame.totalGuesses
+        " - CORRECT"
 
     );
+
+setTimeout(function () {
+
+    completeGame();
+
+}, 50);
 
 }
 
@@ -480,7 +796,12 @@ else {
     "answer"
     ).value = "";
 
+    document.getElementById("answer").focus();
+
+document.getElementById("answer").select();
+
 }
+
 function getClubByCode(
 
     clubCode
@@ -905,24 +1226,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
-
+    
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -934,24 +1251,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -963,24 +1276,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -992,24 +1301,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -1197,9 +1502,7 @@ function drawGuesses() {
 }
 function setStatus(text) {
 
-    document.getElementById(
-    "result"
-    ).innerText = text;
+document.getElementById("result").textContent = text;
 
 }
 async function startGame() {
@@ -1477,4 +1780,42 @@ function squadComplete() {
     return true;
 
 }
+function showHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "flex";
+
+}
+
+function hideHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "none";
+
+}
+document
+    .getElementById("answer")
+    .addEventListener(
+
+        "keydown",
+
+        function(event) {
+
+            if (
+
+                event.key === "Enter"
+
+            ) {
+
+                event.preventDefault();
+
+                submitAnswer();
+
+            }
+
+        }
+
+    );
 startGame();
