@@ -698,8 +698,6 @@ body {
 
     z-index: 9999;
 
-    display: flex;
-
     justify-content: center;
 
     align-items: center;
@@ -746,9 +744,9 @@ body {
 
     font-size: 18px;
 
-    ;
-
     margin-top: 26px;
+
+    margin-bottom: 20px;
 
 }
 
@@ -782,13 +780,11 @@ body {
 
     width: 220px;
 
-    margin: 0 auto;
+    margin: 8px auto 0;
 
     color: #FFFFFF;
 
     font-size: 22px;
-
-    ;
 
 }
 
@@ -796,15 +792,21 @@ body {
 
     display: flex;
 
+    justify-content: center;
+
     align-items: center;
 
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 
 }
 
 .completePosition {
 
-    width: 52px;
+    width: 60px;
+
+    text-align: left;
+
+    margin-right: 12px;
 
     color: #FFFFFF;
 
@@ -814,11 +816,11 @@ body {
 
     display: inline-block;
 
-    width: 22px;
+    width: 24px;
 
-    height: 22px;
+    height: 24px;
 
-    margin-left: 8px;
+    margin-left: 10px;
 
     vertical-align: middle;
 
