@@ -1,0 +1,238 @@
+{
+  "clubCode": "MCI1819",
+  "club": "Man City",
+  "season": "2018-19",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MCI1819_PEP_GUARDIOLA",
+      "fullname": "Pep Guardiola",
+      "surname": "Guardiola",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "MCI1819_EDERSON_MORAES",
+      "fullname": "Ederson Moraes",
+      "surname": "Moraes",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "MCI1819_AYMERIC_LAPORTE",
+      "fullname": "Aymeric Laporte",
+      "surname": "Laporte",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "MCI1819_BERNARDO_SILVA",
+      "fullname": "Bernardo Silva",
+      "surname": "Silva",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "MCI1819_RAHEEM_STERLING",
+      "fullname": "Raheem Sterling",
+      "surname": "Sterling",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "MCI1819_SERGIO_AG_ERO",
+      "fullname": "Sergio Agüero",
+      "surname": "Agüero",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "MCI1819_KYLE_WALKER",
+      "fullname": "Kyle Walker",
+      "surname": "Walker",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "MCI1819_DAVID_SILVA",
+      "fullname": "David Silva",
+      "surname": "Silva",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "MCI1819_FERNANDINHO",
+      "fullname": "Fernandinho",
+      "surname": "Fernandinho",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "MCI1819__LKAY_G_NDO_AN",
+      "fullname": "İlkay Gündoğan",
+      "surname": "Gündoğan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "MCI1819_LEROY_SAN_",
+      "fullname": "Leroy Sané",
+      "surname": "Sané",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "MCI1819_JOHN_STONES",
+      "fullname": "John Stones",
+      "surname": "Stones",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "MCI1819_RIYAD_MAHREZ",
+      "fullname": "Riyad Mahrez",
+      "surname": "Mahrez",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "MCI1819_NICOL_S_OTAMENDI",
+      "fullname": "Nicolás Otamendi",
+      "surname": "Otamendi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "MCI1819_OLEKSANDR_ZINCHENKO",
+      "fullname": "Oleksandr Zinchenko",
+      "surname": "Zinchenko",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "MCI1819_VINCENT_KOMPANY",
+      "fullname": "Vincent Kompany",
+      "surname": "Kompany",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "MCI1819_KEVIN_DE_BRUYNE",
+      "fullname": "Kevin De Bruyne",
+      "surname": "Bruyne",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "MCI1819_BENJAMIN_MENDY",
+      "fullname": "Benjamin Mendy",
+      "surname": "Mendy",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "MCI1819_DANILO",
+      "fullname": "Danilo",
+      "surname": "Danilo",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11
+    },
+    {
+      "id": "MCI1819_GABRIEL_JESUS",
+      "fullname": "Gabriel Jesus",
+      "surname": "Jesus",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "MCI1819_FABIAN_DELPH",
+      "fullname": "Fabian Delph",
+      "surname": "Delph",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11
+    },
+    {
+      "id": "MCI1819_PHIL_FODEN",
+      "fullname": "Phil Foden",
+      "surname": "Foden",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "MCI1819_CLAUDIO_BRAVO",
+      "fullname": "Claudio Bravo",
+      "surname": "Bravo",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "MCI1819_ARIJANET_MURIC",
+      "fullname": "Arijanet Muric",
+      "surname": "Muric",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "MCI1819_PHILIPPE_SANDLER",
+      "fullname": "Philippe Sandler",
+      "surname": "Sandler",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0
+    }
+  ]
+}

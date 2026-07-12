@@ -1,0 +1,259 @@
+{
+  "clubCode": "ARS9798",
+  "club": "Arsenal",
+  "season": "1997-98",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "ARS9798_ARS_NE_WENGER",
+      "fullname": "Arsène Wenger",
+      "surname": "Wenger",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "ARS9798_NIGEL_WINTERBURN",
+      "fullname": "Nigel Winterburn",
+      "surname": "Winterburn",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "ARS9798_RAY_PARLOUR",
+      "fullname": "Ray Parlour",
+      "surname": "Parlour",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "ARS9798_EMMANUEL_PETIT",
+      "fullname": "Emmanuel Petit",
+      "surname": "Petit",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "ARS9798_MARC_OVERMARS",
+      "fullname": "Marc Overmars",
+      "surname": "Overmars",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "ARS9798_DAVID_SEAMAN",
+      "fullname": "David Seaman",
+      "surname": "Seaman",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "ARS9798_PATRICK_VIEIRA",
+      "fullname": "Patrick Vieira",
+      "surname": "Vieira",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "ARS9798_DENNIS_BERGKAMP",
+      "fullname": "Dennis Bergkamp",
+      "surname": "Bergkamp",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "ARS9798_TONY_ADAMS",
+      "fullname": "Tony Adams",
+      "surname": "Adams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "ARS9798_LEE_DIXON",
+      "fullname": "Lee Dixon",
+      "surname": "Dixon",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "ARS9798_IAN_WRIGHT",
+      "fullname": "Ian Wright",
+      "surname": "Wright",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "ARS9798_STEVE_BOULD",
+      "fullname": "Steve Bould",
+      "surname": "Bould",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "ARS9798_MARTIN_KEOWN",
+      "fullname": "Martin Keown",
+      "surname": "Keown",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "ARS9798_GILLES_GRIMANDI",
+      "fullname": "Gilles Grimandi",
+      "surname": "Grimandi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22
+    },
+    {
+      "id": "ARS9798_NICOLAS_ANELKA",
+      "fullname": "Nicolas Anelka",
+      "surname": "Anelka",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "ARS9798_DAVID_PLATT",
+      "fullname": "David Platt",
+      "surname": "Platt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "ARS9798_STEPHEN_HUGHES",
+      "fullname": "Stephen Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "ARS9798_CHRISTOPHER_WREH",
+      "fullname": "Christopher Wreh",
+      "surname": "Wreh",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "ARS9798_ALEX_MANNINGER",
+      "fullname": "Alex Manninger",
+      "surname": "Manninger",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 7
+    },
+    {
+      "id": "ARS9798_R_MI_GARDE",
+      "fullname": "Rémi Garde",
+      "surname": "Garde",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "ARS9798_MATT_UPSON",
+      "fullname": "Matt Upson",
+      "surname": "Upson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "ARS9798_LU_S_BOA_MORTE",
+      "fullname": "Luís Boa Morte",
+      "surname": "Morte",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "ARS9798_SCOTT_MARSHALL",
+      "fullname": "Scott Marshall",
+      "surname": "Marshall",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "ARS9798_ALBERTO_M_NDEZ",
+      "fullname": "Alberto Méndez",
+      "surname": "Méndez",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "ARS9798_PAOLO_VERNAZZA",
+      "fullname": "Paolo Vernazza",
+      "surname": "Vernazza",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "ARS9798_GAVIN_MCGOWAN",
+      "fullname": "Gavin McGowan",
+      "surname": "McGowan",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "ARS9798_ISAIAH_RANKIN",
+      "fullname": "Isaiah Rankin",
+      "surname": "Rankin",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1
+    }
+  ]
+}
