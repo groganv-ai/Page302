@@ -1,0 +1,289 @@
+{
+  "clubCode": "TOT1617",
+  "club": "Tottenham",
+  "season": "2016-17",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "TOT1617_MAURICIO_POCHETTINO",
+      "fullname": "Mauricio Pochettino",
+      "surname": "Pochettino",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "TOT1617_CHRISTIAN_ERIKSEN",
+      "fullname": "Christian Eriksen",
+      "surname": "Eriksen",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "TOT1617_DELE_ALLI",
+      "fullname": "Dele Alli",
+      "surname": "Alli",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "TOT1617_VICTOR_WANYAMA",
+      "fullname": "Victor Wanyama",
+      "surname": "Wanyama",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "TOT1617_ERIC_DIER",
+      "fullname": "Eric Dier",
+      "surname": "Dier",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "TOT1617_HUGO_LLORIS",
+      "fullname": "Hugo Lloris",
+      "surname": "Lloris",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "TOT1617_JAN_VERTONGHEN",
+      "fullname": "Jan Vertonghen",
+      "surname": "Vertonghen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "TOT1617_KYLE_WALKER",
+      "fullname": "Kyle Walker",
+      "surname": "Walker",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "TOT1617_TOBY_ALDERWEIRELD",
+      "fullname": "Toby Alderweireld",
+      "surname": "Alderweireld",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "TOT1617_HARRY_KANE",
+      "fullname": "Harry Kane",
+      "surname": "Kane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "TOT1617_MOUSA_DEMB_L_",
+      "fullname": "Mousa Dembélé",
+      "surname": "Dembélé",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "TOT1617_SON_HEUNG_MIN",
+      "fullname": "Son Heung-min",
+      "surname": "Heung-min",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "TOT1617_BEN_DAVIES",
+      "fullname": "Ben Davies",
+      "surname": "Davies",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "TOT1617_DANNY_ROSE",
+      "fullname": "Danny Rose",
+      "surname": "Rose",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "TOT1617_MOUSSA_SISSOKO",
+      "fullname": "Moussa Sissoko",
+      "surname": "Sissoko",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "TOT1617_VINCENT_JANSSEN",
+      "fullname": "Vincent Janssen",
+      "surname": "Janssen",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "TOT1617__RIK_LAMELA",
+      "fullname": "Érik Lamela",
+      "surname": "Lamela",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9
+    },
+    {
+      "id": "TOT1617_KIERAN_TRIPPIER",
+      "fullname": "Kieran Trippier",
+      "surname": "Trippier",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "TOT1617_MICHEL_VORM",
+      "fullname": "Michel Vorm",
+      "surname": "Vorm",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "TOT1617_KEVIN_WIMMER",
+      "fullname": "Kevin Wimmer",
+      "surname": "Wimmer",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "TOT1617_HARRY_WINKS",
+      "fullname": "Harry Winks",
+      "surname": "Winks",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "TOT1617_GEORGES_K_VIN_N_KOUDOU",
+      "fullname": "Georges-Kévin N'Koudou",
+      "surname": "N'Koudou",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "TOT1617_JOSH_ONOMAH",
+      "fullname": "Josh Onomah",
+      "surname": "Onomah",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "TOT1617_FILIP_LESNIAK",
+      "fullname": "Filip Lesniak",
+      "surname": "Lesniak",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "TOT1617_TOM_CARROLL",
+      "fullname": "Tom Carroll",
+      "surname": "Carroll",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "TOT1617_CAMERON_CARTER_VICKERS",
+      "fullname": "Cameron Carter-Vickers",
+      "surname": "Carter-Vickers",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "TOT1617_PAU_L_PEZ",
+      "fullname": "Pau López",
+      "surname": "López",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "TOT1617_RYAN_MASON",
+      "fullname": "Ryan Mason",
+      "surname": "Mason",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "TOT1617_LUKE_MCGEE",
+      "fullname": "Luke McGee",
+      "surname": "McGee",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "TOT1617_SAMUEL_SHASHOUA",
+      "fullname": "Samuel Shashoua",
+      "surname": "Shashoua",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0
+    }
+  ]
+}

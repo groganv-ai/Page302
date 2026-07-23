@@ -1,0 +1,79 @@
+[
+  {
+    "clubCode": "LIV9596",
+    "club": "Liverpool",
+    "squadMembers": 20,
+    "managers": 1,
+    "players": 19
+  },
+  {
+    "clubCode": "MUN0708",
+    "club": "Man Utd",
+    "squadMembers": 26,
+    "managers": 1,
+    "players": 25
+  },
+  {
+    "clubCode": "ARS2324",
+    "club": "Arsenal",
+    "squadMembers": 33,
+    "managers": 1,
+    "players": 32
+  },
+  {
+    "clubCode": "CHE1314",
+    "club": "Chelsea",
+    "squadMembers": 30,
+    "managers": 1,
+    "players": 29
+  },
+  {
+    "clubCode": "NEW0203",
+    "club": "Newcastle",
+    "squadMembers": 27,
+    "managers": 1,
+    "players": 26
+  },
+  {
+    "clubCode": "BRI2223",
+    "club": "Brighton",
+    "squadMembers": 31,
+    "managers": 2,
+    "players": 29
+  },
+  {
+    "clubCode": "CRY9495",
+    "club": "Crystal Palace",
+    "squadMembers": 26,
+    "managers": 1,
+    "players": 25
+  },
+  {
+    "clubCode": "FUL1011",
+    "club": "Fulham",
+    "squadMembers": 30,
+    "managers": 1,
+    "players": 29
+  },
+  {
+    "clubCode": "BOU1819",
+    "club": "Bournemouth",
+    "squadMembers": 29,
+    "managers": 1,
+    "players": 28
+  },
+  {
+    "clubCode": "QPR9293",
+    "club": "QPR",
+    "squadMembers": 24,
+    "managers": 1,
+    "players": 23
+  },
+  {
+    "clubCode": "SWA1112",
+    "club": "Swansea",
+    "squadMembers": 26,
+    "managers": 1,
+    "players": 25
+  }
+]
