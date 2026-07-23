@@ -10,7 +10,7 @@ let currentGame = {
 
 };
 
-let formations = [
+const SUPPORTED_FORMATIONS = [
 
     "4-4-2",
 
@@ -22,33 +22,38 @@ let formations = [
 
 ];
 
+// Backward compatibility for older bare-array pack files.
+const legacyGameFormations = {
+
+    "001": "4-4-2",
+
+    "002": "4-3-3",
+
+    "003": "5-4-1"
+
+};
+
 let squad = [
 
     "GK  --------",
-    "",
-
     "DF  --------",
     "DF  --------",
     "DF  --------",
     "DF  --------",
-    "",
-
     "MD  --------",
     "MD  --------",
     "MD  --------",
     "MD  --------",
-    "",
-
     "AT  --------",
     "AT  --------",
-    "",
-
     "MAN  --------"
 
 ];
 let clubData;
 
 let clubPool = [];
+
+let packData;
 
 let lastPlayer = null;
 
@@ -62,57 +67,89 @@ let squadDisplay = {};
 
 let clubUsage = {};
 
-async function loadClub() {
+let gameComplete = false;
 
-    let clubFiles = [
+let currentVggfax = "003";
 
-        "ars0304.json",
-        "bla9495.json",
-        "car1314.json",
-        "cov0001.json",
-        "lei1516.json",
-        "liv1920.json",
-        "mci1112.json",
-        "mun9899.json",
-        "new9596.json",
-        "nfo9293.json",
-        "tot1819.json"
+// Update this one value whenever a new code version is created.
+const APP_BUILD = "v3.7.03_003";
 
-    ];
+const FALLBACK_VGGFAX = [
 
-    clubPool = [];
+    "001",
 
-    for (
+    "002",
 
-        let i = 0;
+    "003"
 
-        i < clubFiles.length;
+];
 
-        i++
+let vggfax = FALLBACK_VGGFAX.slice();
 
-    ) {
+const vggfaxPackCache = new Map();
 
-        let response =
+function updateVggfaxHeader() {
 
-            await fetch(
+    document.getElementById("vggfaxNumber").textContent =
+        "VGGFAX " + currentVggfax;
 
-                "data/" +
+}
 
-                clubFiles[i]
+function normalizePosition(position) {
 
-            );
+    return position == "MN" ? "MAN" : position;
 
-        let club =
+}
 
-            await response.json();
+function displayPosition(position) {
 
-        clubPool.push(
+    return position == "MAN" ? "MN" : position;
 
-            club
+}
 
-        );
+function applyGameFormation() {
+
+    if (!SUPPORTED_FORMATIONS.includes(currentGame.formation)) {
+        throw new Error("VGGFAX " + currentVggfax + " has an invalid formation.");
+    }
+
+}
+
+function updateBuildLabels() {
+
+    document.getElementById("buildLabel").textContent =
+        "DEMO BUILD " + APP_BUILD;
+
+    document.getElementById("mobileBuildLabel").textContent =
+        " BUILD " + APP_BUILD;
+
+}
+
+function nextVggfax() {
+
+    let index = vggfax.indexOf(currentVggfax);
+
+    index++;
+
+    if (index >= vggfax.length) {
+
+        index = 0;
 
     }
+
+    currentVggfax = vggfax[index];
+
+}
+
+async function loadClub() {
+
+    const packNumber = currentVggfax;
+
+    const loadedPack = await loadPack(packNumber);
+
+    packData = loadedPack.packData;
+    clubPool = loadedPack.clubs;
+    currentGame.formation = loadedPack.formation;
 
     clubData =
 
@@ -129,7 +166,165 @@ async function loadClub() {
         ];
 
 }
+
+async function loadPack(packNumber) {
+
+    if (!vggfaxPackCache.has(packNumber)) {
+
+        const packRequest = fetch(
+            "data/vggfax" + packNumber + ".json"
+        )
+        .then(function(response) {
+
+            if (!response.ok) {
+                throw new Error("Unable to load VGGFAX " + packNumber);
+            }
+
+            return response.json();
+
+        })
+        .then(function(loadedPackData) {
+
+            let clubs;
+            let formation;
+
+            if (Array.isArray(loadedPackData)) {
+
+                clubs = loadedPackData;
+                formation = legacyGameFormations[packNumber];
+
+            }
+            else {
+
+                if (loadedPackData.packNumber !== packNumber) {
+                    throw new Error("VGGFAX " + packNumber + " has the wrong pack number.");
+                }
+
+                clubs = loadedPackData.clubs;
+                formation = loadedPackData.formation;
+
+            }
+
+            if (!Array.isArray(clubs) || clubs.length !== 11) {
+                throw new Error("VGGFAX " + packNumber + " must contain 11 clubs.");
+            }
+
+            if (!SUPPORTED_FORMATIONS.includes(formation)) {
+                throw new Error("VGGFAX " + packNumber + " has an invalid formation.");
+            }
+
+            return {
+                packData: loadedPackData,
+                clubs: clubs,
+                formation: formation
+            };
+
+        });
+
+        vggfaxPackCache.set(packNumber, packRequest);
+
+    }
+
+    try {
+
+        return await vggfaxPackCache.get(packNumber);
+
+    }
+    catch (error) {
+
+        vggfaxPackCache.delete(packNumber);
+        throw error;
+
+    }
+
+}
+
+async function loadPackManifest() {
+
+    try {
+
+        const response = await fetch(
+            "data/vggfax-manifest.json",
+            { cache: "no-store" }
+        );
+
+        if (!response.ok) {
+            throw new Error("Pack manifest is unavailable.");
+        }
+
+        const manifest = await response.json();
+
+        if (!Array.isArray(manifest.packs)) {
+            throw new Error("Pack manifest has no packs array.");
+        }
+
+        const manifestPacks = Array.from(
+            new Set(
+                manifest.packs
+                .map(function(packNumber) {
+                    return String(packNumber).padStart(3, "0");
+                })
+                .filter(function(packNumber) {
+                    return /^\d+$/.test(packNumber);
+                })
+            )
+        );
+
+        if (manifestPacks.length == 0) {
+            throw new Error("Pack manifest is empty.");
+        }
+
+        return manifestPacks;
+
+    }
+    catch (error) {
+
+        console.warn(error.message + " Using the fallback pack list.");
+        return FALLBACK_VGGFAX.slice();
+
+    }
+
+}
+
+async function selectLatestValidPack() {
+
+    const manifestPacks = await loadPackManifest();
+    const sortedPacks = manifestPacks.sort(function(a, b) {
+        return Number(a) - Number(b);
+    });
+    const validPacks = [];
+
+    for (let i = 0; i < sortedPacks.length; i++) {
+
+        try {
+
+            await loadPack(sortedPacks[i]);
+            validPacks.push(sortedPacks[i]);
+
+        }
+        catch (error) {
+
+            console.warn(error.message + " Skipping this pack.");
+
+        }
+
+    }
+
+    if (validPacks.length == 0) {
+        throw new Error("No valid VGGFAX game packs are available.");
+    }
+
+    vggfax = validPacks;
+    currentVggfax = vggfax[vggfax.length - 1];
+
+    await loadClub();
+
+}
 async function newGame() {
+
+    nextVggfax();
+
+    updateVggfaxHeader();
 
     currentGame.totalGuesses = 0;
 
@@ -157,13 +352,7 @@ async function newGame() {
 
     await loadClub();
 
-    currentGame.formation =
-
-        formations[
-            Math.floor(
-                Math.random() * formations.length
-            )
-        ];
+    applyGameFormation();
 
     document.getElementById(
         "answer"
@@ -186,6 +375,350 @@ async function newGame() {
     alert("New game started!");
 
 }
+
+function getClubSquare(tier) {
+
+    switch (tier) {
+
+        case 1:
+            return "<span class='shareSquare ceefaxMagenta'></span>";
+
+        case 2:
+            return "<span class='shareSquare ceefaxCyan'></span>";
+
+        case 3:
+            return "<span class='shareSquare ceefaxGreen'></span>";
+
+        case 4:
+            return "<span class='shareSquare ceefaxYellow'></span>";
+
+        default:
+            return "<span class='shareSquare ceefaxWhite'></span>";
+
+    }
+
+}
+
+function getRaritySquare(rarity) {
+
+    switch (rarity) {
+
+        case "UNI":
+            return "<span class='shareSquare ceefaxMagenta'></span>";
+
+        case "SUB":
+            return "<span class='shareSquare ceefaxCyan'></span>";
+
+        case "UTL":
+            return "<span class='shareSquare ceefaxGreen'></span>";
+
+        case "ENG":
+            return "<span class='shareSquare ceefaxYellow'></span>";
+
+        default:
+            return "<span class='shareSquare ceefaxWhite'></span>";
+
+    }
+
+}
+function getClubEmoji(tier){
+
+    switch(tier){
+
+        case 1: return "🟪";
+
+        case 2: return "🟦";
+
+        case 3: return "🟩";
+
+        case 4: return "🟨";
+
+        default: return "⬜";
+
+    }
+
+}
+
+function getRarityEmoji(rarity){
+
+    switch(rarity){
+
+        case "UNI": return "🟪";
+
+        case "SUB": return "🟦";
+
+        case "UTL": return "🟩";
+
+        case "ENG": return "🟨";
+
+        default: return "⬜";
+
+    }
+
+}
+
+function buildCompleteGrid() {
+
+    let html = "";
+
+    for (
+
+        let i = 0;
+
+        i < squad.length;
+
+        i++
+
+    ) {
+
+        if (
+
+            squad[i] == ""
+
+        ) {
+
+            continue;
+
+        }
+
+        let position =
+
+            displayPosition(
+                squad[i].split(" ")[0]
+            );
+
+        let clubSquare =
+
+            "";
+
+        let raritySquare =
+
+            "";
+
+        if (
+
+            squadDisplay[i]
+
+        ) {
+
+            if (!squadDisplay[i].isManager) {
+
+                clubSquare =
+
+                    getClubSquare(
+
+                        squadDisplay[i].clubTier
+
+                    );
+
+            }
+
+            raritySquare =
+
+                getRaritySquare(
+
+                    squadDisplay[i].rarity
+
+                );
+
+        }
+
+        html +=
+
+            "<div class='completeRow'>" +
+
+            "<span class='completePosition'>" +
+
+            position +
+
+            "</span>" +
+
+            clubSquare +
+
+            raritySquare +
+
+            "</div>";
+
+    }
+
+    document.getElementById(
+
+        "completeGrid"
+
+    ).innerHTML = html;
+
+}
+
+function completeGame() {
+
+    gameComplete = true;
+
+    currentGame.gameOver = true;
+
+    document.getElementById(
+        "answer"
+    ).disabled = true;
+
+    document.getElementById(
+        "completeScoreValue"
+    ).innerText =
+    currentGame.score;
+
+    document.getElementById(
+        "completeGameNumber"
+    ).innerText =
+    "GAME #" + currentVggfax;
+
+    buildCompleteGrid();
+
+    document.getElementById(
+        "gameCompleteOverlay"
+    ).style.display = "flex";
+
+}
+
+function closeCompleteGame() {
+
+    document.getElementById(
+        "gameCompleteOverlay"
+    ).style.display = "none";
+
+}
+
+async function shareResult() {
+
+    let shareText =
+
+        "PAGE302\n\n" +
+
+        "GAME #" + currentVggfax + "\n\n" +
+
+        "SCORE: " +
+
+        currentGame.score +
+
+        "\n\n" +
+
+        "SQUAD GRID\n\n";
+
+    for (
+
+        let i = 0;
+
+        i < squad.length;
+
+        i++
+
+    ) {
+
+        if (
+
+            squad[i] == ""
+
+        ) {
+
+            continue;
+
+        }
+
+        let position =
+
+            displayPosition(
+                squad[i].split(" ")[0]
+            );
+
+        let clubEmoji = squadDisplay[i].isManager
+            ? ""
+            : getClubEmoji(
+
+                squadDisplay[i].clubTier
+
+            );
+
+        let rarityEmoji =
+
+            getRarityEmoji(
+
+                squadDisplay[i].rarity
+
+            );
+
+        shareText +=
+
+            position +
+
+            " " +
+
+            clubEmoji +
+
+            rarityEmoji +
+
+            "\n";
+
+    }
+
+    shareText +=
+
+        "\nCAN YOU BEAT MY PAGE302 SCORE?\n\n" +
+
+        "https://groganv-ai.github.io/Page302/";
+
+ let mobile =
+
+    /Android|iPhone|iPad|iPod/i.test(
+
+        navigator.userAgent
+
+    );
+
+if (
+
+    mobile &&
+
+    navigator.share
+
+) {
+
+    await navigator.share({
+
+        text: shareText
+
+    });
+
+}
+
+else {
+
+    await navigator.clipboard.writeText(
+
+        shareText
+
+    );
+
+    let button =
+
+        document.getElementById(
+
+            "shareButton"
+
+        );
+
+    button.innerText =
+
+        "COPIED ✓";
+
+    setTimeout(function(){
+
+        button.innerText =
+
+        "SHARE";
+
+    },2000);
+
+}
+
+}
+
 function submitAnswer() {
 
     if (currentGame.gameOver) {
@@ -231,6 +764,8 @@ let position =
 
     parts[0]
     .toUpperCase();
+
+position = normalizePosition(position);
 
 let clubCode =
 
@@ -327,7 +862,7 @@ else if (
 
     setStatus(
 
-        player.positions[0] +
+        displayPosition(player.positions[0]) +
 
         " " +
 
@@ -349,7 +884,7 @@ else if (
 
     setStatus(
 
-        player.positions[0] +
+        displayPosition(player.positions[0]) +
 
         " " +
 
@@ -363,10 +898,11 @@ else if (
 
     else {
 
-        let rarity =
-        getRarity(
-        player
-        );
+        let isManager = position == "MAN";
+
+        let rarity = isManager
+        ? getManagerRarity(player)
+        : getRarity(player);
 
         lastPlayer =
         player.surname;
@@ -379,6 +915,8 @@ else if (
 
         if (
 
+            !isManager &&
+
             clubUsage[clubCode] == null
 
         ) {
@@ -387,25 +925,34 @@ else if (
 
         }
 
-        clubUsage[clubCode]++;
+        if (!isManager) {
+
+            clubUsage[clubCode]++;
+
+        }
 
         console.log(clubUsage);
 
     addPlayerToSquad(
         player,
         position,
-        clubCode
+        clubCode,
+        isManager
     );
 
 let clubTier =
 
-    getClubTier(
+    isManager
+    ? null
+    : getClubTier(
         clubCode
     );
 
 let multiplier =
 
-    getClubMultiplier(
+    isManager
+    ? 1
+    : getClubMultiplier(
         clubTier
     );
 
@@ -421,40 +968,29 @@ let points =
 
         refreshScreen();
 
-    if (
+if (
 
     squadComplete()
 
 ) {
 
-    currentGame.gameOver =
-    true;
-
-    document.getElementById(
-    "answer"
-    ).disabled = true;
-
     setStatus(
 
-        player.positions[0] +
+        displayPosition(player.positions[0]) +
 
         " " +
 
         player.surname.toUpperCase() +
 
-        " - CORRECT" +
-
-        "\n\nTEAM COMPLETE" +
-
-        "\n\nFINAL SCORE : " +
-
-        currentGame.score +
-
-        "\n\nTOTAL GUESSES : " +
-
-        currentGame.totalGuesses
+        " - CORRECT"
 
     );
+
+setTimeout(function () {
+
+    completeGame();
+
+}, 50);
 
 }
 
@@ -462,7 +998,7 @@ else {
 
     setStatus(
 
-        player.positions[0] +
+        displayPosition(player.positions[0]) +
 
         " " +
 
@@ -480,7 +1016,12 @@ else {
     "answer"
     ).value = "";
 
+    document.getElementById("answer").focus();
+
+document.getElementById("answer").select();
+
 }
+
 function getClubByCode(
 
     clubCode
@@ -603,6 +1144,12 @@ function getRarity(player) {
     }
 
 }
+
+function getManagerRarity(manager) {
+
+    return getRarity(manager);
+
+}
 function getClubTier(
 
     clubCode
@@ -611,7 +1158,7 @@ function getClubTier(
 
     let usage =
 
-        clubUsage[clubCode];
+        clubUsage[clubCode] || 0;
 
     if (
 
@@ -719,7 +1266,7 @@ function drawSquad() {
 
     ) {
 
-        let line = squad[i];
+        let line = squad[i].replace(/^MAN(?=\s)/, "MN");
 
  if (
 
@@ -821,7 +1368,35 @@ else if (
 
 }
 
-let badge =
+let badge;
+
+if (squadDisplay[i].isManager) {
+
+    badge =
+
+        "<span style='color:#ffffff;'>" +
+
+        squadDisplay[i].club +
+
+        "</span>" +
+
+        " · " +
+
+        "<span style='color:" +
+
+        colour +
+
+        ";'>" +
+
+        squadDisplay[i].rarity +
+
+        "</span>";
+
+}
+
+else {
+
+badge =
 
     "<span style='color:" +
 
@@ -844,6 +1419,8 @@ let badge =
     squadDisplay[i].rarity +
 
     "</span>";
+
+}
             line =
 
             line +
@@ -905,24 +1482,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
-
+    
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -934,24 +1507,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "AT  --------",
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -963,24 +1532,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -992,24 +1557,20 @@ function buildSquad() {
         squad = [
 
             "GK  --------",
-            "",
 
             "DF  --------",
             "DF  --------",
             "DF  --------",
             "DF  --------",
-            "",
 
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
             "MD  --------",
-            "",
 
             "AT  --------",
             "",
-
             "MAN  --------"
 
         ];
@@ -1197,14 +1758,18 @@ function drawGuesses() {
 }
 function setStatus(text) {
 
-    document.getElementById(
-    "result"
-    ).innerText = text;
+document.getElementById("result").textContent = text;
 
 }
 async function startGame() {
 
-    await loadClub();
+    updateBuildLabels();
+
+    await selectLatestValidPack();
+
+    updateVggfaxHeader();
+
+    applyGameFormation();
 
     clubUsage = {};
 
@@ -1384,7 +1949,8 @@ function hasFreePosition(position) {
 function addPlayerToSquad(
     player,
     selectedPosition,
-    clubCode
+    clubCode,
+    isManager
 ) {
 
     for (
@@ -1434,8 +2000,13 @@ squadDisplay[i] = {
     club:
     clubCode,
 
+    isManager:
+    isManager,
+
     clubTier:
-    getClubTier(
+    isManager
+    ? null
+    : getClubTier(
         clubCode
     )
 
@@ -1477,4 +2048,48 @@ function squadComplete() {
     return true;
 
 }
-startGame();
+function showHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "flex";
+
+}
+
+function hideHelp() {
+
+    document
+        .getElementById("helpOverlay")
+        .style.display = "none";
+
+}
+document
+    .getElementById("answer")
+    .addEventListener(
+
+        "keydown",
+
+        function(event) {
+
+            if (
+
+                event.key === "Enter"
+
+            ) {
+
+                event.preventDefault();
+
+                submitAnswer();
+
+            }
+
+        }
+
+    );
+startGame().catch(function(error) {
+
+    console.error(error);
+    setStatus("UNABLE TO LOAD A VALID GAME PACK");
+    document.getElementById("answer").disabled = true;
+
+});

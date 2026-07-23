@@ -1,0 +1,213 @@
+{
+  "clubCode": "AVL0809",
+  "club": "Aston Villa",
+  "season": "2008-09",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "AVL0809_MARTIN_O_NEILL",
+      "fullname": "Martin O'Neill",
+      "surname": "O'Neill",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "AVL0809_BRAD_FRIEDEL",
+      "fullname": "Brad Friedel",
+      "surname": "Friedel",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "AVL0809_GARETH_BARRY",
+      "fullname": "Gareth Barry",
+      "surname": "Barry",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "AVL0809_ASHLEY_YOUNG",
+      "fullname": "Ashley Young",
+      "surname": "Young",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "AVL0809_STILIYAN_PETROV",
+      "fullname": "Stiliyan Petrov",
+      "surname": "Petrov",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "AVL0809_GABRIEL_AGBONLAHOR",
+      "fullname": "Gabriel Agbonlahor",
+      "surname": "Agbonlahor",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "AVL0809_CURTIS_DAVIES",
+      "fullname": "Curtis Davies",
+      "surname": "Davies",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "AVL0809_LUKE_YOUNG",
+      "fullname": "Luke Young",
+      "surname": "Young",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "AVL0809_JAMES_MILNER",
+      "fullname": "James Milner",
+      "surname": "Milner",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "AVL0809_CARLOS_CU_LLAR",
+      "fullname": "Carlos Cuéllar",
+      "surname": "Cuéllar",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "AVL0809_NIGEL_REO_COKER",
+      "fullname": "Nigel Reo-Coker",
+      "surname": "Reo-Coker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "AVL0809_MARTIN_LAURSEN",
+      "fullname": "Martin Laursen",
+      "surname": "Laursen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "AVL0809_NICKY_SHOREY",
+      "fullname": "Nicky Shorey",
+      "surname": "Shorey",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "AVL0809_JOHN_CAREW",
+      "fullname": "John Carew",
+      "surname": "Carew",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "AVL0809_ZAT_KNIGHT",
+      "fullname": "Zat Knight",
+      "surname": "Knight",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "AVL0809_STEVE_SIDWELL",
+      "fullname": "Steve Sidwell",
+      "surname": "Sidwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "AVL0809_EMILE_HESKEY",
+      "fullname": "Emile Heskey",
+      "surname": "Heskey",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "AVL0809_CRAIG_GARDNER",
+      "fullname": "Craig Gardner",
+      "surname": "Gardner",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "AVL0809_NATHAN_DELFOUNESO",
+      "fullname": "Nathan Delfouneso",
+      "surname": "Delfouneso",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "AVL0809_MARLON_HAREWOOD",
+      "fullname": "Marlon Harewood",
+      "surname": "Harewood",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "AVL0809_BRAD_GUZAN",
+      "fullname": "Brad Guzan",
+      "surname": "Guzan",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "AVL0809_WAYNE_ROUTLEDGE",
+      "fullname": "Wayne Routledge",
+      "surname": "Routledge",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1
+    }
+  ]
+}

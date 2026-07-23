@@ -1,0 +1,314 @@
+{
+  "clubCode": "POR0809",
+  "club": "Portsmouth",
+  "season": "2008-09",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "POR0809_HARRY_REDKNAPP",
+      "fullname": "Harry Redknapp",
+      "surname": "Redknapp",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "POR0809_JOE_JORDAN",
+      "fullname": "Joe Jordan",
+      "surname": "Jordan",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "POR0809_TONY_ADAMS",
+      "fullname": "Tony Adams",
+      "surname": "Adams",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "POR0809_PAUL_HART",
+      "fullname": "Paul Hart",
+      "surname": "Hart",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "POR0809_SYLVAIN_DISTIN",
+      "fullname": "Sylvain Distin",
+      "surname": "Distin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "POR0809_PETER_CROUCH",
+      "fullname": "Peter Crouch",
+      "surname": "Crouch",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "POR0809_DAVID_JAMES",
+      "fullname": "David James",
+      "surname": "James",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "POR0809_SOL_CAMPBELL",
+      "fullname": "Sol Campbell",
+      "surname": "Campbell",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "POR0809_SEAN_DAVIS",
+      "fullname": "Sean Davis",
+      "surname": "Davis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "POR0809_GLEN_JOHNSON",
+      "fullname": "Glen Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "POR0809_NADIR_BELHADJ",
+      "fullname": "Nadir Belhadj",
+      "surname": "Belhadj",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "POR0809_HERMANN_HREI_ARSSON",
+      "fullname": "Hermann Hreiðarsson",
+      "surname": "Hreiðarsson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "POR0809_JERMAIN_DEFOE",
+      "fullname": "Jermain Defoe",
+      "surname": "Defoe",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "POR0809_YOUN_S_KABOUL",
+      "fullname": "Younès Kaboul",
+      "surname": "Kaboul",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "POR0809_RICHARD_HUGHES",
+      "fullname": "Richard Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "POR0809_NIKO_KRANJ_AR",
+      "fullname": "Niko Kranjčar",
+      "surname": "Kranjčar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "POR0809_HAYDEN_MULLINS",
+      "fullname": "Hayden Mullins",
+      "surname": "Mullins",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "POR0809_PAPA_BOUBA_DIOP",
+      "fullname": "Papa Bouba Diop",
+      "surname": "Diop",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "POR0809_ARMAND_TRAOR_",
+      "fullname": "Armand Traoré",
+      "surname": "Traoré",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "POR0809_DAVID_NUGENT",
+      "fullname": "David Nugent",
+      "surname": "Nugent",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "POR0809_NO__PAMAROT",
+      "fullname": "Noé Pamarot",
+      "surname": "Pamarot",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "POR0809_LASSANA_DIARRA",
+      "fullname": "Lassana Diarra",
+      "surname": "Diarra",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "POR0809_JERMAINE_PENNANT",
+      "fullname": "Jermaine Pennant",
+      "surname": "Pennant",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "POR0809_JOHN_UTAKA",
+      "fullname": "John Utaka",
+      "surname": "Utaka",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "POR0809_GLEN_LITTLE",
+      "fullname": "Glen Little",
+      "surname": "Little",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5
+    },
+    {
+      "id": "POR0809_NWANKWO_KANU",
+      "fullname": "Nwankwo Kanu",
+      "surname": "Kanu",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "POR0809_ANGELOS_BASINAS",
+      "fullname": "Angelos Basinas",
+      "surname": "Basinas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "POR0809_MARC_WILSON",
+      "fullname": "Marc Wilson",
+      "surname": "Wilson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "POR0809_ASMIR_BEGOVI_",
+      "fullname": "Asmir Begović",
+      "surname": "Begović",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "POR0809_ARNOLD_MVUEMBA",
+      "fullname": "Arnold Mvuemba",
+      "surname": "Mvuemba",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "POR0809_JEROME_THOMAS",
+      "fullname": "Jerome Thomas",
+      "surname": "Thomas",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "POR0809_THEOFANIS_GEKAS",
+      "fullname": "Theofanis Gekas",
+      "surname": "Gekas",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "POR0809_LINVOY_PRIMUS",
+      "fullname": "Linvoy Primus",
+      "surname": "Primus",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1
+    }
+  ]
+}

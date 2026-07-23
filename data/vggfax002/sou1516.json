@@ -1,0 +1,281 @@
+{
+  "clubCode": "SOU1516",
+  "club": "Southampton",
+  "season": "2015-16",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "SOU1516_RONALD_KOEMAN",
+      "fullname": "Ronald Koeman",
+      "surname": "Koeman",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "SOU1516_JOS_FONTE",
+      "fullname": "José Fonte",
+      "surname": "Fonte",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "SOU1516_VIRGIL_VAN_DIJK",
+      "fullname": "Virgil van Dijk",
+      "surname": "Dijk",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "SOU1516_RYAN_BERTRAND",
+      "fullname": "Ryan Bertrand",
+      "surname": "Bertrand",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "SOU1516_STEVEN_DAVIS",
+      "fullname": "Steven Davis",
+      "surname": "Davis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "SOU1516_SADIO_MAN_",
+      "fullname": "Sadio Mané",
+      "surname": "Mané",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "SOU1516_VICTOR_WANYAMA",
+      "fullname": "Victor Wanyama",
+      "surname": "Wanyama",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "SOU1516_DU_AN_TADI_",
+      "fullname": "Dušan Tadić",
+      "surname": "Tadić",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "SOU1516_GRAZIANO_PELL_",
+      "fullname": "Graziano Pellè",
+      "surname": "Pellè",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "SOU1516_SHANE_LONG",
+      "fullname": "Shane Long",
+      "surname": "Long",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "SOU1516_C_DRIC_SOARES",
+      "fullname": "Cédric Soares",
+      "surname": "Soares",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "SOU1516_JORDY_CLASIE",
+      "fullname": "Jordy Clasie",
+      "surname": "Clasie",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22
+    },
+    {
+      "id": "SOU1516_FRASER_FORSTER",
+      "fullname": "Fraser Forster",
+      "surname": "Forster",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "SOU1516_ORIOL_ROMEU",
+      "fullname": "Oriol Romeu",
+      "surname": "Romeu",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "SOU1516_MAARTEN_STEKELENBURG",
+      "fullname": "Maarten Stekelenburg",
+      "surname": "Stekelenburg",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "SOU1516_JAMES_WARD_PROWSE",
+      "fullname": "James Ward-Prowse",
+      "surname": "Ward-Prowse",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "SOU1516_MATT_TARGETT",
+      "fullname": "Matt Targett",
+      "surname": "Targett",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "SOU1516_CUCO_MARTINA",
+      "fullname": "Cuco Martina",
+      "surname": "Martina",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "SOU1516_MAYA_YOSHIDA",
+      "fullname": "Maya Yoshida",
+      "surname": "Yoshida",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "SOU1516_JAY_RODRIGUEZ",
+      "fullname": "Jay Rodriguez",
+      "surname": "Rodriguez",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "SOU1516_CHARLIE_AUSTIN",
+      "fullname": "Charlie Austin",
+      "surname": "Austin",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 7
+    },
+    {
+      "id": "SOU1516_PAULO_GAZZANIGA",
+      "fullname": "Paulo Gazzaniga",
+      "surname": "Gazzaniga",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "SOU1516_STEVEN_CAULKER",
+      "fullname": "Steven Caulker",
+      "surname": "Caulker",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "SOU1516_KELVIN_DAVIS",
+      "fullname": "Kelvin Davis",
+      "surname": "Davis",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "SOU1516_JUANMI",
+      "fullname": "Juanmi",
+      "surname": "Juanmi",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "SOU1516_GAST_N_RAM_REZ",
+      "fullname": "Gastón Ramírez",
+      "surname": "Ramírez",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "SOU1516_HARRISON_REED",
+      "fullname": "Harrison Reed",
+      "surname": "Reed",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "SOU1516_OLUFELA_OLOMOLA",
+      "fullname": "Olufela Olomola",
+      "surname": "Olomola",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "SOU1516_RYAN_SEAGER",
+      "fullname": "Ryan Seager",
+      "surname": "Seager",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 0
+    }
+  ]
+}
