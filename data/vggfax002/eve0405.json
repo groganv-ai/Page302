@@ -1,0 +1,221 @@
+{
+  "clubCode": "EVE0405",
+  "club": "Everton",
+  "season": "2004-05",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "EVE0405_DAVID_MOYES",
+      "fullname": "David Moyes",
+      "surname": "Moyes",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "EVE0405_KEVIN_KILBANE",
+      "fullname": "Kevin Kilbane",
+      "surname": "Kilbane",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "EVE0405_TONY_HIBBERT",
+      "fullname": "Tony Hibbert",
+      "surname": "Hibbert",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "EVE0405_LEE_CARSLEY",
+      "fullname": "Lee Carsley",
+      "surname": "Carsley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "EVE0405_DAVID_WEIR",
+      "fullname": "David Weir",
+      "surname": "Weir",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "EVE0405_TIM_CAHILL",
+      "fullname": "Tim Cahill",
+      "surname": "Cahill",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "EVE0405_NIGEL_MARTYN",
+      "fullname": "Nigel Martyn",
+      "surname": "Martyn",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "EVE0405_ALESSANDRO_PISTONE",
+      "fullname": "Alessandro Pistone",
+      "surname": "Pistone",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "EVE0405_MARCUS_BENT",
+      "fullname": "Marcus Bent",
+      "surname": "Bent",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "EVE0405_ALAN_STUBBS",
+      "fullname": "Alan Stubbs",
+      "surname": "Stubbs",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "EVE0405_LEON_OSMAN",
+      "fullname": "Leon Osman",
+      "surname": "Osman",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "EVE0405_THOMAS_GRAVESEN",
+      "fullname": "Thomas Gravesen",
+      "surname": "Gravesen",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "EVE0405_JOSEPH_YOBO",
+      "fullname": "Joseph Yobo",
+      "surname": "Yobo",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "EVE0405_STEVE_WATSON",
+      "fullname": "Steve Watson",
+      "surname": "Watson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "EVE0405_MIKEL_ARTETA",
+      "fullname": "Mikel Arteta",
+      "surname": "Arteta",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "EVE0405_JAMES_MCFADDEN",
+      "fullname": "James McFadden",
+      "surname": "McFadden",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "EVE0405_JAMES_BEATTIE",
+      "fullname": "James Beattie",
+      "surname": "Beattie",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 11
+    },
+    {
+      "id": "EVE0405_DUNCAN_FERGUSON",
+      "fullname": "Duncan Ferguson",
+      "surname": "Ferguson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "EVE0405_RICHARD_WRIGHT",
+      "fullname": "Richard Wright",
+      "surname": "Wright",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 7
+    },
+    {
+      "id": "EVE0405_GARY_NAYSMITH",
+      "fullname": "Gary Naysmith",
+      "surname": "Naysmith",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 11
+    },
+    {
+      "id": "EVE0405_KEVIN_CAMPBELL",
+      "fullname": "Kevin Campbell",
+      "surname": "Campbell",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "EVE0405_JAMES_VAUGHAN",
+      "fullname": "James Vaughan",
+      "surname": "Vaughan",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "EVE0405_NICK_CHADWICK",
+      "fullname": "Nick Chadwick",
+      "surname": "Chadwick",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1
+    }
+  ]
+}
