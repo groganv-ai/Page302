@@ -1,0 +1,298 @@
+{
+  "clubCode": "WHU1516",
+  "club": "West Ham",
+  "season": "2015-16",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "WHU1516_SLAVEN_BILIC",
+      "fullname": "Slaven Bilic",
+      "surname": "Bilic",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "WHU1516_AARON_CRESSWELL",
+      "fullname": "Aaron Cresswell",
+      "surname": "Cresswell",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "WHU1516_MARK_NOBLE",
+      "fullname": "Mark Noble",
+      "surname": "Noble",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "WHU1516_CHEIKHOU_KOUYAT_",
+      "fullname": "Cheikhou Kouyaté",
+      "surname": "Kouyaté",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "WHU1516_ADRI_N",
+      "fullname": "Adrián",
+      "surname": "Adrián",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "WHU1516_DIMITRI_PAYET",
+      "fullname": "Dimitri Payet",
+      "surname": "Payet",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "WHU1516_ANGELO_OGBONNA",
+      "fullname": "Angelo Ogbonna",
+      "surname": "Ogbonna",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "WHU1516_WINSTON_REID",
+      "fullname": "Winston Reid",
+      "surname": "Reid",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "WHU1516_MICHAIL_ANTONIO",
+      "fullname": "Michail Antonio",
+      "surname": "Antonio",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "WHU1516_JAMES_TOMKINS",
+      "fullname": "James Tomkins",
+      "surname": "Tomkins",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "WHU1516_MANUEL_LANZINI",
+      "fullname": "Manuel Lanzini",
+      "surname": "Lanzini",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "WHU1516_DIAFRA_SAKHO",
+      "fullname": "Diafra Sakho",
+      "surname": "Sakho",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "WHU1516_JAMES_COLLINS",
+      "fullname": "James Collins",
+      "surname": "Collins",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "WHU1516_ANDY_CARROLL",
+      "fullname": "Andy Carroll",
+      "surname": "Carroll",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27
+    },
+    {
+      "id": "WHU1516_CARL_JENKINSON",
+      "fullname": "Carl Jenkinson",
+      "surname": "Jenkinson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "WHU1516_VICTOR_MOSES",
+      "fullname": "Victor Moses",
+      "surname": "Moses",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "WHU1516_PEDRO_OBIANG",
+      "fullname": "Pedro Obiang",
+      "surname": "Obiang",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "WHU1516_ENNER_VALENCIA",
+      "fullname": "Enner Valencia",
+      "surname": "Valencia",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "WHU1516_MAURO_Z_RATE",
+      "fullname": "Mauro Zárate",
+      "surname": "Zárate",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "WHU1516_ALEXANDRE_SONG",
+      "fullname": "Alexandre Song",
+      "surname": "Song",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12
+    },
+    {
+      "id": "WHU1516_DARREN_RANDOLPH",
+      "fullname": "Darren Randolph",
+      "surname": "Randolph",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "WHU1516_EMMANUEL_EMENIKE",
+      "fullname": "Emmanuel Emenike",
+      "surname": "Emenike",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "WHU1516_REECE_OXFORD",
+      "fullname": "Reece Oxford",
+      "surname": "Oxford",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 7
+    },
+    {
+      "id": "WHU1516_SAM_BYRAM",
+      "fullname": "Sam Byram",
+      "surname": "Byram",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "WHU1516_NIKICA_JELAVI_",
+      "fullname": "Nikica Jelavić",
+      "surname": "Jelavić",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "WHU1516_KEVIN_NOLAN",
+      "fullname": "Kevin Nolan",
+      "surname": "Nolan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "WHU1516_MATTHEW_JARVIS",
+      "fullname": "Matthew Jarvis",
+      "surname": "Jarvis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "WHU1516_MODIBO_MA_GA",
+      "fullname": "Modibo Maïga",
+      "surname": "Maïga",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "WHU1516_JOSH_CULLEN",
+      "fullname": "Josh Cullen",
+      "surname": "Cullen",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "WHU1516_MARCUS_BROWNE",
+      "fullname": "Marcus Browne",
+      "surname": "Browne",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0
+    },
+    {
+      "id": "WHU1516_GEORGE_DOBSON",
+      "fullname": "George Dobson",
+      "surname": "Dobson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0
+    }
+  ]
+}

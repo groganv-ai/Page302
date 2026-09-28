@@ -1,241 +1,404 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
-
-    <title>PAGE 302</title>
-
-    <link rel="stylesheet" href="style.css">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PAGE 302</title>
+<link href="style.css" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
 <!-- PAGE HEADER -->
-
 <div class="pageHeader">
+<div class="headerTop">
+<div class="headerInfo">
+<span class="pageNumber">P302</span>
+<span
+    id="vggfaxNumber"
+    class="serviceName"
+>
 
-    <div class="headerTop">
+    VGGFAX 003
 
-        <div class="headerInfo">
-
-            <span class="pageNumber">P302</span>
-
-            <span class="serviceName">VGGFAX 302</span>
-
-            <span class="pageDescription">
+</span>
+<span class="pageDescription">
                 THE TELETEXT FOOTBALL GAME
             </span>
-
-        </div>
-
-        <div class="buildLabel">
-
-            DEMO BUILD v3.5.01
-
-        </div>
-
-    </div>
-
+</div>
+<div class="buildLabel" id="buildLabel"></div>
+</div>
 <div class="headerLogo">
-
-    <img
-        src="assets/page302-logo.png"
-        alt="PAGE302 Logo"
-        class="pageLogo"
-    >
-
+<img alt="PAGE302 Logo" class="pageLogo" src="assets/page302-logo.png"/>
 </div>
-
 </div>
-    <!-- FORMATION / SCORE -->
-
- <div class="statusBar">
-
-    <div id="formationDisplay">
-
-        FORMATION : 4-4-2
-
+<div class="playPrompt">
+    <span>COMPLETE THE SQUAD USING PLAYERS FROM THE 11 TARGET CLUBS</span>
+    <span class="playPromptMore">
+        PRESS <button class="playPromptHelp" onclick="showHelp()" type="button">HELP</button> FOR MORE INFO
+    </span>
+</div>
+<!-- FORMATION / SCORE -->
+<div class="statusBar">
+<div id="formationDisplay">
+        <span class="statusLabel">FORMATION :</span>
+        <span class="statusValue">4-4-2</span>
     </div>
-
-    <div id="scoreDisplay">
+<div id="scoreDisplay">
 
         SCORE : 0
 
     </div>
-
-    <div id="guessDisplay">
-
-        GUESSES : 0
-
+<div id="guessDisplay">
+        <span class="statusLabel">GUESSES :</span>
+        <span class="statusValue">0</span>
     </div>
-
 </div>
-
 <!-- LEGEND ROW -->
-
-<div class="legendRow">
-
-    <div class="legendPanel">
-
-        <div class="legendTitle">
-            RARITY
+<div class="legendRow legendRowDesktop">
+<div class="legendPanel">
+<div class="legendTitle">
+            PLAYER RARITY
         </div>
+<div class="legendContent">
+<span class="rarityUni">UNI</span>
 
-        <div class="legendContent">
-
-            <span class="rarityUni">UNI</span>
-
-            >
+            &gt;
 
             <span class="raritySub">SUB</span>
 
-            >
+            &gt;
 
             <span class="rarityUtl">UTL</span>
 
-            >
+            &gt;
 
             <span class="rarityEng">ENG</span>
 
-            >
+            &gt;
 
             <span class="rarityLeg">LEG</span>
-
-        </div>
-
-    </div>
-
-    <div class="legendPanel">
-
-        <div class="legendTitle">
-            CLUB BONUS
-        </div>
-
-        <div class="legendContent">
-
-            <span class="rarityUni">1st</span>
-
-            >
-
-            <span class="raritySub">2nd</span>
-
-            >
-
-            <span class="rarityUtl">3rd</span>
-
-            >
-
-            <span class="rarityEng">4th</span>
-
-            >
-
-            <span class="rarityLeg">5th+</span>
-
-        </div>
-
-    </div>
-
 </div>
+</div>
+<div class="legendPanel">
+<div class="legendTitle">
+            CLUB USEAGE
+        </div>
+<div class="legendContent">
+<span class="rarityUni">Once</span>
 
-    <!-- MAIN PLAY AREA -->
+            &gt;
 
-    <div class="mainLayout">
+            <span class="raritySub">Twice</span>
 
-        <!-- LEFT -->
+            &gt;
 
-        <div class="panel">
+            <span class="rarityUtl">Third</span>
 
- <div class="panelHeader">
+            &gt;
+
+            <span class="rarityEng">Fourth</span>
+
+            &gt;
+
+            <span class="rarityLeg">Fifth+</span>
+</div>
+</div>
+</div>
+<!-- MAIN PLAY AREA -->
+<div class="mainLayout">
+<!-- LEFT -->
+<div class="panel">
+<div class="panelHeader">
 
     SQUAD
 
 </div>
-
-    <div id="squadBoard">
+<div id="squadBoard">
 
        Loading Squad...
 
     </div>
-
-        </div>
-
-
-        <!-- RIGHT -->
-
-        <div class="panel">
-
-         <div class="panelHeader">
+</div>
+<!-- RIGHT -->
+<div class="panel">
+<div class="panelHeader">
 
     TARGET CLUBS
 
 </div>
-            <div id="clubTitle">
+<div id="clubTitle">
 
                 Loading Club...
 
             </div>
-
-        </div>
-
-    </div>
-
+</div>
+</div>
 <!-- ANSWER BAR -->
+<div class="inputArea">
+<div class="inputLeft">
+<div class="answerRow">
+<div class="answerButton" onclick="submitAnswer()">
 
-    <div class="inputArea">
-
-  <div class="inputLeft">
-
-    <div class="answerRow">
-
-        <label>ANSWER :</label>
-
-        <input
-            type="text"
-            id="answer"
-            autocomplete="off"
-            placeholder="POS Surname Club"
-        >
+        ANSWER
 
     </div>
+<input autocomplete="off" id="answer" placeholder="POS SURNAME CLUB" type="text"/>
+</div>
+</div>
+<div id="result">
 
-    <button onclick="submitAnswer()">
-        SUBMIT
-    </button>
+    <span class="helpLabel">ENTER ANSWER AS</span>
+    <br>
+
+    <span class="helpWhite">POS SURNAME CLUB</span>
+
+    <br><br>
+
+    <span class="helpLabel">e.g.</span>
+    <br>
+
+    <span class="helpWhite">AT PLANK GER</span>
 
 </div>
+<div class="legendRow legendRowMobile">
+<div class="legendPanel">
+<div class="legendTitle">
+            RARITY
+        </div>
+<div class="legendContent">
+<span class="rarityUni">UNI</span>
 
-        <div class="inputRight">
+            &gt;
 
-            <pre id="result">
+            <span class="raritySub">SUB</span>
 
-Nothing submitted yet.
+            &gt;
 
-            </pre>
+            <span class="rarityUtl">UTL</span>
+
+            &gt;
+
+            <span class="rarityEng">ENG</span>
+
+            &gt;
+
+            <span class="rarityLeg">LEG</span>
+</div>
+</div>
+<div class="legendPanel">
+<div class="legendTitle">
+            CLUB BONUS
+        </div>
+<div class="legendContent">
+<span class="rarityUni">1st</span>
+
+            &gt;
+
+            <span class="raritySub">2nd</span>
+
+            &gt;
+
+            <span class="rarityUtl">3rd</span>
+
+            &gt;
+
+            <span class="rarityEng">4th</span>
+
+            &gt;
+
+            <span class="rarityLeg">5th+</span>
+</div>
+</div>
+</div>
+<!-- FOOTER -->
+<div class="footerBar">
+<div class="footerHelp" onclick="showHelp()">
+
+    HELP
+
+</div>
+<div class="footerScores">
+        SCORES
+    </div>
+<div class="footerAbout" onclick="showAbout()">
+        ABOUT
+    </div>
+<div class="footerNewGame" onclick="newGame()">
+        NEW GAME
+    </div>
+</div>
+<div class="copyright">
+
+    © 2026 Vincent Grogan. All rights reserved.
+
+    <span class="mobileBuildLabel" id="mobileBuildLabel"></span>
+
+</div>
+<div class="helpOverlay" id="helpOverlay" onclick="hideHelp()">
+<div class="helpPage" role="dialog" aria-modal="true" aria-label="Page 302 Help">
+    <div class="helpPageTop">
+        <span>P302</span><span>VGGFAX</span><span>THE TELETEXT FOOTBALL GAME</span><span>HELP</span><span>1/1</span>
+    </div>
+    <div class="helpPageLogo"><img alt="VGG The Prem" src="assets/page302-logo.png"/></div>
+    <h1 class="helpPageTitle">PAGE302 HELP</h1>
+    <div class="helpPageGrid">
+        <section class="helpPagePanel helpPageRules">
+            <h2>OBJECTIVE</h2>
+            <p>Can you build the <em>rarest</em> squad comprised of players from these 11 teams?</p>
+            <hr/>
+            <h2>RULES</h2>
+            <ul>
+                <li>Players must have played at least one Premier League match during the specified season.</li>
+                <li>Complete the formation and manager (11 players + 1 manager).</li>
+                <li>Enter answers as:<br/><strong>POS SURNAME CLUB</strong><br/><span class="helpExample">e.g. AT SALAH LIV</span></li>
+            </ul>
+        </section>
+        <div class="helpPageSide">
+            <section class="helpPagePanel">
+                <h2>PLAYER RARITY</h2>
+                <dl class="helpRarity">
+                    <div><dt class="helpUni">UNI</dt><dd>= Unicorn</dd></div>
+                    <div><dt class="helpSub">SUB</dt><dd>= Substitute</dd></div>
+                    <div><dt class="helpUtl">UTL</dt><dd>= Utility Player</dd></div>
+                    <div><dt class="helpEng">ENG</dt><dd>= Engine Room</dd></div>
+                    <div><dt>LEG</dt><dd>= Legend</dd></div>
+                </dl>
+            </section>
+            <section class="helpPagePanel">
+                <h2>CLUB BONUS</h2>
+                <p>Receive a higher bonus the less you use each club.</p>
+                <p class="helpHighlight">Go 11 from 11 for the best score.</p>
+                <p>Managers provide additional bonus.</p>
+            </section>
+        </div>
+        <section class="helpPagePanel helpPageTips">
+            <h2>TIPS</h2>
+            <ul>
+                <li>'Rarer' players score more points.</li>
+                <li>Players &amp; Managers can represent more than one target club.</li>
+                <li>Experiment with different combinations to achieve a higher score.</li>
+            </ul>
+        </section>
+    </div>
+    <div class="helpPageFooter">
+        <button class="helpBack" type="button" onclick="event.stopPropagation(); hideHelp()">BACK</button>
+        <span>SCORES</span>
+        <button class="helpAbout" type="button" onclick="event.stopPropagation(); hideHelp(); showAbout()">ABOUT</button>
+        <button class="helpNewGame" type="button" onclick="event.stopPropagation(); hideHelp(); newGame()">NEW GAME</button>
+    </div>
+    <div class="helpPageCopyright">© 2026 Vincent Grogan. All rights reserved.</div>
+</div>
+</div>
+<div class="helpOverlay" id="aboutOverlay" onclick="hideAbout()">
+<div class="helpPage aboutPage" role="dialog" aria-modal="true" aria-label="About Page302">
+    <div class="helpPageTop">
+        <span>P302</span><span>VGGFAX</span><span>THE TELETEXT FOOTBALL GAME</span><span>ABOUT</span><span>1/1</span>
+    </div>
+    <div class="helpPageLogo"><img alt="VGG The Prem" src="assets/page302-logo.png"/></div>
+    <h1 class="helpPageTitle">ABOUT PAGE302</h1>
+    <div class="aboutIntro">
+        <section class="aboutSpeech">
+            <h2>HI, I'M VINCE!</h2>
+            <p>I've loved football and videogames for as long as I can remember. Some of my first jobs brought those interests together, working at Opta and testing Football Manager 2007.</p>
+            <p>And yes, I remember far too many old football players.</p>
+        </section>
+        <div class="aboutPortrait"><img src="assets/vince-teletext-host.png" alt="Teletext caricature of Vince in a blue suit and straight tie"/></div>
+    </div>
+    <div class="aboutCards">
+        <section><h2>THE STORY SO FAR</h2><p>I have spent much of my career making videogames, including LEGO titles and family games such as PAW Patrol World and Bluey: The Videogame.</p><p>Page302 has given me a chance to bring my experience and passions together in a game I think is fun and challenging. It's the sort of game I'd want to play, and I hope other people enjoy it too.</p></section>
+        <section class="aboutContact"><h2>GET IN TOUCH</h2><p>If you have feedback, thoughts or questions, please get in touch.</p><p><a href="mailto:vince.grogan.games@gmail.com" onclick="event.stopPropagation()">EMAIL VINCE</a></p><p><a href="https://www.linkedin.com/in/vincent-grogan-games/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">LINKEDIN PROFILE</a></p></section>
+        <section class="aboutThanks"><h2>THANKS TO...</h2><p>The Cardiff and Coventry Grogans, the GMT Cardiff team, Loz, Matt, Chris, Dave C, Todd and Dave, and everyone who has helped with testing, prototyping or listening to my ideas. Thank you.</p></section>
+        <section class="aboutNotice"><h2>SMALL PRINT</h2><p>© 2026 Vincent Grogan. All rights reserved. Page302 is an independent game and is not affiliated with or endorsed by the clubs or competitions mentioned in it. Their names and marks belong to their respective owners.</p></section>
+    </div>
+    <div class="helpPageFooter">
+        <button class="helpBack" type="button" onclick="event.stopPropagation(); hideAbout()">BACK</button>
+        <button class="helpFooterHelp" type="button" onclick="event.stopPropagation(); hideAbout(); showHelp()">HELP</button>
+        <span class="aboutScores" onclick="event.stopPropagation()">SCORES</span>
+        <button class="helpNewGame" type="button" onclick="event.stopPropagation(); hideAbout(); newGame()">NEW GAME</button>
+    </div>
+    <div class="helpPageCopyright">© 2026 Vincent Grogan. All rights reserved.</div>
+</div>
+</div>
+<script src="script.js"></script>
+
+<!-- ======================================== -->
+<!-- GAME COMPLETE OVERLAY                    -->
+<!-- ======================================== -->
+
+<div id="gameCompleteOverlay">
+
+    <div id="gameCompleteWindow">
+
+        <div class="divider"></div>
+
+        <div class="completeGameNumber" id="completeGameNumber">
+
+            GAME #003
 
         </div>
 
+        <div class="completeTitle">
+
+            SQUAD COMPLETE
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="completeScoreLabel">
+
+            FINAL SCORE
+
+        </div>
+
+        <div id="completeScoreValue">
+
+            0
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="completeScoreLabel">
+
+            YOUR SQUAD
+
+        </div>
+
+        <div id="completeGrid">
+
+        </div>
+
+        <div class="divider"></div>
+
+       <div class="completeButtons">
+
+    <div
+        id="shareButton"
+        class="completeButton completeButtonShare"
+        onclick="shareResult()"
+    >
+
+        SHARE
+
     </div>
 
+    <div
+        id="closeButton"
+        class="completeButton completeButtonClose"
+        onclick="closeCompleteGame()"
+    >
 
-    <!-- FOOTER -->
+        CLOSE
 
-<div class="footerBar">
-
-    <div>HELP</div>
-
-    <div>SCORES</div>
-
-    <div>ABOUT</div>
-
-    <div>NEW GAME</div>
+    </div>
 
 </div>
+    </div>
 
-
-    <script src="script.js"></script>
-
+</div>
 </body>
-
 </html>
