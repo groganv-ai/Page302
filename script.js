@@ -72,7 +72,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.03_003_hotfix";
+const APP_BUILD = "v3.7.04_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -2060,6 +2060,21 @@ function hideHelp() {
 
     document
         .getElementById("helpOverlay")
+        .style.display = "none";
+
+}
+function showAbout() {
+
+    document
+        .getElementById("aboutOverlay")
+        .style.display = "flex";
+
+}
+
+function hideAbout() {
+
+    document
+        .getElementById("aboutOverlay")
         .style.display = "none";
 
 }
