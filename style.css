@@ -228,6 +228,8 @@ body {
 
     border: 3px solid #00FF00;
 
+    box-sizing: border-box;
+
     padding: 6px;
 
     min-height: 360px;
@@ -288,6 +290,12 @@ body {
     text-align: left;
 
     margin-top: 20px;
+
+}
+
+.clubRow {
+
+    white-space: nowrap;
 
 }
 
@@ -628,15 +636,31 @@ body {
 
     .headerInfo {
 
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         min-width: 0;
         width: 100%;
 
     }
 
+    .pageNumber {
+
+        justify-self: start;
+        margin-right: 0;
+
+    }
+
+    .serviceName {
+
+        justify-self: end;
+        margin-right: 0;
+
+    }
+
     .pageDescription {
 
-        flex-basis: 100%;
+        grid-column: 1 / -1;
+        justify-self: center;
         margin-top: 6px;
         text-align: center;
         white-space: normal;
@@ -645,11 +669,17 @@ body {
 
     .statusBar {
 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         font-size: 18px;
 
         padding: 6px 10px;
 
     }
+
+    #formationDisplay { grid-column: 1; grid-row: 1; justify-self: start; }
+    #guessDisplay { grid-column: 2; grid-row: 1; justify-self: end; }
+    #scoreDisplay { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
 
     #squadBoard,
     #clubTitle {
@@ -685,8 +715,9 @@ body {
     #answer {
 
         font-size: 18px;
+        flex: 1 1 0;
         min-width: 0;
-        width: 100%;
+        width: auto;
 
     }
 
@@ -756,7 +787,7 @@ body {
 .legendRowMobile{display:flex;flex-direction:column;gap:12px;margin-top:16px;}
 .mainLayout{display:flex!important;flex-direction:column;}
 .panel{width:100%;}
-.statusBar{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;font-size:16px;}
+.statusBar{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:16px;}
 #result{line-height:1.5;}
 #result .helpExample{display:block;margin-top:6px;}
 .footerBar{display:flex;flex-wrap:nowrap;justify-content:space-between;font-size:14px;}
@@ -764,6 +795,18 @@ body {
 .mobileBuildLabel{display:inline;}
 }
 @media (min-width:701px){.legendRowMobile{display:none;}.mobileBuildLabel{display:none;}}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .mainLayout {
+        display: flex;
+        flex-direction: column;
+    }
+    .panel { width: 100%; }
+}
+
+@media (max-width: 895px) {
+    .panel { min-height: 0; }
+}
 /* ======================================== */
 /* GAME COMPLETE OVERLAY                    */
 /* ======================================== */
@@ -1165,4 +1208,18 @@ body {
     .aboutIntro { grid-template-columns: minmax(0, 1fr) 90px; }
     .aboutSpeech::after { top: 30px; }
     .aboutPortrait { height: 130px; }
+}
+
+@media (max-width: 438px) {
+    #formationDisplay,
+    #guessDisplay {
+        display: flex;
+        flex-direction: column;
+    }
+    #formationDisplay { align-items: flex-start; }
+    #guessDisplay { align-items: flex-end; }
+}
+
+@media (max-width: 400px) {
+    #clubTitle { font-size: 16px; }
 }

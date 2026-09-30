@@ -72,7 +72,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.04_003";
+const APP_BUILD = "v3.7.05_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -1469,9 +1469,8 @@ badge =
 
 function drawFormation() {
 
-    document.getElementById(
-    "formationDisplay").innerText =
-    "FORMATION: " +
+    document.querySelector(
+    "#formationDisplay .statusValue").textContent =
     currentGame.formation;
 
 }
@@ -1665,25 +1664,26 @@ else if (
 
 }
 
-        let line =
+        let displaySeason = club.season.replace(
+            /^\d{2}(\d{2}-\d{2})$/,
+            "$1"
+        );
 
-            "(" +
+        let line =
 
             shortCode +
 
-            ") - " +
+            " - " +
 
             club.club +
 
             " " +
 
-            club.season +
+            displaySeason +
 
-            " [" +
+            " x" +
 
-            usage +
-
-            "]";
+            usage;
 
         if (
 
@@ -1699,7 +1699,7 @@ else if (
 
         html +=
 
-            "<div style='color:" +
+            "<div class='clubRow' style='color:" +
 
             colour +
 
@@ -1747,13 +1747,9 @@ function drawScore() {
 }
 function drawGuesses() {
 
-    document.getElementById(
-    "guessDisplay"
-    ).innerText =
-
-    "GUESSES : " +
-
-    currentGame.totalGuesses;
+    document.querySelector(
+    "#guessDisplay .statusValue"
+    ).textContent = currentGame.totalGuesses;
 
 }
 function setStatus(text) {
