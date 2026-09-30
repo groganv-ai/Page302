@@ -67,12 +67,14 @@ let squadDisplay = {};
 
 let clubUsage = {};
 
+let usedPeople = new Set();
+
 let gameComplete = false;
 
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.05_003";
+const APP_BUILD = "v3.7.06_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -343,6 +345,8 @@ async function newGame() {
     squadDisplay = {};
 
     clubUsage = {};
+
+    usedPeople = new Set();
 
     squad = [];
 
@@ -900,9 +904,46 @@ else if (
 
         let isManager = position == "MAN";
 
-        let rarity = isManager
-        ? getManagerRarity(player)
-        : getRarity(player);
+        let linkedRecords = findLinkedRecords(
+            player.fullname,
+            isManager
+        );
+
+        let linkedClubCodes = getLinkedClubCodes(
+            linkedRecords,
+            clubCode
+        );
+
+        let rarity;
+        let clubTier = null;
+        let points;
+
+        if (isManager) {
+
+            rarity = getManagerRarity(player);
+
+            points = calculateMultiManagerScore(linkedRecords);
+
+        }
+        else {
+
+            rarity = getRarity(player);
+
+            if (clubUsage[clubCode] == null) {
+                clubUsage[clubCode] = 0;
+            }
+
+            clubUsage[clubCode]++;
+
+            clubTier = getClubTier(clubCode);
+
+            points = calculateMultiClubPlayerScore(
+                rarity,
+                clubTier,
+                linkedRecords.length
+            );
+
+        }
 
         lastPlayer =
         player.surname;
@@ -913,53 +954,21 @@ else if (
         lastRarity =
         rarity;
 
-        if (
-
-            !isManager &&
-
-            clubUsage[clubCode] == null
-
-        ) {
-
-            clubUsage[clubCode] = 0;
-
-        }
-
-        if (!isManager) {
-
-            clubUsage[clubCode]++;
-
-        }
+        usedPeople.add(
+            normalizePersonName(player.fullname)
+        );
 
         console.log(clubUsage);
 
     addPlayerToSquad(
         player,
         position,
-        clubCode,
-        isManager
+        isManager,
+        linkedClubCodes,
+        rarity,
+        clubTier,
+        points
     );
-
-let clubTier =
-
-    isManager
-    ? null
-    : getClubTier(
-        clubCode
-    );
-
-let multiplier =
-
-    isManager
-    ? 1
-    : getClubMultiplier(
-        clubTier
-    );
-
-let points =
-
-    rarity.points *
-    multiplier;
 
     currentGame.score =
 
@@ -1062,33 +1071,76 @@ function getClubByCode(
     return null;
 
 }
-function playerAlreadyUsed(player) {
 
-    for (
+function normalizePersonName(fullname) {
 
-        let i = 0;
+    return fullname
+        .normalize("NFKC")
+        .trim()
+        .toLocaleLowerCase("en-GB");
 
-        i < squad.length;
+}
 
-        i++
+function recordIsManager(record) {
 
-    ) {
+    return record.positions.includes("MAN");
 
-        if (
+}
 
-            squad[i].includes(
-            player.surname
-            )
+function findLinkedRecords(fullname, managersOnly) {
 
-        ) {
+    let identity = normalizePersonName(fullname);
+    let linkedRecords = [];
 
-            return true;
+    for (let i = 0; i < clubPool.length; i++) {
+
+        let club = clubPool[i];
+
+        for (let j = 0; j < club.squad.length; j++) {
+
+            let record = club.squad[j];
+
+            if (
+                normalizePersonName(record.fullname) == identity &&
+                recordIsManager(record) == managersOnly
+            ) {
+
+                linkedRecords.push({
+                    clubCode: club.clubCode.substring(0, 3),
+                    record: record
+                });
+
+                break;
+
+            }
 
         }
 
     }
 
-    return false;
+    return linkedRecords;
+
+}
+
+function getLinkedClubCodes(linkedRecords, submittedClubCode) {
+
+    let clubCodes = linkedRecords.map(function(linkedRecord) {
+        return linkedRecord.clubCode;
+    });
+
+    return [submittedClubCode].concat(
+        clubCodes.filter(function(clubCode) {
+            return clubCode != submittedClubCode;
+        })
+    );
+
+}
+
+function playerAlreadyUsed(player) {
+
+    return usedPeople.has(
+        normalizePersonName(player.fullname)
+    );
 
 }
 function getRarity(player) {
@@ -1250,6 +1302,35 @@ function getClubMultiplier(
     }
 
     return 1;
+
+}
+
+function calculateMultiClubPlayerScore(
+    rarity,
+    clubTier,
+    linkedClubCount
+) {
+
+    return (
+        rarity.points *
+        getClubMultiplier(clubTier) *
+        linkedClubCount
+    );
+
+}
+
+function calculateMultiManagerScore(linkedRecords) {
+
+    let linkedManagerPoints = linkedRecords.reduce(
+        function(total, linkedRecord) {
+            return total + getManagerRarity(
+                linkedRecord.record
+            ).points;
+        },
+        0
+    );
+
+    return linkedManagerPoints * linkedRecords.length;
 
 }
 function drawSquad() {
@@ -1769,6 +1850,8 @@ async function startGame() {
 
     clubUsage = {};
 
+    usedPeople = new Set();
+
     console.log(clubData);
 
     buildSquad();
@@ -1945,8 +2028,11 @@ function hasFreePosition(position) {
 function addPlayerToSquad(
     player,
     selectedPosition,
-    clubCode,
-    isManager
+    isManager,
+    linkedClubCodes,
+    rarity,
+    clubTier,
+    points
 ) {
 
     for (
@@ -1979,32 +2065,21 @@ function addPlayerToSquad(
 
 squadDisplay[i] = {
 
-    score:
-    lastRarity == null
-    ?
-    0
-    :
-    lastRarity.points,
+    score: points,
 
-    rarity:
-    lastRarity == null
-    ?
-    ""
-    :
-    lastRarity.short,
+    rarity: rarity.short,
 
     club:
-    clubCode,
+    linkedClubCodes.join("/"),
+
+    clubs:
+    linkedClubCodes,
 
     isManager:
     isManager,
 
     clubTier:
-    isManager
-    ? null
-    : getClubTier(
-        clubCode
-    )
+    clubTier
 
 };
 
