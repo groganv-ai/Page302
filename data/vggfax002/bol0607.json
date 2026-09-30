@@ -1,0 +1,233 @@
+{
+  "clubCode": "BOL0607",
+  "club": "Bolton",
+  "season": "2006-07",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "BOL0607_SAM_ALLARDYCE",
+      "fullname": "Sam Allardyce",
+      "surname": "Allardyce",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "BOL0607_JUSSI_J_SKEL_INEN",
+      "fullname": "Jussi Jääskeläinen",
+      "surname": "jaaskelainen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "BOL0607_GARY_SPEED",
+      "fullname": "Gary Speed",
+      "surname": "Speed",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "BOL0607_ABDOULAYE_M_T_",
+      "fullname": "Abdoulaye Méïté",
+      "surname": "Méïté",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "BOL0607_NICOLAS_ANELKA",
+      "fullname": "Nicolas Anelka",
+      "surname": "Anelka",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "BOL0607_EL_HADJI_DIOUF",
+      "fullname": "El Hadji Diouf",
+      "surname": "Diouf",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "BOL0607_NICKY_HUNT",
+      "fullname": "Nicky Hunt",
+      "surname": "Hunt",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "BOL0607_IV_N_CAMPO",
+      "fullname": "Iván Campo",
+      "surname": "Campo",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "BOL0607_KEVIN_NOLAN",
+      "fullname": "Kevin Nolan",
+      "surname": "Nolan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "BOL0607_TAL_BEN_HAIM",
+      "fullname": "Tal Ben Haim",
+      "surname": "Haim",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "BOL0607_KEVIN_DAVIES",
+      "fullname": "Kevin Davies",
+      "surname": "Davies",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "BOL0607_ABDOULAYE_FAYE",
+      "fullname": "Abdoulaye Faye",
+      "surname": "Faye",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32
+    },
+    {
+      "id": "BOL0607_RICARDO_GARDNER",
+      "fullname": "Ricardo Gardner",
+      "surname": "Gardner",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "BOL0607_STELIOS_GIANNAKOPOULOS",
+      "fullname": "Stelios Giannakopoulos",
+      "surname": "Giannakopoulos",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "BOL0607_HENRIK_PEDERSEN",
+      "fullname": "Henrik Pedersen",
+      "surname": "Pedersen",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "BOL0607_ANDRANIK_TEYMOURIAN",
+      "fullname": "Andranik Teymourian",
+      "surname": "Teymourian",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "BOL0607_QUINTON_FORTUNE",
+      "fullname": "Quinton Fortune",
+      "surname": "Fortune",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6
+    },
+    {
+      "id": "BOL0607_IDAN_TAL",
+      "fullname": "Idan Tal",
+      "surname": "Tal",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "BOL0607__UBOM_R_MICHAL_K",
+      "fullname": "Ľubomír Michalík",
+      "surname": "Michalík",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "BOL0607_DAVID_THOMPSON",
+      "fullname": "David Thompson",
+      "surname": "Thompson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8
+    },
+    {
+      "id": "BOL0607_RICARDO_VAZ_T_",
+      "fullname": "Ricardo Vaz Tê",
+      "surname": "Tê",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "BOL0607_JAMES_SINCLAIR",
+      "fullname": "James Sinclair",
+      "surname": "Sinclair",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "BOL0607_JOHANN_SMITH",
+      "fullname": "Johann Smith",
+      "surname": "Smith",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "BOL0607_C_SAR_MART_N",
+      "fullname": "César Martín",
+      "surname": "Martín",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1
+    }
+  ]
+}
