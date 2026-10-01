@@ -68,13 +68,14 @@ let squadDisplay = {};
 let clubUsage = {};
 
 let usedPeople = new Set();
+let pendingAnswer = null;
 
 let gameComplete = false;
 
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.06_003";
+const APP_BUILD = "v3.7.07_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -144,6 +145,7 @@ function nextVggfax() {
 }
 
 async function loadClub() {
+    clearPendingAnswer();
 
     const packNumber = currentVggfax;
 
@@ -323,6 +325,7 @@ async function selectLatestValidPack() {
 
 }
 async function newGame() {
+    clearPendingAnswer();
 
     nextVggfax();
 
@@ -731,8 +734,13 @@ function submitAnswer() {
 
     }
 
+    if (pendingAnswer) {
+        return;
+    }
+
     currentGame.totalGuesses =
     currentGame.totalGuesses + 1;
+    drawGuesses();
 
     let playerAnswer =
     document.getElementById(
@@ -803,16 +811,16 @@ let surname =
 
     }
 
-let player =
-findPlayer(
+const matches = findPlayers(surname, position, clubCode);
+if (matches.length > 1) {
+    showAnswerChoices(matches, position, clubCode);
+    return;
+}
 
-    surname,
+applyAnswer(matches[0] || null, position, clubCode, playerAnswer, surname);
+}
 
-    position,
-
-    clubCode
-
-);
+function applyAnswer(player, position, clubCode, playerAnswer, surname, selectedName = false) {
 
 if (
 
@@ -866,7 +874,7 @@ else if (
 
     setStatus(
 
-        displayPosition(player.positions[0]) +
+        displayPosition(position) +
 
         " " +
 
@@ -888,7 +896,7 @@ else if (
 
     setStatus(
 
-        displayPosition(player.positions[0]) +
+        displayPosition(position) +
 
         " " +
 
@@ -985,13 +993,15 @@ if (
 
     setStatus(
 
-        displayPosition(player.positions[0]) +
+        displayPosition(position) +
 
         " " +
 
-        player.surname.toUpperCase() +
+        (selectedName ? player.fullname : player.surname).toUpperCase() +
+        " " + clubCode +
 
-        " - CORRECT"
+        " - CORRECT",
+        true
 
     );
 
@@ -1007,13 +1017,15 @@ else {
 
     setStatus(
 
-        displayPosition(player.positions[0]) +
+        displayPosition(position) +
 
         " " +
 
-        player.surname.toUpperCase() +
+        (selectedName ? player.fullname : player.surname).toUpperCase() +
+        " " + clubCode +
 
-        " - CORRECT"
+        " - CORRECT",
+        true
 
     );
 
@@ -1029,6 +1041,59 @@ else {
 
 document.getElementById("answer").select();
 
+}
+
+function clearPendingAnswer() {
+    pendingAnswer = null;
+    const choices = document.getElementById("answerChoices");
+    choices.replaceChildren();
+    choices.hidden = true;
+    document.getElementById("result").classList.remove("selectionPrompt");
+}
+
+function showAnswerChoices(matches, position, clubCode) {
+    setStatus("DID YOU MEAN?");
+    document.getElementById("result").classList.add("selectionPrompt");
+    const request = { matches, position, clubCode };
+    pendingAnswer = request;
+    const choices = document.getElementById("answerChoices");
+    choices.hidden = false;
+    const options = document.createElement("div");
+    options.className = "answerOptions";
+
+    matches.forEach(function(player) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "answerChoice";
+        button.textContent = player.fullname.toUpperCase();
+        button.disabled = playerAlreadyUsed(player);
+        if (button.disabled) {
+            const label = document.createElement("span");
+            label.className = "answerAlreadyUsed";
+            label.textContent = "ALREADY USED";
+            button.append(label);
+        }
+        button.addEventListener("click", function() {
+            if (pendingAnswer !== request || currentGame.gameOver) return;
+            clearPendingAnswer();
+            applyAnswer(player, position, clubCode, "", player.surname, true);
+        });
+        options.append(button);
+    });
+
+    const cancel = document.createElement("button");
+    cancel.type = "button";
+    cancel.className = "answerCancel";
+    cancel.textContent = "CANCEL";
+    cancel.addEventListener("click", cancelAnswerChoice);
+    choices.append(options, cancel);
+    (options.querySelector("button:not(:disabled)") || cancel).focus();
+}
+
+function cancelAnswerChoice() {
+    if (!pendingAnswer) return;
+    setStatus("SELECTION CANCELLED");
+    document.getElementById("answer").focus();
 }
 
 function getClubByCode(
@@ -1483,7 +1548,7 @@ badge =
 
     clubColour +
 
-    "; font-weight:bold;'>" +
+    ";'>" +
 
     squadDisplay[i].club +
 
@@ -1495,7 +1560,7 @@ badge =
 
     colour +
 
-    "; font-weight:bold;'>" +
+    ";'>" +
 
     squadDisplay[i].rarity +
 
@@ -1833,9 +1898,12 @@ function drawGuesses() {
     ).textContent = currentGame.totalGuesses;
 
 }
-function setStatus(text) {
+function setStatus(text, isCorrect = false) {
+clearPendingAnswer();
 
-document.getElementById("result").textContent = text;
+const result = document.getElementById("result");
+result.textContent = text;
+result.classList.toggle("correctAnswer", isCorrect);
 
 }
 async function startGame() {
@@ -1869,77 +1937,47 @@ setStatus(
     drawGame();
 
 }
-function findPlayer(
-
-    surname,
-
-    position,
-
-    clubCode
-
-) {
-
-    let club =
-
-        getClubByCode(
-            clubCode
-        );
-
-    if (
-
-        club == null
-
-    ) {
-
-        return null;
-
-    }
-
-    for (
-
-        let i = 0;
-
-        i < club.squad.length;
-
-        i++
-
-    ) {
-
-        let player =
-
-            club.squad[i];
-
-        if (
-
-            player.surname
-            .toLowerCase()
-
-            ==
-
-            surname
-            .toLowerCase()
-
-        ) {
-
-            if (
-
-                player.positions.includes(
-                    position
-                )
-
-            ) {
-
-                return player;
-
-            }
-
-        }
-
-    }
-
-    return null;
-
+function normalizeSearchName(name) {
+    return name.normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .toUpperCase()
+        .toLowerCase()
+        .replace(/[\s'\u2018\u2019\u02BC\uFF07\-\u2010-\u2015]/gu, "");
 }
+
+function isOneLetterTypo(answer, surname) {
+    const a = Array.from(answer);
+    const b = Array.from(surname);
+    if (b.length < 5 || Math.abs(a.length - b.length) > 1) return false;
+    let i = 0;
+    while (i < a.length && i < b.length && a[i] === b[i]) i++;
+    if (i === a.length || i === b.length) return a.length !== b.length;
+    const rest = (letters, start) => letters.slice(start).join("");
+    if (a.length === b.length) {
+        return rest(a, i + 1) === rest(b, i + 1) ||
+            (a[i] === b[i + 1] && a[i + 1] === b[i] &&
+             rest(a, i + 2) === rest(b, i + 2));
+    }
+    return a.length > b.length
+        ? rest(a, i + 1) === rest(b, i)
+        : rest(a, i) === rest(b, i + 1);
+}
+
+function findPlayers(surname, position, clubCode) {
+    const club = getClubByCode(clubCode);
+    if (!club) return [];
+    const answer = normalizeSearchName(surname);
+    const exact = club.squad.filter(function(player) {
+        return normalizeSearchName(player.surname) === answer;
+    });
+    // An exact name at the wrong position must not become a different player.
+    if (exact.length) return exact.filter(player => player.positions.includes(position));
+    return club.squad.filter(function(player) {
+        return player.positions.includes(position) &&
+            isOneLetterTypo(answer, normalizeSearchName(player.surname));
+    });
+}
+
 function playerExistsAtClub(
 
     surname,
@@ -1976,14 +2014,11 @@ function playerExistsAtClub(
 
         if (
 
-            club.squad[i]
-            .surname
-            .toLowerCase()
+            normalizeSearchName(club.squad[i].surname)
 
             ==
 
-            surname
-            .toLowerCase()
+            normalizeSearchName(surname)
 
         ) {
 
@@ -2172,6 +2207,15 @@ document
         }
 
     );
+document.getElementById("answer").addEventListener("input", function() {
+    if (pendingAnswer) setStatus("ENTER ANSWER AS POS SURNAME CLUB");
+});
+document.getElementById("answerChoices").addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+        event.preventDefault();
+        cancelAnswerChoice();
+    }
+});
 startGame().catch(function(error) {
 
     console.error(error);

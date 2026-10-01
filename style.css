@@ -410,6 +410,37 @@ body {
 
 }
 
+#result.correctAnswer {
+    color: #00FF00;
+}
+
+#result.selectionPrompt { color: #00FFFF; }
+#answerChoices { margin-top: 10px; }
+#answerChoices[hidden] { display: none; }
+.answerOptions { display: flex; flex-wrap: wrap; gap: 12px; }
+.answerChoice, .answerCancel {
+    font: inherit;
+    font-size: 22px;
+    background: #000000;
+    color: #FFFFFF;
+    min-height: 44px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 0;
+}
+.answerChoice {
+    border: 2px solid #00FFFF;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+.answerChoice:hover:not(:disabled) { background: #0000FF; }
+.answerChoice:disabled { color: #999999; border-color: #777777; cursor: default; }
+.answerAlreadyUsed { display: block; color: #FFFF00; font-size: 18px; }
+.answerCancel { border: 0; color: #FFFF00; padding-left: 0; margin-top: 10px; }
+@media (max-width: 700px) {
+    .answerChoice { width: 100%; }
+}
+
 .helpLabel {
 
     color: #00FFFF;
