@@ -1,0 +1,241 @@
+{
+  "clubCode": "CHA0304",
+  "club": "Charlton",
+  "season": "2003-04",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CHA0304_ALAN_CURBISHLEY",
+      "fullname": "Alan Curbishley",
+      "surname": "Curbishley",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "CHA0304_MATT_HOLLAND",
+      "fullname": "Matt Holland",
+      "surname": "Holland",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "CHA0304_DEAN_KIELY",
+      "fullname": "Dean Kiely",
+      "surname": "Kiely",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "CHA0304_HERMANN_HREI_ARSSON",
+      "fullname": "Hermann Hreiðarsson",
+      "surname": "Hreiðarsson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "CHA0304_RADOSTIN_KISHISHEV",
+      "fullname": "Radostin Kishishev",
+      "surname": "Kishishev",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33
+    },
+    {
+      "id": "CHA0304_CLAUS_JENSEN",
+      "fullname": "Claus Jensen",
+      "surname": "Jensen",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "CHA0304_CHRIS_PERRY",
+      "fullname": "Chris Perry",
+      "surname": "Perry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "CHA0304_JASON_EUELL",
+      "fullname": "Jason Euell",
+      "surname": "Euell",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "CHA0304_GRAHAM_STUART",
+      "fullname": "Graham Stuart",
+      "surname": "Stuart",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "CHA0304_PAOLO_DI_CANIO",
+      "fullname": "Paolo Di Canio",
+      "surname": "Canio",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31
+    },
+    {
+      "id": "CHA0304_MARK_FISH",
+      "fullname": "Mark Fish",
+      "surname": "Fish",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 23
+    },
+    {
+      "id": "CHA0304_JONATHAN_FORTUNE",
+      "fullname": "Jonathan Fortune",
+      "surname": "Fortune",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "CHA0304_LUKE_YOUNG",
+      "fullname": "Luke Young",
+      "surname": "Young",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24
+    },
+    {
+      "id": "CHA0304_SCOTT_PARKER",
+      "fullname": "Scott Parker",
+      "surname": "Parker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20
+    },
+    {
+      "id": "CHA0304_PAUL_KONCHESKY",
+      "fullname": "Paul Konchesky",
+      "surname": "Konchesky",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "CHA0304_JONATAN_JOHANSSON",
+      "fullname": "Jonatan Johansson",
+      "surname": "Johansson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "CHA0304_SHAUN_BARTLETT",
+      "fullname": "Shaun Bartlett",
+      "surname": "Bartlett",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 19
+    },
+    {
+      "id": "CHA0304_CHRIS_POWELL",
+      "fullname": "Chris Powell",
+      "surname": "Powell",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "CHA0304_CARLTON_COLE",
+      "fullname": "Carlton Cole",
+      "surname": "Cole",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21
+    },
+    {
+      "id": "CHA0304_KEVIN_LISBIE",
+      "fullname": "Kevin Lisbie",
+      "surname": "Lisbie",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 9
+    },
+    {
+      "id": "CHA0304_MATHIAS_SVENSSON",
+      "fullname": "Mathias Svensson",
+      "surname": "Svensson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "CHA0304_GARY_ROWETT",
+      "fullname": "Gary Rowett",
+      "surname": "Rowett",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHA0304_SIMON_ROYCE",
+      "fullname": "Simon Royce",
+      "surname": "Royce",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHA0304_JEROME_THOMAS",
+      "fullname": "Jerome Thomas",
+      "surname": "Thomas",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHA0304_JAMAL_CAMPBELL_RYCE",
+      "fullname": "Jamal Campbell-Ryce",
+      "surname": "Campbell-Ryce",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2
+    }
+  ]
+}

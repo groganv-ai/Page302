@@ -1,0 +1,298 @@
+{
+  "clubCode": "CHE0405",
+  "club": "Chelsea",
+  "season": "2004-05",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CHE0405_JOS_MOURINHO",
+      "fullname": "José Mourinho",
+      "surname": "Mourinho",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "CHE0405_FRANK_LAMPARD",
+      "fullname": "Frank Lampard",
+      "surname": "Lampard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38
+    },
+    {
+      "id": "CHE0405_CLAUDE_MAK_L_L_",
+      "fullname": "Claude Makélélé",
+      "surname": "Makélélé",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "CHE0405_JOHN_TERRY",
+      "fullname": "John Terry",
+      "surname": "Terry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36
+    },
+    {
+      "id": "CHE0405_PETR_ECH",
+      "fullname": "Petr Čech",
+      "surname": "Čech",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 35
+    },
+    {
+      "id": "CHE0405_EI_UR_GU_JOHNSEN",
+      "fullname": "Eiður Guðjohnsen",
+      "surname": "Guðjohnsen",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 37
+    },
+    {
+      "id": "CHE0405_PAULO_FERREIRA",
+      "fullname": "Paulo Ferreira",
+      "surname": "Ferreira",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29
+    },
+    {
+      "id": "CHE0405_WILLIAM_GALLAS",
+      "fullname": "William Gallas",
+      "surname": "Gallas",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "CHE0405_DAMIEN_DUFF",
+      "fullname": "Damien Duff",
+      "surname": "Duff",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 30
+    },
+    {
+      "id": "CHE0405_RICARDO_CARVALHO",
+      "fullname": "Ricardo Carvalho",
+      "surname": "Carvalho",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "CHE0405_TIAGO_MENDES",
+      "fullname": "Tiago Mendes",
+      "surname": "Mendes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34
+    },
+    {
+      "id": "CHE0405_JOE_COLE",
+      "fullname": "Joe Cole",
+      "surname": "Cole",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28
+    },
+    {
+      "id": "CHE0405_DIDIER_DROGBA",
+      "fullname": "Didier Drogba",
+      "surname": "Drogba",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 26
+    },
+    {
+      "id": "CHE0405_ARJEN_ROBBEN",
+      "fullname": "Arjen Robben",
+      "surname": "Robben",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 18
+    },
+    {
+      "id": "CHE0405_GLEN_JOHNSON",
+      "fullname": "Glen Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17
+    },
+    {
+      "id": "CHE0405_WAYNE_BRIDGE",
+      "fullname": "Wayne Bridge",
+      "surname": "Bridge",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15
+    },
+    {
+      "id": "CHE0405_ALEXEY_SMERTIN",
+      "fullname": "Alexey Smertin",
+      "surname": "Smertin",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16
+    },
+    {
+      "id": "CHE0405_MATEJA_KE_MAN",
+      "fullname": "Mateja Kežman",
+      "surname": "Kežman",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 25
+    },
+    {
+      "id": "CHE0405_GEREMI",
+      "fullname": "Geremi",
+      "surname": "Geremi",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 13
+    },
+    {
+      "id": "CHE0405_ROBERT_HUTH",
+      "fullname": "Robert Huth",
+      "surname": "Huth",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10
+    },
+    {
+      "id": "CHE0405_JI_JARO_K",
+      "fullname": "Jiří Jarošík",
+      "surname": "Jarošík",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 14
+    },
+    {
+      "id": "CHE0405_CELESTINE_BABAYARO",
+      "fullname": "Celestine Babayaro",
+      "surname": "Babayaro",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "CHE0405_CARLO_CUDICINI",
+      "fullname": "Carlo Cudicini",
+      "surname": "Cudicini",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3
+    },
+    {
+      "id": "CHE0405_SCOTT_PARKER",
+      "fullname": "Scott Parker",
+      "surname": "Parker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4
+    },
+    {
+      "id": "CHE0405_ADRIAN_MUTU",
+      "fullname": "Adrian Mutu",
+      "surname": "Mutu",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "CHE0405_MIKAEL_FORSSELL",
+      "fullname": "Mikael Forssell",
+      "surname": "Forssell",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHE0405_LENNY_PIDGELEY",
+      "fullname": "Lenny Pidgeley",
+      "surname": "Pidgeley",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHE0405_FILIPE_OLIVEIRA",
+      "fullname": "Filipe Oliveira",
+      "surname": "Oliveira",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHE0405_NUNO_MORAIS",
+      "fullname": "Nuno Morais",
+      "surname": "Morais",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2
+    },
+    {
+      "id": "CHE0405_ANTHONY_GRANT",
+      "fullname": "Anthony Grant",
+      "surname": "Grant",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1
+    },
+    {
+      "id": "CHE0405_STEVEN_WATT",
+      "fullname": "Steven Watt",
+      "surname": "Watt",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1
+    }
+  ]
+}
