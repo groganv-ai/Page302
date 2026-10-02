@@ -6,6 +6,8 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>PAGE 302</title>
 <link href="style.css" rel="stylesheet"/>
+<link href="scores.css" rel="stylesheet"/>
+<link href="results.css" rel="stylesheet"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -221,7 +223,7 @@
     HELP
 
 </div>
-<div class="footerScores">
+<div class="footerScores" onclick="showScores()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScores()}">
         SCORES
     </div>
 <div class="footerAbout" onclick="showAbout()">
@@ -302,14 +304,14 @@
     <h1 class="helpPageTitle">ABOUT PAGE302</h1>
     <div class="aboutIntro">
         <section class="aboutSpeech">
-            <h2>HI, I'M VINCE!</h2>
-            <p>I've loved football and videogames for as long as I can remember. Some of my first jobs brought those interests together, working at Opta and testing Football Manager 2007.</p>
-            <p>And yes, I remember far too many old football players.</p>
+            <h2>Hi, I'm Vince</h2>
+            <p>Inspired by days spent watching football scores on Ceefax, my love for and experience in the videogame industry, and my useless knowledge of Premier League footballers, I created Page302.</p>
+            <p>It's a game I find fun and challenging, and I hope other people enjoy it too.</p>
         </section>
         <div class="aboutPortrait"><img src="assets/vince-teletext-host.png" alt="Teletext caricature of Vince in a blue suit and straight tie"/></div>
     </div>
     <div class="aboutCards">
-        <section><h2>THE STORY SO FAR</h2><p>I have spent much of my career making videogames, including LEGO titles and family games such as PAW Patrol World and Bluey: The Videogame.</p><p>Page302 has given me a chance to bring my experience and passions together in a game I think is fun and challenging. It's the sort of game I'd want to play, and I hope other people enjoy it too.</p></section>
+        <section><h2>SUPPORT &amp; GIVING BACK</h2><p>Your support helps cover this page's running costs and my family's childcare costs, and I'm grateful for every contribution.</p><p>I pledge to donate all profits remaining after these costs to Doctors Without Borders/Médecins Sans Frontières (MSF), with a minimum donation of £100 a month.</p></section>
         <section class="aboutContact"><h2>GET IN TOUCH</h2><p>If you have feedback, thoughts or questions, please get in touch.</p><p><a href="mailto:vince.grogan.games@gmail.com" onclick="event.stopPropagation()">EMAIL VINCE</a></p><p><a href="https://www.linkedin.com/in/vincent-grogan-games/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">LINKEDIN PROFILE</a></p></section>
         <section class="aboutThanks"><h2>THANKS TO...</h2><p>The Cardiff and Coventry Grogans, the GMT Cardiff team, Loz, Matt, Chris, Dave C, Todd and Dave, and everyone who has helped with testing, prototyping or listening to my ideas. Thank you.</p></section>
         <section class="aboutNotice"><h2>SMALL PRINT</h2><p>© 2026 Vincent Grogan. All rights reserved. Page302 is an independent game and is not affiliated with or endorsed by the clubs or competitions mentioned in it. Their names and marks belong to their respective owners.</p></section>
@@ -317,7 +319,7 @@
     <div class="helpPageFooter">
         <button class="helpBack" type="button" onclick="event.stopPropagation(); hideAbout()">BACK</button>
         <button class="helpFooterHelp" type="button" onclick="event.stopPropagation(); hideAbout(); showHelp()">HELP</button>
-        <span class="aboutScores" onclick="event.stopPropagation()">SCORES</span>
+        <button class="aboutScores" type="button" onclick="event.stopPropagation(); hideAbout(); showScores()">SCORES</button>
         <button class="helpNewGame" type="button" onclick="event.stopPropagation(); hideAbout(); newGame()">NEW GAME</button>
     </div>
     <div class="helpPageCopyright">© 2026 Vincent Grogan. All rights reserved.</div>
@@ -330,76 +332,38 @@
 <!-- ======================================== -->
 
 <div id="gameCompleteOverlay">
-
-    <div id="gameCompleteWindow">
-
-        <div class="divider"></div>
-
-        <div class="completeGameNumber" id="completeGameNumber">
-
-            GAME #003
-
-        </div>
-
-        <div class="completeTitle">
-
-            SQUAD COMPLETE
-
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="completeScoreLabel">
-
-            FINAL SCORE
-
-        </div>
-
-        <div id="completeScoreValue">
-
-            0
-
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="completeScoreLabel">
-
-            YOUR SQUAD
-
-        </div>
-
-        <div id="completeGrid">
-
-        </div>
-
-        <div class="divider"></div>
-
-       <div class="completeButtons">
-
-    <div
-        id="shareButton"
-        class="completeButton completeButtonShare"
-        onclick="shareResult()"
-    >
-
-        SHARE
-
-    </div>
-
-    <div
-        id="closeButton"
-        class="completeButton completeButtonClose"
-        onclick="closeCompleteGame()"
-    >
-
-        CLOSE
-
-    </div>
-
+  <div id="gameCompleteWindow" role="dialog" aria-modal="true" aria-label="Game complete">
+    <div class="completeHeading"><div class="completeTitle">GAME COMPLETE</div><button type="button" class="completeDismiss" aria-label="Close result" onclick="closeCompleteGame()">×</button></div>
+    <div class="completeGameNumber" id="completeGameNumber">GAME #003</div>
+    <div class="completeScoreLabel">SCORE</div>
+    <div id="completeScoreValue">0</div>
+    <div id="completeGrid"></div>
+    <div class="divider"></div>
+    <form id="scoreSubmissionForm">
+      <label for="scoreInitials">ENTER YOUR INITIALS TO SUBMIT YOUR SCORE</label>
+      <div class="scoreSubmitRow"><input id="scoreInitials" maxlength="3" pattern="[A-Za-z]{3}" required placeholder="ABC" autocomplete="off" aria-label="Three initials"/><button id="submitScoreButton" type="submit">SUBMIT SCORE</button></div>
+      <div id="scoreSubmissionStatus" role="status" aria-live="polite"></div>
+    </form>
+    <div class="completeButtons"><button type="button" id="shareButton" class="completeButton completeButtonShare" onclick="shareResult()">SHARE</button><button type="button" class="completeButton completePlayAgain" onclick="playAgainFromResult()">PLAY AGAIN</button></div>
+  </div>
 </div>
-    </div>
+<script src="scores-client.js"></script>
+<div id="scoresOverlay" hidden role="dialog" aria-modal="true" aria-label="Page302 scores">
+ <div class="scoresPage">
+  <div class="scoresTop"><span>P302 · VGGFAX</span><span>FINAL SCORES</span></div>
+  <div class="scoresLogo"><img src="assets/page302-logo.png" alt="Page302"/></div>
+  <div class="leaderboardHeading"><h1 id="leaderboardTitle">LEADERBOARD</h1><div class="headingPagination"><button id="resultPrevious" type="button" aria-label="Previous leaderboard page" hidden>&lt;</button><span id="resultPages">1/1</span><button id="resultNext" type="button" aria-label="Next leaderboard page" hidden>&gt;</button></div></div>
+  <div class="resultPackLine"><span id="resultFormation"></span><details><summary>TARGET CLUBS</summary><ul id="resultClubs"></ul></details></div>
+  <table id="leaderboard"><thead><tr><th>POS</th><th>NAME</th><th>REF</th><th>SCORE</th><th class="wideCubes">SQUAD</th></tr></thead><tbody id="leaderboardRows"></tbody></table>
+  <section id="closedResult" hidden aria-label="Detailed result"></section>
+  <form id="resultSearch"><label>INITIALS<input id="resultInitials" maxlength="3" placeholder="VGG"/></label><label>REFERENCE<input id="resultReference" maxlength="6" inputmode="numeric" placeholder="482193"/></label><button type="submit">FIND SCORE</button><button id="resultTop" type="button">TOP 25</button></form>
+  <div id="resultsStatus" role="status" aria-live="polite"></div>
 
+  <div class="resultsFooter helpPageFooter"><button type="button" class="helpBack" onclick="backFromScores()">BACK</button><button type="button" class="helpFooterHelp" onclick="hideScores();showHelp()">HELP</button><button type="button" class="helpAbout" onclick="hideScores();showAbout()">ABOUT</button><button type="button" class="helpNewGame" onclick="hideScores();newGame()">NEW GAME</button></div>
+ </div>
 </div>
+<script src="results-client.js"></script>
 </body>
 </html>
+
+

@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.07_003";
+const APP_BUILD = "v3.7.08_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -325,6 +325,7 @@ async function selectLatestValidPack() {
 
 }
 async function newGame() {
+    if (typeof resetScoreSubmission === "function") resetScoreSubmission();
     clearPendingAnswer();
 
     nextVggfax();
@@ -542,7 +543,7 @@ function buildCompleteGrid() {
 
             clubSquare +
 
-            raritySquare +
+            raritySquare + (squadDisplay[i] && squadDisplay[i].clubs.length > 1 ? "<span class='completeMultiple'>×" + squadDisplay[i].clubs.length + "</span>" : "<span class='completeMultiple'></span>") +
 
             "</div>";
 
@@ -557,6 +558,8 @@ function buildCompleteGrid() {
 }
 
 function completeGame() {
+
+    if (typeof prepareScoreSubmission === "function") prepareScoreSubmission();
 
     gameComplete = true;
 
@@ -574,7 +577,7 @@ function completeGame() {
     document.getElementById(
         "completeGameNumber"
     ).innerText =
-    "GAME #" + currentVggfax;
+    "GAME #" + currentVggfax + " · " + currentGame.formation;
 
     buildCompleteGrid();
 
@@ -658,7 +661,7 @@ async function shareResult() {
 
             clubEmoji +
 
-            rarityEmoji +
+            rarityEmoji + (squadDisplay[i].clubs.length > 1 ? " ×" + squadDisplay[i].clubs.length : "") +
 
             "\n";
 
@@ -2100,6 +2103,18 @@ function addPlayerToSquad(
 
 squadDisplay[i] = {
 
+    personId: (isManager ? "manager:" : "player:") + normalizePersonName(player.fullname),
+    name: player.fullname,
+    position: selectedPosition,
+    contributions: findLinkedRecords(player.fullname, isManager).map(function(link) {
+        return {
+            recordId: link.record.id,
+            points: isManager
+                ? getManagerRarity(link.record).points * linkedClubCodes.length
+                : points / linkedClubCodes.length
+        };
+    }),
+
     score: points,
 
     rarity: rarity.short,
@@ -2223,3 +2238,4 @@ startGame().catch(function(error) {
     document.getElementById("answer").disabled = true;
 
 });
+
