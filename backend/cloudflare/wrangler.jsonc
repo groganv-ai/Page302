@@ -1,0 +1,16 @@
+{
+  "name": "page302-scores-preview",
+  "account_id": "91931aef059c1bf55a5e2e6b8c723e22",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-02",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGINS": "http://127.0.0.1:8080,http://localhost:8080,http://127.0.0.1:8082,http://localhost:8082,https://groganv-ai.github.io"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "page302-scores-preview",
+    "database_id": "e38a4c54-9f24-47c5-8f95-03948e774015",
+    "migrations_dir": "migrations"
+  }]
+}

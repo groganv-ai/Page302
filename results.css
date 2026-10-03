@@ -1,0 +1,28 @@
+#scoresOverlay[hidden],#closedResult[hidden]{display:none}
+#scoresOverlay{position:fixed;inset:0;z-index:1200;background:#000;overflow-y:auto;padding:16px 20px;font-family:Teletext,monospace;color:#fff;font-size:22px}
+.scoresPage{max-width:1200px;margin:auto}.scoresTop{display:flex;justify-content:space-between;font-size:18px}.scoresLogo{text-align:center;border-bottom:4px solid #00ff00;padding:7px 0}.scoresLogo img{width:75%;max-width:780px}.leaderboardHeading{display:flex;justify-content:space-between;align-items:center;background:#0000ff;padding:7px 10px;margin-top:10px}.leaderboardHeading h1{font-size:26px;font-weight:normal;margin:0}.resultPackLine{display:flex;gap:24px;margin:10px 0 12px;font-size:18px;align-items:baseline}.resultPackLine details{color:#00ffff}.resultPackLine summary{cursor:pointer}.resultPackLine ul{padding-left:20px;line-height:1.4}
+#leaderboard{width:100%;border:3px solid #00ff00;border-collapse:collapse}#leaderboard th{color:#ffff00;font-weight:normal;border-bottom:2px solid #00ffff;text-align:left;padding:12px 8px}#leaderboard td{padding:7px 8px}#leaderboard tbody tr:nth-child(odd){color:#fff}#leaderboard tbody tr:nth-child(even){color:#00ffff}#leaderboard th:nth-child(4),#leaderboard td:nth-child(4){text-align:right}.resultName{background:none;border:0;font:inherit;color:inherit;cursor:pointer;padding:0}.resultStrip{display:flex;justify-content:flex-end;gap:6px}.resultCubePair{display:inline-flex;gap:2px;width:24px;align-items:center}.resultCube{width:11px;height:16px;color:#000;text-align:center;font-family:monospace;font-size:13px;font-weight:bold}.resultCubePair:has(.resultCube:only-child){justify-content:flex-end}
+#resultSearch{display:flex;gap:12px;flex-wrap:wrap;align-items:end;border:3px solid #00ff00;padding:14px;margin-top:20px}#resultSearch label{display:flex;flex-direction:column;gap:8px;font-size:18px}#resultSearch input{width:150px;max-width:100%;font:inherit;color:#fff;border:2px solid #00ffff;background:#000;padding:7px}#scoresOverlay button:not(.resultName){font:inherit;cursor:pointer;color:#ffff00;border:2px solid #ffff00;background:#000;padding:4px 10px}#scoresOverlay button:disabled{opacity:.4;cursor:default}#scoresOverlay .resultPlay{color:#00ff00;border-color:#00ff00;margin-top:18px}.resultsFooter{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0}.resultsFooter button:nth-child(1){color:#ff0000!important}.resultsFooter button:nth-child(2){color:#00ff00!important}#resultsStatus,.closedShareStatus{color:#ffff00;font-size:18px;margin-top:14px}
+#closedResult{border:3px solid #00ff00;padding:18px;margin-top:20px}.closedHeading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap}.closedHeading h2{color:#00ff00;font-size:26px;font-weight:normal;margin:0}.closedActions{display:flex;gap:10px;margin-left:auto}.closedMetrics{margin:0 0 18px;line-height:1.4}.closedAnswer{display:grid;grid-template-columns:3ch 24px 3ch minmax(0,1fr) 5ch;gap:10px;align-items:center;margin:12px 0;color:#fff}.closedAnswer>span:last-child{text-align:right}
+@media(max-width:850px){.wideCubes{display:none}}@media(max-width:480px){#scoresOverlay{padding:12px;font-size:18px}.scoresTop{font-size:13px}.leaderboardHeading h1{font-size:20px}.resultPackLine{font-size:16px;gap:14px}#leaderboard th,#leaderboard td{padding:7px 4px}#closedResult{padding:12px}.closedHeading h2{font-size:20px}.closedAnswer{gap:7px}.resultPackLine>span{white-space:nowrap}}
+@media(pointer:coarse){#scoresOverlay button{min-height:44px;min-width:44px}}
+#scoresOverlay{z-index:30000}
+#scoresOverlay [hidden]{display:none!important}
+#scoresOverlay button.resultPlay{color:#00ff00;border-color:#00ff00}
+.footerScores{cursor:pointer;padding:0 4px;transition:background-color .1s}
+.footerScores:hover,.footerScores:focus-visible{background:#00ff00;color:#000}
+.resultsPagination{display:flex;justify-content:space-between;margin-top:18px}
+#scoresOverlay .resultsFooter{justify-content:space-around;flex-wrap:nowrap;margin:12px 0;gap:8px}
+#scoresOverlay .resultsFooter button{border:0;background:transparent;padding:2px 12px;color:inherit;font-size:inherit}
+#scoresOverlay .resultsFooter .helpBack{color:#ff0000!important}
+#scoresOverlay .resultsFooter .helpFooterHelp{color:#00ff00!important}
+#scoresOverlay .resultsFooter .helpAbout{color:#ffff00!important}
+#scoresOverlay .resultsFooter .helpNewGame{color:#00ffff!important}
+#scoresOverlay .resultsFooter .helpBack:hover,#scoresOverlay .resultsFooter .helpBack:focus-visible{background:#ff0000;color:#000!important}
+#scoresOverlay .resultsFooter .helpFooterHelp:hover,#scoresOverlay .resultsFooter .helpFooterHelp:focus-visible{background:#00ff00;color:#000!important}
+#scoresOverlay .resultsFooter .helpAbout:hover,#scoresOverlay .resultsFooter .helpAbout:focus-visible{background:#ffff00;color:#000!important}
+#scoresOverlay .resultsFooter .helpNewGame:hover,#scoresOverlay .resultsFooter .helpNewGame:focus-visible{background:#00ffff;color:#000!important}
+@media(max-width:480px){#scoresOverlay .resultsFooter{font-size:.7em}#scoresOverlay .resultsFooter button{padding:2px 4px}}
+.headingPagination{display:flex;align-items:center;gap:8px;white-space:nowrap}
+#scoresOverlay .headingPagination button{border:2px solid #fff;padding:0 6px;background:transparent;color:#fff;font:inherit}
+#scoresOverlay .headingPagination button:hover,#scoresOverlay .headingPagination button:focus-visible{color:#ffff00}

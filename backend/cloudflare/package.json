@@ -1,0 +1,14 @@
+{
+  "name": "page302-scores-preview",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "preview:website": "node website-preview.cjs",
+    "check": "wrangler deploy --dry-run",
+    "test:runtime": "node runtime-check.cjs",
+    "migrate:local": "wrangler d1 migrations apply DB --local"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  }
+}
