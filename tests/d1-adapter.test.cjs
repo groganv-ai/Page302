@@ -4,6 +4,17 @@ const {generateSubmissions}=require('../backend/seed-review.cjs');
 function binding(sqlite){
  return {prepare(sql){return {bind(...values){return {sql,values,async first(){return sqlite.prepare(sql).get(...values)||null},async all(){return {results:sqlite.prepare(sql).all(...values)}},async run(){return sqlite.prepare(sql).run(...values)}}}}},async batch(statements){sqlite.exec('BEGIN IMMEDIATE');try{const results=statements.map(s=>sqlite.prepare(s.sql).run(...s.values));sqlite.exec('COMMIT');return results}catch(e){sqlite.exec('ROLLBACK');throw e}}};
 }
+
+test('open-ended packs keep accepting submissions and cannot publish until explicitly closed',async()=>{
+ const {D1Store}=await import('../backend/cloudflare/d1-store.mjs');const local=new ScoreStore(),shadow=new ScoreStore();
+ const now=()=>new Date('2100-01-01T00:00:00Z');const pack={id:'003',formation:'4-3-3',revision:'open-ended-test',opensAt:'2026-10-03T00:00:00Z',closesAt:null};
+ try{local.addPack(pack);shadow.addPack(pack);local.now=now;const remote=new D1Store(binding(shadow.db),{now});
+ const input={...generateSubmissions()[0],packId:'003',requestId:'open_ended_runtime_test'};
+ assert.equal(local.submit(input).score,input.score);assert.equal((await remote.submit(input)).score,input.score);
+ assert.throws(()=>local.finalize('003'),/still open/);await assert.rejects(remote.finalize('003'),/still open/);
+ await assert.rejects(remote.submit({...input,packId:'001',requestId:'unconfigured_pack_test'}),/Unknown pack/);
+ }finally{local.close();shadow.close()}
+});
 test('D1 adapter matches local receipts, rankings and rarity; retries and reference collisions',async()=>{
  const {D1Store}=await import('../backend/cloudflare/d1-store.mjs');const local=new ScoreStore(),shadow=new ScoreStore();let now=new Date('2026-09-27T20:00Z'),ref=0;
  const db=binding(shadow.db),remote=new D1Store(db,{now:()=>now,reference:()=>String(++ref).padStart(6,'0')});

@@ -18,9 +18,10 @@ class ScoreStore {
   close() { this.db.close(); }
   addPack(pack) {
     if (!/^\d{3,}$/.test(pack.id) || !['4-4-2','4-3-3','5-4-1','4-5-1'].includes(pack.formation) || !text(pack.revision)) reject('Invalid pack');
-    const opens = new Date(pack.opensAt), closes = new Date(pack.closesAt);
-    if (!Number.isFinite(+opens) || !Number.isFinite(+closes) || opens >= closes) reject('Invalid pack window');
-    this.db.prepare('INSERT INTO packs(id,formation,opens_at,closes_at,revision) VALUES(?,?,?,?,?)').run(pack.id, pack.formation, opens.toISOString(), closes.toISOString(), pack.revision);
+    const opens = new Date(pack.opensAt), closes = pack.closesAt == null ? null : new Date(pack.closesAt);
+    if (!Number.isFinite(+opens) || (closes && (!Number.isFinite(+closes) || opens >= closes))) reject('Invalid pack window');
+    // Empty closes_at means an explicitly open-ended pack, preserving the existing schema.
+    this.db.prepare('INSERT INTO packs(id,formation,opens_at,closes_at,revision) VALUES(?,?,?,?,?)').run(pack.id, pack.formation, opens.toISOString(), closes ? closes.toISOString() : '', pack.revision);
   }
   normalize(input) { return normalize(input); }
   receipt(row) { return {packId:row.pack_id, initials:row.initials, reference:row.reference, score:row.score, guesses:row.guesses, receivedAt:row.received_at}; }
@@ -36,7 +37,7 @@ class ScoreStore {
       const pack = this.db.prepare('SELECT * FROM packs WHERE id=?').get(data.packId);
       if (!pack) reject('Unknown pack',404);
       const timestamp = this.now().toISOString();
-      if (timestamp < pack.opens_at || timestamp >= pack.closes_at) reject('Pack is not open',409);
+      if (timestamp < pack.opens_at || (pack.closes_at && timestamp >= pack.closes_at) || pack.published_at) reject('Pack is not open',409);
       const counts = {GK:1,DF:Number(pack.formation[0]),MD:Number(pack.formation[2]),AT:Number(pack.formation[4]),MAN:1};
       for (const [position,count] of Object.entries(counts)) if (data.answers.filter(a=>a.position===position).length !== count) reject('Squad does not match formation');
       let reference;
@@ -60,7 +61,7 @@ class ScoreStore {
       if(previous) { this.db.exec('COMMIT'); return JSON.parse(previous.snapshot); }
       const pack=this.db.prepare('SELECT * FROM packs WHERE id=?').get(packId);
       if(!pack) reject('Unknown pack',404);
-      if(this.now().toISOString()<pack.closes_at) reject('Pack is still open',409);
+      if(!pack.closes_at || this.now().toISOString()<pack.closes_at) reject('Pack is still open',409);
       const rows=this.db.prepare('SELECT * FROM submissions WHERE pack_id=? ORDER BY score DESC,guesses ASC,id ASC').all(packId);
       const counts=new Map();
       const squads=rows.map(row=>this.db.prepare('SELECT * FROM answers WHERE submission_id=? ORDER BY slot').all(row.id));

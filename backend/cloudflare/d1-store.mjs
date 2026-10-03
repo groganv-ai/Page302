@@ -9,7 +9,7 @@ export class D1Store {
  async submit(input){
   const data=normalize(input),payload=JSON.stringify(data);const existing=await this.retry(input.requestId,payload);if(existing)return existing;
   const pack=await this.query('SELECT * FROM packs WHERE id=?',data.packId).first();if(!pack)fail(404,'Unknown pack');
-  const timestamp=this.now().toISOString();if(timestamp<pack.opens_at||timestamp>=pack.closes_at||pack.published_at)fail(409,'Pack is not open');
+  const timestamp=this.now().toISOString();if(timestamp<pack.opens_at||(pack.closes_at&&timestamp>=pack.closes_at)||pack.published_at)fail(409,'Pack is not open');
   const counts={GK:1,DF:Number(pack.formation[0]),MD:Number(pack.formation[2]),AT:Number(pack.formation[4]),MAN:1};
   for(const [position,count] of Object.entries(counts))if(data.answers.filter(a=>a.position===position).length!==count)fail(400,'Squad does not match formation');
   for(let attempt=0;attempt<100;attempt++){
@@ -27,7 +27,7 @@ export class D1Store {
  async find(packId,{initials,reference}={}){const row=await this.query('SELECT snapshot FROM publications WHERE pack_id=?',packId).first();if(!row)fail(404,'Results not published');return JSON.parse(row.snapshot).results.filter(r=>(!initials||r.initials===initials.toUpperCase())&&(!reference||r.reference===reference))}
  async finalize(packId){
   const existing=await this.query('SELECT snapshot FROM publications WHERE pack_id=?',packId).first();if(existing)return JSON.parse(existing.snapshot);
-  const pack=await this.query('SELECT * FROM packs WHERE id=?',packId).first();if(!pack)fail(404,'Unknown pack');if(this.now().toISOString()<pack.closes_at)fail(409,'Pack is still open');
+  const pack=await this.query('SELECT * FROM packs WHERE id=?',packId).first();if(!pack)fail(404,'Unknown pack');if(!pack.closes_at||this.now().toISOString()<pack.closes_at)fail(409,'Pack is still open');
   // Freeze writes before reading the final rows. Failed publication can be retried;
   // public retrieval still requires the completed publications record.
   await this.query("UPDATE packs SET published_at='FINALIZING' WHERE id=? AND published_at IS NULL",packId).run();
