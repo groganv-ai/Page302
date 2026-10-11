@@ -1,4 +1,5 @@
 import {D1Store} from './d1-store.mjs';
+import {readReport,reportConfigured,reserveReport,sendReport} from '../report-mail.mjs';
 export default {
  async fetch(request,env){
   const origin=request.headers.get('Origin');const allowed=(env.ALLOWED_ORIGINS||'').split(',').map(s=>s.trim()).filter(Boolean);
@@ -10,6 +11,13 @@ export default {
   if(!env.DB)return respond({error:'Database not configured'},503);
   const store=new D1Store(env.DB),url=new URL(request.url);
   try{
+   if(request.method==='POST'&&url.pathname==='/api/reports'){
+    if(!origin)return respond({error:'Origin required'},403);
+    const report=await readReport(request);
+    if(!reportConfigured(env))return respond({error:'Report sending is not configured yet. Please try later.'},503);
+    await reserveReport(env.DB,request.headers.get('CF-Connecting-IP')||'unknown');
+    return respond(await sendReport(report,env));
+   }
    if(request.method==='POST'&&url.pathname==='/api/submissions'){
     if(!request.headers.get('Content-Type')?.startsWith('application/json'))return respond({error:'Use application/json'},415);
     const reader=request.body?.getReader();if(!reader)return respond({error:'Invalid JSON'},400);

@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.10_003";
+const APP_BUILD = "v3.7.11_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -96,7 +96,9 @@ function updateVggfaxHeader() {
     document.getElementById("vggfaxNumber").textContent =
         "VGGFAX " + currentVggfax;
 
+
 }
+
 
 function normalizePosition(position) {
 
@@ -121,10 +123,10 @@ function applyGameFormation() {
 function updateBuildLabels() {
 
     document.getElementById("buildLabel").textContent =
-        "DEMO BUILD " + APP_BUILD;
+        "DEMO " + APP_BUILD;
 
     document.getElementById("mobileBuildLabel").textContent =
-        " BUILD " + APP_BUILD;
+        " DEMO " + APP_BUILD;
 
 }
 
