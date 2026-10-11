@@ -107,6 +107,7 @@ body {
     padding: 0 10px;
     text-align: center;
 }
+.submissionDeadline { color: #ffff00; }
 
 .playPromptHelp {
     background: transparent;
@@ -118,7 +119,17 @@ body {
 }
 
 .playPromptMore {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    column-gap: 2ch;
+    row-gap: 4px;
+    margin-top: 4px;
+}
+.playPromptMore > span { white-space: nowrap; }
+@media (max-width: 700px) {
+    .playPromptMore { font-size: clamp(14px, 4vw, 20px); }
 }
 
 .playPromptHelp:hover,
@@ -1191,6 +1202,32 @@ body {
 }
 .aboutPage .helpPageFooter .aboutScores { color: #ffff00; cursor: pointer; }
 .aboutPage .helpPageFooter .aboutScores:hover { background: #ffff00; color: #000; }
+.helpReport { background: transparent; color: #ffff00; }
+.helpReport:hover, .helpReport:focus-visible { background: #ffff00; color: #000; }
+.reportOverlay[hidden], .reportPage [hidden] { display: none !important; }
+.reportOverlay:not([hidden]) { display: flex; }
+.reportPage { max-width: 850px; }
+.reportPage label { display: block; color: #ffff00; margin: 12px 0 5px; }
+.reportPage input, .reportPage select, .reportPage textarea {
+    display: block; width: 100%; min-width: 0; box-sizing: border-box;
+    margin-top: 6px; padding: 9px; border: 2px solid #00ff00; border-radius: 0;
+    color: #fff; background: #000; font: inherit;
+}
+.reportPage textarea { min-height: 100px; resize: vertical; }
+.reportFieldRow { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.reportCategoryText { display: none; }
+.reportPage .reportHint { color: #00ffff; font-size: 0.8em; margin: 8px 0 14px; }
+.reportSend { font: inherit; border: 0; padding: 8px 14px; background: #ffff00; color: #000; cursor: pointer; }
+.reportSend:hover, .reportSend:focus-visible { background: #fff; }
+.reportSend:disabled { opacity: 0.6; cursor: wait; }
+#reportStatus { color: #00ff00; margin: 12px 0 0; }
+#reportStatus.reportError { color: #ff8080; }
+.reportTrap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+@media (max-width: 540px) {
+    .reportFieldRow { grid-template-columns: 1fr; gap: 0; }
+    .reportPage select { font-size: 16px; }
+    .reportCategoryText { display: block; color: #00ffff; font-size: 0.8em; margin: 5px 0; }
+}
 .helpPageCopyright {
     color: #777;
     font-size: 0.65em;
@@ -1203,7 +1240,7 @@ body {
 .aboutSpeech h2, .aboutCards h2 { margin: 0 0 8px; font-size: 1em; font-weight: normal; }
 .aboutSpeech p, .aboutCards p { margin: 0 0 10px; }
 .aboutSpeech p:last-child, .aboutCards p:last-child { margin-bottom: 0; }
-.aboutPortrait { box-sizing: border-box; min-height: 200px; border: 4px solid #ff00ff; background: #07155a; display: flex; align-items: end; justify-content: center; overflow: hidden; }
+.aboutPortrait { box-sizing: border-box; align-self: start; border: 4px solid #ff00ff; background: #000; display: flex; align-items: end; justify-content: center; overflow: hidden; }
 .aboutPortrait img { display: block; width: 100%; height: auto; max-height: 100%; object-fit: contain; object-position: bottom; image-rendering: pixelated; border: 0; }
 .aboutCards { display: grid; grid-template-columns: 1fr; gap: 8px; }
 .aboutCards section { min-width: 0; padding: 10px 14px; border: 3px solid #00ff00; }
@@ -1233,12 +1270,10 @@ body {
     .helpPageFooter button { padding: 2px 4px; }
     .aboutIntro { grid-template-columns: minmax(0, 1fr) 105px; gap: 8px; align-items: start; }
     .aboutSpeech { min-height: 150px; padding: 8px; }
-    .aboutPortrait { height: 150px; min-height: 0; }
 }
 @media (max-width: 420px) {
     .aboutIntro { grid-template-columns: minmax(0, 1fr) 90px; }
     .aboutSpeech::after { top: 30px; }
-    .aboutPortrait { height: 130px; }
 }
 
 @media (max-width: 438px) {

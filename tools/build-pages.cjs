@@ -3,7 +3,7 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, '.pages-dist');
 const files = [
-  'index.html', 'script.js', 'style.css',
+  'index.html', 'script.js', 'style.css', 'report-client.js',
   'scores-client.js', 'scores.css', 'results-client.js', 'results.css',
   'assets/page302-logo.png', 'assets/vince-teletext-host.png',
   'fonts/EuropeanTeletextNuevo.ttf'

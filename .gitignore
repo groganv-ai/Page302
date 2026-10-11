@@ -1,1 +1,8 @@
 .pages-dist/
+.local/
+node_modules/
+.dev.vars*
+.env*
+.wrangler/
+outputs/report-*.png
+outputs/*review.png
