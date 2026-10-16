@@ -23,12 +23,15 @@ test('report entry points, hover, optional fields, retry, success, focus and mob
   const helpButton=page.locator('#helpOverlay .helpPageFooter button').nth(2);assert.equal(await helpButton.textContent(),'REPORT');
   await helpButton.hover();assert.equal(await helpButton.evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(255, 255, 0)');
   await helpButton.click();assert.ok(await page.locator('#reportOverlay').isVisible());
+  assert.ok(await page.locator('[name=club]').isEnabled());
+  assert.ok(await page.locator('[name=season]').isEnabled());
+  assert.ok(await page.locator('[name=person]').isEnabled());
   await page.locator('#reportType').selectOption('name');assert.ok(await page.locator('#reportAliasField').isVisible());
   await page.locator('#reportType').selectOption('web');assert.ok(await page.locator('#reportPlayerFields').isHidden());
   await page.locator('#reportType').selectOption('data');
   await page.locator('[name=description]').fill('Manager data test');
   await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent==='Please try later.');
-  assert.equal(await page.locator('[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v3.7.12_003');assert.equal(payload.pack,'003');
+  assert.equal(await page.locator('[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v3.7.13_003');assert.equal(payload.pack,'003');
   fail=false;await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent.includes('Thank you'));
   assert.equal(await page.locator('[name=description]').inputValue(),'');
   await page.keyboard.press('Escape');assert.ok(await page.locator('#helpOverlay').isVisible());

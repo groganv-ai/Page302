@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.12_003";
+const APP_BUILD = "v3.7.13_003";
 
 const FALLBACK_VGGFAX = [
 
