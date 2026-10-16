@@ -19,6 +19,7 @@
   context = {build: APP_BUILD, pack: currentVggfax};
   document.getElementById('reportContext').textContent = `Included automatically: ${context.build} · Game pack ${context.pack}`;
   overlay.hidden = false;
+  updateFields();
   type.focus();
  };
  window.hideReport = function(to = source) {
