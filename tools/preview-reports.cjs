@@ -17,7 +17,7 @@ async function main(){
     const response=await worker.fetch(request,env);res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));return;
    }
    const relative=decodeURIComponent(pathname).slice(1)||'index.html';
-   if(!/^(index\.html|script\.js|report-client\.js|style\.css|scores-client\.js|scores\.css|results-client\.js|results\.css|(?:assets|data|fonts)\/[A-Za-z0-9_.\/-]+)$/.test(relative))throw Error();
+   if(!/^(index\.html|privacy\.html|script\.js|report-client\.js|style\.css|scores-client\.js|scores\.css|results-client\.js|results\.css|(?:assets|data|fonts)\/[A-Za-z0-9_.\/-]+)$/.test(relative))throw Error();
    const file=path.resolve(root,relative);if(!file.startsWith(root+path.sep))throw Error();
    const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.ttf':'font/ttf','.png':'image/png'};
    let body=fs.readFileSync(file);if(relative==='index.html')body=body.toString().replace('<script src="report-client.js"></script>','<script>window.PAGE302_REPORTS_API=""</script><script src="report-client.js"></script>');
