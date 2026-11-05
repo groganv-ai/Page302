@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.13_003";
+const APP_BUILD = "v4.1.1_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -123,10 +123,7 @@ function applyGameFormation() {
 function updateBuildLabels() {
 
     document.getElementById("buildLabel").textContent =
-        "DEMO " + APP_BUILD;
-
-    document.getElementById("mobileBuildLabel").textContent =
-        " DEMO " + APP_BUILD;
+        APP_BUILD;
 
 }
 
@@ -382,6 +379,8 @@ async function newGame() {
 
     drawGame();
 
+    if(typeof resetProgressTracking === "function") resetProgressTracking();
+    if(typeof refreshChallengeDeadline === "function") refreshChallengeDeadline();
     alert("New game started!");
 
 }
@@ -1012,8 +1011,7 @@ if (
 
 setTimeout(function () {
 
-    completeGame();
-
+    if(squadComplete())completeGame();
 }, 50);
 
 }
@@ -1909,6 +1907,7 @@ clearPendingAnswer();
 const result = document.getElementById("result");
 result.textContent = text;
 result.classList.toggle("correctAnswer", isCorrect);
+if(typeof saveGameProgress === "function")saveGameProgress();
 
 }
 async function startGame() {
@@ -1940,7 +1939,8 @@ setStatus(
 );
 
     drawGame();
-
+    if(typeof restoreGameProgress === "function")restoreGameProgress();
+    if(typeof refreshChallengeDeadline === "function")refreshChallengeDeadline();
 }
 function normalizeSearchName(name) {
     return name.normalize("NFD")
@@ -2102,6 +2102,7 @@ function addPlayerToSquad(
                 player.surname;
 
             lastSquadIndex = i;
+            if(typeof recordGamePick === "function")recordGamePick(player,selectedPosition,linkedClubCodes[0]);
 
 squadDisplay[i] = {
 
@@ -2211,7 +2212,7 @@ document
 
             if (
 
-                event.key === "Enter"
+                event.key === "Enter" && !event.isComposing
 
             ) {
 

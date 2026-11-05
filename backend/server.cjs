@@ -20,7 +20,9 @@ function createServer(store, options = {}) {
         for await(const chunk of req){size+=chunk.length;if(size>32768){res.writeHead(413);res.end(JSON.stringify({error:'Request too large'}));return;}chunks.push(chunk);}
         let input;try{input=JSON.parse(Buffer.concat(chunks).toString())}catch{res.writeHead(400);res.end(JSON.stringify({error:'Invalid JSON'}));return;}
         result=store.submit(input);
-      } else if(req.method==='GET'&&url.pathname==='/api/results/latest') result=store.latest(options.reviewLimit || 25);
+      } else if(req.method==='GET'&&/^\/api\/challenges\/\d{3,}$/.test(url.pathname)) result=store.challenge(url.pathname.split('/').pop());
+      else if(req.method==='GET'&&/^\/api\/standing\/\d{3,}\/\d{6}$/.test(url.pathname)) {const parts=url.pathname.split('/');result=store.standing(parts[3],parts[4]);}
+      else if(req.method==='GET'&&url.pathname==='/api/results/latest') result=store.latest(options.reviewLimit || 25);
       else if(req.method==='GET'&&/^\/api\/results\/\d{3,}$/.test(url.pathname)) result=store.find(url.pathname.split('/').pop(),{initials:url.searchParams.get('initials'),reference:url.searchParams.get('reference')});
       else {res.writeHead(404);res.end(JSON.stringify({error:'Not found'}));return;}
       res.end(JSON.stringify(result));
