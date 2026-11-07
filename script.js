@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v4.1.2_003";
+const APP_BUILD = "v4.1.03_003";
 let answerTargetSlot = null;
 
 const FALLBACK_VGGFAX = [
@@ -599,17 +599,12 @@ async function shareResult() {
 
     let shareText =
 
-        "PAGE302\n\n" +
-
-        "GAME #" + currentVggfax + "\n\n" +
-
+        "CAN YOU BEAT MY PAGE302 SCORE?\n" +
         "SCORE: " +
 
         currentGame.score +
 
-        "\n\n" +
-
-        "SQUAD GRID\n\n";
+        "\n\n";
 
     for (
 
@@ -669,7 +664,7 @@ async function shareResult() {
 
     shareText +=
 
-        "\nCAN YOU BEAT MY PAGE302 SCORE?\n\n" +
+        "\nPAGE302 / GAME #" + currentVggfax + ":\n" +
 
         "https://groganv-ai.github.io/Page302/";
 

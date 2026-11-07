@@ -1,5 +1,11 @@
 /* Selection and presentation only. Accepted answers and scores use the existing engine. */
 let selectedTeamSlot=null,selectedTeamClub=null;
+let revealTeamSlot=null;
+function clearAnswerFeedback(){
+ clearPendingAnswer();
+ document.getElementById('lastAnswer').hidden=true;
+ document.getElementById('result').textContent='';
+}
 const teamInput=document.getElementById('answer');
 const teamPanel=document.getElementById('squadBoard').closest('.panel');
 const clubsPanel=document.getElementById('clubTitle').closest('.panel');
@@ -24,11 +30,14 @@ function updateTeamHint(){
   const button=document.createElement('button');button.type='button';button.textContent=text+' ×';button.setAttribute('aria-label',label);button.onclick=()=>{clearPendingAnswer();clear();drawSquad();drawClubTitle();};teamContext.append(button);
  };
  if(selectedTeamSlot!==null)addChip(displayPosition(squad[selectedTeamSlot].split(' ')[0]),'Clear selected position',()=>{selectedTeamSlot=null;});
- if(selectedTeamClub)addChip(getClubByCode(selectedTeamClub).club,'Clear selected club',()=>{selectedTeamClub=null;});
+ if(selectedTeamClub){
+  const club=getClubByCode(selectedTeamClub),season=club.season.replace(/^\d{2}(\d{2}-\d{2})$/,'$1');
+  addChip(club.club+' '+season,'Clear selected club',()=>{selectedTeamClub=null;});
+ }
  selectionHint.textContent=[!selectedTeamClub?'SELECT A TEAM':null,selectedTeamSlot===null?'SELECT A POSITION':null,'ENTER A SURNAME'].filter(Boolean).join(' > ');
 }
 function resetTeamInput(){selectedTeamSlot=null;selectedTeamClub=null;answerTargetSlot=null;updateTeamHint();}
-function acceptedTeamAnswer(){resetTeamInput();}
+function acceptedTeamAnswer(){revealTeamSlot=restoringProgress?null:lastSquadIndex;resetTeamInput();}
 function selectedAnswerRequest(){
  const surname=teamInput.value.trim();
  if(selectedTeamSlot===null||!selectedTeamClub){setStatus(selectionHint.textContent);return null;}
@@ -79,9 +88,14 @@ drawSquad=function(){
    });
    label.append(document.createTextNode(' x '),colourLabel(answer.rarity,feedbackRarityColours[answer.rarity]));
    if(slot===lastSquadIndex)button.classList.add('latestAnswer');
+   if(slot===revealTeamSlot){
+    label.classList.add('vidiReveal');
+    label.style.setProperty('--reveal-steps',String(label.textContent.length));
+    label.style.setProperty('--reveal-duration',Math.min(1400,Math.max(450,label.textContent.length*35))+'ms');
+   }
   }
-  button.onclick=()=>{clearPendingAnswer();answerTargetSlot=null;selectedTeamSlot=selectedTeamSlot===slot?null:slot;drawSquad();drawClubTitle();focusSelectedAnswer();};board.append(button);
- });updateTeamHint();requestAnimationFrame(fitTeamRows);
+  button.onclick=()=>{clearAnswerFeedback();answerTargetSlot=null;selectedTeamSlot=selectedTeamSlot===slot?null:slot;drawSquad();drawClubTitle();focusSelectedAnswer();};board.append(button);
+ });revealTeamSlot=null;updateTeamHint();requestAnimationFrame(fitTeamRows);
 };
 drawClubTitle=function(){
  const board=document.getElementById('clubTitle');board.replaceChildren();
@@ -92,7 +106,7 @@ drawClubTitle=function(){
   button.setAttribute('aria-pressed',String(selectedTeamClub===code));button.disabled=currentGame.gameOver;
   button.style.color=usage?feedbackTierColours[getClubTier(code)]:'#ffffff';
   if(code===lastClubCode)button.classList.add('latestAnswer');
-  button.onclick=()=>{clearPendingAnswer();answerTargetSlot=null;selectedTeamClub=selectedTeamClub===code?null:code;drawClubTitle();drawSquad();focusSelectedAnswer();};board.append(button);
+  button.onclick=()=>{clearAnswerFeedback();answerTargetSlot=null;selectedTeamClub=selectedTeamClub===code?null:code;drawClubTitle();drawSquad();focusSelectedAnswer();};board.append(button);
  });requestAnimationFrame(fitTeamRows);
 };
 new ResizeObserver(fitTeamRows).observe(document.querySelector('.mainLayout'));

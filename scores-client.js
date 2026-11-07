@@ -24,6 +24,7 @@ function prepareScoreSubmission() {
     input.value='';input.disabled=false;
     const button=document.getElementById('submitScoreButton');
     button.disabled=false;button.textContent='SUBMIT SCORE';
+    document.querySelector('label[for="scoreInitials"]').textContent='ENTER 3 LETTERS TO SUBMIT YOUR SCORE';
     scoreMessage('');
 }
 async function submitCompletedScore(event) {
@@ -51,7 +52,12 @@ async function submitCompletedScore(event) {
         if(!/^\d{6}$/.test(receipt.reference)||receipt.packId!==attempt.packId||receipt.score!==attempt.score||receipt.initials!==attempt.initials)throw new Error('Invalid receipt');
         attempt.saved=true;attempt.receipt=receipt;
         if(typeof saveGameProgress==='function')saveGameProgress();
-        if(scoreAttempt===attempt){button.textContent='SAVED';scoreMessage(receipt.initials+' · '+receipt.reference);if(typeof refreshCurrentStanding==='function')refreshCurrentStanding();}
+        if(scoreAttempt===attempt){
+            button.textContent='SAVED';
+            document.querySelector('label[for="scoreInitials"]').textContent='SAVE THIS CODE AND COME BACK TOMORROW TO FIND YOUR SCORE';
+            scoreMessage(receipt.initials+' · '+receipt.reference);
+            if(typeof refreshCurrentStanding==='function')refreshCurrentStanding();
+        }
     }catch(error){
         if(scoreAttempt===attempt){button.disabled=false;button.textContent='RETRY SUBMISSION';scoreMessage(error.message==='Pack is not open'?'PACK CLOSED OR NOT YET OPEN · SCORE NOT SAVED':'SAVE NOT CONFIRMED · RETRY WITH THE SAME INITIALS');}
     }finally{clearTimeout(timeout);attempt.saving=false;}

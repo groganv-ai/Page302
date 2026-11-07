@@ -30,7 +30,7 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   });
   const ready=()=>page.waitForFunction(()=>progressReady&&clubPool.length===11&&document.querySelector('.clubPick'));
   await page.goto('http://page302.test/');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.2_003');
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.03_003');
   assert.ok((await page.locator('.clubPick').evaluateAll(rows=>rows.map(row=>getComputedStyle(row).color))).every(colour=>colour==='rgb(255, 255, 255)'));
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,squad,usage:clubUsage}));
   const selected=()=>page.locator('.mainLayout [aria-pressed="true"]').count();
@@ -40,6 +40,9 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   assert.equal(await page.locator('#answer').isEnabled(),true);
   await submit('GK CECH CHE');assert.equal((await stats()).guesses,0);
   await club('CHE').click();assert.equal(await page.locator('.selectionHint').textContent(),'SELECT A POSITION > ENTER A SURNAME');
+  assert.match(await page.locator('.inputContext').textContent(),/Chelsea 13-14/);
+  fs.mkdirSync(path.join(root,'outputs'),{recursive:true});
+  await page.locator('.inputArea').screenshot({path:path.join(root,'outputs','v4.1.03-selection.png')});
   await club('CHE').click();assert.equal(await selected(),0);
   const df=await page.evaluate(()=>squad.findIndex(line=>line.startsWith('DF'))+3);
   await position(df).click();await position(df).click();assert.equal(await selected(),0);
@@ -49,11 +52,18 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   await submit('');assert.equal((await stats()).guesses,0);
   await submit('CECH');assert.match(await page.locator('#lastAnswer').textContent(),/TRY ANOTHER POSITION/);
   assert.equal((await stats()).guesses,1);assert.equal(await selected(),2);
+  await page.emulateMedia({reducedMotion:'no-preference'});
   await submit('TERRY');let state=await stats();assert.equal(state.answers[df].name,'John Terry');assert.equal(state.answers[1],undefined);
+  assert.equal(await position(df).locator('.pickLabel').evaluate(el=>getComputedStyle(el).animationName),'vidiReveal');
+  await page.emulateMedia({reducedMotion:'reduce'});
+  assert.equal(await position(df).locator('.pickLabel').evaluate(el=>getComputedStyle(el).animationName),'none');
   assert.equal(await selected(),0);assert.equal(await position(df).isDisabled(),true);
   assert.equal(await position(df).locator('.pickLabel').evaluate(el=>getComputedStyle(el).fontWeight),'700');
   assert.equal(await club('CHE').locator('.pickLabel').evaluate(el=>getComputedStyle(el).fontWeight),'700');
+  assert.equal(await page.locator('#lastAnswer').isVisible(),true);
+  await club('CHE').click();assert.equal(await page.locator('#lastAnswer').isVisible(),false);
   await page.reload();await ready();assert.deepEqual(await stats(),state);
+  assert.equal(await page.locator('.vidiReveal').count(),0);
   // Legacy saved records without row metadata still recover in their original order.
   await page.evaluate(()=>{window.removeEventListener('pagehide',saveGameProgress);const record=JSON.parse(localStorage.getItem(progressKey()));record.picks.forEach(p=>delete p.slot);localStorage.setItem(progressKey(),JSON.stringify(record));});
   await page.reload();await ready();assert.equal((await stats()).answers[1].name,'John Terry');
@@ -76,11 +86,28 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   const complete=await stats();assert.equal(Object.keys(complete.answers).length,12);assert.equal(complete.guesses,12);
   assert.ok(Object.values(complete.answers).some(a=>a.clubs.length>1));
   assert.equal(complete.score,Object.values(complete.answers).reduce((sum,a)=>sum+a.score,0));
+  assert.equal(await page.locator('label[for="scoreInitials"]').textContent(),'ENTER 3 LETTERS TO SUBMIT YOUR SCORE');
   await page.locator('#scoreInitials').fill('TST');await page.locator('#submitScoreButton').click();
   await page.waitForFunction(()=>scoreAttempt?.saved);
+  assert.equal(await page.locator('label[for="scoreInitials"]').textContent(),'SAVE THIS CODE AND COME BACK TOMORROW TO FIND YOUR SCORE');
+  const shared=await page.evaluate(async()=>{
+   let text;Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async value=>{text=value;}}});
+   await shareResult();return text;
+  });
+  const expectedRows=Object.values(complete.answers).map(answer=>{
+   const clubEmoji=['','🟪','🟦','🟩','🟨','⬜'][answer.clubTier];
+   const rarityEmoji={UNI:'🟪',SUB:'🟦',UTL:'🟩',ENG:'🟨',LEG:'⬜'}[answer.rarity];
+   return (answer.position==='MAN'?'MN':answer.position)+' '+(answer.isManager?'':clubEmoji)+rarityEmoji+(answer.clubs.length>1?' ×'+answer.clubs.length:'');
+  });
+  assert.equal(shared,'CAN YOU BEAT MY PAGE302 SCORE?\nSCORE: '+complete.score+'\n\n'+expectedRows.join('\n')+'\n\nPAGE302 / GAME #003:\nhttps://groganv-ai.github.io/Page302/');
   assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,1);
   assert.equal(store.db.prepare('SELECT score FROM submissions').get().score,complete.score);
   assert.match(await page.locator('#currentStanding').textContent(),/TOP 10%/);
+  await page.screenshot({path:path.join(root,'outputs','v4.1.03-saved-desktop.png'),fullPage:true});
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.locator('#gameCompleteWindow').evaluate(el=>el.scrollWidth<=el.clientWidth));
+  await page.locator('#scoreSubmissionForm').scrollIntoViewIfNeeded();
+  await page.screenshot({path:path.join(root,'outputs','v4.1.03-saved-mobile.png'),fullPage:true});
   await page.evaluate(()=>closeCompleteGame());
   for(const width of [1100,925,850,700,430,390,360]){
    await page.setViewportSize({width,height:900});await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(80);
