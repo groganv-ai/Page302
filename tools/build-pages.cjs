@@ -6,7 +6,12 @@ const files = [
   'index.html', 'privacy.html', 'script.js', 'style.css', 'report-client.js',
   'scores-client.js', 'scores.css', 'results-client.js', 'results.css',
   'assets/page302-logo.png', 'assets/vince-teletext-host.png',
-  'fonts/EuropeanTeletextNuevo.ttf'
+  'fonts/EuropeanTeletextNuevo.ttf',
+  'v4.css', 'v4-ui.js', 'progress.js', 'challenge-client.js', 'site.webmanifest',
+  'team-input.css', 'team-input.js', 'assets/ball-grey.svg',
+  'assets/ball.svg', 'assets/ball-red.svg', 'assets/ball-yellow.svg', 'assets/word-page.svg', 'assets/word-302.svg', 'assets/compact-logo.svg',
+  'assets/app-icon.svg', 'assets/favicon-32.png', 'assets/apple-touch-icon.png',
+  'assets/app-icon-192.png', 'assets/app-icon-512.png', 'assets/social-card.png'
 ];
 
 // Publish explicit website assets and JSON packs, never the whole repository.

@@ -8,6 +8,23 @@ const reject = (message, status = 400) => { throw new ServiceError(status, messa
 const text = (value, max = 100) => typeof value === 'string' && value.length > 0 && value.length <= max;
 
 class ScoreStore {
+  challenge(packId) {
+    const pack=this.db.prepare('SELECT * FROM packs WHERE id=?').get(packId);
+    if(!pack)reject('Unknown pack',404);
+    return require('./challenge-status.cjs').challengeStatus(pack,this.now());
+  }
+  standing(packId,reference) {
+    const published=this.db.prepare('SELECT snapshot FROM publications WHERE pack_id=?').get(packId);
+    if(published){
+      const snapshot=JSON.parse(published.snapshot),result=snapshot.results.find(r=>r.reference===reference);
+      if(!result)reject('Result not found',404);
+      return require('./challenge-status.cjs').standing(result.rank,snapshot.totalSubmissions,true);
+    }
+    const result=this.db.prepare('SELECT score,guesses FROM submissions WHERE pack_id=? AND reference=?').get(packId,reference);
+    if(!result)reject('Result not found',404);
+    const counts=this.db.prepare('SELECT COUNT(*) AS total, SUM(CASE WHEN score>? OR (score=? AND guesses<?) THEN 1 ELSE 0 END) AS ahead FROM submissions WHERE pack_id=?').get(result.score,result.score,result.guesses,packId);
+    return require('./challenge-status.cjs').standing(1+Number(counts.ahead),Number(counts.total),false);
+  }
   constructor(file = ':memory:', options = {}) {
     this.db = new DatabaseSync(file);
     this.db.exec(readFileSync(join(__dirname, 'schema.sql'), 'utf8'));

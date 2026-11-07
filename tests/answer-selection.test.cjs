@@ -25,6 +25,7 @@ const root = path.resolve(__dirname, '..');
         async function reset(pack = '003', formation = '4-4-2') {
             await page.evaluate(async ({ pack, formation }) => {
                 clearPendingAnswer();
+                resetTeamInput();
                 currentVggfax = pack;
                 await loadClub();
                 currentGame = { totalGuesses: 0, formation, score: 0, gameOver: false };
@@ -33,7 +34,11 @@ const root = path.resolve(__dirname, '..');
             }, { pack, formation });
         }
         async function submit(value) {
-            await page.locator('#answer').fill(value);
+            const parts=value.split(' '),position=parts.shift().replace('MN','MAN'),club=parts.pop();
+            if(await page.locator('.clubPick[data-club="'+club+'"]').getAttribute('aria-pressed')!=='true')await page.locator('.clubPick[data-club="'+club+'"]').click();
+            const slot=page.locator('.positionPick[data-position="'+position+'"]:not(:disabled)').first();
+            if(await slot.getAttribute('aria-pressed')!=='true')await slot.click();
+            await page.locator('#answer').fill(parts.join(' '));
             await page.locator('#answer').press('Enter');
         }
         const status = () => page.locator('#result').textContent();
@@ -55,21 +60,16 @@ const root = path.resolve(__dirname, '..');
         assert.equal((await stats()).guesses, 2);
         assert.equal((await stats()).used, 2);
         assert.equal((await stats()).ful, 2);
-        await submit('AT JOHNSON FUL');
-        assert.equal(await page.locator('.answerChoice:disabled').count(), 2);
-        await page.getByRole('button', { name: 'CANCEL', exact: true }).press('Escape');
+        assert.equal(await page.locator('.positionPick[data-position="AT"]:not(:disabled)').count(),0);
         assert.equal(await page.locator('#answerChoices').isVisible(), false);
 
         await reset('003', '5-4-1');
         await submit('AT JOHNSON FUL');
         await page.getByRole('button', { name: 'ANDREW JOHNSON', exact: true }).click();
         const beforeFull = await stats();
-        await submit('AT JOHNSON FUL');
-        await page.getByRole('button', { name: 'EDDIE JOHNSON', exact: true }).click();
-        assert.match(await status(), /POSITION FULL/);
+        assert.equal(await page.locator('.positionPick[data-position="AT"]:not(:disabled)').count(),0);
         assert.equal((await stats()).score, beforeFull.score);
         assert.equal((await stats()).ful, 1);
-        assert.equal(await page.locator('#result').evaluate(el => el.classList.contains('correctAnswer')), false);
 
         await reset();
         await submit('MD COOK BOU');
@@ -103,6 +103,7 @@ const root = path.resolve(__dirname, '..');
         assert.equal(await status(), "MD O'SHEA MUN - CORRECT");
         await submit('MD JI SUNG MUN');
         assert.equal(await status(), 'MD JI-SUNG MUN - CORRECT');
+        await reset();
         await submit('GK VIDIC MUN');
         assert.match(await status(), /TRY ANOTHER POSITION/);
         assert.equal(await page.locator('#helpOverlay').innerHTML(), helpBefore);

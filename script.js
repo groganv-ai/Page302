@@ -75,7 +75,8 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.13_003";
+const APP_BUILD = "v4.1.2_003";
+let answerTargetSlot = null;
 
 const FALLBACK_VGGFAX = [
 
@@ -123,10 +124,7 @@ function applyGameFormation() {
 function updateBuildLabels() {
 
     document.getElementById("buildLabel").textContent =
-        "DEMO " + APP_BUILD;
-
-    document.getElementById("mobileBuildLabel").textContent =
-        " DEMO " + APP_BUILD;
+        APP_BUILD;
 
 }
 
@@ -329,6 +327,7 @@ async function selectLatestValidPack() {
 async function newGame() {
     if (typeof resetScoreSubmission === "function") resetScoreSubmission();
     clearPendingAnswer();
+    if(typeof resetTeamInput === "function")resetTeamInput();
 
     nextVggfax();
 
@@ -370,11 +369,7 @@ async function newGame() {
 
     setStatus(
 
-        "ENTER ANSWER AS" +
-
-        "\n\nPOS SURNAME CLUB" +
-
-        "\n\ne.g. AT PLANK GER"
+        "SELECT A TEAM > SELECT A POSITION > ENTER A SURNAME"
 
     );
 
@@ -382,6 +377,8 @@ async function newGame() {
 
     drawGame();
 
+    if(typeof resetProgressTracking === "function") resetProgressTracking();
+    if(typeof refreshChallengeDeadline === "function") refreshChallengeDeadline();
     alert("New game started!");
 
 }
@@ -566,6 +563,7 @@ function completeGame() {
     gameComplete = true;
 
     currentGame.gameOver = true;
+    drawClubTitle();
 
     document.getElementById(
         "answer"
@@ -743,78 +741,12 @@ function submitAnswer() {
         return;
     }
 
-    currentGame.totalGuesses =
-    currentGame.totalGuesses + 1;
+    const request = selectedAnswerRequest();
+    if (!request) return;
+    const {position, clubCode, surname, playerAnswer} = request;
+    answerTargetSlot = request.slot;
+    currentGame.totalGuesses++;
     drawGuesses();
-
-    let playerAnswer =
-    document.getElementById(
-    "answer"
-    ).value;
-
-    playerAnswer =
-    playerAnswer.trim();
-
-let parts =
-
-playerAnswer
-.trim()
-.split(/\s+/);
-
-if (
-
-    parts.length < 3
-
-) {
-
-    setStatus(
-
-        "FORMAT: AT PLANK GER"
-
-    );
-
-    return;
-
-}
-
-let position =
-
-    parts[0]
-    .toUpperCase();
-
-position = normalizePosition(position);
-
-let clubCode =
-
-    parts[
-        parts.length - 1
-    ]
-    .toUpperCase();
-
-let surname =
-
-    parts
-    .slice(
-        1,
-        parts.length - 1
-    )
-    .join(" ");
-
-    if (
-
-        playerAnswer == ""
-
-    ) {
-
-        setStatus(
-
-            "ENTER A PLAYER"
-
-        );
-
-        return;
-
-    }
 
 const matches = findPlayers(surname, position, clubCode);
 if (matches.length > 1) {
@@ -988,6 +920,7 @@ else if (
     currentGame.score +
     points;
 
+        if(typeof acceptedTeamAnswer === "function")acceptedTeamAnswer();
         refreshScreen();
 
 if (
@@ -1012,8 +945,7 @@ if (
 
 setTimeout(function () {
 
-    completeGame();
-
+    if(squadComplete())completeGame();
 }, 50);
 
 }
@@ -1045,6 +977,7 @@ else {
     document.getElementById("answer").focus();
 
 document.getElementById("answer").select();
+answerTargetSlot = null;
 
 }
 
@@ -1059,7 +992,7 @@ function clearPendingAnswer() {
 function showAnswerChoices(matches, position, clubCode) {
     setStatus("DID YOU MEAN?");
     document.getElementById("result").classList.add("selectionPrompt");
-    const request = { matches, position, clubCode };
+    const request = { matches, position, clubCode, slot: answerTargetSlot };
     pendingAnswer = request;
     const choices = document.getElementById("answerChoices");
     choices.hidden = false;
@@ -1081,6 +1014,7 @@ function showAnswerChoices(matches, position, clubCode) {
         button.addEventListener("click", function() {
             if (pendingAnswer !== request || currentGame.gameOver) return;
             clearPendingAnswer();
+            answerTargetSlot = request.slot;
             applyAnswer(player, position, clubCode, "", player.surname, true);
         });
         options.append(button);
@@ -1909,6 +1843,7 @@ clearPendingAnswer();
 const result = document.getElementById("result");
 result.textContent = text;
 result.classList.toggle("correctAnswer", isCorrect);
+if(typeof saveGameProgress === "function")saveGameProgress();
 
 }
 async function startGame() {
@@ -1931,16 +1866,13 @@ async function startGame() {
 
 setStatus(
 
-    "ENTER ANSWER AS" +
-
-    "\n\nPOS SURNAME CLUB" +
-
-    "\n\ne.g. AT PLANK GER"
+    "SELECT A TEAM > SELECT A POSITION > ENTER A SURNAME"
 
 );
 
     drawGame();
-
+    if(typeof restoreGameProgress === "function")restoreGameProgress();
+    if(typeof refreshChallengeDeadline === "function")refreshChallengeDeadline();
 }
 function normalizeSearchName(name) {
     return name.normalize("NFD")
@@ -2089,7 +2021,7 @@ function addPlayerToSquad(
 
             squad[i] ==
 
-            selectedPosition + "  --------"
+            selectedPosition + "  --------" && (answerTargetSlot === null || i === answerTargetSlot)
 
         ) {
 
@@ -2102,6 +2034,7 @@ function addPlayerToSquad(
                 player.surname;
 
             lastSquadIndex = i;
+            if(typeof recordGamePick === "function")recordGamePick(player,selectedPosition,linkedClubCodes[0],i);
 
 squadDisplay[i] = {
 
@@ -2211,7 +2144,7 @@ document
 
             if (
 
-                event.key === "Enter"
+                event.key === "Enter" && !event.isComposing
 
             ) {
 
@@ -2225,7 +2158,7 @@ document
 
     );
 document.getElementById("answer").addEventListener("input", function() {
-    if (pendingAnswer) setStatus("ENTER ANSWER AS POS SURNAME CLUB");
+    if (pendingAnswer) setStatus("SELECT A TEAM > SELECT A POSITION > ENTER A SURNAME");
 });
 document.getElementById("answerChoices").addEventListener("keydown", function(event) {
     if (event.key === "Escape") {
