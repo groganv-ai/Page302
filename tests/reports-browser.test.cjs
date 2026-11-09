@@ -31,7 +31,7 @@ test('report entry points, hover, optional fields, retry, success, focus and mob
   await page.locator('#reportType').selectOption('data');
   await page.locator('textarea[name=description]').fill('Manager data test');
   await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent==='Please try later.');
-  assert.equal(await page.locator('textarea[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v4.1.03_003');assert.equal(payload.pack,'003');
+  assert.equal(await page.locator('textarea[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v4.1.04_003');assert.equal(payload.pack,'003');
   fail=false;await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent.includes('Thank you'));
   assert.equal(await page.locator('textarea[name=description]').inputValue(),'');
   await page.keyboard.press('Escape');assert.ok(await page.locator('#helpOverlay').isVisible());

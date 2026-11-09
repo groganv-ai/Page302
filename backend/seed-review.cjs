@@ -11,7 +11,7 @@ function generateSubmissions(){
   return JSON.parse(vm.runInContext(`
    currentGame={formation:testPack.formation,score:0,totalGuesses:12+seed,gameOver:false};clubUsage={};usedPeople=new Set();squadDisplay={};buildSquad();
    squad.filter(Boolean).map(s=>s.split(' ')[0]).forEach((position,slot)=>{
-    const candidates=clubPool.flatMap(club=>club.squad.filter(p=>p.positions.includes(position)&&!playerAlreadyUsed(p)).map(player=>({player,code:club.clubCode.slice(0,3)})));
+    const candidates=clubPool.flatMap(club=>club.squad.filter(p=>isEligibleRecord(p)&&p.positions.includes(position)&&!playerAlreadyUsed(p)).map(player=>({player,code:club.clubCode.slice(0,3)})));
     const choice=candidates[(seed*19+slot*13)%candidates.length];applyAnswer(choice.player,position,choice.code,'',choice.player.surname,true);
    });
    JSON.stringify({requestId:'pack002_review_attempt_'+seed,packId:'002',initials:${JSON.stringify(initials)},score:currentGame.score,guesses:currentGame.totalGuesses,

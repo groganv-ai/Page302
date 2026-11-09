@@ -36,7 +36,7 @@ function restoreGameProgress(){
             const club=getClubByCode(pick.club);
             const player=club?.squad.find(p=>p.fullname===pick.name&&p.positions.includes(pick.position));
             const before=Object.keys(squadDisplay).length;
-            if(!player)throw Error('Changed player');
+            if(!isEligibleRecord(player))throw Error('Ineligible or changed player');
             answerTargetSlot=null;
             if(pick.slot!==undefined){
                 if(!Number.isInteger(pick.slot)||squad[pick.slot]!==pick.position+'  --------')throw Error('Invalid saved slot');

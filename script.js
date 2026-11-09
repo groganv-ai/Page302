@@ -753,6 +753,8 @@ applyAnswer(matches[0] || null, position, clubCode, playerAnswer, surname);
 }
 
 function applyAnswer(player, position, clubCode, playerAnswer, surname, selectedName = false) {
+// Replays and disambiguation must obey the same participation rule as lookup.
+if (!isEligibleRecord(player)) player = null;
 
 if (
 
@@ -1086,6 +1088,12 @@ function recordIsManager(record) {
 
 }
 
+function isEligibleRecord(record) {
+    return !!record && Number.isInteger(record.appearances) && record.appearances > 0 &&
+        Array.isArray(record.positions) &&
+        !(recordIsManager(record) && record.status === "caretaker");
+}
+
 function findLinkedRecords(fullname, managersOnly) {
 
     let identity = normalizePersonName(fullname);
@@ -1100,6 +1108,7 @@ function findLinkedRecords(fullname, managersOnly) {
             let record = club.squad[j];
 
             if (
+                isEligibleRecord(record) &&
                 normalizePersonName(record.fullname) == identity &&
                 recordIsManager(record) == managersOnly
             ) {
@@ -1143,6 +1152,7 @@ function playerAlreadyUsed(player) {
 
 }
 function getRarity(player) {
+    if (!isEligibleRecord(player)) throw new Error("Ineligible participation record");
 
     if (player.appearances == 1) {
 
@@ -1319,6 +1329,7 @@ function calculateMultiClubPlayerScore(
 }
 
 function calculateMultiManagerScore(linkedRecords) {
+    linkedRecords = linkedRecords.filter(link => isEligibleRecord(link.record));
 
     let linkedManagerPoints = linkedRecords.reduce(
         function(total, linkedRecord) {
@@ -1902,10 +1913,10 @@ function findPlayers(surname, position, clubCode) {
     const exact = club.squad.filter(function(player) {
         return normalizeSearchName(player.surname) === answer;
     });
-    // An exact name at the wrong position must not become a different player.
-    if (exact.length) return exact.filter(player => player.positions.includes(position));
+    // An exact name at the wrong position or without participation must not become a different player.
+    if (exact.length) return exact.filter(player => isEligibleRecord(player) && player.positions.includes(position));
     return club.squad.filter(function(player) {
-        return player.positions.includes(position) &&
+        return isEligibleRecord(player) && player.positions.includes(position) &&
             isOneLetterTypo(answer, normalizeSearchName(player.surname));
     });
 }
@@ -1946,7 +1957,7 @@ function playerExistsAtClub(
 
         if (
 
-            normalizeSearchName(club.squad[i].surname)
+            isEligibleRecord(club.squad[i]) && normalizeSearchName(club.squad[i].surname)
 
             ==
 
