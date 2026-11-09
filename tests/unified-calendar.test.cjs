@@ -8,14 +8,14 @@ const {calendar,scheduleSQL,adminSQL}=require('../tools/release-scheduler.cjs');
 test('approved 10–14 November calendar uses updated packs and preserves each daily publication',async()=>{
  const {runReleases,releaseManifest,releasePayload}=await import('../backend/cloudflare/release-scheduler.mjs');
  const entries=calendar(path.join(__dirname,'../tools/release-calendar.2026-11-10.json'));
- assert.deepEqual(entries.map(e=>e.packId),['003','004','005','006','007']);
- assert.deepEqual(entries.map(e=>e.opensAt),Array.from({length:5},(_,i)=>`2026-11-${10+i}T00:01:00.000Z`));
- assert.deepEqual(entries.map(e=>e.closesAt),Array.from({length:5},(_,i)=>`2026-11-${11+i}T00:00:00.000Z`));
- const recreated=JSON.parse(entries[4].payload);
+ assert.deepEqual(entries.map(e=>e.packId),['002','003','004','005','006','007']);
+ assert.deepEqual(entries.map(e=>e.opensAt),Array.from({length:6},(_,i)=>`2026-11-${String(9+i).padStart(2,'0')}T00:01:00.000Z`));
+ assert.deepEqual(entries.map(e=>e.closesAt),Array.from({length:6},(_,i)=>`2026-11-${10+i}T00:00:00.000Z`));
+ const recreated=JSON.parse(entries[5].payload);
  assert.equal(recreated.clubs.flatMap(c=>c.squad).length,325);
  assert.ok(recreated.clubs.flatMap(c=>c.squad).every(p=>p.appearances>0));
  assert.ok(recreated.clubs.flatMap(c=>c.squad).some(p=>p.playerId));
- const kepa=JSON.parse(entries[4].payload).clubs.flatMap(c=>c.squad).find(p=>p.fullname.startsWith('Kepa'));
+ const kepa=JSON.parse(entries[5].payload).clubs.flatMap(c=>c.squad).find(p=>p.fullname.startsWith('Kepa'));
  assert.ok(kepa.aliases.includes('Kepa'));
  const store=new ScoreStore(),db=sqliteBinding(store.db);
  try{
@@ -40,6 +40,6 @@ test('approved 10–14 November calendar uses updated packs and preserves each d
    await runReleases(db,now);assert.deepEqual(store.latest(),final);
    assert.equal((await releaseManifest(db,now)).currentPack,null);
   }
-  assert.equal(store.db.prepare('SELECT count(*) n FROM publications').get().n,5);
+  assert.equal(store.db.prepare('SELECT count(*) n FROM publications').get().n,6);
  }finally{store.close()}
 });

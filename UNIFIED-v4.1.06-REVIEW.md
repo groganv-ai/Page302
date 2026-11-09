@@ -1,5 +1,12 @@
 # Unified v4.1.06_003
 
+Current follow-up build: **v4.1.07_002**. Pack 002 is available on 9 November;
+the existing 003–007 calendar remains 10–14 November. New Game and Play Again
+reload only the currently valid pack. The one-minute midnight gap is preserved.
+The preview at port 8090 now uses the actual local calendar and persistent scores
+in `.local/daily-review.sqlite`, replacing the earlier static pack-003 rehearsal.
+No remote calendar or database has been changed.
+
 Branch: `codex/v4.1.06_003-unified`, started from approved `origin/main`.
 Local merge commits bring in the latest `origin/v4.1.2_003` and
 `codex/v4.1.04_003-eligible-answers`. Existing branches and worktrees are preserved.

@@ -12,7 +12,8 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await page.addInitScript(()=>window.PAGE302_SCORES_API='http://page302.test');
   await page.route('**/*',async route=>{
-   const url=new URL(route.request().url());if(url.hostname!=='page302.test')return route.abort();
+   const url=new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});if(url.hostname!=='page302.test')return route.abort();
    if(url.pathname==='/api/submissions'){
     try{return route.fulfill({json:store.submit(route.request().postDataJSON())});}
     catch(e){return route.fulfill({status:e.status||500,json:{error:e.message}});}
@@ -31,7 +32,7 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   const ready=()=>page.waitForFunction(()=>progressReady&&clubPool.length===11&&document.querySelector('.clubPick'));
   await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test/');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.06_003');
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.07_002');
   assert.ok((await page.locator('.clubPick').evaluateAll(rows=>rows.map(row=>getComputedStyle(row).color))).every(colour=>colour==='rgb(255, 255, 255)'));
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,squad,usage:clubUsage}));
   const selected=()=>page.locator('.mainLayout [aria-pressed="true"]').count();

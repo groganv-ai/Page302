@@ -14,6 +14,7 @@ test('active result submits unchanged values, retries lost receipt, replays same
   const root=path.resolve(__dirname,'..');
   await page.route('**/*',async route=>{
    const url=new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});
    if(url.hostname!=='page302.test')return route.abort();
    if(url.pathname==='/api/submissions'){
     try{const receipt=store.submit(route.request().postDataJSON());if(lose){lose=false;return route.abort()};return route.fulfill({json:receipt});}

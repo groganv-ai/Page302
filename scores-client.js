@@ -65,9 +65,7 @@ async function submitCompletedScore(event) {
 async function playAgainFromResult() {
     if(scoreAttempt&&!scoreAttempt.saved&&!window.confirm('Your score has not been saved. Play again anyway?'))return;
     closeCompleteGame();scoreAttempt=null;gameComplete=false;
-    // Replay this pack rather than the main New Game action, which cycles packs.
-    const index=vggfax.indexOf(currentVggfax);
-    currentVggfax=vggfax[(index-1+vggfax.length)%vggfax.length];
+    // Replay only the currently valid pack; a closed day's pack cannot be restarted.
     await newGame();
 }
 const originalShareResult=shareResult;

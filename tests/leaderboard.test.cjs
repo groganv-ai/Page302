@@ -7,7 +7,8 @@ test('real pack 002 squads, leaderboard search, detail and permanent link while 
  const browser=await chromium.launch({headless:true,channel:process.env.TEST_BROWSER_CHANNEL||'msedge'});
  try{const page=await browser.newPage({viewport:{width:1100,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.addInitScript(()=>window.PAGE302_SCORES_API='http://page302.test');const root=path.resolve(__dirname,'..');
- await page.route('**/*',route=>{const url=new URL(route.request().url());if(url.hostname!=='page302.test')return route.abort();
+ await page.route('**/*',route=>{const url=new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});if(url.hostname!=='page302.test')return route.abort();
  if(url.pathname==='/api/results/latest')return route.fulfill({json:store.latest()});
  if(url.pathname.startsWith('/api/results/'))return route.fulfill({json:store.find(url.pathname.split('/').pop(),{initials:url.searchParams.get('initials'),reference:url.searchParams.get('reference')})});
  const file=path.resolve(root,url.pathname.slice(1)||'index.html');if(!file.startsWith(root+path.sep)||!fs.existsSync(file))return route.abort();const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.ttf':'font/ttf','.png':'image/png'};return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});});

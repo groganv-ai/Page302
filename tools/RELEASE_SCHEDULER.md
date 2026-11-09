@@ -1,10 +1,14 @@
 # Page302 release scheduler
 
 Integrated on branch `codex/v4.1.06_003-unified`, website build
-`v4.1.06_003`. No remote migration, schedule, deployment or pack window has been
+`v4.1.07_002`. No remote migration, schedule, deployment or pack window has been
 changed by building/testing this tool. The example dates are placeholders.
 The agreed calendar is `tools/release-calendar.2026-11-10.json`: packs 003–007
 on 10–14 November 2026, using the recreated pack 007 and updated valid answers.
+Pack 002 is the only current game on 9 November and closes at midnight before
+pack 003 opens at 00:01. New Game and Play Again select only the current pack.
+The local review server enables this calendar and persists its scores under
+`.local/daily-review.sqlite`; it never connects to the remote service.
 When scheduling is enabled, the displayed build suffix follows the active game
 pack (for example `v4.1.06_004`) without changing the application patch.
 

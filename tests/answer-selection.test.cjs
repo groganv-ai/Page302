@@ -13,6 +13,7 @@ const root = path.resolve(__dirname, '..');
         page.on('dialog', dialog => dialog.accept());
         await page.route('**/*', route => {
             const url = new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});
             if (url.hostname !== 'page302.test') return route.abort();
             const relative = decodeURIComponent(url.pathname).replace(/^\//, '') || 'index.html';
             const file = path.resolve(root, relative);
@@ -60,7 +61,7 @@ const root = path.resolve(__dirname, '..');
         assert.ok(checked.answers > 4000);
         assert.ok(checked.special.Kepa > 0, 'Kepa is accepted');
         assert.ok(checked.special.Haaland > 0, 'Haaland is accepted for Alf-Inge');
-        assert.match(checked.build, /v4\.1\.06_003/);
+        assert.match(checked.build, /v4\.1\.07_002/);
         console.log('Valid pack answers checked:', checked);
         async function reset(pack = '003', formation = '4-4-2') {
             await page.evaluate(async ({ pack, formation }) => {

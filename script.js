@@ -72,10 +72,10 @@ let pendingAnswer = null;
 
 let gameComplete = false;
 
-let currentVggfax = "003";
+let currentVggfax = "002";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v4.1.06_003";
+const APP_BUILD = "v4.1.07_002";
 let releaseState = null;
 let playedReleaseRevision = null;
 function releaseApiUrl() {
@@ -99,11 +99,7 @@ let answerTargetSlot = null;
 
 const FALLBACK_VGGFAX = [
 
-    "001",
-
-    "002",
-
-    "003"
+    "002"
 
 ];
 
@@ -366,12 +362,13 @@ async function newGame(options = {}) {
                 vggfaxPackCache.delete(currentVggfax);
             }
         } catch(error) { document.getElementById('answer').disabled = true; setStatus(error.message); return; }
+    } else {
+        await selectLatestValidPack();
     }
     if (typeof resetScoreSubmission === "function") resetScoreSubmission();
     clearPendingAnswer();
     if(typeof resetTeamInput === "function")resetTeamInput();
 
-    nextVggfax();
     updateBuildLabels();
 
     updateVggfaxHeader();

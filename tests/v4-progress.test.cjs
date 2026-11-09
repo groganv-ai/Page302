@@ -6,7 +6,8 @@ test('accepted picks, guesses and score recover safely; stale and blocked storag
   const page=await browser.newPage();page.on('dialog',d=>d.accept());
   const root=path.resolve(__dirname,'..');const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/*',async route=>{
-   const url=new URL(route.request().url());if(url.hostname!=='page302.test')return route.abort();
+   const url=new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});if(url.hostname!=='page302.test')return route.abort();
    const file=path.resolve(root,url.pathname.slice(1)||'index.html');
    if(!file.startsWith(root+path.sep)||!fs.existsSync(file))return route.abort();
    const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.ttf':'font/ttf'};

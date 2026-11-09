@@ -3,19 +3,14 @@ const fs=require('node:fs'),path=require('node:path');
 const {chromium}=require('playwright');
 const {ScoreStore}=require('../backend/store.cjs');
 const {sqliteBinding}=require('../backend/sqlite-binding.cjs');
-const {scheduleSQL,adminSQL,civil,dailyOpening}=require('../tools/release-scheduler.cjs');
+const {scheduleSQL,adminSQL,calendar}=require('../tools/release-scheduler.cjs');
 const ROOT=path.resolve(__dirname,'..');
 
 test('website selects scheduled pack, shows midnight gap and final leaderboard, then changes pack',async()=>{
  const {runReleases,releaseManifest,releasePayload}=await import('../backend/cloudflare/release-scheduler.mjs');
  const store=new ScoreStore(),db=sqliteBinding(store.db);
- let now=new Date('2026-10-11T12:00Z');store.now=()=>now;
- // Use tracked pack data so this test also runs in a clean release checkout.
- const entries=['004','005'].map((packId,i)=>{
-  const payload=JSON.parse(fs.readFileSync(path.join(ROOT,'data/vggfax003.json'),'utf8'));
-  payload.packNumber=packId;payload.formation=i?'4-4-2':'4-5-1';
-  return {packId,formation:payload.formation,revision:'browser-fixture-'+packId,sha256:'fixture',payload:JSON.stringify(payload),opensAt:dailyOpening(`2026-10-${11+i}`),closesAt:civil(`2026-10-${12+i}`,'00:00')};
- });
+ let now=new Date('2026-11-09T12:00Z');store.now=()=>now;
+ const entries=calendar(path.join(ROOT,'tools/release-calendar.2026-11-10.json'));
  store.db.exec(scheduleSQL(entries));store.db.exec(adminSQL('enable',[]));await runReleases(db,now);
  const browser=await chromium.launch({headless:true,channel:process.env.TEST_BROWSER_CHANNEL||'msedge'});
  try{
@@ -46,36 +41,47 @@ test('website selects scheduled pack, shows midnight gap and final leaderboard, 
    return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});
   });
   await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);
-  assert.equal(await page.evaluate(()=>currentVggfax),'004');
-  assert.equal(await page.evaluate(()=>currentGame.formation),'4-5-1');
-  assert.equal(requested.includes('/api/packs/005'),false);
-  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.06_004/);
+  assert.equal(await page.evaluate(()=>currentVggfax),'002');
+  assert.equal(await page.evaluate(()=>currentGame.formation),'4-3-3');
+  assert.equal(requested.includes('/api/packs/003'),false);
+  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.07_002/);
   await page.waitForFunction(()=>/^\d{2}:\d{2}:\d{2}$/.test(document.querySelector('#submissionDeadline').textContent));
-  const positions=['GK',...Array(4).fill('DF'),...Array(5).fill('MD'),'AT','MAN'];
-  store.submit({packId:'004',requestId:'scheduler_browser_fixture',initials:'TST',score:123,guesses:17,answers:positions.map((position,i)=>({personId:'fixture-'+i,name:'Fixture '+i,position,clubs:['ARS'],contributions:[{recordId:'fixture-'+i,points:1}]}))});
+  for(let i=0;i<3;i++){
+   await page.evaluate(()=>newGame({quiet:true}));
+   assert.equal(await page.evaluate(()=>currentVggfax),'002');
+  }
+  await page.evaluate(()=>playAgainFromResult());
+  assert.equal(await page.evaluate(()=>currentVggfax),'002');
+  assert.equal(requested.includes('/api/packs/003'),false);
+  const positions=['GK',...Array(4).fill('DF'),...Array(3).fill('MD'),...Array(3).fill('AT'),'MAN'];
+  store.submit({packId:'002',requestId:'scheduler_browser_fixture',initials:'TST',score:123,guesses:17,answers:positions.map((position,i)=>({personId:'fixture-'+i,name:'Fixture '+i,position,clubs:['ARS'],contributions:[{recordId:'fixture-'+i,points:1}]}))});
   await page.evaluate(()=>currentGame.totalGuesses=2);
-  now=new Date('2026-10-11T23:00Z');await runReleases(db,now);await page.evaluate(()=>window.tickRelease());
+  now=new Date('2026-11-10T00:00Z');await runReleases(db,now);await page.evaluate(()=>window.tickRelease());
   assert.equal(await page.locator('#answer').isDisabled(),true);
   assert.match(await page.locator('#result').textContent(),/NEXT PACK OPENS/);
   assert.match(await page.locator('#result').textContent(),/00:01/);
+  await page.evaluate(()=>newGame({quiet:true}));
+  assert.equal(await page.evaluate(()=>currentVggfax),'002');
+  assert.equal(await page.locator('#answer').isDisabled(),true);
+  assert.equal(requested.includes('/api/packs/003'),false);
   await page.evaluate(()=>showScores());
   await page.waitForFunction(()=>document.querySelectorAll('#leaderboardRows tr').length===1);
-  assert.match(await page.locator('#leaderboardTitle').textContent(),/PACK 004/);
+  assert.match(await page.locator('#leaderboardTitle').textContent(),/PACK 002/);
   assert.match(await page.locator('#leaderboardRows').textContent(),/123/);
   await page.evaluate(()=>hideScores());
-  now=new Date('2026-10-11T23:01Z');await runReleases(db,now);await page.evaluate(()=>window.tickRelease());
+  now=new Date('2026-11-10T00:01Z');await runReleases(db,now);await page.evaluate(()=>window.tickRelease());
   assert.match(await page.locator('#result').textContent(),/NEW PACK AVAILABLE/);
   await page.evaluate(()=>newGame({quiet:true}));
-  assert.equal(await page.evaluate(()=>currentVggfax),'005');
-  assert.equal(await page.evaluate(()=>currentGame.formation),'4-4-2');
-  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.06_005/);
+  assert.equal(await page.evaluate(()=>currentVggfax),'003');
+  assert.equal(await page.evaluate(()=>currentGame.formation),'5-4-1');
+  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.07_003/);
   assert.equal(await page.locator('#answer').isDisabled(),false);
   await page.waitForFunction(()=>/^\d{2}:\d{2}:\d{2}$/.test(document.querySelector('#submissionDeadline').textContent));
   assert.equal(await page.locator('img').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0)),true);
   fs.mkdirSync(path.join(ROOT,'outputs/release-scheduler'),{recursive:true});
   await page.screenshot({path:path.join(ROOT,'outputs/release-scheduler/desktop.png'),fullPage:true,animations:'disabled',timeout:15000});
   await page.setViewportSize({width:390,height:844});
-  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.06_005/);
+  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.07_003/);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   await page.screenshot({path:path.join(ROOT,'outputs/release-scheduler/mobile.png'),fullPage:true,animations:'disabled',timeout:15000});
   assert.deepEqual(errors,[]);

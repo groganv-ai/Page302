@@ -6,7 +6,8 @@ test('live selection flow rejects Hein with one guess and safely discards an old
   const page=await browser.newPage({viewport:{width:1100,height:900}}),errors=[];let submissions=0;
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/*',route=>{
-   const url=new URL(route.request().url());if(url.hostname!=='page302.test')return route.abort();
+   const url=new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});if(url.hostname!=='page302.test')return route.abort();
    if(url.pathname.startsWith('/api/')){if(url.pathname==='/api/submissions')submissions++;return route.fulfill({status:404,json:{error:'Not found'}});}
    const file=path.resolve(root,url.pathname.slice(1)||'index.html');
    if(!file.startsWith(root+path.sep)||!fs.existsSync(file))return route.abort();
@@ -17,7 +18,7 @@ test('live selection flow rejects Hein with one guess and safely discards an old
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,usage:clubUsage,used:[...usedPeople]}));
   await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.06_003');
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.07_002');
   await page.locator('.clubPick[data-club="ARS"]').click();await page.locator('.positionPick[data-position="GK"]').click();
   await page.locator('#answer').fill('HEIN');await page.locator('#answer').press('Enter');
   assert.deepEqual(await stats(),{score:0,guesses:1,answers:{},usage:{},used:[]});
