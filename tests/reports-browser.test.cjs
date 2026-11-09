@@ -29,11 +29,11 @@ test('report entry points, hover, optional fields, retry, success, focus and mob
   await page.locator('#reportType').selectOption('name');assert.ok(await page.locator('#reportAliasField').isVisible());
   await page.locator('#reportType').selectOption('web');assert.ok(await page.locator('#reportPlayerFields').isHidden());
   await page.locator('#reportType').selectOption('data');
-  await page.locator('[name=description]').fill('Manager data test');
+  await page.locator('textarea[name=description]').fill('Manager data test');
   await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent==='Please try later.');
-  assert.equal(await page.locator('[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v3.7.13_003');assert.equal(payload.pack,'003');
+  assert.equal(await page.locator('textarea[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v4.1.03_003');assert.equal(payload.pack,'003');
   fail=false;await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent.includes('Thank you'));
-  assert.equal(await page.locator('[name=description]').inputValue(),'');
+  assert.equal(await page.locator('textarea[name=description]').inputValue(),'');
   await page.keyboard.press('Escape');assert.ok(await page.locator('#helpOverlay').isVisible());
   await page.evaluate(()=>{hideHelp();showAbout()});await page.locator('.aboutContact a').filter({hasText:'REPORT AN ISSUE'}).click();assert.ok(await page.locator('#reportOverlay').isVisible());
   await page.setViewportSize({width:390,height:844});

@@ -1,0 +1,47 @@
+.mainLayout { display:flex; flex-direction:row; align-items:stretch; }
+.mainLayout .panel { flex:1; }
+.mainLayout .clubsPanel { order:0; }
+.mainLayout .teamPanel { order:1; }
+.clubPick,.positionPick { display:block; width:100%; background:#000; border:0; border-radius:0; color:#fff; font:inherit; text-align:left; cursor:pointer; padding:5px 2px; line-height:1.2; }
+.clubPick { overflow-wrap:normal; }
+.positionPick { padding-block:8px; }
+.positionPick.managerPick { margin-top:20px; }
+.openingRarest { color:#ff00ff; }
+.playPrompt > .selectionInstruction { display:block; }
+.clubPick:hover,.positionPick:hover { outline:1px dotted #00ffff; outline-offset:-1px; }
+.clubPick[aria-pressed="true"],.positionPick[aria-pressed="true"] { color:#000!important; background:#00ffff; }
+.clubPick,.positionPick { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; gap:.5ch; text-align:center; white-space:nowrap; min-width:0; }
+.mainLayout .panel { min-width:0; }
+.pickDashes { overflow:hidden; white-space:nowrap; color:#fff; opacity:1; }
+.pickDashes:last-child { direction:rtl; }
+.pickLabel { position:relative; white-space:nowrap; }
+.latestAnswer > .pickLabel { font-weight:700; }
+.pickLabel::before { content:'>'; position:absolute; right:100%; margin-right:.2ch; visibility:hidden; }
+.pickLabel::after { content:'<'; position:absolute; left:100%; margin-left:.2ch; visibility:hidden; }
+[aria-pressed="true"] > .pickLabel::before,[aria-pressed="true"] > .pickLabel::after { visibility:visible; }
+[aria-pressed="true"] > .pickDashes { opacity:0; }
+.inputContext { display:flex; flex-wrap:wrap; gap:10px; flex-shrink:0; max-width:100%; min-width:0; }
+.inputContext button { background:#000; border:0; border-bottom:1px solid #00ffff; color:#00ffff; font:inherit; padding:0 0 3px; width:auto; cursor:pointer; }
+.inputContext[hidden] { display:none; }
+.answerButton.answerLabel.answerNotReady { color:#808080; }
+.answerInputShell #answer::placeholder { color:#fff; opacity:.55; }
+.answerInputShell #answer::placeholder { color:transparent; }
+.answerInputShell:has(#answer:placeholder-shown:not(:disabled)) .dosCursor { display:block; }
+.vidiReveal { animation:vidiReveal var(--reveal-duration,800ms) steps(var(--reveal-steps,24),end) both; }
+@keyframes vidiReveal { from {clip-path:inset(0 100% 0 0);} to {clip-path:inset(0 0 0 0);} }
+@media(prefers-reduced-motion:reduce) { .vidiReveal { animation:none; } }
+@media(max-width:900px) { .mainLayout { flex-direction:column; } }
+@media(max-width:700px) {
+ .positionPick { padding-block:8px; }
+ .inputContext { gap:8px; font-size:16px; }
+ .answerRow { flex-wrap:wrap; }
+ .answerInputShell { flex-basis:40%; }
+}
+
+.selectionHint { color:#00ffff; font-size:16px; line-height:1.5; padding-top:10px; }
+#result { display:none; }
+.positionPick:disabled { opacity:1; cursor:default; }
+.positionPick:disabled:hover { outline:none; }
+.pickLabel { display:inline-block; }
+.clubPick[aria-pressed="true"] .pickLabel { color:#000; }
+@media(max-width:700px) { .selectionHint { font-size:12px; } }

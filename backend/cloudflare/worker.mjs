@@ -26,6 +26,8 @@ export default {
     let input;try{input=JSON.parse(new TextDecoder().decode(bytes))}catch{return respond({error:'Invalid JSON'},400)}
     return respond(await store.submit(input));
    }
+   if(request.method==='GET'&&/^\/api\/challenges\/\d{3,}$/.test(url.pathname))return respond(await store.challenge(url.pathname.split('/').pop()));
+   if(request.method==='GET'&&/^\/api\/standing\/\d{3,}\/\d{6}$/.test(url.pathname)){const parts=url.pathname.split('/');return respond(await store.standing(parts[3],parts[4]));}
    if(request.method==='GET'&&url.pathname==='/api/results/latest')return respond(await store.latest());
    if(request.method==='GET'&&/^\/api\/results\/\d{3,}$/.test(url.pathname))return respond(await store.find(url.pathname.split('/').pop(),{initials:url.searchParams.get('initials'),reference:url.searchParams.get('reference')}));
    return respond({error:'Not found'},404);
