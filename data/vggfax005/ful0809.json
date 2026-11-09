@@ -1,0 +1,368 @@
+{
+  "clubCode": "FUL0809",
+  "club": "Fulham",
+  "season": "2008-09",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "FUL0809_ROY_HODGSON",
+      "fullname": "Roy Hodgson",
+      "surname": "Hodgson",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Hodgson",
+        "Roy Hodgson"
+      ]
+    },
+    {
+      "id": "FUL0809_MARK_SCHWARZER",
+      "fullname": "Mark Schwarzer",
+      "surname": "Schwarzer",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Mark Schwarzer",
+        "Schwarzer"
+      ]
+    },
+    {
+      "id": "FUL0809_AARON_HUGHES",
+      "fullname": "Aaron Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Aaron Hughes",
+        "Hughes"
+      ]
+    },
+    {
+      "id": "FUL0809_DANNY_MURPHY",
+      "fullname": "Danny Murphy",
+      "surname": "Murphy",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Danny Murphy",
+        "Murphy"
+      ]
+    },
+    {
+      "id": "FUL0809_BREDE_HANGELAND",
+      "fullname": "Brede Hangeland",
+      "surname": "Hangeland",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Brede Hangeland",
+        "Hangeland"
+      ]
+    },
+    {
+      "id": "FUL0809_JOHN_PAINTSIL",
+      "fullname": "John Paintsil",
+      "surname": "Paintsil",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "John Paintsil",
+        "Paintsil"
+      ]
+    },
+    {
+      "id": "FUL0809_PAUL_KONCHESKY",
+      "fullname": "Paul Konchesky",
+      "surname": "Konchesky",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Konchesky",
+        "Paul Konchesky"
+      ]
+    },
+    {
+      "id": "FUL0809_SIMON_DAVIES",
+      "fullname": "Simon Davies",
+      "surname": "Davies",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Davies",
+        "Simon Davies"
+      ]
+    },
+    {
+      "id": "FUL0809_BOBBY_ZAMORA",
+      "fullname": "Bobby Zamora",
+      "surname": "Zamora",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Bobby Zamora",
+        "Zamora"
+      ]
+    },
+    {
+      "id": "FUL0809_ANDREW_JOHNSON",
+      "fullname": "Andrew Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Andrew Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "FUL0809_CLINT_DEMPSEY",
+      "fullname": "Clint Dempsey",
+      "surname": "Dempsey",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Clint Dempsey",
+        "Dempsey"
+      ]
+    },
+    {
+      "id": "FUL0809_ZOLTAN_GERA",
+      "fullname": "Zoltán Gera",
+      "surname": "Gera",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Gera",
+        "Zoltán Gera"
+      ]
+    },
+    {
+      "id": "FUL0809_DICKSON_ETUHU",
+      "fullname": "Dickson Etuhu",
+      "surname": "Etuhu",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Dickson Etuhu",
+        "Etuhu"
+      ]
+    },
+    {
+      "id": "FUL0809_JIMMY_BULLARD",
+      "fullname": "Jimmy Bullard",
+      "surname": "Bullard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Bullard",
+        "Jimmy Bullard"
+      ]
+    },
+    {
+      "id": "FUL0809_ERIK_NEVLAND",
+      "fullname": "Erik Nevland",
+      "surname": "Nevland",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Erik Nevland",
+        "Nevland"
+      ]
+    },
+    {
+      "id": "FUL0809_DIOMANSY_KAMARA",
+      "fullname": "Diomansy Kamara",
+      "surname": "Kamara",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Diomansy Kamara",
+        "Kamara"
+      ]
+    },
+    {
+      "id": "FUL0809_CHRIS_BAIRD",
+      "fullname": "Chris Baird",
+      "surname": "Baird",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Baird",
+        "Chris Baird"
+      ]
+    },
+    {
+      "id": "FUL0809_SEOL_KI_HYEON",
+      "fullname": "Seol Ki-hyeon",
+      "surname": "Ki-hyeon",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Ki-hyeon",
+        "Seol Ki-hyeon"
+      ]
+    },
+    {
+      "id": "FUL0809_TONI_KALLIO",
+      "fullname": "Toni Kallio",
+      "surname": "Kallio",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Kallio",
+        "Toni Kallio"
+      ]
+    },
+    {
+      "id": "FUL0809_OLIVIER_DACOURT",
+      "fullname": "Olivier Dacourt",
+      "surname": "Dacourt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Dacourt",
+        "Olivier Dacourt"
+      ]
+    },
+    {
+      "id": "FUL0809_FREDRIK_STOOR",
+      "fullname": "Fredrik Stoor",
+      "surname": "Stoor",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Fredrik Stoor",
+        "Stoor"
+      ]
+    },
+    {
+      "id": "FUL0809_LEON_ANDREASEN",
+      "fullname": "Leon Andreasen",
+      "surname": "Andreasen",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Andreasen",
+        "Leon Andreasen"
+      ]
+    },
+    {
+      "id": "FUL0809_CHRIS_SMALLING",
+      "fullname": "Chris Smalling",
+      "surname": "Smalling",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Chris Smalling",
+        "Smalling"
+      ]
+    },
+    {
+      "id": "FUL0809_ROBERT_MILSOM",
+      "fullname": "Robert Milsom",
+      "surname": "Milsom",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Milsom",
+        "Robert Milsom"
+      ]
+    },
+    {
+      "id": "FUL0809_ANDRANIK_TEYMOURIAN",
+      "fullname": "Andranik Teymourian",
+      "surname": "Teymourian",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Andranik Teymourian",
+        "Teymourian"
+      ]
+    },
+    {
+      "id": "FUL0809_JULIAN_GRAY",
+      "fullname": "Julian Gray",
+      "surname": "Gray",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Gray",
+        "Julian Gray"
+      ]
+    },
+    {
+      "id": "FUL0809_WAYNE_BROWN",
+      "fullname": "Wayne Brown",
+      "surname": "Brown",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Brown",
+        "Wayne Brown"
+      ]
+    }
+  ]
+}

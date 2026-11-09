@@ -1,0 +1,462 @@
+{
+  "clubCode": "MCI2021",
+  "club": "Man City",
+  "season": "2020-21",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MCI2021_PEP_GUARDIOLA",
+      "fullname": "Pep Guardiola",
+      "surname": "Guardiola",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Guardiola",
+        "Pep Guardiola"
+      ]
+    },
+    {
+      "id": "MCI2021_EDERSON_MORAES",
+      "fullname": "Ederson Moraes",
+      "surname": "Moraes",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Ederson",
+        "Ederson Moraes",
+        "Moraes"
+      ]
+    },
+    {
+      "id": "MCI2021_RUBEN_DIAS",
+      "fullname": "Rúben Dias",
+      "surname": "Dias",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Dias",
+        "Rúben Dias"
+      ]
+    },
+    {
+      "id": "MCI2021_RODRI",
+      "fullname": "Rodri",
+      "surname": "Rodri",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Rodri"
+      ]
+    },
+    {
+      "id": "MCI2021_RAHEEM_STERLING",
+      "fullname": "Raheem Sterling",
+      "surname": "Sterling",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Raheem Sterling",
+        "Sterling"
+      ]
+    },
+    {
+      "id": "MCI2021_JOAO_CANCELO",
+      "fullname": "João Cancelo",
+      "surname": "Cancelo",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Cancelo",
+        "João Cancelo"
+      ]
+    },
+    {
+      "id": "MCI2021_BERNARDO_SILVA",
+      "fullname": "Bernardo Silva",
+      "surname": "Silva",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Bernardo Silva",
+        "Silva"
+      ]
+    },
+    {
+      "id": "MCI2021_ILKAY_GUNDOGAN",
+      "fullname": "İlkay Gündoğan",
+      "surname": "Gündoğan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Gündoğan",
+        "İlkay Gündoğan"
+      ]
+    },
+    {
+      "id": "MCI2021_KEVIN_DE_BRUYNE",
+      "fullname": "Kevin De Bruyne",
+      "surname": "De Bruyne",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Bruyne",
+        "De Bruyne",
+        "Kevin De Bruyne"
+      ]
+    },
+    {
+      "id": "MCI2021_RIYAD_MAHREZ",
+      "fullname": "Riyad Mahrez",
+      "surname": "Mahrez",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Mahrez",
+        "Riyad Mahrez"
+      ]
+    },
+    {
+      "id": "MCI2021_GABRIEL_JESUS",
+      "fullname": "Gabriel Jesus",
+      "surname": "Jesus",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Gabriel Jesus",
+        "Jesus"
+      ]
+    },
+    {
+      "id": "MCI2021_KYLE_WALKER",
+      "fullname": "Kyle Walker",
+      "surname": "Walker",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Kyle Walker",
+        "Walker"
+      ]
+    },
+    {
+      "id": "MCI2021_JOHN_STONES",
+      "fullname": "John Stones",
+      "surname": "Stones",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "John Stones",
+        "Stones"
+      ]
+    },
+    {
+      "id": "MCI2021_PHIL_FODEN",
+      "fullname": "Phil Foden",
+      "surname": "Foden",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Foden",
+        "Phil Foden"
+      ]
+    },
+    {
+      "id": "MCI2021_OLEKSANDR_ZINCHENKO",
+      "fullname": "Oleksandr Zinchenko",
+      "surname": "Zinchenko",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Oleksandr Zinchenko",
+        "Zinchenko"
+      ]
+    },
+    {
+      "id": "MCI2021_FERRAN_TORRES",
+      "fullname": "Ferran Torres",
+      "surname": "Torres",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Ferran Torres",
+        "Torres"
+      ]
+    },
+    {
+      "id": "MCI2021_AYMERIC_LAPORTE",
+      "fullname": "Aymeric Laporte",
+      "surname": "Laporte",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Aymeric Laporte",
+        "Laporte"
+      ]
+    },
+    {
+      "id": "MCI2021_FERNANDINHO",
+      "fullname": "Fernandinho",
+      "surname": "Fernandinho",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Fernandinho"
+      ]
+    },
+    {
+      "id": "MCI2021_BENJAMIN_MENDY",
+      "fullname": "Benjamin Mendy",
+      "surname": "Mendy",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Benjamin Mendy",
+        "Mendy"
+      ]
+    },
+    {
+      "id": "MCI2021_NATHAN_AKE",
+      "fullname": "Nathan Aké",
+      "surname": "Aké",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Aké",
+        "Nathan Aké"
+      ]
+    },
+    {
+      "id": "MCI2021_SERGIO_AGUERO",
+      "fullname": "Sergio Agüero",
+      "surname": "Agüero",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Agüero",
+        "Kun",
+        "Kun Agüero",
+        "Sergio Agüero"
+      ]
+    },
+    {
+      "id": "MCI2021_ERIC_GARCIA",
+      "fullname": "Eric García",
+      "surname": "García",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Eric García",
+        "García"
+      ]
+    },
+    {
+      "id": "MCI2021_SCOTT_CARSON",
+      "fullname": "Scott Carson",
+      "surname": "Carson",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Carson",
+        "Scott Carson"
+      ]
+    },
+    {
+      "id": "MCI2021_ZACK_STEFFEN",
+      "fullname": "Zack Steffen",
+      "surname": "Steffen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Steffen",
+        "Zack Steffen"
+      ]
+    },
+    {
+      "id": "MCI2021_LIAM_DELAP",
+      "fullname": "Liam Delap",
+      "surname": "Delap",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Delap",
+        "Liam Delap"
+      ]
+    },
+    {
+      "id": "MCI2021_ADRIAN_BERNABE",
+      "fullname": "Adrian Bernabe",
+      "surname": "Bernabe",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Adrian Bernabe",
+        "Bernabe"
+      ]
+    },
+    {
+      "id": "MCI2021_TOMMY_DOYLE",
+      "fullname": "Tommy Doyle",
+      "surname": "Doyle",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Doyle",
+        "Tommy Doyle"
+      ]
+    },
+    {
+      "id": "MCI2021_CLAUDIO_GOMES",
+      "fullname": "Claudio Gomes",
+      "surname": "Gomes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Claudio Gomes",
+        "Gomes"
+      ]
+    },
+    {
+      "id": "MCI2021_TAYLOR_HARWOOD_BELLIS",
+      "fullname": "Taylor Harwood-Bellis",
+      "surname": "Harwood-Bellis",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Harwood-Bellis",
+        "Taylor Harwood-Bellis"
+      ]
+    },
+    {
+      "id": "MCI2021_LUKE_MBETE_TATU",
+      "fullname": "Luke Mbete-Tatu",
+      "surname": "Mbete-Tatu",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Luke Mbete-Tatu",
+        "Mbete-Tatu"
+      ]
+    },
+    {
+      "id": "MCI2021_FELIX_NMECHA",
+      "fullname": "Felix Nmecha",
+      "surname": "Nmecha",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Felix Nmecha",
+        "Nmecha"
+      ]
+    },
+    {
+      "id": "MCI2021_NICOLAS_OTAMENDI",
+      "fullname": "Nicolás Otamendi",
+      "surname": "Otamendi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Nicolás Otamendi",
+        "Otamendi"
+      ]
+    },
+    {
+      "id": "MCI2021_COLE_PALMER",
+      "fullname": "Cole Palmer",
+      "surname": "Palmer",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Cole Palmer",
+        "Palmer"
+      ]
+    },
+    {
+      "id": "MCI2021_JAMES_TRAFFORD",
+      "fullname": "James Trafford",
+      "surname": "Trafford",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "James Trafford",
+        "Trafford"
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@ async function main() {
   fs.mkdirSync(state, {recursive:true});
   run(['d1','migrations','apply','DB','--local','--persist-to',state]);
   const store = new ScoreStore();
-  let sql = 'DELETE FROM answers; DELETE FROM submissions; DELETE FROM publications; DELETE FROM packs;\n';
+  let sql = 'DELETE FROM release_events; DELETE FROM release_schedule; UPDATE release_control SET enabled=0,paused=0; DELETE FROM answers; DELETE FROM submissions; DELETE FROM publications; DELETE FROM packs;\n';
   try {
     seedReview(store);
     // Use a past pack for publication and a brief open window for submission checks.
@@ -57,6 +57,28 @@ async function main() {
     assert.equal((await request('/api/submissions',{method:'POST',headers:{'Content-Type':'application/json'},body:'x'.repeat(32769)})).status,413);
     const rows=JSON.parse(run(['d1','execute','DB','--local','--persist-to',state,'--command',"SELECT (SELECT COUNT(*) FROM submissions WHERE pack_id='003') submissions, (SELECT COUNT(*) FROM answers JOIN submissions ON submissions.id=answers.submission_id WHERE pack_id='003') answers",'--json']));
     assert.equal(rows[0].results[0].submissions,1); assert.equal(rows[0].results[0].answers,12);
+    // Test the actual Cron handler, D1 release calendar and frozen publication.
+    const {scheduleSQL,adminSQL}=require('../../tools/release-scheduler.cjs');
+    const time=Date.now(),iso=n=>new Date(time+n).toISOString();
+    const payload=JSON.parse(fs.readFileSync(path.join(cwd,'../../data/vggfax003.json'),'utf8'));
+    payload.packNumber='004';
+    const outgoing=JSON.stringify({packNumber:'003',formation:'4-3-3',clubs:[]});
+    let releaseSql=`UPDATE packs SET closes_at=${quote(iso(-60000))} WHERE id='003';\nINSERT INTO release_schedule VALUES('003',${quote(outgoing)},'runtime-outgoing',${quote(iso(0))});\n`;
+    releaseSql+=scheduleSQL([{packId:'004',formation:payload.formation,revision:'runtime-release',sha256:'runtime-release',payload:JSON.stringify(payload),opensAt:iso(-60000),closesAt:iso(3600000)}]);
+    releaseSql+=adminSQL('enable',[]);
+    const releaseFile=path.join(state,'release-fixture.sql');fs.writeFileSync(releaseFile,releaseSql);
+    run(['d1','execute','DB','--local','--persist-to',state,'--file',releaseFile]);
+    assert.equal((await (await request('/api/releases')).json()).currentPack,null);
+    const future=await request('/api/packs/004');assert.equal(future.status,404);
+    const trigger=()=>fetch('http://127.0.0.1:8791/cdn-cgi/local/scheduled?format=json&cron=*+*+*+*+*');
+    const fired=await trigger();assert.equal(fired.status,200);assert.equal((await fired.json()).outcome,'ok');
+    const manifest=await (await request('/api/releases')).json();assert.equal(manifest.currentPack,'004');
+    assert.equal((await (await request('/api/packs/004')).json()).packNumber,'004');
+    const final=await (await request('/api/results/latest')).json();assert.equal(final.packId,'003');assert.equal(final.totalSubmissions,1);
+    await trigger();assert.deepEqual(await (await request('/api/results/latest')).json(),final);
+    assert.equal((await post({...input,requestId:'runtime_scheduler_closed'})).status,409);
+    assert.equal((await request('/api/packs/999')).status,404);
+    console.log('PASS: actual Cron handler closes pack 003, publishes one frozen result, opens 004, hides unreleased content and retries safely.');
     console.log('PASS: actual Worker/D1 runtime, 10 closed results, lookup, 12 saved answers, unchanged score/guesses, retry, conflicts, closed pack, CORS and body validation.');
   } finally { child.kill(); }
 }

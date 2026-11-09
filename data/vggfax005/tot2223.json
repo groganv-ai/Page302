@@ -1,0 +1,486 @@
+{
+  "clubCode": "TOT2223",
+  "club": "Tottenham",
+  "season": "2022-23",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "TOT2223_ANTONIO_CONTE",
+      "fullname": "Antonio Conte",
+      "surname": "Conte",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Antonio Conte",
+        "Conte"
+      ]
+    },
+    {
+      "id": "TOT2223_CRISTIAN_STELLINI",
+      "fullname": "Cristian Stellini",
+      "surname": "Stellini",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Cristian Stellini",
+        "Stellini"
+      ]
+    },
+    {
+      "id": "TOT2223_RYAN_MASON",
+      "fullname": "Ryan Mason",
+      "surname": "Mason",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Mason",
+        "Ryan Mason"
+      ]
+    },
+    {
+      "id": "TOT2223_HARRY_KANE",
+      "fullname": "Harry Kane",
+      "surname": "Kane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Harry Kane",
+        "Kane"
+      ]
+    },
+    {
+      "id": "TOT2223_PIERRE_H_JBJERG",
+      "fullname": "Pierre Højbjerg",
+      "surname": "Højbjerg",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Højbjerg",
+        "Pierre Højbjerg"
+      ]
+    },
+    {
+      "id": "TOT2223_SON_HEUNG_MIN",
+      "fullname": "Son Heung-min",
+      "surname": "Heung-min",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Heung-min",
+        "Son",
+        "Son Heung-min"
+      ]
+    },
+    {
+      "id": "TOT2223_ERIC_DIER",
+      "fullname": "Eric Dier",
+      "surname": "Dier",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Dier",
+        "Eric Dier"
+      ]
+    },
+    {
+      "id": "TOT2223_CRISTIAN_ROMERO",
+      "fullname": "Cristian Romero",
+      "surname": "Romero",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Cristian Romero",
+        "Romero"
+      ]
+    },
+    {
+      "id": "TOT2223_BEN_DAVIES",
+      "fullname": "Ben Davies",
+      "surname": "Davies",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Ben Davies",
+        "Davies"
+      ]
+    },
+    {
+      "id": "TOT2223_HUGO_LLORIS",
+      "fullname": "Hugo Lloris",
+      "surname": "Lloris",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Hugo Lloris",
+        "Lloris"
+      ]
+    },
+    {
+      "id": "TOT2223_CLEMENT_LENGLET",
+      "fullname": "Clément Lenglet",
+      "surname": "Lenglet",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Clément Lenglet",
+        "Lenglet"
+      ]
+    },
+    {
+      "id": "TOT2223_IVAN_PERISIC",
+      "fullname": "Ivan Perišić",
+      "surname": "Perišić",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Ivan Perišić",
+        "Perišić"
+      ]
+    },
+    {
+      "id": "TOT2223_DEJAN_KULUSEVSKI",
+      "fullname": "Dejan Kulusevski",
+      "surname": "Kulusevski",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Dejan Kulusevski",
+        "Kulusevski"
+      ]
+    },
+    {
+      "id": "TOT2223_EMERSON",
+      "fullname": "Emerson",
+      "surname": "Emerson",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Emerson"
+      ]
+    },
+    {
+      "id": "TOT2223_OLIVER_SKIPP",
+      "fullname": "Oliver Skipp",
+      "surname": "Skipp",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Oliver Skipp",
+        "Skipp"
+      ]
+    },
+    {
+      "id": "TOT2223_RODRIGO_BENTANCUR",
+      "fullname": "Rodrigo Bentancur",
+      "surname": "Bentancur",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Bentancur",
+        "Rodrigo Bentancur"
+      ]
+    },
+    {
+      "id": "TOT2223_FRASER_FORSTER",
+      "fullname": "Fraser Forster",
+      "surname": "Forster",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Forster",
+        "Fraser Forster"
+      ]
+    },
+    {
+      "id": "TOT2223_PEDRO_PORRO",
+      "fullname": "Pedro Porro",
+      "surname": "Porro",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Pedro Porro",
+        "Porro"
+      ]
+    },
+    {
+      "id": "TOT2223_RICHARLISON",
+      "fullname": "Richarlison",
+      "surname": "Richarlison",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Richarlison"
+      ]
+    },
+    {
+      "id": "TOT2223_YVES_BISSOUMA",
+      "fullname": "Yves Bissouma",
+      "surname": "Bissouma",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Bissouma",
+        "Yves Bissouma"
+      ]
+    },
+    {
+      "id": "TOT2223_RYAN_SESSEGNON",
+      "fullname": "Ryan Sessegnon",
+      "surname": "Sessegnon",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Ryan Sessegnon",
+        "Sessegnon"
+      ]
+    },
+    {
+      "id": "TOT2223_DAVINSON_SANCHEZ",
+      "fullname": "Davinson Sánchez",
+      "surname": "Sánchez",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Davinson Sánchez",
+        "Sánchez"
+      ]
+    },
+    {
+      "id": "TOT2223_MATT_DOHERTY",
+      "fullname": "Matt Doherty",
+      "surname": "Doherty",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Doherty",
+        "Matt Doherty"
+      ]
+    },
+    {
+      "id": "TOT2223_PAPE_MATAR_SARR",
+      "fullname": "Pape Matar Sarr",
+      "surname": "Sarr",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Pape Matar Sarr",
+        "Sarr"
+      ]
+    },
+    {
+      "id": "TOT2223_BRYAN_GIL",
+      "fullname": "Bryan Gil",
+      "surname": "Gil",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Bryan Gil",
+        "Gil"
+      ]
+    },
+    {
+      "id": "TOT2223_JAPHET_TANGANGA",
+      "fullname": "Japhet Tanganga",
+      "surname": "Tanganga",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Japhet Tanganga",
+        "Tanganga"
+      ]
+    },
+    {
+      "id": "TOT2223_ARNAUT_DANJUMA",
+      "fullname": "Arnaut Danjuma",
+      "surname": "Danjuma",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Arnaut Danjuma",
+        "Danjuma"
+      ]
+    },
+    {
+      "id": "TOT2223_LUCAS_MOURA",
+      "fullname": "Lucas Moura",
+      "surname": "Moura",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Lucas Moura",
+        "Moura"
+      ]
+    },
+    {
+      "id": "TOT2223_MATTHEW_CRAIG",
+      "fullname": "Matthew Craig",
+      "surname": "Craig",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Craig",
+        "Matthew Craig"
+      ]
+    },
+    {
+      "id": "TOT2223_DJED_SPENCE",
+      "fullname": "Djed Spence",
+      "surname": "Spence",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Djed Spence",
+        "Spence"
+      ]
+    },
+    {
+      "id": "TOT2223_HARVEY_WHITE",
+      "fullname": "Harvey White",
+      "surname": "White",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Harvey White",
+        "White"
+      ]
+    },
+    {
+      "id": "TOT2223_GEORGE_ABBOTT",
+      "fullname": "George Abbott",
+      "surname": "Abbott",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Abbott",
+        "George Abbott"
+      ]
+    },
+    {
+      "id": "TOT2223_BRANDON_AUSTIN",
+      "fullname": "Brandon Austin",
+      "surname": "Austin",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Austin",
+        "Brandon Austin"
+      ]
+    },
+    {
+      "id": "TOT2223_ALFIE_DEVINE",
+      "fullname": "Alfie Devine",
+      "surname": "Devine",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Alfie Devine",
+        "Devine"
+      ]
+    },
+    {
+      "id": "TOT2223_ROMAINE_MUNDLE",
+      "fullname": "Romaine Mundle",
+      "surname": "Mundle",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Mundle",
+        "Romaine Mundle"
+      ]
+    },
+    {
+      "id": "TOT2223_YAGO_SANTIAGO",
+      "fullname": "Yago Santiago",
+      "surname": "Santiago",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Santiago",
+        "Yago Santiago"
+      ]
+    }
+  ]
+}

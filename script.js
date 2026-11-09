@@ -72,18 +72,34 @@ let pendingAnswer = null;
 
 let gameComplete = false;
 
-let currentVggfax = "003";
+let currentVggfax = "002";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.13_003";
+const APP_BUILD = "v4.1.07_002";
+let releaseState = null;
+let playedReleaseRevision = null;
+function releaseApiUrl() {
+    return (window.PAGE302_SCORES_API || 'http://127.0.0.1:8787').replace(/\/$/, '');
+}
+async function refreshReleaseState() {
+    if (!window.PAGE302_RELEASES_ENABLED) return null;
+    const response = await fetch(releaseApiUrl() + '/api/releases', {cache:'no-store', signal:AbortSignal.timeout(10000)});
+    if (!response.ok) throw new Error('RELEASE SCHEDULE UNAVAILABLE');
+    const state = await response.json();
+    if (state.enabled && (!Array.isArray(state.packs) || (state.currentPack !== null && !/^\d{3,}$/.test(state.currentPack)))) throw new Error('INVALID RELEASE SCHEDULE');
+    releaseState = state;
+    return state;
+}
+function releaseGapMessage() {
+    return releaseState?.paused ? 'NEXT PACK PAUSED · CHECK BACK LATER' :
+        releaseState?.nextOpensAt ? 'NEXT PACK OPENS ' + new Date(releaseState.nextOpensAt).toLocaleString('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',day:'2-digit',month:'short'}) + ' UK' :
+        'NO ACTIVE GAME PACK · CHECK BACK LATER';
+}
+let answerTargetSlot = null;
 
 const FALLBACK_VGGFAX = [
 
-    "001",
-
-    "002",
-
-    "003"
+    "002"
 
 ];
 
@@ -121,12 +137,10 @@ function applyGameFormation() {
 }
 
 function updateBuildLabels() {
+    const displayedBuild = releaseState?.enabled ? APP_BUILD.replace(/_\d+$/, '_' + currentVggfax) : APP_BUILD;
 
     document.getElementById("buildLabel").textContent =
-        "DEMO " + APP_BUILD;
-
-    document.getElementById("mobileBuildLabel").textContent =
-        " DEMO " + APP_BUILD;
+        displayedBuild;
 
 }
 
@@ -156,6 +170,7 @@ async function loadClub() {
     packData = loadedPack.packData;
     clubPool = loadedPack.clubs;
     currentGame.formation = loadedPack.formation;
+    if (releaseState?.enabled && releaseState.currentPack === packNumber) playedReleaseRevision = releaseState.currentRevision;
 
     clubData =
 
@@ -178,7 +193,8 @@ async function loadPack(packNumber) {
     if (!vggfaxPackCache.has(packNumber)) {
 
         const packRequest = fetch(
-            "data/vggfax" + packNumber + ".json"
+            releaseState?.enabled && releaseState.packs.includes(packNumber) ?
+                releaseApiUrl() + '/api/packs/' + packNumber : "data/vggfax" + packNumber + ".json"
         )
         .then(function(response) {
 
@@ -294,6 +310,15 @@ async function loadPackManifest() {
 
 async function selectLatestValidPack() {
 
+    const state = await refreshReleaseState();
+    if (state?.enabled) {
+        if (!state.currentPack) throw new Error(releaseGapMessage());
+        vggfax = state.packs.slice();
+        currentVggfax = state.currentPack;
+        await loadClub();
+        return;
+    }
+
     const manifestPacks = await loadPackManifest();
     const sortedPacks = manifestPacks.sort(function(a, b) {
         return Number(a) - Number(b);
@@ -326,11 +351,25 @@ async function selectLatestValidPack() {
     await loadClub();
 
 }
-async function newGame() {
+async function newGame(options = {}) {
+    if (window.PAGE302_RELEASES_ENABLED) {
+        try {
+            const state = await refreshReleaseState();
+            if (state?.enabled) {
+                if (!state.currentPack) { document.getElementById('answer').disabled = true; setStatus(releaseGapMessage()); return; }
+                vggfax = [state.currentPack];
+                currentVggfax = state.currentPack;
+                vggfaxPackCache.delete(currentVggfax);
+            }
+        } catch(error) { document.getElementById('answer').disabled = true; setStatus(error.message); return; }
+    } else {
+        await selectLatestValidPack();
+    }
     if (typeof resetScoreSubmission === "function") resetScoreSubmission();
     clearPendingAnswer();
+    if(typeof resetTeamInput === "function")resetTeamInput();
 
-    nextVggfax();
+    updateBuildLabels();
 
     updateVggfaxHeader();
 
@@ -370,11 +409,7 @@ async function newGame() {
 
     setStatus(
 
-        "ENTER ANSWER AS" +
-
-        "\n\nPOS SURNAME CLUB" +
-
-        "\n\ne.g. AT PLANK GER"
+        "SELECT A TEAM > SELECT A POSITION > ENTER A SURNAME"
 
     );
 
@@ -382,7 +417,9 @@ async function newGame() {
 
     drawGame();
 
-    alert("New game started!");
+    if(typeof resetProgressTracking === "function") resetProgressTracking();
+    if(typeof refreshChallengeDeadline === "function") refreshChallengeDeadline();
+    if (!options.quiet) alert("New game started!");
 
 }
 
@@ -566,6 +603,7 @@ function completeGame() {
     gameComplete = true;
 
     currentGame.gameOver = true;
+    drawClubTitle();
 
     document.getElementById(
         "answer"
@@ -601,17 +639,12 @@ async function shareResult() {
 
     let shareText =
 
-        "PAGE302\n\n" +
-
-        "GAME #" + currentVggfax + "\n\n" +
-
+        "CAN YOU BEAT MY PAGE302 SCORE?\n" +
         "SCORE: " +
 
         currentGame.score +
 
-        "\n\n" +
-
-        "SQUAD GRID\n\n";
+        "\n\n";
 
     for (
 
@@ -671,7 +704,7 @@ async function shareResult() {
 
     shareText +=
 
-        "\nCAN YOU BEAT MY PAGE302 SCORE?\n\n" +
+        "\nPAGE302 / GAME #" + currentVggfax + ":\n" +
 
         "https://groganv-ai.github.io/Page302/";
 
@@ -732,6 +765,8 @@ else {
 }
 
 function submitAnswer() {
+    if (window.PAGE302_RELEASES_ENABLED && document.getElementById('answer').disabled) return;
+    if (window.PAGE302_RELEASES_ENABLED && (!releaseState || (releaseState.enabled && releaseState.currentPack !== currentVggfax))) return;
 
     if (currentGame.gameOver) {
 
@@ -743,78 +778,12 @@ function submitAnswer() {
         return;
     }
 
-    currentGame.totalGuesses =
-    currentGame.totalGuesses + 1;
+    const request = selectedAnswerRequest();
+    if (!request) return;
+    const {position, clubCode, surname, playerAnswer} = request;
+    answerTargetSlot = request.slot;
+    currentGame.totalGuesses++;
     drawGuesses();
-
-    let playerAnswer =
-    document.getElementById(
-    "answer"
-    ).value;
-
-    playerAnswer =
-    playerAnswer.trim();
-
-let parts =
-
-playerAnswer
-.trim()
-.split(/\s+/);
-
-if (
-
-    parts.length < 3
-
-) {
-
-    setStatus(
-
-        "FORMAT: AT PLANK GER"
-
-    );
-
-    return;
-
-}
-
-let position =
-
-    parts[0]
-    .toUpperCase();
-
-position = normalizePosition(position);
-
-let clubCode =
-
-    parts[
-        parts.length - 1
-    ]
-    .toUpperCase();
-
-let surname =
-
-    parts
-    .slice(
-        1,
-        parts.length - 1
-    )
-    .join(" ");
-
-    if (
-
-        playerAnswer == ""
-
-    ) {
-
-        setStatus(
-
-            "ENTER A PLAYER"
-
-        );
-
-        return;
-
-    }
 
 const matches = findPlayers(surname, position, clubCode);
 if (matches.length > 1) {
@@ -826,6 +795,8 @@ applyAnswer(matches[0] || null, position, clubCode, playerAnswer, surname);
 }
 
 function applyAnswer(player, position, clubCode, playerAnswer, surname, selectedName = false) {
+// Replays and disambiguation must obey the same participation rule as lookup.
+if (!isEligibleRecord(player)) player = null;
 
 if (
 
@@ -988,6 +959,7 @@ else if (
     currentGame.score +
     points;
 
+        if(typeof acceptedTeamAnswer === "function")acceptedTeamAnswer();
         refreshScreen();
 
 if (
@@ -1012,8 +984,7 @@ if (
 
 setTimeout(function () {
 
-    completeGame();
-
+    if(squadComplete())completeGame();
 }, 50);
 
 }
@@ -1045,6 +1016,7 @@ else {
     document.getElementById("answer").focus();
 
 document.getElementById("answer").select();
+answerTargetSlot = null;
 
 }
 
@@ -1059,7 +1031,7 @@ function clearPendingAnswer() {
 function showAnswerChoices(matches, position, clubCode) {
     setStatus("DID YOU MEAN?");
     document.getElementById("result").classList.add("selectionPrompt");
-    const request = { matches, position, clubCode };
+    const request = { matches, position, clubCode, slot: answerTargetSlot };
     pendingAnswer = request;
     const choices = document.getElementById("answerChoices");
     choices.hidden = false;
@@ -1081,6 +1053,7 @@ function showAnswerChoices(matches, position, clubCode) {
         button.addEventListener("click", function() {
             if (pendingAnswer !== request || currentGame.gameOver) return;
             clearPendingAnswer();
+            answerTargetSlot = request.slot;
             applyAnswer(player, position, clubCode, "", player.surname, true);
         });
         options.append(button);
@@ -1157,6 +1130,12 @@ function recordIsManager(record) {
 
 }
 
+function isEligibleRecord(record) {
+    return !!record && Number.isInteger(record.appearances) && record.appearances > 0 &&
+        Array.isArray(record.positions) &&
+        !(recordIsManager(record) && record.status === "caretaker");
+}
+
 function findLinkedRecords(fullname, managersOnly) {
 
     let identity = normalizePersonName(fullname);
@@ -1171,6 +1150,7 @@ function findLinkedRecords(fullname, managersOnly) {
             let record = club.squad[j];
 
             if (
+                isEligibleRecord(record) &&
                 normalizePersonName(record.fullname) == identity &&
                 recordIsManager(record) == managersOnly
             ) {
@@ -1214,6 +1194,7 @@ function playerAlreadyUsed(player) {
 
 }
 function getRarity(player) {
+    if (!isEligibleRecord(player)) throw new Error("Ineligible participation record");
 
     if (player.appearances == 1) {
 
@@ -1390,6 +1371,7 @@ function calculateMultiClubPlayerScore(
 }
 
 function calculateMultiManagerScore(linkedRecords) {
+    linkedRecords = linkedRecords.filter(link => isEligibleRecord(link.record));
 
     let linkedManagerPoints = linkedRecords.reduce(
         function(total, linkedRecord) {
@@ -1909,6 +1891,7 @@ clearPendingAnswer();
 const result = document.getElementById("result");
 result.textContent = text;
 result.classList.toggle("correctAnswer", isCorrect);
+if(typeof saveGameProgress === "function")saveGameProgress();
 
 }
 async function startGame() {
@@ -1916,6 +1899,7 @@ async function startGame() {
     updateBuildLabels();
 
     await selectLatestValidPack();
+    updateBuildLabels();
 
     updateVggfaxHeader();
 
@@ -1931,16 +1915,13 @@ async function startGame() {
 
 setStatus(
 
-    "ENTER ANSWER AS" +
-
-    "\n\nPOS SURNAME CLUB" +
-
-    "\n\ne.g. AT PLANK GER"
+    "SELECT A TEAM > SELECT A POSITION > ENTER A SURNAME"
 
 );
 
     drawGame();
-
+    if(typeof restoreGameProgress === "function")restoreGameProgress();
+    if(typeof refreshChallengeDeadline === "function")refreshChallengeDeadline();
 }
 function normalizeSearchName(name) {
     return name.normalize("NFD")
@@ -1968,17 +1949,21 @@ function isOneLetterTypo(answer, surname) {
         : rest(a, i) === rest(b, i + 1);
 }
 
+function validAnswerNames(player) {
+    return [player.surname, player.fullname, ...(player.aliases || [])];
+}
+
 function findPlayers(surname, position, clubCode) {
     const club = getClubByCode(clubCode);
     if (!club) return [];
     const answer = normalizeSearchName(surname);
     const exact = club.squad.filter(function(player) {
-        return normalizeSearchName(player.surname) === answer;
+        return validAnswerNames(player).some(name => normalizeSearchName(name) === answer);
     });
-    // An exact name at the wrong position must not become a different player.
-    if (exact.length) return exact.filter(player => player.positions.includes(position));
+    // An exact name at the wrong position or without participation must not become a different player.
+    if (exact.length) return exact.filter(player => isEligibleRecord(player) && player.positions.includes(position));
     return club.squad.filter(function(player) {
-        return player.positions.includes(position) &&
+        return isEligibleRecord(player) && player.positions.includes(position) &&
             isOneLetterTypo(answer, normalizeSearchName(player.surname));
     });
 }
@@ -2019,11 +2004,9 @@ function playerExistsAtClub(
 
         if (
 
-            normalizeSearchName(club.squad[i].surname)
-
-            ==
-
-            normalizeSearchName(surname)
+            isEligibleRecord(club.squad[i]) &&
+            validAnswerNames(club.squad[i]).some(name =>
+                normalizeSearchName(name) === normalizeSearchName(surname))
 
         ) {
 
@@ -2089,7 +2072,7 @@ function addPlayerToSquad(
 
             squad[i] ==
 
-            selectedPosition + "  --------"
+            selectedPosition + "  --------" && (answerTargetSlot === null || i === answerTargetSlot)
 
         ) {
 
@@ -2102,6 +2085,7 @@ function addPlayerToSquad(
                 player.surname;
 
             lastSquadIndex = i;
+            if(typeof recordGamePick === "function")recordGamePick(player,selectedPosition,linkedClubCodes[0],i);
 
 squadDisplay[i] = {
 
@@ -2211,7 +2195,7 @@ document
 
             if (
 
-                event.key === "Enter"
+                event.key === "Enter" && !event.isComposing
 
             ) {
 
@@ -2225,7 +2209,7 @@ document
 
     );
 document.getElementById("answer").addEventListener("input", function() {
-    if (pendingAnswer) setStatus("ENTER ANSWER AS POS SURNAME CLUB");
+    if (pendingAnswer) setStatus("SELECT A TEAM > SELECT A POSITION > ENTER A SURNAME");
 });
 document.getElementById("answerChoices").addEventListener("keydown", function(event) {
     if (event.key === "Escape") {
@@ -2236,8 +2220,22 @@ document.getElementById("answerChoices").addEventListener("keydown", function(ev
 startGame().catch(function(error) {
 
     console.error(error);
-    setStatus("UNABLE TO LOAD A VALID GAME PACK");
+    setStatus(window.PAGE302_RELEASES_ENABLED ? error.message : "UNABLE TO LOAD A VALID GAME PACK");
     document.getElementById("answer").disabled = true;
 
 });
+
+// Keep an open page aware of the midnight gap and next pack. Completed results
+// remain available for sharing; starting a new game explicitly selects the new pack.
+if (window.PAGE302_RELEASES_ENABLED) setInterval(async function() {
+    try {
+        const state = await refreshReleaseState();
+        if (!state?.enabled) return;
+        if (!state.currentPack || state.currentPack !== currentVggfax || state.currentRevision !== playedReleaseRevision) {
+            document.getElementById('answer').disabled = true;
+            if (state.currentPack && currentGame.totalGuesses === 0) await newGame({quiet:true});
+            else setStatus(state.currentPack ? 'NEW PACK AVAILABLE · SELECT NEW GAME' : releaseGapMessage());
+        } else if (!currentGame.gameOver) document.getElementById('answer').disabled = false;
+    } catch(error) { document.getElementById('answer').disabled = true; setStatus('RELEASE SCHEDULE UNAVAILABLE · TRY NEW GAME'); }
+}, 30000);
 

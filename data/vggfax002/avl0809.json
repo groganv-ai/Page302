@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Martin O'Neill",
+        "O'Neill"
+      ]
     },
     {
       "id": "AVL0809_BRAD_FRIEDEL",
@@ -21,7 +25,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Brad Friedel",
+        "Friedel"
+      ]
     },
     {
       "id": "AVL0809_GARETH_BARRY",
@@ -30,7 +38,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Barry",
+        "Gareth Barry"
+      ]
     },
     {
       "id": "AVL0809_ASHLEY_YOUNG",
@@ -40,7 +52,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Ashley Young",
+        "Young"
+      ]
     },
     {
       "id": "AVL0809_STILIYAN_PETROV",
@@ -49,7 +65,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Petrov",
+        "Stiliyan Petrov"
+      ]
     },
     {
       "id": "AVL0809_GABRIEL_AGBONLAHOR",
@@ -59,7 +79,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Agbonlahor",
+        "Gabriel Agbonlahor"
+      ]
     },
     {
       "id": "AVL0809_CURTIS_DAVIES",
@@ -68,7 +92,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Curtis Davies",
+        "Davies"
+      ]
     },
     {
       "id": "AVL0809_LUKE_YOUNG",
@@ -77,7 +105,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Luke Young",
+        "Young"
+      ]
     },
     {
       "id": "AVL0809_JAMES_MILNER",
@@ -87,7 +119,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "James Milner",
+        "Milner"
+      ]
     },
     {
       "id": "AVL0809_CARLOS_CU_LLAR",
@@ -96,7 +132,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Carlos Cuéllar",
+        "Cuéllar"
+      ]
     },
     {
       "id": "AVL0809_NIGEL_REO_COKER",
@@ -105,7 +145,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Nigel Reo-Coker",
+        "Reo-Coker"
+      ]
     },
     {
       "id": "AVL0809_MARTIN_LAURSEN",
@@ -114,7 +158,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Laursen",
+        "Martin Laursen"
+      ]
     },
     {
       "id": "AVL0809_NICKY_SHOREY",
@@ -124,7 +172,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Nicky Shorey",
+        "Shorey"
+      ]
     },
     {
       "id": "AVL0809_JOHN_CAREW",
@@ -133,7 +185,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Carew",
+        "John Carew"
+      ]
     },
     {
       "id": "AVL0809_ZAT_KNIGHT",
@@ -142,7 +198,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Knight",
+        "Zat Knight"
+      ]
     },
     {
       "id": "AVL0809_STEVE_SIDWELL",
@@ -151,7 +211,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Sidwell",
+        "Steve Sidwell"
+      ]
     },
     {
       "id": "AVL0809_EMILE_HESKEY",
@@ -160,7 +224,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Emile Heskey",
+        "Heskey"
+      ]
     },
     {
       "id": "AVL0809_CRAIG_GARDNER",
@@ -169,7 +237,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Craig Gardner",
+        "Gardner"
+      ]
     },
     {
       "id": "AVL0809_NATHAN_DELFOUNESO",
@@ -179,7 +251,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Delfouneso",
+        "Nathan Delfouneso"
+      ]
     },
     {
       "id": "AVL0809_MARLON_HAREWOOD",
@@ -188,7 +264,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Harewood",
+        "Marlon Harewood"
+      ]
     },
     {
       "id": "AVL0809_BRAD_GUZAN",
@@ -197,7 +277,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Brad Guzan",
+        "Guzan"
+      ]
     },
     {
       "id": "AVL0809_WAYNE_ROUTLEDGE",
@@ -207,7 +291,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Routledge",
+        "Wayne Routledge"
+      ]
     }
   ]
 }

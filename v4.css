@@ -1,0 +1,92 @@
+/* Page302 v4: approved identity and interface, layered over the existing game layout. */
+:root { --green:#00ff00; --blue:#0000ff; --pink:#ff00ff; --cyan:#00ffff; --yellow:#ffff00; }
+body { padding:16px 24px; font-weight:normal; }
+.pageHeader { padding:0; }
+.headerTop { font-size:18px; padding:4px 0 8px; align-items:center; gap:12px; font-weight:normal; }
+.headerInfo { display:flex; width:auto; justify-content:flex-start; flex:0 0 auto; gap:1ch; white-space:nowrap; }
+.headerInfo .pageNumber { margin-right:0; }
+.headerInfo .serviceName { margin-right:0; }
+.headerSchedule { margin-left:auto; display:flex; flex-direction:row; gap:1ch; text-align:right; font-size:18px; line-height:1.2; color:var(--yellow); white-space:nowrap; }
+.headerSchedule time { color:var(--yellow); }
+.headerSchedule .submissionDeadline { white-space:nowrap; }
+.aboutBuild { text-align:center; font-size:16px; color:var(--cyan); }
+.aboutBuild .buildLabel { display:inline; margin:0; font:inherit; }
+.headerLogo { width:100%; margin:0; padding:0; border-block:4px solid var(--green); }
+.brandMasthead { box-sizing:border-box; width:100%; max-width:720px; margin:auto; padding:12px 8px; display:grid; grid-template-columns:76px minmax(0,1fr); column-gap:14px; row-gap:5px; align-items:center; }
+.mastWords { display:contents; }
+.mastBall { grid-column:1; grid-row:1; width:76px; height:auto; image-rendering:pixelated; }
+.mastTitle { grid-column:2; grid-row:1; display:flex; gap:8px; align-items:stretch; }
+.wordPage { flex:31; background:#fff; padding:8px 10px; }
+.word302 { flex:23; background:var(--blue); padding:8px 10px; }
+.wordPage img,.word302 img { display:block; width:100%; height:auto; image-rendering:pixelated; }
+.mastSub { grid-column:1 / -1; grid-row:2; color:#fff; font-size:16px; text-align:center; white-space:nowrap; }
+.playPrompt { font-size:15px; line-height:1.6; margin:10px 0; }
+.statusBar { padding:10px 8px; }
+.legendRow { gap:14px; }
+.legendPanel { padding:10px; }
+.legendContent { font-size:17px; line-height:1.5; }
+.mainLayout { gap:16px; }
+.panel { padding:8px; min-width:0; }
+.panelHeader { padding:7px; }
+#clubTitle { font-size:25px; }
+.clubRow { white-space:normal; }
+.inputArea { margin-top:14px; }
+.answerRow { gap:12px; }
+.answerButton.answerLabel { display:flex; align-items:center; gap:10px; flex-shrink:0; width:auto; background:transparent; border:0; padding:0; color:#fff; font:inherit; font-size:22px; cursor:pointer; }
+.entryBall { width:28px; height:28px; image-rendering:pixelated; flex-shrink:0; }
+.answerInputShell { position:relative; display:flex; flex:1; min-width:0; align-items:center; font-size:22px; }
+.answerInputShell #answer { width:100%; min-width:0; flex:1; }
+.dosCursor { display:none; position:absolute; left:0; top:50%; width:.65em; height:.65em; transform:translateY(-50%); background:#fff; pointer-events:none; animation:dosBlink 1.1s step-end infinite; }
+.answerInputShell:has(#answer:placeholder-shown:not(:disabled)) .dosCursor { display:block; }
+.answerInputShell #answer:placeholder-shown { caret-color:transparent; }
+.answerFeedback { display:grid; grid-template-columns:48px 1fr; gap:16px; align-items:center; padding:16px; border:2px dotted var(--green); margin-top:14px; }
+.answerFeedback[hidden] { display:none; }
+.feedbackBall { width:48px; height:48px; image-rendering:pixelated; }
+.answerFeedback .playerName { font-size:24px; }
+.feedbackClub,.feedbackRarity { font-size:18px; line-height:1.5; }
+.feedbackPoints { font-size:25px; color:var(--yellow); border:0; }
+.answerFeedback > div { display:flex; flex-direction:column; gap:8px; }
+.answerFeedback > div > div { margin:0; line-height:1; }
+#result.correctAnswer { display:none; }
+#result.feedbackPresented { display:none; }
+.feedbackMessage { font-size:18px; white-space:pre-wrap; overflow-wrap:anywhere; }
+.footerBar { padding:12px 0; }
+.copyright { padding:10px; }
+.standingNote { font-size:14px; color:var(--cyan); margin:15px 0; line-height:1.6; text-align:center; }
+.scoresLogo img,.helpPageLogo img { max-height:100px; object-fit:contain; }
+button:focus-visible,input:focus-visible { outline:2px solid var(--yellow); outline-offset:3px; }
+.hop { animation:hop .85s ease-out; }
+@keyframes hop { 0%,100%{transform:translateY(0) rotate(0)} 35%{transform:translateY(-16px) rotate(18deg)} 65%{transform:translateY(0) rotate(-8deg)} 80%{transform:translateY(-4px) rotate(4deg)} }
+@keyframes dosBlink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+@media(max-width:700px) {
+ body { padding:10px; }
+ .headerTop { font-size:10px; }
+ .headerSchedule { font-size:12px; }
+ .headerSchedule time { display:none; }
+ .brandMasthead { max-width:none; grid-template-columns:14% minmax(0,1fr); column-gap:9px; padding:9px 0; }
+ .mastBall { width:100%; }
+ .mastTitle { gap:5px; }
+ .wordPage,.word302 { padding:5px 6px; }
+ .mastSub { font-size:clamp(7px,2.15vw,14px); }
+ #clubTitle { font-size:21px; }
+ .clubRow { white-space:normal; overflow-wrap:normal; }
+ .answerButton.answerLabel { font-size:18px; gap:8px; }
+ .entryBall { width:24px; height:24px; }
+ .answerRow { gap:10px; }
+}
+@media(max-width:650px) {
+ .playPrompt { font-size:12px; line-height:1.4; margin:9px 0; }
+ .playPromptMore { font-size:11px; line-height:1.5; }
+ .playPromptMore>span { white-space:normal; }
+ .statusBar { padding:7px 4px; font-size:13px; }
+ .statusBar #formationDisplay,.statusBar #guessDisplay { font-size:12px; }
+ .legendContent { font-size:13px; }
+ .answerFeedback { gap:10px; padding:12px; grid-template-columns:32px 1fr; }
+ .feedbackBall { width:32px; height:32px; }
+ .answerFeedback .playerName { font-size:20px; }
+ .feedbackClub,.feedbackRarity { font-size:14px; }
+ .feedbackMessage { font-size:14px; }
+ .feedbackPoints { font-size:21px; }
+}
+@media(max-width:400px) { #clubTitle { font-size:15px; letter-spacing:-.25px; } }
+@media(prefers-reduced-motion:reduce) { .hop { animation:none; } .dosCursor { animation:none; } }

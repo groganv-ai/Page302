@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Harry Redknapp",
+        "Redknapp"
+      ]
     },
     {
       "id": "POR0809_JOE_JORDAN",
@@ -21,7 +25,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Joe Jordan",
+        "Jordan"
+      ]
     },
     {
       "id": "POR0809_TONY_ADAMS",
@@ -30,7 +38,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Adams",
+        "Tony Adams"
+      ]
     },
     {
       "id": "POR0809_PAUL_HART",
@@ -39,7 +51,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Hart",
+        "Paul Hart"
+      ]
     },
     {
       "id": "POR0809_SYLVAIN_DISTIN",
@@ -48,7 +64,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Distin",
+        "Sylvain Distin"
+      ]
     },
     {
       "id": "POR0809_PETER_CROUCH",
@@ -57,7 +77,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Crouch",
+        "Peter Crouch"
+      ]
     },
     {
       "id": "POR0809_DAVID_JAMES",
@@ -66,7 +90,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "David James",
+        "James"
+      ]
     },
     {
       "id": "POR0809_SOL_CAMPBELL",
@@ -76,7 +104,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Campbell",
+        "Sol Campbell"
+      ]
     },
     {
       "id": "POR0809_SEAN_DAVIS",
@@ -85,7 +117,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Davis",
+        "Sean Davis"
+      ]
     },
     {
       "id": "POR0809_GLEN_JOHNSON",
@@ -94,7 +130,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Glen Johnson",
+        "Johnson"
+      ]
     },
     {
       "id": "POR0809_NADIR_BELHADJ",
@@ -104,7 +144,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Belhadj",
+        "Nadir Belhadj"
+      ]
     },
     {
       "id": "POR0809_HERMANN_HREI_ARSSON",
@@ -113,7 +157,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Hermann Hreiðarsson",
+        "Hreiðarsson"
+      ]
     },
     {
       "id": "POR0809_JERMAIN_DEFOE",
@@ -122,7 +170,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Defoe",
+        "Jermain Defoe"
+      ]
     },
     {
       "id": "POR0809_YOUN_S_KABOUL",
@@ -131,7 +183,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Kaboul",
+        "Younès Kaboul"
+      ]
     },
     {
       "id": "POR0809_RICHARD_HUGHES",
@@ -140,7 +196,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Hughes",
+        "Richard Hughes"
+      ]
     },
     {
       "id": "POR0809_NIKO_KRANJ_AR",
@@ -149,7 +209,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Kranjčar",
+        "Niko Kranjčar"
+      ]
     },
     {
       "id": "POR0809_HAYDEN_MULLINS",
@@ -158,7 +222,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Hayden Mullins",
+        "Mullins"
+      ]
     },
     {
       "id": "POR0809_PAPA_BOUBA_DIOP",
@@ -168,7 +236,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Diop",
+        "Papa Bouba Diop"
+      ]
     },
     {
       "id": "POR0809_ARMAND_TRAOR_",
@@ -178,7 +250,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Armand Traoré",
+        "Traoré"
+      ]
     },
     {
       "id": "POR0809_DAVID_NUGENT",
@@ -187,7 +263,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "David Nugent",
+        "Nugent"
+      ]
     },
     {
       "id": "POR0809_NO__PAMAROT",
@@ -196,7 +276,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Noé Pamarot",
+        "Pamarot"
+      ]
     },
     {
       "id": "POR0809_LASSANA_DIARRA",
@@ -205,7 +289,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Diarra",
+        "Lassana Diarra"
+      ]
     },
     {
       "id": "POR0809_JERMAINE_PENNANT",
@@ -214,7 +302,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Jermaine Pennant",
+        "Pennant"
+      ]
     },
     {
       "id": "POR0809_JOHN_UTAKA",
@@ -224,7 +316,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "John Utaka",
+        "Utaka"
+      ]
     },
     {
       "id": "POR0809_GLEN_LITTLE",
@@ -233,7 +329,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Glen Little",
+        "Little"
+      ]
     },
     {
       "id": "POR0809_NWANKWO_KANU",
@@ -242,7 +342,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Kanu",
+        "Nwankwo Kanu"
+      ]
     },
     {
       "id": "POR0809_ANGELOS_BASINAS",
@@ -251,7 +355,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Angelos Basinas",
+        "Basinas"
+      ]
     },
     {
       "id": "POR0809_MARC_WILSON",
@@ -261,7 +369,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Marc Wilson",
+        "Wilson"
+      ]
     },
     {
       "id": "POR0809_ASMIR_BEGOVI_",
@@ -270,7 +382,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Asmir Begović",
+        "Begović"
+      ]
     },
     {
       "id": "POR0809_ARNOLD_MVUEMBA",
@@ -280,7 +396,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Arnold Mvuemba",
+        "Mvuemba"
+      ]
     },
     {
       "id": "POR0809_JEROME_THOMAS",
@@ -290,7 +410,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Jerome Thomas",
+        "Thomas"
+      ]
     },
     {
       "id": "POR0809_THEOFANIS_GEKAS",
@@ -299,7 +423,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Gekas",
+        "Theofanis Gekas"
+      ]
     },
     {
       "id": "POR0809_LINVOY_PRIMUS",
@@ -308,7 +436,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Linvoy Primus",
+        "Primus"
+      ]
     }
   ]
 }

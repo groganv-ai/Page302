@@ -1,0 +1,336 @@
+{
+  "clubCode": "EVE9596",
+  "club": "Everton",
+  "season": "1995-96",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "EVE9596_JOE_ROYLE",
+      "fullname": "Joe Royle",
+      "surname": "Royle",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Joe Royle",
+        "Royle"
+      ]
+    },
+    {
+      "id": "EVE9596_NEVILLE_SOUTHALL",
+      "fullname": "Neville Southall",
+      "surname": "Southall",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Neville Southall",
+        "Southall"
+      ]
+    },
+    {
+      "id": "EVE9596_DAVE_WATSON",
+      "fullname": "Dave Watson",
+      "surname": "Watson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Dave Watson",
+        "Watson"
+      ]
+    },
+    {
+      "id": "EVE9596_ANDREI_KANCHELSKIS",
+      "fullname": "Andrei Kanchelskis",
+      "surname": "Kanchelskis",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Andrei Kanchelskis",
+        "Kanchelskis"
+      ]
+    },
+    {
+      "id": "EVE9596_DAVID_UNSWORTH",
+      "fullname": "David Unsworth",
+      "surname": "Unsworth",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "David Unsworth",
+        "Unsworth"
+      ]
+    },
+    {
+      "id": "EVE9596_JOE_PARKINSON",
+      "fullname": "Joe Parkinson",
+      "surname": "Parkinson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Joe Parkinson",
+        "Parkinson"
+      ]
+    },
+    {
+      "id": "EVE9596_GRAHAM_STUART",
+      "fullname": "Graham Stuart",
+      "surname": "Stuart",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Graham Stuart",
+        "Stuart"
+      ]
+    },
+    {
+      "id": "EVE9596_BARRY_HORNE",
+      "fullname": "Barry Horne",
+      "surname": "Horne",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Barry Horne",
+        "Horne"
+      ]
+    },
+    {
+      "id": "EVE9596_JOHN_EBBRELL",
+      "fullname": "John Ebbrell",
+      "surname": "Ebbrell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Ebbrell",
+        "John Ebbrell"
+      ]
+    },
+    {
+      "id": "EVE9596_ANDY_HINCHCLIFFE",
+      "fullname": "Andy Hinchcliffe",
+      "surname": "Hinchcliffe",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Andy Hinchcliffe",
+        "Hinchcliffe"
+      ]
+    },
+    {
+      "id": "EVE9596_CRAIG_SHORT",
+      "fullname": "Craig Short",
+      "surname": "Short",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Craig Short",
+        "Short"
+      ]
+    },
+    {
+      "id": "EVE9596_ANDERS_LIMPAR",
+      "fullname": "Anders Limpar",
+      "surname": "Limpar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Anders Limpar",
+        "Limpar"
+      ]
+    },
+    {
+      "id": "EVE9596_PAUL_RIDEOUT",
+      "fullname": "Paul Rideout",
+      "surname": "Rideout",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Paul Rideout",
+        "Rideout"
+      ]
+    },
+    {
+      "id": "EVE9596_DANIEL_AMOKACHI",
+      "fullname": "Daniel Amokachi",
+      "surname": "Amokachi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Amokachi",
+        "Daniel Amokachi"
+      ]
+    },
+    {
+      "id": "EVE9596_DUNCAN_FERGUSON",
+      "fullname": "Duncan Ferguson",
+      "surname": "Ferguson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Duncan Ferguson",
+        "Ferguson"
+      ]
+    },
+    {
+      "id": "EVE9596_MATT_JACKSON",
+      "fullname": "Matt Jackson",
+      "surname": "Jackson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Jackson",
+        "Matt Jackson"
+      ]
+    },
+    {
+      "id": "EVE9596_GARY_ABLETT",
+      "fullname": "Gary Ablett",
+      "surname": "Ablett",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Ablett",
+        "Gary Ablett"
+      ]
+    },
+    {
+      "id": "EVE9596_TONY_GRANT",
+      "fullname": "Tony Grant",
+      "surname": "Grant",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Grant",
+        "Tony Grant"
+      ]
+    },
+    {
+      "id": "EVE9596_MARC_HOTTIGER",
+      "fullname": "Marc Hottiger",
+      "surname": "Hottiger",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Hottiger",
+        "Marc Hottiger"
+      ]
+    },
+    {
+      "id": "EVE9596_EARL_BARRETT",
+      "fullname": "Earl Barrett",
+      "surname": "Barrett",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Barrett",
+        "Earl Barrett"
+      ]
+    },
+    {
+      "id": "EVE9596_VINNY_SAMWAYS",
+      "fullname": "Vinny Samways",
+      "surname": "Samways",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Samways",
+        "Vinny Samways"
+      ]
+    },
+    {
+      "id": "EVE9596_JON_O_CONNOR",
+      "fullname": "Jon O'Connor",
+      "surname": "O'Connor",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Jon O'Connor",
+        "O'Connor"
+      ]
+    },
+    {
+      "id": "EVE9596_MICHAEL_BRANCH",
+      "fullname": "Michael Branch",
+      "surname": "Branch",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Branch",
+        "Michael Branch"
+      ]
+    },
+    {
+      "id": "EVE9596_PAUL_HOLMES",
+      "fullname": "Paul Holmes",
+      "surname": "Holmes",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Holmes",
+        "Paul Holmes"
+      ]
+    },
+    {
+      "id": "EVE9596_STUART_BARLOW",
+      "fullname": "Stuart Barlow",
+      "surname": "Barlow",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Barlow",
+        "Stuart Barlow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "clubCode": "BRE2223",
+  "club": "Brentford",
+  "season": "2022-23",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "BRE2223_THOMAS_FRANK",
+      "fullname": "Thomas Frank",
+      "surname": "Frank",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Frank",
+        "Thomas Frank"
+      ]
+    },
+    {
+      "id": "BRE2223_DAVID_RAYA",
+      "fullname": "David Raya",
+      "surname": "Raya",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "David Raya",
+        "Raya"
+      ]
+    },
+    {
+      "id": "BRE2223_BEN_MEE",
+      "fullname": "Ben Mee",
+      "surname": "Mee",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Ben Mee",
+        "Mee"
+      ]
+    },
+    {
+      "id": "BRE2223_RICO_HENRY",
+      "fullname": "Rico Henry",
+      "surname": "Henry",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Henry",
+        "Rico Henry"
+      ]
+    },
+    {
+      "id": "BRE2223_MATHIAS_JENSEN",
+      "fullname": "Mathias Jensen",
+      "surname": "Jensen",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Jensen",
+        "Mathias Jensen"
+      ]
+    },
+    {
+      "id": "BRE2223_BRYAN_MBEUMO",
+      "fullname": "Bryan Mbeumo",
+      "surname": "Mbeumo",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Bryan Mbeumo",
+        "Mbeumo"
+      ]
+    },
+    {
+      "id": "BRE2223_IVAN_TONEY",
+      "fullname": "Ivan Toney",
+      "surname": "Toney",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Ivan Toney",
+        "Toney"
+      ]
+    },
+    {
+      "id": "BRE2223_ETHAN_PINNOCK",
+      "fullname": "Ethan Pinnock",
+      "surname": "Pinnock",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Ethan Pinnock",
+        "Pinnock"
+      ]
+    },
+    {
+      "id": "BRE2223_VITALY_JANELT",
+      "fullname": "Vitaly Janelt",
+      "surname": "Janelt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Janelt",
+        "Vitaly Janelt"
+      ]
+    },
+    {
+      "id": "BRE2223_AARON_HICKEY",
+      "fullname": "Aaron Hickey",
+      "surname": "Hickey",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Aaron Hickey",
+        "Hickey"
+      ]
+    },
+    {
+      "id": "BRE2223_CHRISTIAN_N_RGAARD",
+      "fullname": "Christian Nørgaard",
+      "surname": "Nørgaard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Christian Nørgaard",
+        "Nørgaard"
+      ]
+    },
+    {
+      "id": "BRE2223_YOANE_WISSA",
+      "fullname": "Yoane Wissa",
+      "surname": "Wissa",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Wissa",
+        "Yoane Wissa"
+      ]
+    },
+    {
+      "id": "BRE2223_JOSH_DASILVA",
+      "fullname": "Josh Dasilva",
+      "surname": "Dasilva",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Dasilva",
+        "Josh Dasilva"
+      ]
+    },
+    {
+      "id": "BRE2223_MADS_ROERSLEV",
+      "fullname": "Mads Roerslev",
+      "surname": "Roerslev",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Mads Roerslev",
+        "Roerslev"
+      ]
+    },
+    {
+      "id": "BRE2223_MATHIAS_J_RGENSEN",
+      "fullname": "Mathias Jørgensen",
+      "surname": "Jørgensen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Jørgensen",
+        "Mathias Jørgensen",
+        "Zanka"
+      ]
+    },
+    {
+      "id": "BRE2223_MIKKEL_DAMSGAARD",
+      "fullname": "Mikkel Damsgaard",
+      "surname": "Damsgaard",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Damsgaard",
+        "Mikkel Damsgaard"
+      ]
+    },
+    {
+      "id": "BRE2223_KRISTOFFER_AJER",
+      "fullname": "Kristoffer Ajer",
+      "surname": "Ajer",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Ajer",
+        "Kristoffer Ajer"
+      ]
+    },
+    {
+      "id": "BRE2223_PONTUS_JANSSON",
+      "fullname": "Pontus Jansson",
+      "surname": "Jansson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Jansson",
+        "Pontus Jansson"
+      ]
+    },
+    {
+      "id": "BRE2223_FRANK_ONYEKA",
+      "fullname": "Frank Onyeka",
+      "surname": "Onyeka",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Frank Onyeka",
+        "Onyeka"
+      ]
+    },
+    {
+      "id": "BRE2223_KEVIN_SCHADE",
+      "fullname": "Kevin Schade",
+      "surname": "Schade",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Kevin Schade",
+        "Schade"
+      ]
+    },
+    {
+      "id": "BRE2223_SHANDON_BAPTISTE",
+      "fullname": "Shandon Baptiste",
+      "surname": "Baptiste",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Baptiste",
+        "Shandon Baptiste"
+      ]
+    },
+    {
+      "id": "BRE2223_KEANE_LEWIS_POTTER",
+      "fullname": "Keane Lewis-Potter",
+      "surname": "Lewis-Potter",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Keane Lewis-Potter",
+        "Lewis-Potter"
+      ]
+    },
+    {
+      "id": "BRE2223_SAMAN_GHODDOS",
+      "fullname": "Saman Ghoddos",
+      "surname": "Ghoddos",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Ghoddos",
+        "Saman Ghoddos"
+      ]
+    },
+    {
+      "id": "BRE2223_SERGI_CANOS",
+      "fullname": "Sergi Canós",
+      "surname": "Canós",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Canós",
+        "Sergi Canós"
+      ]
+    },
+    {
+      "id": "BRE2223_MADS_BECH_S_RENSEN",
+      "fullname": "Mads Bech Sørensen",
+      "surname": "Sørensen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Mads Bech Sørensen",
+        "Sørensen"
+      ]
+    },
+    {
+      "id": "BRE2223_HALIL_DERVISOGLU",
+      "fullname": "Halil Dervişoğlu",
+      "surname": "Dervişoğlu",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Dervişoğlu",
+        "Halil Dervişoğlu"
+      ]
+    },
+    {
+      "id": "BRE2223_MATTHEW_COX",
+      "fullname": "Matthew Cox",
+      "surname": "Cox",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Cox",
+        "Matthew Cox"
+      ]
+    },
+    {
+      "id": "BRE2223_TRISTAN_CRAMA",
+      "fullname": "Tristan Crama",
+      "surname": "Crama",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Crama",
+        "Tristan Crama"
+      ]
+    },
+    {
+      "id": "BRE2223_CHARLIE_GOODE",
+      "fullname": "Charlie Goode",
+      "surname": "Goode",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Charlie Goode",
+        "Goode"
+      ]
+    },
+    {
+      "id": "BRE2223_MICHAEL_OLAKIGBE",
+      "fullname": "Michael Olakigbe",
+      "surname": "Olakigbe",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Michael Olakigbe",
+        "Olakigbe"
+      ]
+    },
+    {
+      "id": "BRE2223_FINLEY_STEVENS",
+      "fullname": "Finley Stevens",
+      "surname": "Stevens",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Finley Stevens",
+        "Stevens"
+      ]
+    },
+    {
+      "id": "BRE2223_THOMAS_STRAKOSHA",
+      "fullname": "Thomas Strakosha",
+      "surname": "Strakosha",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Strakosha",
+        "Thomas Strakosha"
+      ]
+    },
+    {
+      "id": "BRE2223_RYAN_TREVITT",
+      "fullname": "Ryan Trevitt",
+      "surname": "Trevitt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Ryan Trevitt",
+        "Trevitt"
+      ]
+    },
+    {
+      "id": "BRE2223_YEHOR_YARMOLIUK",
+      "fullname": "Yehor Yarmoliuk",
+      "surname": "Yarmoliuk",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Yarmoliuk",
+        "Yehor Yarmoliuk"
+      ]
+    }
+  ]
+}

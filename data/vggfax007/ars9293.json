@@ -1,0 +1,432 @@
+{
+  "clubCode": "ARS9293",
+  "club": "Arsenal",
+  "season": "1992-93",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "ARS9293_GEORGE_GRAHAM",
+      "fullname": "George Graham",
+      "surname": "Graham",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "George Graham",
+        "Graham"
+      ]
+    },
+    {
+      "id": "ARS9293_DAVID_SEAMAN",
+      "fullname": "David Seaman",
+      "surname": "Seaman",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 39,
+      "playerId": "2d578837",
+      "aliases": [
+        "David Seaman",
+        "Seaman"
+      ]
+    },
+    {
+      "id": "ARS9293_TONY_ADAMS",
+      "fullname": "Tony Adams",
+      "surname": "Adams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "playerId": "26b5e727",
+      "aliases": [
+        "Adams",
+        "Tony Adams"
+      ]
+    },
+    {
+      "id": "ARS9293_KEVIN_CAMPBELL",
+      "fullname": "Kevin Campbell",
+      "surname": "Campbell",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "playerId": "b209e651",
+      "aliases": [
+        "Campbell",
+        "Kevin Campbell"
+      ]
+    },
+    {
+      "id": "ARS9293_PAUL_MERSON",
+      "fullname": "Paul Merson",
+      "surname": "Merson",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33,
+      "playerId": "eba7e6fd",
+      "aliases": [
+        "Merson",
+        "Paul Merson"
+      ]
+    },
+    {
+      "id": "ARS9293_IAN_WRIGHT",
+      "fullname": "Ian Wright",
+      "surname": "Wright",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31,
+      "playerId": "60c275b3",
+      "aliases": [
+        "Ian Wright",
+        "Wright"
+      ]
+    },
+    {
+      "id": "ARS9293_JOHN_JENSEN",
+      "fullname": "John Jensen",
+      "surname": "Jensen",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "playerId": "77e1f19b",
+      "aliases": [
+        "Jensen",
+        "John Jensen"
+      ]
+    },
+    {
+      "id": "ARS9293_NIGEL_WINTERBURN",
+      "fullname": "Nigel Winterburn",
+      "surname": "Winterburn",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "playerId": "0672e24e",
+      "aliases": [
+        "Nigel Winterburn",
+        "Winterburn"
+      ]
+    },
+    {
+      "id": "ARS9293_LEE_DIXON",
+      "fullname": "Lee Dixon",
+      "surname": "Dixon",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "playerId": "b6ba1615",
+      "aliases": [
+        "Dixon",
+        "Lee Dixon"
+      ]
+    },
+    {
+      "id": "ARS9293_ALAN_SMITH",
+      "fullname": "Alan Smith",
+      "surname": "Smith",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31,
+      "playerId": "0b7b04d2",
+      "aliases": [
+        "Alan Smith",
+        "Smith"
+      ]
+    },
+    {
+      "id": "ARS9293_DAVID_HILLIER",
+      "fullname": "David Hillier",
+      "surname": "Hillier",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "playerId": "c3861872",
+      "aliases": [
+        "David Hillier",
+        "Hillier"
+      ]
+    },
+    {
+      "id": "ARS9293_STEVE_BOULD",
+      "fullname": "Steve Bould",
+      "surname": "Bould",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "playerId": "42e0fd3a",
+      "aliases": [
+        "Bould",
+        "Steve Bould"
+      ]
+    },
+    {
+      "id": "ARS9293_ANDY_LINIGHAN",
+      "fullname": "Andy Linighan",
+      "surname": "Linighan",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "playerId": "d2acfbec",
+      "aliases": [
+        "Andy Linighan",
+        "Linighan"
+      ]
+    },
+    {
+      "id": "ARS9293_RAY_PARLOUR",
+      "fullname": "Ray Parlour",
+      "surname": "Parlour",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "playerId": "d567e937",
+      "aliases": [
+        "Parlour",
+        "Ray Parlour"
+      ]
+    },
+    {
+      "id": "ARS9293_MARTIN_KEOWN",
+      "fullname": "Martin Keown",
+      "surname": "Keown",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 16,
+      "playerId": "b844a204",
+      "aliases": [
+        "Keown",
+        "Martin Keown"
+      ]
+    },
+    {
+      "id": "ARS9293_STEVE_MORROW",
+      "fullname": "Steve Morrow",
+      "surname": "Morrow",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 16,
+      "playerId": "6d8a536c",
+      "aliases": [
+        "Morrow",
+        "Steve Morrow"
+      ]
+    },
+    {
+      "id": "ARS9293_ANDERS_LIMPAR",
+      "fullname": "Anders Limpar",
+      "surname": "Limpar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "playerId": "897b32c0",
+      "aliases": [
+        "Anders Limpar",
+        "Limpar"
+      ]
+    },
+    {
+      "id": "ARS9293_JIMMY_CARTER",
+      "fullname": "Jimmy Carter",
+      "surname": "Carter",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "playerId": "39bbad32",
+      "aliases": [
+        "Carter",
+        "Jimmy Carter"
+      ]
+    },
+    {
+      "id": "ARS9293_IAN_SELLEY",
+      "fullname": "Ian Selley",
+      "surname": "Selley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9,
+      "playerId": "b01c7a45",
+      "aliases": [
+        "Ian Selley",
+        "Selley"
+      ]
+    },
+    {
+      "id": "ARS9293_PAL_LYDERSEN",
+      "fullname": "Pål Lydersen",
+      "surname": "Lydersen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "playerId": "0c0f0148",
+      "aliases": [
+        "Lydersen",
+        "Pål Lydersen"
+      ]
+    },
+    {
+      "id": "ARS9293_DAVID_O_LEARY",
+      "fullname": "David O'Leary",
+      "surname": "O'Leary",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11,
+      "playerId": "9d311ed4",
+      "aliases": [
+        "David O'Leary",
+        "O'Leary"
+      ]
+    },
+    {
+      "id": "ARS9293_PAUL_DAVIS",
+      "fullname": "Paul Davis",
+      "surname": "Davis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "playerId": "002c1acb",
+      "aliases": [
+        "Davis",
+        "Paul Davis"
+      ]
+    },
+    {
+      "id": "ARS9293_MARK_FLATTS",
+      "fullname": "Mark Flatts",
+      "surname": "Flatts",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "playerId": "3478d720",
+      "aliases": [
+        "Flatts",
+        "Mark Flatts"
+      ]
+    },
+    {
+      "id": "ARS9293_ALAN_MILLER",
+      "fullname": "Alan Miller",
+      "surname": "Miller",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 4,
+      "playerId": "ba82c15d",
+      "aliases": [
+        "Alan Miller",
+        "Miller"
+      ]
+    },
+    {
+      "id": "ARS9293_NEIL_HEANEY",
+      "fullname": "Neil Heaney",
+      "surname": "Heaney",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5,
+      "playerId": "cffb4fa2",
+      "aliases": [
+        "Heaney",
+        "Neil Heaney"
+      ]
+    },
+    {
+      "id": "ARS9293_SCOTT_MARSHALL",
+      "fullname": "Scott Marshall",
+      "surname": "Marshall",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "playerId": "85bcb2e5",
+      "aliases": [
+        "Marshall",
+        "Scott Marshall"
+      ]
+    },
+    {
+      "id": "ARS9293_COLIN_PATES",
+      "fullname": "Colin Pates",
+      "surname": "Pates",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 7,
+      "playerId": "78be8b16",
+      "aliases": [
+        "Colin Pates",
+        "Pates"
+      ]
+    },
+    {
+      "id": "ARS9293_PAUL_DICKOV",
+      "fullname": "Paul Dickov",
+      "surname": "Dickov",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "playerId": "1ea43e27",
+      "aliases": [
+        "Dickov",
+        "Paul Dickov"
+      ]
+    },
+    {
+      "id": "ARS9293_GAVIN_MCGOWAN",
+      "fullname": "Gavin McGowan",
+      "surname": "McGowan",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "playerId": "e4be205a",
+      "aliases": [
+        "Gavin McGowan",
+        "McGowan"
+      ]
+    },
+    {
+      "id": "ARS9293_PERRY_GROVES",
+      "fullname": "Perry Groves",
+      "surname": "Groves",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "playerId": "a8b9d723",
+      "aliases": [
+        "Groves",
+        "Perry Groves"
+      ]
+    }
+  ]
+}

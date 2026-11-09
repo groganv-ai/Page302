@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 42
+      "appearances": 42,
+      "aliases": [
+        "Brian Clough",
+        "Clough"
+      ]
     },
     {
       "id": "NFO9293_ROY_KEANE",
@@ -21,7 +25,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 40
+      "appearances": 40,
+      "aliases": [
+        "Keane",
+        "Roy Keane"
+      ]
     },
     {
       "id": "NFO9293_MARK_CROSSLEY",
@@ -30,7 +38,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Crossley",
+        "Mark Crossley"
+      ]
     },
     {
       "id": "NFO9293_CARL_TILER",
@@ -39,7 +51,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Carl Tiler",
+        "Tiler"
+      ]
     },
     {
       "id": "NFO9293_SCOT_GEMMILL",
@@ -48,7 +64,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Gemmill",
+        "Scot Gemmill"
+      ]
     },
     {
       "id": "NFO9293_BRIAN_LAWS",
@@ -57,7 +77,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Brian Laws",
+        "Laws"
+      ]
     },
     {
       "id": "NFO9293_STEVE_CHETTLE",
@@ -66,7 +90,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Chettle",
+        "Steve Chettle"
+      ]
     },
     {
       "id": "NFO9293_GARY_BANNISTER",
@@ -75,7 +103,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Bannister",
+        "Gary Bannister"
+      ]
     },
     {
       "id": "NFO9293_IAN_WOAN",
@@ -84,7 +116,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Ian Woan",
+        "Woan"
+      ]
     },
     {
       "id": "NFO9293_STUART_PEARCE",
@@ -93,7 +129,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Pearce",
+        "Stuart Pearce"
+      ]
     },
     {
       "id": "NFO9293_GARY_CROSBY",
@@ -102,7 +142,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Crosby",
+        "Gary Crosby"
+      ]
     },
     {
       "id": "NFO9293_KINGSLEY_BLACK",
@@ -111,7 +155,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Black",
+        "Kingsley Black"
+      ]
     },
     {
       "id": "NFO9293_ORVALDUR_RLYGSSON",
@@ -120,7 +168,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Örlygsson",
+        "Þorvaldur Örlygsson"
+      ]
     },
     {
       "id": "NFO9293_GARY_CHARLES",
@@ -129,7 +181,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Charles",
+        "Gary Charles"
+      ]
     },
     {
       "id": "NFO9293_STEVE_STONE",
@@ -138,7 +194,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Steve Stone",
+        "Stone"
+      ]
     },
     {
       "id": "NFO9293_ROBERT_ROSARIO",
@@ -147,7 +207,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Robert Rosario",
+        "Rosario"
+      ]
     },
     {
       "id": "NFO9293_LEE_GLOVER",
@@ -156,7 +220,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Glover",
+        "Lee Glover"
+      ]
     },
     {
       "id": "NFO9293_NEIL_WEBB",
@@ -166,7 +234,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 9
+      "appearances": 9,
+      "aliases": [
+        "Neil Webb",
+        "Webb"
+      ]
     },
     {
       "id": "NFO9293_BRETT_WILLIAMS",
@@ -175,7 +247,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Brett Williams",
+        "Williams"
+      ]
     },
     {
       "id": "NFO9293_ANDY_MARRIOTT",
@@ -184,7 +260,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Andy Marriott",
+        "Marriott"
+      ]
     },
     {
       "id": "NFO9293_TERRY_WILSON",
@@ -193,7 +273,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Terry Wilson",
+        "Wilson"
+      ]
     },
     {
       "id": "NFO9293_RAY_MCKINNON",
@@ -202,7 +286,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "McKinnon",
+        "Ray McKinnon"
+      ]
     },
     {
       "id": "NFO9293_TEDDY_SHERINGHAM",
@@ -211,7 +299,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Sheringham",
+        "Teddy Sheringham"
+      ]
     }
   ]
 }

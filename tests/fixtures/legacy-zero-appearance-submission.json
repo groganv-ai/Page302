@@ -1,0 +1,210 @@
+{
+  "sourceBuild": "v4.1.03_003",
+  "sourceCommit": "8dc36a8",
+  "payload": {
+    "requestId": "legacy_zero_appearance_receipt",
+    "packId": "003",
+    "initials": "OLD",
+    "score": 1580,
+    "guesses": 12,
+    "answers": [
+      {
+        "personId": "player:karl jakob hein",
+        "name": "Karl Jakob Hein",
+        "position": "GK",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_KARL_JAKOB_HEIN",
+            "points": 1040
+          }
+        ],
+        "rarity": "SUB",
+        "clubTier": 1
+      },
+      {
+        "personId": "player:william saliba",
+        "name": "William Saliba",
+        "position": "DF",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_WILLIAM_SALIBA",
+            "points": 160
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 2
+      },
+      {
+        "personId": "player:ben white",
+        "name": "Ben White",
+        "position": "DF",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_BEN_WHITE",
+            "points": 100
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 3
+      },
+      {
+        "personId": "player:gabriel magalhães",
+        "name": "Gabriel Magalhães",
+        "position": "DF",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_GABRIEL_MAGALHAES",
+            "points": 60
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 4
+      },
+      {
+        "personId": "player:oleksandr zinchenko",
+        "name": "Oleksandr Zinchenko",
+        "position": "DF",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_OLEKSANDR_ZINCHENKO",
+            "points": 40
+          }
+        ],
+        "rarity": "ENG",
+        "clubTier": 5
+      },
+      {
+        "personId": "player:jakub kiwior",
+        "name": "Jakub Kiwior",
+        "position": "DF",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_JAKUB_KIWIOR",
+            "points": 40
+          }
+        ],
+        "rarity": "ENG",
+        "clubTier": 5
+      },
+      {
+        "personId": "player:declan rice",
+        "name": "Declan Rice",
+        "position": "MD",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_DECLAN_RICE",
+            "points": 20
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 5
+      },
+      {
+        "personId": "player:martin ødegaard",
+        "name": "Martin Ødegaard",
+        "position": "MD",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_MARTIN_DEGAARD",
+            "points": 20
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 5
+      },
+      {
+        "personId": "player:kai havertz",
+        "name": "Kai Havertz",
+        "position": "MD",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_KAI_HAVERTZ",
+            "points": 20
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 5
+      },
+      {
+        "personId": "player:leandro trossard",
+        "name": "Leandro Trossard",
+        "position": "MD",
+        "clubs": [
+          "ARS",
+          "BRI"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_LEANDRO_TROSSARD",
+            "points": 20
+          },
+          {
+            "recordId": "BRI2223_LEANDRO_TROSSARD",
+            "points": 20
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 5
+      },
+      {
+        "personId": "player:bukayo saka",
+        "name": "Bukayo Saka",
+        "position": "AT",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_BUKAYO_SAKA",
+            "points": 20
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": 5
+      },
+      {
+        "personId": "manager:mikel arteta",
+        "name": "Mikel Arteta",
+        "position": "MAN",
+        "clubs": [
+          "ARS"
+        ],
+        "contributions": [
+          {
+            "recordId": "ARS2324_MIKEL_ARTETA",
+            "points": 20
+          }
+        ],
+        "rarity": "LEG",
+        "clubTier": null
+      }
+    ]
+  }
+}

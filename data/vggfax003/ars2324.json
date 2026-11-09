@@ -1,1 +1,443 @@
-{"clubCode":"ARS2324","club":"Arsenal","season":"2023-24","competition":"Premier League","version":2,"squad":[{"id":"ARS2324_MIKEL_ARTETA","fullname":"Mikel Arteta","surname":"Arteta","positions":["MAN"],"appearances":38},{"id":"ARS2324_WILLIAM_SALIBA","fullname":"William Saliba","surname":"Saliba","positions":["DF"],"appearances":38},{"id":"ARS2324_DECLAN_RICE","fullname":"Declan Rice","surname":"Rice","positions":["MD"],"appearances":38},{"id":"ARS2324_MARTIN_DEGAARD","fullname":"Martin Ødegaard","surname":"Ødegaard","positions":["MD"],"appearances":35},{"id":"ARS2324_BEN_WHITE","fullname":"Ben White","surname":"White","positions":["DF"],"appearances":37},{"id":"ARS2324_BUKAYO_SAKA","fullname":"Bukayo Saka","surname":"Saka","positions":["AT"],"appearances":35},{"id":"ARS2324_GABRIEL_MAGALHAES","fullname":"Gabriel Magalhães","surname":"Magalhães","positions":["DF"],"appearances":36},{"id":"ARS2324_DAVID_RAYA","fullname":"David Raya","surname":"Raya","positions":["GK"],"appearances":32},{"id":"ARS2324_KAI_HAVERTZ","fullname":"Kai Havertz","surname":"Havertz","positions":["MD","AT"],"appearances":37},{"id":"ARS2324_GABRIEL_MARTINELLI","fullname":"Gabriel Martinelli","surname":"Martinelli","positions":["AT"],"appearances":35},{"id":"ARS2324_OLEKSANDR_ZINCHENKO","fullname":"Oleksandr Zinchenko","surname":"Zinchenko","positions":["DF"],"appearances":27},{"id":"ARS2324_LEANDRO_TROSSARD","fullname":"Leandro Trossard","surname":"Trossard","positions":["AT","MD"],"appearances":34},{"id":"ARS2324_GABRIEL_JESUS","fullname":"Gabriel Jesus","surname":"Jesus","positions":["AT"],"appearances":27},{"id":"ARS2324_JAKUB_KIWIOR","fullname":"Jakub Kiwior","surname":"Kiwior","positions":["DF"],"appearances":20},{"id":"ARS2324_TAKEHIRO_TOMIYASU","fullname":"Takehiro Tomiyasu","surname":"Tomiyasu","positions":["DF"],"appearances":22},{"id":"ARS2324_EDDIE_NKETIAH","fullname":"Eddie Nketiah","surname":"Nketiah","positions":["AT"],"appearances":27},{"id":"ARS2324_JORGINHO","fullname":"Jorginho","surname":"Jorginho","positions":["MD"],"appearances":24},{"id":"ARS2324_THOMAS_PARTEY","fullname":"Thomas Partey","surname":"Partey","positions":["MD","DF"],"appearances":14},{"id":"ARS2324_AARON_RAMSDALE","fullname":"Aaron Ramsdale","surname":"Ramsdale","positions":["GK"],"appearances":6},{"id":"ARS2324_EMILE_SMITH_ROWE","fullname":"Emile Smith Rowe","surname":"Rowe","positions":["MD"],"appearances":13},{"id":"ARS2324_FABIO_VIEIRA","fullname":"Fabio Vieira","surname":"Vieira","positions":["MD"],"appearances":11},{"id":"ARS2324_REISS_NELSON","fullname":"Reiss Nelson","surname":"Nelson","positions":["AT"],"appearances":15},{"id":"ARS2324_JURRIEN_TIMBER","fullname":"Jurriën Timber","surname":"Timber","positions":["DF"],"appearances":2},{"id":"ARS2324_CEDRIC_SOARES","fullname":"Cédric Soares","surname":"Soares","positions":["DF","MD"],"appearances":3},{"id":"ARS2324_MOHAMED_ELNENY","fullname":"Mohamed Elneny","surname":"Elneny","positions":["MD"],"appearances":3},{"id":"ARS2324_ETHAN_NWANERI","fullname":"Ethan Nwaneri","surname":"Nwaneri","positions":["MD"],"appearances":1},{"id":"ARS2324_MAURO_BANDEIRA","fullname":"Mauro Bandeira","surname":"Bandeira","positions":["MD"],"appearances":0},{"id":"ARS2324_BRADLEY_IBRAHIM","fullname":"Bradley Ibrahim","surname":"Ibrahim","positions":["MD"],"appearances":0},{"id":"ARS2324_KARL_JAKOB_HEIN","fullname":"Karl Jakob Hein","surname":"Hein","positions":["GK"],"appearances":0},{"id":"ARS2324_MYLES_LEWIS_SKELLY","fullname":"Myles Lewis-Skelly","surname":"Lewis-Skelly","positions":["DF"],"appearances":0},{"id":"ARS2324_CHARLES_SAGOE_JR","fullname":"Charles Sagoe Jr","surname":"Jr","positions":["AT","MD"],"appearances":0},{"id":"ARS2324_JAMES_SWEET","fullname":"James Sweet","surname":"Sweet","positions":["DF"],"appearances":0},{"id":"ARS2324_REUELL_WALTERS","fullname":"Reuell Walters","surname":"Walters","positions":["DF"],"appearances":0}]}
+{
+  "clubCode": "ARS2324",
+  "club": "Arsenal",
+  "season": "2023-24",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "ARS2324_MIKEL_ARTETA",
+      "fullname": "Mikel Arteta",
+      "surname": "Arteta",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Arteta",
+        "Mikel Arteta"
+      ]
+    },
+    {
+      "id": "ARS2324_WILLIAM_SALIBA",
+      "fullname": "William Saliba",
+      "surname": "Saliba",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Saliba",
+        "William Saliba"
+      ]
+    },
+    {
+      "id": "ARS2324_DECLAN_RICE",
+      "fullname": "Declan Rice",
+      "surname": "Rice",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Declan Rice",
+        "Rice"
+      ]
+    },
+    {
+      "id": "ARS2324_MARTIN_DEGAARD",
+      "fullname": "Martin Ødegaard",
+      "surname": "Ødegaard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Martin Ødegaard",
+        "Ødegaard"
+      ]
+    },
+    {
+      "id": "ARS2324_BEN_WHITE",
+      "fullname": "Ben White",
+      "surname": "White",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Ben White",
+        "White"
+      ]
+    },
+    {
+      "id": "ARS2324_BUKAYO_SAKA",
+      "fullname": "Bukayo Saka",
+      "surname": "Saka",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Bukayo Saka",
+        "Saka"
+      ]
+    },
+    {
+      "id": "ARS2324_GABRIEL_MAGALHAES",
+      "fullname": "Gabriel Magalhães",
+      "surname": "Magalhães",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Gabriel",
+        "Gabriel Magalhães",
+        "Magalhães"
+      ]
+    },
+    {
+      "id": "ARS2324_DAVID_RAYA",
+      "fullname": "David Raya",
+      "surname": "Raya",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "David Raya",
+        "Raya"
+      ]
+    },
+    {
+      "id": "ARS2324_KAI_HAVERTZ",
+      "fullname": "Kai Havertz",
+      "surname": "Havertz",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Havertz",
+        "Kai Havertz"
+      ]
+    },
+    {
+      "id": "ARS2324_GABRIEL_MARTINELLI",
+      "fullname": "Gabriel Martinelli",
+      "surname": "Martinelli",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Gabriel Martinelli",
+        "Martinelli"
+      ]
+    },
+    {
+      "id": "ARS2324_OLEKSANDR_ZINCHENKO",
+      "fullname": "Oleksandr Zinchenko",
+      "surname": "Zinchenko",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Oleksandr Zinchenko",
+        "Zinchenko"
+      ]
+    },
+    {
+      "id": "ARS2324_LEANDRO_TROSSARD",
+      "fullname": "Leandro Trossard",
+      "surname": "Trossard",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Leandro Trossard",
+        "Trossard"
+      ]
+    },
+    {
+      "id": "ARS2324_GABRIEL_JESUS",
+      "fullname": "Gabriel Jesus",
+      "surname": "Jesus",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Gabriel Jesus",
+        "Jesus"
+      ]
+    },
+    {
+      "id": "ARS2324_JAKUB_KIWIOR",
+      "fullname": "Jakub Kiwior",
+      "surname": "Kiwior",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Jakub Kiwior",
+        "Kiwior"
+      ]
+    },
+    {
+      "id": "ARS2324_TAKEHIRO_TOMIYASU",
+      "fullname": "Takehiro Tomiyasu",
+      "surname": "Tomiyasu",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Takehiro Tomiyasu",
+        "Tomiyasu"
+      ]
+    },
+    {
+      "id": "ARS2324_EDDIE_NKETIAH",
+      "fullname": "Eddie Nketiah",
+      "surname": "Nketiah",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Eddie Nketiah",
+        "Nketiah"
+      ]
+    },
+    {
+      "id": "ARS2324_JORGINHO",
+      "fullname": "Jorginho",
+      "surname": "Jorginho",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Jorginho"
+      ]
+    },
+    {
+      "id": "ARS2324_THOMAS_PARTEY",
+      "fullname": "Thomas Partey",
+      "surname": "Partey",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Partey",
+        "Thomas Partey"
+      ]
+    },
+    {
+      "id": "ARS2324_AARON_RAMSDALE",
+      "fullname": "Aaron Ramsdale",
+      "surname": "Ramsdale",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Aaron Ramsdale",
+        "Ramsdale"
+      ]
+    },
+    {
+      "id": "ARS2324_EMILE_SMITH_ROWE",
+      "fullname": "Emile Smith Rowe",
+      "surname": "Rowe",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Emile Smith Rowe",
+        "Rowe"
+      ]
+    },
+    {
+      "id": "ARS2324_FABIO_VIEIRA",
+      "fullname": "Fabio Vieira",
+      "surname": "Vieira",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Fabio Vieira",
+        "Vieira"
+      ]
+    },
+    {
+      "id": "ARS2324_REISS_NELSON",
+      "fullname": "Reiss Nelson",
+      "surname": "Nelson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Nelson",
+        "Reiss Nelson"
+      ]
+    },
+    {
+      "id": "ARS2324_JURRIEN_TIMBER",
+      "fullname": "Jurriën Timber",
+      "surname": "Timber",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Jurriën Timber",
+        "Timber"
+      ]
+    },
+    {
+      "id": "ARS2324_CEDRIC_SOARES",
+      "fullname": "Cédric Soares",
+      "surname": "Soares",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Cédric Soares",
+        "Soares"
+      ]
+    },
+    {
+      "id": "ARS2324_MOHAMED_ELNENY",
+      "fullname": "Mohamed Elneny",
+      "surname": "Elneny",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Elneny",
+        "Mohamed Elneny"
+      ]
+    },
+    {
+      "id": "ARS2324_ETHAN_NWANERI",
+      "fullname": "Ethan Nwaneri",
+      "surname": "Nwaneri",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Ethan Nwaneri",
+        "Nwaneri"
+      ]
+    },
+    {
+      "id": "ARS2324_MAURO_BANDEIRA",
+      "fullname": "Mauro Bandeira",
+      "surname": "Bandeira",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Bandeira",
+        "Mauro Bandeira"
+      ]
+    },
+    {
+      "id": "ARS2324_BRADLEY_IBRAHIM",
+      "fullname": "Bradley Ibrahim",
+      "surname": "Ibrahim",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Bradley Ibrahim",
+        "Ibrahim"
+      ]
+    },
+    {
+      "id": "ARS2324_KARL_JAKOB_HEIN",
+      "fullname": "Karl Jakob Hein",
+      "surname": "Hein",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Hein",
+        "Karl Jakob Hein"
+      ]
+    },
+    {
+      "id": "ARS2324_MYLES_LEWIS_SKELLY",
+      "fullname": "Myles Lewis-Skelly",
+      "surname": "Lewis-Skelly",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Lewis-Skelly",
+        "Myles Lewis-Skelly"
+      ]
+    },
+    {
+      "id": "ARS2324_CHARLES_SAGOE_JR",
+      "fullname": "Charles Sagoe Jr",
+      "surname": "Jr",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Charles Sagoe Jr",
+        "Jr"
+      ]
+    },
+    {
+      "id": "ARS2324_JAMES_SWEET",
+      "fullname": "James Sweet",
+      "surname": "Sweet",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "James Sweet",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "ARS2324_REUELL_WALTERS",
+      "fullname": "Reuell Walters",
+      "surname": "Walters",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Reuell Walters",
+        "Walters"
+      ]
+    }
+  ]
+}

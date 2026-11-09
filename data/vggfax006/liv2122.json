@@ -1,0 +1,484 @@
+{
+  "clubCode": "LIV2122",
+  "club": "Liverpool",
+  "season": "2021-22",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "LIV2122_JURGEN_KLOPP",
+      "fullname": "Jürgen Klopp",
+      "surname": "Klopp",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Jürgen Klopp",
+        "Klopp"
+      ]
+    },
+    {
+      "id": "LIV2122_ALISSON",
+      "fullname": "Alisson",
+      "surname": "Alisson",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Alisson"
+      ]
+    },
+    {
+      "id": "LIV2122_VIRGIL_VAN_DIJK",
+      "fullname": "Virgil van Dijk",
+      "surname": "van Dijk",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Dijk",
+        "van Dijk",
+        "Virgil van Dijk"
+      ]
+    },
+    {
+      "id": "LIV2122_TRENT_ALEXANDER_ARNOLD",
+      "fullname": "Trent Alexander-Arnold",
+      "surname": "Alexander-Arnold",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Alexander-Arnold",
+        "Trent Alexander-Arnold"
+      ]
+    },
+    {
+      "id": "LIV2122_SADIO_MANE",
+      "fullname": "Sadio Mané",
+      "surname": "Mané",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Mane",
+        "Mané",
+        "Sadio Mané"
+      ]
+    },
+    {
+      "id": "LIV2122_JOEL_MATIP",
+      "fullname": "Joël Matip",
+      "surname": "Matip",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Joël Matip",
+        "Matip"
+      ]
+    },
+    {
+      "id": "LIV2122_MOHAMED_SALAH",
+      "fullname": "Mohamed Salah",
+      "surname": "Salah",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Mohamed Salah",
+        "Salah"
+      ]
+    },
+    {
+      "id": "LIV2122_JORDAN_HENDERSON",
+      "fullname": "Jordan Henderson",
+      "surname": "Henderson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Henderson",
+        "Jordan Henderson"
+      ]
+    },
+    {
+      "id": "LIV2122_ANDY_ROBERTSON",
+      "fullname": "Andy Robertson",
+      "surname": "Robertson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Andy Robertson",
+        "Robertson"
+      ]
+    },
+    {
+      "id": "LIV2122_DIOGO_JOTA",
+      "fullname": "Diogo Jota",
+      "surname": "Jota",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Diogo Jota",
+        "Jota"
+      ]
+    },
+    {
+      "id": "LIV2122_FABINHO",
+      "fullname": "Fabinho",
+      "surname": "Fabinho",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Fabinho"
+      ]
+    },
+    {
+      "id": "LIV2122_THIAGO_ALCANTARA",
+      "fullname": "Thiago Alcántara",
+      "surname": "Alcántara",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Alcántara",
+        "Thiago",
+        "Thiago Alcántara"
+      ]
+    },
+    {
+      "id": "LIV2122_NABY_KEITA",
+      "fullname": "Naby Keïta",
+      "surname": "Keïta",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Keïta",
+        "Naby Keïta"
+      ]
+    },
+    {
+      "id": "LIV2122_IBRAHIMA_KONATE",
+      "fullname": "Ibrahima Konaté",
+      "surname": "Konaté",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Ibrahima Konaté",
+        "Konaté"
+      ]
+    },
+    {
+      "id": "LIV2122_LUIS_DIAZ",
+      "fullname": "Luis Díaz",
+      "surname": "Díaz",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Díaz",
+        "Luis Díaz"
+      ]
+    },
+    {
+      "id": "LIV2122_ROBERTO_FIRMINO",
+      "fullname": "Roberto Firmino",
+      "surname": "Firmino",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Firmino",
+        "Roberto Firmino"
+      ]
+    },
+    {
+      "id": "LIV2122_CURTIS_JONES",
+      "fullname": "Curtis Jones",
+      "surname": "Jones",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Curtis Jones",
+        "Jones"
+      ]
+    },
+    {
+      "id": "LIV2122_KOSTAS_TSIMIKAS",
+      "fullname": "Kostas Tsimikas",
+      "surname": "Tsimikas",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Kostas Tsimikas",
+        "Tsimikas"
+      ]
+    },
+    {
+      "id": "LIV2122_JAMES_MILNER",
+      "fullname": "James Milner",
+      "surname": "Milner",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "James Milner",
+        "Milner"
+      ]
+    },
+    {
+      "id": "LIV2122_ALEX_OXLADE_CHAMBERLAIN",
+      "fullname": "Alex Oxlade-Chamberlain",
+      "surname": "Oxlade-Chamberlain",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Alex Oxlade-Chamberlain",
+        "Oxlade-Chamberlain"
+      ]
+    },
+    {
+      "id": "LIV2122_HARVEY_ELLIOTT",
+      "fullname": "Harvey Elliott",
+      "surname": "Elliott",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Elliott",
+        "Harvey Elliott"
+      ]
+    },
+    {
+      "id": "LIV2122_JOE_GOMEZ",
+      "fullname": "Joe Gomez",
+      "surname": "Gomez",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Gomez",
+        "Joe Gomez"
+      ]
+    },
+    {
+      "id": "LIV2122_CAOIMHIN_KELLEHER",
+      "fullname": "Caoimhín Kelleher",
+      "surname": "Kelleher",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Caoimhín Kelleher",
+        "Kelleher"
+      ]
+    },
+    {
+      "id": "LIV2122_TAKUMI_MINAMINO",
+      "fullname": "Takumi Minamino",
+      "surname": "Minamino",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Minamino",
+        "Takumi Minamino"
+      ]
+    },
+    {
+      "id": "LIV2122_TYLER_MORTON",
+      "fullname": "Tyler Morton",
+      "surname": "Morton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Morton",
+        "Tyler Morton"
+      ]
+    },
+    {
+      "id": "LIV2122_DIVOCK_ORIGI",
+      "fullname": "Divock Origi",
+      "surname": "Origi",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Divock Origi",
+        "Origi"
+      ]
+    },
+    {
+      "id": "LIV2122_KAIDE_GORDON",
+      "fullname": "Kaide Gordon",
+      "surname": "Gordon",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Gordon",
+        "Kaide Gordon"
+      ]
+    },
+    {
+      "id": "LIV2122_NECO_WILLIAMS",
+      "fullname": "Neco Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Neco Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "LIV2122_ADRIAN",
+      "fullname": "Adrián",
+      "surname": "Adrián",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Adrián"
+      ]
+    },
+    {
+      "id": "LIV2122_OWEN_BECK",
+      "fullname": "Owen Beck",
+      "surname": "Beck",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Beck",
+        "Owen Beck"
+      ]
+    },
+    {
+      "id": "LIV2122_CONOR_BRADLEY",
+      "fullname": "Conor Bradley",
+      "surname": "Bradley",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Bradley",
+        "Conor Bradley"
+      ]
+    },
+    {
+      "id": "LIV2122_NATHANIEL_PHILLIPS",
+      "fullname": "Nathaniel Phillips",
+      "surname": "Phillips",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Nathaniel Phillips",
+        "Phillips"
+      ]
+    },
+    {
+      "id": "LIV2122_MARCELO_PITALUGA",
+      "fullname": "Marcelo Pitaluga",
+      "surname": "Pitaluga",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Marcelo Pitaluga",
+        "Pitaluga"
+      ]
+    },
+    {
+      "id": "LIV2122_JARELL_QUANSAH",
+      "fullname": "Jarell Quansah",
+      "surname": "Quansah",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Jarell Quansah",
+        "Quansah"
+      ]
+    },
+    {
+      "id": "LIV2122_RHYS_WILLIAMS",
+      "fullname": "Rhys Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Rhys Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "LIV2122_BEN_WOODBURN",
+      "fullname": "Ben Woodburn",
+      "surname": "Woodburn",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Ben Woodburn",
+        "Woodburn"
+      ]
+    }
+  ]
+}

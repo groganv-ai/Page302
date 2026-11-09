@@ -1,0 +1,26 @@
+﻿pack,clubCode,club,season,id,fullname,surname,positions,appearances,playerId,aliases
+002,MCI1819,Man City,2018-19,MCI1819_PEP_GUARDIOLA,Pep Guardiola,Guardiola,MAN,38,,Guardiola|Pep Guardiola
+002,MCI1819,Man City,2018-19,MCI1819_EDERSON_MORAES,Ederson Moraes,Moraes,GK,38,,Ederson|Ederson Moraes|Moraes
+002,MCI1819,Man City,2018-19,MCI1819_AYMERIC_LAPORTE,Aymeric Laporte,Laporte,DF,35,,Aymeric Laporte|Laporte
+002,MCI1819,Man City,2018-19,MCI1819_BERNARDO_SILVA,Bernardo Silva,Silva,MD|AT,36,,Bernardo Silva|Silva
+002,MCI1819,Man City,2018-19,MCI1819_RAHEEM_STERLING,Raheem Sterling,Sterling,AT|MD,34,,Raheem Sterling|Sterling
+002,MCI1819,Man City,2018-19,MCI1819_SERGIO_AG_ERO,Sergio Agüero,Agüero,AT,33,,Agüero|Kun|Kun Agüero|Sergio Agüero
+002,MCI1819,Man City,2018-19,MCI1819_KYLE_WALKER,Kyle Walker,Walker,DF,33,,Kyle Walker|Walker
+002,MCI1819,Man City,2018-19,MCI1819_DAVID_SILVA,David Silva,Silva,MD,33,,David Silva|Silva
+002,MCI1819,Man City,2018-19,MCI1819_FERNANDINHO,Fernandinho,Fernandinho,MD,29,,Fernandinho
+002,MCI1819,Man City,2018-19,MCI1819__LKAY_G_NDO_AN,İlkay Gündoğan,Gündoğan,MD,31,,Gündoğan|İlkay Gündoğan
+002,MCI1819,Man City,2018-19,MCI1819_LEROY_SAN_,Leroy Sané,Sané,AT,31,,Leroy Sané|Sané
+002,MCI1819,Man City,2018-19,MCI1819_JOHN_STONES,John Stones,Stones,DF,24,,John Stones|Stones
+002,MCI1819,Man City,2018-19,MCI1819_RIYAD_MAHREZ,Riyad Mahrez,Mahrez,AT|MD,27,,Mahrez|Riyad Mahrez
+002,MCI1819,Man City,2018-19,MCI1819_NICOL_S_OTAMENDI,Nicolás Otamendi,Otamendi,DF,18,,Nicolás Otamendi|Otamendi
+002,MCI1819,Man City,2018-19,MCI1819_OLEKSANDR_ZINCHENKO,Oleksandr Zinchenko,Zinchenko,DF,14,,Oleksandr Zinchenko|Zinchenko
+002,MCI1819,Man City,2018-19,MCI1819_VINCENT_KOMPANY,Vincent Kompany,Kompany,DF,17,,Kompany|Vincent Kompany
+002,MCI1819,Man City,2018-19,MCI1819_KEVIN_DE_BRUYNE,Kevin De Bruyne,Bruyne,MD,19,,Bruyne|De Bruyne|Kevin De Bruyne
+002,MCI1819,Man City,2018-19,MCI1819_BENJAMIN_MENDY,Benjamin Mendy,Mendy,DF|MD,10,,Benjamin Mendy|Mendy
+002,MCI1819,Man City,2018-19,MCI1819_DANILO,Danilo,Danilo,DF,11,,Danilo
+002,MCI1819,Man City,2018-19,MCI1819_GABRIEL_JESUS,Gabriel Jesus,Jesus,AT,29,,Gabriel Jesus|Jesus
+002,MCI1819,Man City,2018-19,MCI1819_FABIAN_DELPH,Fabian Delph,Delph,DF,11,,Delph|Fabian Delph
+002,MCI1819,Man City,2018-19,MCI1819_PHIL_FODEN,Phil Foden,Foden,MD,13,,Foden|Phil Foden
+002,MCI1819,Man City,2018-19,MCI1819_CLAUDIO_BRAVO,Claudio Bravo,Bravo,GK,0,,Bravo|Claudio Bravo
+002,MCI1819,Man City,2018-19,MCI1819_ARIJANET_MURIC,Arijanet Muric,Muric,GK,0,,Arijanet Muric|Muric
+002,MCI1819,Man City,2018-19,MCI1819_PHILIPPE_SANDLER,Philippe Sandler,Sandler,DF,0,,Philippe Sandler|Sandler

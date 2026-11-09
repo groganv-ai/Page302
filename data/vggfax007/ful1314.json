@@ -1,0 +1,609 @@
+{
+  "clubCode": "FUL1314",
+  "club": "Fulham",
+  "season": "2013-14",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "FUL1314_MARTIN_JOL",
+      "fullname": "Martin Jol",
+      "surname": "Jol",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Jol",
+        "Martin Jol"
+      ]
+    },
+    {
+      "id": "FUL1314_RENE_MEULENSTEEN",
+      "fullname": "René Meulensteen",
+      "surname": "Meulensteen",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Meulensteen",
+        "René Meulensteen"
+      ]
+    },
+    {
+      "id": "FUL1314_FELIX_MAGATH",
+      "fullname": "Felix Magath",
+      "surname": "Magath",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Felix Magath",
+        "Magath"
+      ]
+    },
+    {
+      "id": "FUL1314_STEVE_SIDWELL",
+      "fullname": "Steve Sidwell",
+      "surname": "Sidwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "playerId": "ed083afd",
+      "aliases": [
+        "Sidwell",
+        "Steve Sidwell"
+      ]
+    },
+    {
+      "id": "FUL1314_SASCHA_RIETHER",
+      "fullname": "Sascha Riether",
+      "surname": "Riether",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "playerId": "3cb009c5",
+      "aliases": [
+        "Riether",
+        "Sascha Riether"
+      ]
+    },
+    {
+      "id": "FUL1314_KIERAN_RICHARDSON",
+      "fullname": "Kieran Richardson",
+      "surname": "Richardson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "playerId": "d2bf40b4",
+      "aliases": [
+        "Kieran Richardson",
+        "Richardson"
+      ]
+    },
+    {
+      "id": "FUL1314_SCOTT_PARKER",
+      "fullname": "Scott Parker",
+      "surname": "Parker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "playerId": "65faf2a1",
+      "aliases": [
+        "Parker",
+        "Scott Parker"
+      ]
+    },
+    {
+      "id": "FUL1314_BREDE_HANGELAND",
+      "fullname": "Brede Hangeland",
+      "surname": "Hangeland",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "playerId": "7cbeb80c",
+      "aliases": [
+        "Brede Hangeland",
+        "Hangeland"
+      ]
+    },
+    {
+      "id": "FUL1314_FERNANDO_AMOREBIETA",
+      "fullname": "Fernando Amorebieta",
+      "surname": "Amorebieta",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "playerId": "b2bbc0ec",
+      "aliases": [
+        "Amorebieta",
+        "Fernando Amorebieta"
+      ]
+    },
+    {
+      "id": "FUL1314_PAJTIM_KASAMI",
+      "fullname": "Pajtim Kasami",
+      "surname": "Kasami",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 29,
+      "playerId": "fc8c588f",
+      "aliases": [
+        "Kasami",
+        "Pajtim Kasami"
+      ]
+    },
+    {
+      "id": "FUL1314_DAVID_STOCKDALE",
+      "fullname": "David Stockdale",
+      "surname": "Stockdale",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 21,
+      "playerId": "dc168826",
+      "aliases": [
+        "David Stockdale",
+        "Stockdale"
+      ]
+    },
+    {
+      "id": "FUL1314_MAARTEN_STEKELENBURG",
+      "fullname": "Maarten Stekelenburg",
+      "surname": "Stekelenburg",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 19,
+      "playerId": "fefce889",
+      "aliases": [
+        "Maarten Stekelenburg",
+        "Stekelenburg"
+      ]
+    },
+    {
+      "id": "FUL1314_DIMITAR_BERBATOV",
+      "fullname": "Dimitar Berbatov",
+      "surname": "Berbatov",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18,
+      "playerId": "f5781978",
+      "aliases": [
+        "Berbatov",
+        "Dimitar Berbatov"
+      ]
+    },
+    {
+      "id": "FUL1314_JOHN_ARNE_RIISE",
+      "fullname": "John Arne Riise",
+      "surname": "Riise",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 20,
+      "playerId": "9bf988c2",
+      "aliases": [
+        "John Arne Riise",
+        "Riise"
+      ]
+    },
+    {
+      "id": "FUL1314_ALEXANDER_KACANIKLIC",
+      "fullname": "Alexander Kačaniklić",
+      "surname": "Kačaniklić",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 23,
+      "playerId": "8ba3a754",
+      "aliases": [
+        "Alexander Kačaniklić",
+        "Kačaniklić"
+      ]
+    },
+    {
+      "id": "FUL1314_JOHN_HEITINGA",
+      "fullname": "John Heitinga",
+      "surname": "Heitinga",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 14,
+      "playerId": "2661360d",
+      "aliases": [
+        "Heitinga",
+        "John Heitinga"
+      ]
+    },
+    {
+      "id": "FUL1314_ASHKAN_DEJAGAH",
+      "fullname": "Ashkan Dejagah",
+      "surname": "Dejagah",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 22,
+      "playerId": "5171db60",
+      "aliases": [
+        "Ashkan Dejagah",
+        "Dejagah"
+      ]
+    },
+    {
+      "id": "FUL1314_PHILIPPE_SENDEROS",
+      "fullname": "Philippe Senderos",
+      "surname": "Senderos",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12,
+      "playerId": "b1d82fc2",
+      "aliases": [
+        "Philippe Senderos",
+        "Senderos"
+      ]
+    },
+    {
+      "id": "FUL1314_DARREN_BENT",
+      "fullname": "Darren Bent",
+      "surname": "Bent",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 24,
+      "playerId": "fe97f10b",
+      "aliases": [
+        "Bent",
+        "Darren Bent"
+      ]
+    },
+    {
+      "id": "FUL1314_AARON_HUGHES",
+      "fullname": "Aaron Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "playerId": "dccccccc",
+      "aliases": [
+        "Aaron Hughes",
+        "Hughes"
+      ]
+    },
+    {
+      "id": "FUL1314_LEWIS_HOLTBY",
+      "fullname": "Lewis Holtby",
+      "surname": "Holtby",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "playerId": "410ab123",
+      "aliases": [
+        "Holtby",
+        "Lewis Holtby"
+      ]
+    },
+    {
+      "id": "FUL1314_DAMIEN_DUFF",
+      "fullname": "Damien Duff",
+      "surname": "Duff",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 15,
+      "playerId": "057a6936",
+      "aliases": [
+        "Damien Duff",
+        "Duff"
+      ]
+    },
+    {
+      "id": "FUL1314_BRYAN_RUIZ",
+      "fullname": "Bryan Ruiz",
+      "surname": "Ruiz",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 12,
+      "playerId": "fa6292e2",
+      "aliases": [
+        "Bryan Ruiz",
+        "Ruiz"
+      ]
+    },
+    {
+      "id": "FUL1314_ADEL_TAARABT",
+      "fullname": "Adel Taarabt",
+      "surname": "Taarabt",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 12,
+      "playerId": "47dc80f5",
+      "aliases": [
+        "Adel Taarabt",
+        "Taarabt"
+      ]
+    },
+    {
+      "id": "FUL1314_WILLIAM_KVIST",
+      "fullname": "William Kvist",
+      "surname": "Kvist",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8,
+      "playerId": "1c639185",
+      "aliases": [
+        "Kvist",
+        "William Kvist"
+      ]
+    },
+    {
+      "id": "FUL1314_GIORGOS_KARAGOUNIS",
+      "fullname": "Giorgos Karagounis",
+      "surname": "Karagounis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14,
+      "playerId": "ed2192d0",
+      "aliases": [
+        "Giorgos Karagounis",
+        "Karagounis"
+      ]
+    },
+    {
+      "id": "FUL1314_HUGO_RODALLEGA",
+      "fullname": "Hugo Rodallega",
+      "surname": "Rodallega",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13,
+      "playerId": "9683d0b2",
+      "aliases": [
+        "Hugo Rodallega",
+        "Rodallega"
+      ]
+    },
+    {
+      "id": "FUL1314_DAN_BURN",
+      "fullname": "Dan Burn",
+      "surname": "Burn",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "playerId": "b2d31e83",
+      "aliases": [
+        "Burn",
+        "Dan Burn"
+      ]
+    },
+    {
+      "id": "FUL1314_CAULEY_WOODROW",
+      "fullname": "Cauley Woodrow",
+      "surname": "Woodrow",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 6,
+      "playerId": "d3085b49",
+      "aliases": [
+        "Cauley Woodrow",
+        "Woodrow"
+      ]
+    },
+    {
+      "id": "FUL1314_ELSAD_ZVEROTIC",
+      "fullname": "Elsad Zverotić",
+      "surname": "Zverotić",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 6,
+      "playerId": "e7fd18a4",
+      "aliases": [
+        "Elsad Zverotić",
+        "Zverotić"
+      ]
+    },
+    {
+      "id": "FUL1314_CLINT_DEMPSEY",
+      "fullname": "Clint Dempsey",
+      "surname": "Dempsey",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 5,
+      "playerId": "523d9de6",
+      "aliases": [
+        "Clint Dempsey",
+        "Dempsey"
+      ]
+    },
+    {
+      "id": "FUL1314_MAHAMADOU_DIARRA",
+      "fullname": "Mahamadou Diarra",
+      "surname": "Diarra",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "playerId": "4a6c3ade",
+      "aliases": [
+        "Diarra",
+        "Mahamadou Diarra"
+      ]
+    },
+    {
+      "id": "FUL1314_RYAN_TUNNICLIFFE",
+      "fullname": "Ryan Tunnicliffe",
+      "surname": "Tunnicliffe",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "playerId": "534e83a0",
+      "aliases": [
+        "Ryan Tunnicliffe",
+        "Tunnicliffe"
+      ]
+    },
+    {
+      "id": "FUL1314_DEREK_BOATENG",
+      "fullname": "Derek Boateng",
+      "surname": "Boateng",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "playerId": "e9ef3a0d",
+      "aliases": [
+        "Boateng",
+        "Derek Boateng"
+      ]
+    },
+    {
+      "id": "FUL1314_KOSTAS_MITROGLOU",
+      "fullname": "Kostas Mitroglou",
+      "surname": "Mitroglou",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "playerId": "c6ac6579",
+      "aliases": [
+        "Kostas Mitroglou",
+        "Mitroglou"
+      ]
+    },
+    {
+      "id": "FUL1314_MOUSSA_DEMBELE",
+      "fullname": "Moussa Dembélé",
+      "surname": "Dembélé",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 2,
+      "playerId": "e7986081",
+      "aliases": [
+        "Dembélé",
+        "Moussa Dembélé"
+      ]
+    },
+    {
+      "id": "FUL1314_MUAMER_TANKOVIC",
+      "fullname": "Muamer Tanković",
+      "surname": "Tanković",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 3,
+      "playerId": "b44c39da",
+      "aliases": [
+        "Muamer Tanković",
+        "Tanković"
+      ]
+    },
+    {
+      "id": "FUL1314_MATTHEW_BRIGGS",
+      "fullname": "Matthew Briggs",
+      "surname": "Briggs",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "playerId": "182c89db",
+      "aliases": [
+        "Briggs",
+        "Matthew Briggs"
+      ]
+    },
+    {
+      "id": "FUL1314_CHRIS_DAVID",
+      "fullname": "Chris David",
+      "surname": "David",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "playerId": "51ceacc1",
+      "aliases": [
+        "Chris David",
+        "David"
+      ]
+    },
+    {
+      "id": "FUL1314_PATRICK_ROBERTS",
+      "fullname": "Patrick Roberts",
+      "surname": "Roberts",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "playerId": "59d93937",
+      "aliases": [
+        "Patrick Roberts",
+        "Roberts"
+      ]
+    },
+    {
+      "id": "FUL1314_MESCA",
+      "fullname": "Mesca",
+      "surname": "Mesca",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "playerId": "7969682e",
+      "aliases": [
+        "Mesca"
+      ]
+    },
+    {
+      "id": "FUL1314_LARNELL_COLE",
+      "fullname": "Larnell Cole",
+      "surname": "Cole",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "playerId": "ce1faab0",
+      "aliases": [
+        "Cole",
+        "Larnell Cole"
+      ]
+    }
+  ]
+}

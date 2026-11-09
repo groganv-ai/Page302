@@ -1,0 +1,363 @@
+{
+  "clubCode": "CHE9899",
+  "club": "Chelsea",
+  "season": "1998-99",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CHE9899_GIANLUCA_VIALLI",
+      "fullname": "Gianluca Vialli",
+      "surname": "Vialli",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Gianluca Vialli",
+        "Vialli"
+      ]
+    },
+    {
+      "id": "CHE9899_ED_DE_GOEY",
+      "fullname": "Ed de Goey",
+      "surname": "de Goey",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "de Goey",
+        "Ed de Goey"
+      ]
+    },
+    {
+      "id": "CHE9899_GIANFRANCO_ZOLA",
+      "fullname": "Gianfranco Zola",
+      "surname": "Zola",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Gianfranco Zola",
+        "Zola"
+      ]
+    },
+    {
+      "id": "CHE9899_FRANK_LEBOEUF",
+      "fullname": "Frank Leboeuf",
+      "surname": "Leboeuf",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Frank Leboeuf",
+        "Leboeuf"
+      ]
+    },
+    {
+      "id": "CHE9899_ALBERT_FERRER",
+      "fullname": "Albert Ferrer",
+      "surname": "Ferrer",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Albert Ferrer",
+        "Ferrer"
+      ]
+    },
+    {
+      "id": "CHE9899_MARCEL_DESAILLY",
+      "fullname": "Marcel Desailly",
+      "surname": "Desailly",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Desailly",
+        "Marcel Desailly"
+      ]
+    },
+    {
+      "id": "CHE9899_GRAEME_LE_SAUX",
+      "fullname": "Graeme Le Saux",
+      "surname": "Le Saux",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Graeme Le Saux",
+        "Le Saux"
+      ]
+    },
+    {
+      "id": "CHE9899_ROBERTO_DI_MATTEO",
+      "fullname": "Roberto Di Matteo",
+      "surname": "Di Matteo",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Di Matteo",
+        "Roberto Di Matteo"
+      ]
+    },
+    {
+      "id": "CHE9899_CELESTINE_BABAYARO",
+      "fullname": "Celestine Babayaro",
+      "surname": "Babayaro",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Babayaro",
+        "Celestine Babayaro"
+      ]
+    },
+    {
+      "id": "CHE9899_DAN_PETRESCU",
+      "fullname": "Dan Petrescu",
+      "surname": "Petrescu",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Dan Petrescu",
+        "Petrescu"
+      ]
+    },
+    {
+      "id": "CHE9899_GUS_POYET",
+      "fullname": "Gus Poyet",
+      "surname": "Poyet",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Gus Poyet",
+        "Poyet"
+      ]
+    },
+    {
+      "id": "CHE9899_DENNIS_WISE",
+      "fullname": "Dennis Wise",
+      "surname": "Wise",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Dennis Wise",
+        "Wise"
+      ]
+    },
+    {
+      "id": "CHE9899_TORE_ANDRE_FLO",
+      "fullname": "Tore André Flo",
+      "surname": "Flo",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Flo",
+        "Tore André Flo"
+      ]
+    },
+    {
+      "id": "CHE9899_MICHAEL_DUBERRY",
+      "fullname": "Michael Duberry",
+      "surname": "Duberry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Duberry",
+        "Michael Duberry"
+      ]
+    },
+    {
+      "id": "CHE9899_JODY_MORRIS",
+      "fullname": "Jody Morris",
+      "surname": "Morris",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Jody Morris",
+        "Morris"
+      ]
+    },
+    {
+      "id": "CHE9899_BJARNE_GOLDB_K",
+      "fullname": "Bjarne Goldbæk",
+      "surname": "Goldbæk",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Bjarne Goldbæk",
+        "Goldbæk"
+      ]
+    },
+    {
+      "id": "CHE9899_BERNARD_LAMBOURDE",
+      "fullname": "Bernard Lambourde",
+      "surname": "Lambourde",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Bernard Lambourde",
+        "Lambourde"
+      ]
+    },
+    {
+      "id": "CHE9899_PIERLUIGI_CASIRAGHI",
+      "fullname": "Pierluigi Casiraghi",
+      "surname": "Casiraghi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Casiraghi",
+        "Pierluigi Casiraghi"
+      ]
+    },
+    {
+      "id": "CHE9899_GIANLUCA_VIALLI_2",
+      "fullname": "Gianluca Vialli",
+      "surname": "Vialli",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Gianluca Vialli",
+        "Vialli"
+      ]
+    },
+    {
+      "id": "CHE9899_BRIAN_LAUDRUP",
+      "fullname": "Brian Laudrup",
+      "surname": "Laudrup",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Brian Laudrup",
+        "Laudrup"
+      ]
+    },
+    {
+      "id": "CHE9899_MIKAEL_FORSSELL",
+      "fullname": "Mikael Forssell",
+      "surname": "Forssell",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Forssell",
+        "Mikael Forssell"
+      ]
+    },
+    {
+      "id": "CHE9899_KEVIN_HITCHCOCK",
+      "fullname": "Kevin Hitchcock",
+      "surname": "Hitchcock",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Hitchcock",
+        "Kevin Hitchcock"
+      ]
+    },
+    {
+      "id": "CHE9899_EDDIE_NEWTON",
+      "fullname": "Eddie Newton",
+      "surname": "Newton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Eddie Newton",
+        "Newton"
+      ]
+    },
+    {
+      "id": "CHE9899_DMITRI_KHARINE",
+      "fullname": "Dmitri Kharine",
+      "surname": "Kharine",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Dmitri Kharine",
+        "Kharine"
+      ]
+    },
+    {
+      "id": "CHE9899_ANDY_MYERS",
+      "fullname": "Andy Myers",
+      "surname": "Myers",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Andy Myers",
+        "Myers"
+      ]
+    },
+    {
+      "id": "CHE9899_MARK_NICHOLLS",
+      "fullname": "Mark Nicholls",
+      "surname": "Nicholls",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Mark Nicholls",
+        "Nicholls"
+      ]
+    },
+    {
+      "id": "CHE9899_JOHN_TERRY",
+      "fullname": "John Terry",
+      "surname": "Terry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "John Terry",
+        "Terry"
+      ]
+    }
+  ]
+}

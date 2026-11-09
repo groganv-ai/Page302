@@ -14,6 +14,7 @@ test('active result submits unchanged values, retries lost receipt, replays same
   const root=path.resolve(__dirname,'..');
   await page.route('**/*',async route=>{
    const url=new URL(route.request().url());
+   if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});
    if(url.hostname!=='page302.test')return route.abort();
    if(url.pathname==='/api/submissions'){
     try{const receipt=store.submit(route.request().postDataJSON());if(lose){lose=false;return route.abort()};return route.fulfill({json:receipt});}
@@ -24,7 +25,8 @@ test('active result submits unchanged values, retries lost receipt, replays same
    const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.ttf':'font/ttf','.png':'image/png'};
    return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});
   });
-  await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);
+  await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);
   await page.evaluate(async()=>{
    currentVggfax='003';await loadClub();currentGame={formation:'5-4-1',score:2450,totalGuesses:18,gameOver:false};buildSquad();squadDisplay={};
    const used=new Set();

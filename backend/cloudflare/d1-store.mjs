@@ -1,7 +1,16 @@
 import validation from '../validation.cjs';
+import statusHelpers from '../challenge-status.cjs';
 const {normalize,ServiceError}=validation;
 const fail=(status,message)=>{throw new ServiceError(status,message)};
 export class D1Store {
+ async challenge(packId){const pack=await this.query('SELECT * FROM packs WHERE id=?',packId).first();if(!pack)fail(404,'Unknown pack');return statusHelpers.challengeStatus(pack,this.now())}
+ async standing(packId,reference){
+  const published=await this.query('SELECT snapshot FROM publications WHERE pack_id=?',packId).first();
+  if(published){const snapshot=JSON.parse(published.snapshot),result=snapshot.results.find(r=>r.reference===reference);if(!result)fail(404,'Result not found');return statusHelpers.standing(result.rank,snapshot.totalSubmissions,true)}
+  const result=await this.query('SELECT score,guesses FROM submissions WHERE pack_id=? AND reference=?',packId,reference).first();if(!result)fail(404,'Result not found');
+  const counts=await this.query('SELECT COUNT(*) AS total, SUM(CASE WHEN score>? OR (score=? AND guesses<?) THEN 1 ELSE 0 END) AS ahead FROM submissions WHERE pack_id=?',result.score,result.score,result.guesses,packId).first();
+  return statusHelpers.standing(1+Number(counts.ahead),Number(counts.total),false);
+ }
  constructor(db,{now=()=>new Date(),reference}={}){this.db=db;this.now=now;this.reference=reference||(()=>{const limit=4294000000;let n;do{n=crypto.getRandomValues(new Uint32Array(1))[0]}while(n>=limit);return String(n%1000000).padStart(6,'0')});}
  query(sql,...values){return this.db.prepare(sql).bind(...values)}
  receipt(r){return {packId:r.pack_id,initials:r.initials,reference:r.reference,score:r.score,guesses:r.guesses,receivedAt:r.received_at}}
@@ -10,11 +19,19 @@ export class D1Store {
   const data=normalize(input),payload=JSON.stringify(data);const existing=await this.retry(input.requestId,payload);if(existing)return existing;
   const pack=await this.query('SELECT * FROM packs WHERE id=?',data.packId).first();if(!pack)fail(404,'Unknown pack');
   const timestamp=this.now().toISOString();if(timestamp<pack.opens_at||(pack.closes_at&&timestamp>=pack.closes_at)||pack.published_at)fail(409,'Pack is not open');
+  const control=await this.query('SELECT enabled FROM release_control WHERE id=1').first();
+  if(control?.enabled&&!await this.query("SELECT 1 FROM release_schedule s JOIN release_events e ON e.pack_id=s.pack_id AND e.action='open' AND e.status='done' WHERE s.pack_id=?",data.packId).first())fail(409,'Pack is not open');
   const counts={GK:1,DF:Number(pack.formation[0]),MD:Number(pack.formation[2]),AT:Number(pack.formation[4]),MAN:1};
   for(const [position,count] of Object.entries(counts))if(data.answers.filter(a=>a.position===position).length!==count)fail(400,'Squad does not match formation');
   for(let attempt=0;attempt<100;attempt++){
    const reference=this.reference();if(!/^\d{6}$/.test(reference))fail(503,'Reference generation failed');
-   const statements=[this.query('INSERT INTO submissions(pack_id,request_id,payload,initials,reference,score,guesses,received_at) SELECT ?,?,?,?,?,?,?,? FROM packs WHERE id=? AND published_at IS NULL',data.packId,input.requestId,payload,data.initials,reference,data.score,data.guesses,timestamp,data.packId)];
+   // Recheck the live window at the write, including administrator changes made
+   // after the initial read. Opening and closing instants are inclusive/exclusive.
+   const statements=[this.query(`INSERT INTO submissions(pack_id,request_id,payload,initials,reference,score,guesses,received_at)
+    SELECT ?,?,?,?,?,?,?,? FROM packs p WHERE id=? AND published_at IS NULL
+    AND opens_at<=? AND (closes_at='' OR closes_at>?)
+    AND ((SELECT enabled FROM release_control WHERE id=1)=0 OR EXISTS(
+     SELECT 1 FROM release_schedule s JOIN release_events e ON e.pack_id=s.pack_id AND e.action='open' AND e.status='done' WHERE s.pack_id=p.id))`,data.packId,input.requestId,payload,data.initials,reference,data.score,data.guesses,timestamp,data.packId,timestamp,this.now().toISOString())];
    data.answers.forEach((a,slot)=>statements.push(this.query('INSERT INTO answers SELECT id,?,?,?,?,?,? FROM submissions WHERE request_id=?',slot,a.personId,a.name,a.position,JSON.stringify(a.clubs),JSON.stringify(a.contributions),input.requestId)));
    try{await this.db.batch(statements);const saved=await this.retry(input.requestId,payload);if(!saved)fail(409,'Pack is not open');return saved;}
    catch(error){if(error.status)throw error;const saved=await this.retry(input.requestId,payload);if(saved)return saved;

@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Alex Ferguson",
+        "Ferguson"
+      ]
     },
     {
       "id": "MUN9899_PETER_SCHMEICHEL",
@@ -21,7 +25,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Peter Schmeichel",
+        "Schmeichel"
+      ]
     },
     {
       "id": "MUN9899_GARY_NEVILLE",
@@ -30,7 +38,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Gary Neville",
+        "Neville"
+      ]
     },
     {
       "id": "MUN9899_DAVID_BECKHAM",
@@ -39,7 +51,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Beckham",
+        "David Beckham"
+      ]
     },
     {
       "id": "MUN9899_ROY_KEANE",
@@ -48,7 +64,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Keane",
+        "Roy Keane"
+      ]
     },
     {
       "id": "MUN9899_DWIGHT_YORKE",
@@ -58,7 +78,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Dwight Yorke",
+        "Yorke"
+      ]
     },
     {
       "id": "MUN9899_JAAP_STAM",
@@ -67,7 +91,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Jaap Stam",
+        "Stam"
+      ]
     },
     {
       "id": "MUN9899_ANDY_COLE",
@@ -76,7 +104,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Andy Cole",
+        "Cole"
+      ]
     },
     {
       "id": "MUN9899_DENIS_IRWIN",
@@ -85,7 +117,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Denis Irwin",
+        "Irwin"
+      ]
     },
     {
       "id": "MUN9899_PAUL_SCHOLES",
@@ -94,7 +130,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Paul Scholes",
+        "Scholes"
+      ]
     },
     {
       "id": "MUN9899_NICKY_BUTT",
@@ -104,7 +144,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Butt",
+        "Nicky Butt"
+      ]
     },
     {
       "id": "MUN9899_RYAN_GIGGS",
@@ -114,7 +158,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Giggs",
+        "Ryan Giggs"
+      ]
     },
     {
       "id": "MUN9899_JESPER_BLOMQVIST",
@@ -124,7 +172,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Blomqvist",
+        "Jesper Blomqvist"
+      ]
     },
     {
       "id": "MUN9899_PHIL_NEVILLE",
@@ -134,7 +186,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Neville",
+        "Phil Neville"
+      ]
     },
     {
       "id": "MUN9899_RONNY_JOHNSEN",
@@ -143,7 +199,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 22
+      "appearances": 22,
+      "aliases": [
+        "Johnsen",
+        "Ronny Johnsen"
+      ]
     },
     {
       "id": "MUN9899_WES_BROWN",
@@ -152,7 +212,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Brown",
+        "Wes Brown"
+      ]
     },
     {
       "id": "MUN9899_HENNING_BERG",
@@ -161,7 +225,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Berg",
+        "Henning Berg"
+      ]
     },
     {
       "id": "MUN9899_OLE_GUNNAR_SOLSKJR",
@@ -170,7 +238,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Ole Gunnar Solskjær",
+        "Solskjær"
+      ]
     },
     {
       "id": "MUN9899_TEDDY_SHERINGHAM",
@@ -179,7 +251,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Sheringham",
+        "Teddy Sheringham"
+      ]
     },
     {
       "id": "MUN9899_DAVID_MAY",
@@ -188,7 +264,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "David May",
+        "May"
+      ]
     },
     {
       "id": "MUN9899_RAIMOND_VAN_DER_GOUW",
@@ -197,7 +277,12 @@
       "positions": [
         "GK"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "der Gouw",
+        "Raimond van der Gouw",
+        "van der Gouw"
+      ]
     },
     {
       "id": "MUN9899_JOHN_CURTIS",
@@ -206,7 +291,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Curtis",
+        "John Curtis"
+      ]
     },
     {
       "id": "MUN9899_JORDI_CRUYFF",
@@ -216,7 +305,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Cruyff",
+        "Jordi Cruyff"
+      ]
     },
     {
       "id": "MUN9899_JONATHAN_GREENING",
@@ -225,7 +318,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Greening",
+        "Jonathan Greening"
+      ]
     }
   ]
 }

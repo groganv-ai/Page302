@@ -1,0 +1,391 @@
+{
+  "clubCode": "TOT1011",
+  "club": "Tottenham",
+  "season": "2010-11",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "TOT1011_HARRY_REDKNAPP",
+      "fullname": "Harry Redknapp",
+      "surname": "Redknapp",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Harry Redknapp",
+        "Redknapp"
+      ]
+    },
+    {
+      "id": "TOT1011_LUKA_MODRIC",
+      "fullname": "Luka Modrić",
+      "surname": "Modrić",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Luka Modrić",
+        "Modrić"
+      ]
+    },
+    {
+      "id": "TOT1011_HEURELHO_GOMES",
+      "fullname": "Heurelho Gomes",
+      "surname": "Gomes",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Gomes",
+        "Heurelho Gomes"
+      ]
+    },
+    {
+      "id": "TOT1011_BENOIT_ASSOU_EKOTTO",
+      "fullname": "Benoît Assou-Ekotto",
+      "surname": "Assou-Ekotto",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Assou-Ekotto",
+        "Benoît Assou-Ekotto"
+      ]
+    },
+    {
+      "id": "TOT1011_GARETH_BALE",
+      "fullname": "Gareth Bale",
+      "surname": "Bale",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Bale",
+        "Gareth Bale"
+      ]
+    },
+    {
+      "id": "TOT1011_RAFAEL_VAN_DER_VAART",
+      "fullname": "Rafael van der Vaart",
+      "surname": "der Vaart",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "der Vaart",
+        "Rafael van der Vaart"
+      ]
+    },
+    {
+      "id": "TOT1011_WILLIAM_GALLAS",
+      "fullname": "William Gallas",
+      "surname": "Gallas",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Gallas",
+        "William Gallas"
+      ]
+    },
+    {
+      "id": "TOT1011_AARON_LENNON",
+      "fullname": "Aaron Lennon",
+      "surname": "Lennon",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Aaron Lennon",
+        "Lennon"
+      ]
+    },
+    {
+      "id": "TOT1011_MICHAEL_DAWSON",
+      "fullname": "Michael Dawson",
+      "surname": "Dawson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Dawson",
+        "Michael Dawson"
+      ]
+    },
+    {
+      "id": "TOT1011_PETER_CROUCH",
+      "fullname": "Peter Crouch",
+      "surname": "Crouch",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Crouch",
+        "Peter Crouch"
+      ]
+    },
+    {
+      "id": "TOT1011_ALAN_HUTTON",
+      "fullname": "Alan Hutton",
+      "surname": "Hutton",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Alan Hutton",
+        "Hutton"
+      ]
+    },
+    {
+      "id": "TOT1011_YOUNES_KABOUL",
+      "fullname": "Younès Kaboul",
+      "surname": "Kaboul",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Kaboul",
+        "Younès Kaboul"
+      ]
+    },
+    {
+      "id": "TOT1011_ROMAN_PAVLYUCHENKO",
+      "fullname": "Roman Pavlyuchenko",
+      "surname": "Pavlyuchenko",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Pavlyuchenko",
+        "Roman Pavlyuchenko"
+      ]
+    },
+    {
+      "id": "TOT1011_JERMAIN_DEFOE",
+      "fullname": "Jermain Defoe",
+      "surname": "Defoe",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Defoe",
+        "Jermain Defoe"
+      ]
+    },
+    {
+      "id": "TOT1011_WILSON_PALACIOS",
+      "fullname": "Wilson Palacios",
+      "surname": "Palacios",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Palacios",
+        "Wilson Palacios"
+      ]
+    },
+    {
+      "id": "TOT1011_JERMAINE_JENAS",
+      "fullname": "Jermaine Jenas",
+      "surname": "Jenas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Jenas",
+        "Jermaine Jenas"
+      ]
+    },
+    {
+      "id": "TOT1011_VEDRAN_CORLUKA",
+      "fullname": "Vedran Ćorluka",
+      "surname": "Ćorluka",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Ćorluka",
+        "Vedran Ćorluka"
+      ]
+    },
+    {
+      "id": "TOT1011_TOM_HUDDLESTONE",
+      "fullname": "Tom Huddlestone",
+      "surname": "Huddlestone",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Huddlestone",
+        "Tom Huddlestone"
+      ]
+    },
+    {
+      "id": "TOT1011_SANDRO",
+      "fullname": "Sandro",
+      "surname": "Sandro",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Sandro"
+      ]
+    },
+    {
+      "id": "TOT1011_CARLO_CUDICINI",
+      "fullname": "Carlo Cudicini",
+      "surname": "Cudicini",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Carlo Cudicini",
+        "Cudicini"
+      ]
+    },
+    {
+      "id": "TOT1011_SEBASTIEN_BASSONG",
+      "fullname": "Sébastien Bassong",
+      "surname": "Bassong",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Bassong",
+        "Sébastien Bassong"
+      ]
+    },
+    {
+      "id": "TOT1011_LEDLEY_KING",
+      "fullname": "Ledley King",
+      "surname": "King",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "King",
+        "Ledley King"
+      ]
+    },
+    {
+      "id": "TOT1011_STEVEN_PIENAAR",
+      "fullname": "Steven Pienaar",
+      "surname": "Pienaar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Pienaar",
+        "Steven Pienaar"
+      ]
+    },
+    {
+      "id": "TOT1011_DANNY_ROSE",
+      "fullname": "Danny Rose",
+      "surname": "Rose",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Danny Rose",
+        "Rose"
+      ]
+    },
+    {
+      "id": "TOT1011_NIKO_KRANJCAR",
+      "fullname": "Niko Kranjčar",
+      "surname": "Kranjčar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Kranjčar",
+        "Niko Kranjčar"
+      ]
+    },
+    {
+      "id": "TOT1011_ROBBIE_KEANE",
+      "fullname": "Robbie Keane",
+      "surname": "Keane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Keane",
+        "Robbie Keane"
+      ]
+    },
+    {
+      "id": "TOT1011_DAVID_BENTLEY",
+      "fullname": "David Bentley",
+      "surname": "Bentley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Bentley",
+        "David Bentley"
+      ]
+    },
+    {
+      "id": "TOT1011_GIOVANI_DOS_SANTOS",
+      "fullname": "Giovani dos Santos",
+      "surname": "dos Santos",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "dos Santos",
+        "Giovani dos Santos"
+      ]
+    },
+    {
+      "id": "TOT1011_KYLE_WALKER",
+      "fullname": "Kyle Walker",
+      "surname": "Walker",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Kyle Walker",
+        "Walker"
+      ]
+    }
+  ]
+}

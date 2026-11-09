@@ -1,0 +1,392 @@
+{
+  "clubCode": "BLA0203",
+  "club": "Blackburn",
+  "season": "2002-03",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "BLA0203_GRAEME_SOUNESS",
+      "fullname": "Graeme Souness",
+      "surname": "Souness",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Graeme Souness",
+        "Souness"
+      ]
+    },
+    {
+      "id": "BLA0203_BRAD_FRIEDEL",
+      "fullname": "Brad Friedel",
+      "surname": "Friedel",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Brad Friedel",
+        "Friedel"
+      ]
+    },
+    {
+      "id": "BLA0203_LUCAS_NEILL",
+      "fullname": "Lucas Neill",
+      "surname": "Neill",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Lucas Neill",
+        "Neill"
+      ]
+    },
+    {
+      "id": "BLA0203_GARRY_FLITCROFT",
+      "fullname": "Garry Flitcroft",
+      "surname": "Flitcroft",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Flitcroft",
+        "Garry Flitcroft"
+      ]
+    },
+    {
+      "id": "BLA0203_ANDY_COLE",
+      "fullname": "Andy Cole",
+      "surname": "Cole",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Andy Cole",
+        "Cole"
+      ]
+    },
+    {
+      "id": "BLA0203_TUGAY_KERIMOGLU",
+      "fullname": "Tugay Kerimoğlu",
+      "surname": "Kerimoğlu",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Kerimoğlu",
+        "Tugay",
+        "Tugay Kerimoğlu"
+      ]
+    },
+    {
+      "id": "BLA0203_MARTIN_TAYLOR",
+      "fullname": "Martin Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Martin Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "BLA0203_CRAIG_SHORT",
+      "fullname": "Craig Short",
+      "surname": "Short",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Craig Short",
+        "Short"
+      ]
+    },
+    {
+      "id": "BLA0203_DAMIEN_DUFF",
+      "fullname": "Damien Duff",
+      "surname": "Duff",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Damien Duff",
+        "Duff"
+      ]
+    },
+    {
+      "id": "BLA0203_DAVID_DUNN",
+      "fullname": "David Dunn",
+      "surname": "Dunn",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "David Dunn",
+        "Dunn"
+      ]
+    },
+    {
+      "id": "BLA0203_DWIGHT_YORKE",
+      "fullname": "Dwight Yorke",
+      "surname": "Yorke",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Dwight Yorke",
+        "Yorke"
+      ]
+    },
+    {
+      "id": "BLA0203_DAVID_THOMPSON",
+      "fullname": "David Thompson",
+      "surname": "Thompson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "David Thompson",
+        "Thompson"
+      ]
+    },
+    {
+      "id": "BLA0203_NILS_ERIC_JOHANSSON",
+      "fullname": "Nils-Eric Johansson",
+      "surname": "Johansson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Johansson",
+        "Nils-Eric Johansson"
+      ]
+    },
+    {
+      "id": "BLA0203_HENNING_BERG",
+      "fullname": "Henning Berg",
+      "surname": "Berg",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Berg",
+        "Henning Berg"
+      ]
+    },
+    {
+      "id": "BLA0203_KEITH_GILLESPIE",
+      "fullname": "Keith Gillespie",
+      "surname": "Gillespie",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Gillespie",
+        "Keith Gillespie"
+      ]
+    },
+    {
+      "id": "BLA0203_VRATISLAV_GRESKO",
+      "fullname": "Vratislav Greško",
+      "surname": "Greško",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Greško",
+        "Vratislav Greško"
+      ]
+    },
+    {
+      "id": "BLA0203_JAY_MCEVELEY",
+      "fullname": "Jay McEveley",
+      "surname": "McEveley",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Jay McEveley",
+        "McEveley"
+      ]
+    },
+    {
+      "id": "BLA0203_EGIL_STENSTAD",
+      "fullname": "Egil Østenstad",
+      "surname": "Østenstad",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Egil Østenstad",
+        "Østenstad"
+      ]
+    },
+    {
+      "id": "BLA0203_ANDY_TODD",
+      "fullname": "Andy Todd",
+      "surname": "Todd",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Andy Todd",
+        "Todd"
+      ]
+    },
+    {
+      "id": "BLA0203_HAKAN_SUKUR",
+      "fullname": "Hakan Şükür",
+      "surname": "Şükür",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Hakan Şükür",
+        "Şükür"
+      ]
+    },
+    {
+      "id": "BLA0203_JOHN_CURTIS",
+      "fullname": "John Curtis",
+      "surname": "Curtis",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Curtis",
+        "John Curtis"
+      ]
+    },
+    {
+      "id": "BLA0203_CORRADO_GRABBI",
+      "fullname": "Corrado Grabbi",
+      "surname": "Grabbi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Corrado Grabbi",
+        "Grabbi"
+      ]
+    },
+    {
+      "id": "BLA0203_CRAIG_HIGNETT",
+      "fullname": "Craig Hignett",
+      "surname": "Hignett",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Craig Hignett",
+        "Hignett"
+      ]
+    },
+    {
+      "id": "BLA0203_ALAN_KELLY_JR",
+      "fullname": "Alan Kelly Jr.",
+      "surname": "Jr.",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Alan Kelly Jr.",
+        "Jr."
+      ]
+    },
+    {
+      "id": "BLA0203_NEIL_DANNS",
+      "fullname": "Neil Danns",
+      "surname": "Danns",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Danns",
+        "Neil Danns"
+      ]
+    },
+    {
+      "id": "BLA0203_MATT_JANSEN",
+      "fullname": "Matt Jansen",
+      "surname": "Jansen",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Jansen",
+        "Matt Jansen"
+      ]
+    },
+    {
+      "id": "BLA0203_ALAN_MAHON",
+      "fullname": "Alan Mahon",
+      "surname": "Mahon",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Alan Mahon",
+        "Mahon"
+      ]
+    },
+    {
+      "id": "BLA0203_PAUL_GALLAGHER",
+      "fullname": "Paul Gallagher",
+      "surname": "Gallagher",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Gallagher",
+        "Paul Gallagher"
+      ]
+    },
+    {
+      "id": "BLA0203_JONATHAN_DOUGLAS",
+      "fullname": "Jonathan Douglas",
+      "surname": "Douglas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Douglas",
+        "Jonathan Douglas"
+      ]
+    }
+  ]
+}

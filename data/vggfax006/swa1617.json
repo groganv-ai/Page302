@@ -1,0 +1,448 @@
+{
+  "clubCode": "SWA1617",
+  "club": "Swansea",
+  "season": "2016-17",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "SWA1617_FRANCESCO_GUIDOLIN",
+      "fullname": "Francesco Guidolin",
+      "surname": "Guidolin",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Francesco Guidolin",
+        "Guidolin"
+      ]
+    },
+    {
+      "id": "SWA1617_BOB_BRADLEY",
+      "fullname": "Bob Bradley",
+      "surname": "Bradley",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Bob Bradley",
+        "Bradley"
+      ]
+    },
+    {
+      "id": "SWA1617_PAUL_CLEMENT",
+      "fullname": "Paul Clement",
+      "surname": "Clement",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Clement",
+        "Paul Clement"
+      ]
+    },
+    {
+      "id": "SWA1617_UKASZ_FABIANSKI",
+      "fullname": "Łukasz Fabiański",
+      "surname": "Fabiański",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Fabiański",
+        "Łukasz Fabiański"
+      ]
+    },
+    {
+      "id": "SWA1617_GYLFI_SIGUR_SSON",
+      "fullname": "Gylfi Sigurðsson",
+      "surname": "Sigurðsson",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Gylfi Sigurðsson",
+        "Sigurðsson"
+      ]
+    },
+    {
+      "id": "SWA1617_KYLE_NAUGHTON",
+      "fullname": "Kyle Naughton",
+      "surname": "Naughton",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Kyle Naughton",
+        "Naughton"
+      ]
+    },
+    {
+      "id": "SWA1617_FERNANDO_LLORENTE",
+      "fullname": "Fernando Llorente",
+      "surname": "Llorente",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Fernando Llorente",
+        "Llorente"
+      ]
+    },
+    {
+      "id": "SWA1617_FEDERICO_FERNANDEZ",
+      "fullname": "Federico Fernández",
+      "surname": "Fernández",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Federico Fernández",
+        "Fernández"
+      ]
+    },
+    {
+      "id": "SWA1617_ALFIE_MAWSON",
+      "fullname": "Alfie Mawson",
+      "surname": "Mawson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Alfie Mawson",
+        "Mawson"
+      ]
+    },
+    {
+      "id": "SWA1617_LEROY_FER",
+      "fullname": "Leroy Fer",
+      "surname": "Fer",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Fer",
+        "Leroy Fer"
+      ]
+    },
+    {
+      "id": "SWA1617_JACK_CORK",
+      "fullname": "Jack Cork",
+      "surname": "Cork",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Cork",
+        "Jack Cork"
+      ]
+    },
+    {
+      "id": "SWA1617_WAYNE_ROUTLEDGE",
+      "fullname": "Wayne Routledge",
+      "surname": "Routledge",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Routledge",
+        "Wayne Routledge"
+      ]
+    },
+    {
+      "id": "SWA1617_TOM_CARROLL",
+      "fullname": "Tom Carroll",
+      "surname": "Carroll",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Carroll",
+        "Tom Carroll"
+      ]
+    },
+    {
+      "id": "SWA1617_LEON_BRITTON",
+      "fullname": "Leon Britton",
+      "surname": "Britton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Britton",
+        "Leon Britton"
+      ]
+    },
+    {
+      "id": "SWA1617_JORDI_AMAT",
+      "fullname": "Jordi Amat",
+      "surname": "Amat",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Amat",
+        "Jordi Amat"
+      ]
+    },
+    {
+      "id": "SWA1617_MARTIN_OLSSON",
+      "fullname": "Martin Olsson",
+      "surname": "Olsson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Martin Olsson",
+        "Olsson"
+      ]
+    },
+    {
+      "id": "SWA1617_KI_SUNG_YUENG",
+      "fullname": "Ki Sung-yueng",
+      "surname": "Sung-yueng",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Ki",
+        "Ki Sung-yueng",
+        "Sung-yueng",
+        "Sung-yueng Ki"
+      ]
+    },
+    {
+      "id": "SWA1617_MODOU_BARROW",
+      "fullname": "Modou Barrow",
+      "surname": "Barrow",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Barrow",
+        "Modou Barrow"
+      ]
+    },
+    {
+      "id": "SWA1617_STEPHEN_KINGSLEY",
+      "fullname": "Stephen Kingsley",
+      "surname": "Kingsley",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Kingsley",
+        "Stephen Kingsley"
+      ]
+    },
+    {
+      "id": "SWA1617_NEIL_TAYLOR",
+      "fullname": "Neil Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Neil Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "SWA1617_JORDAN_AYEW",
+      "fullname": "Jordan Ayew",
+      "surname": "Ayew",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Ayew",
+        "Jordan Ayew"
+      ]
+    },
+    {
+      "id": "SWA1617_JAY_FULTON",
+      "fullname": "Jay Fulton",
+      "surname": "Fulton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Fulton",
+        "Jay Fulton"
+      ]
+    },
+    {
+      "id": "SWA1617_ANGEL_RANGEL",
+      "fullname": "Àngel Rangel",
+      "surname": "Rangel",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Àngel Rangel",
+        "Rangel"
+      ]
+    },
+    {
+      "id": "SWA1617_MIKE_VAN_DER_HOORN",
+      "fullname": "Mike van der Hoorn",
+      "surname": "der Hoorn",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "der Hoorn",
+        "Mike van der Hoorn"
+      ]
+    },
+    {
+      "id": "SWA1617_BORJA_BASTON",
+      "fullname": "Borja Bastón",
+      "surname": "Bastón",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Bastón",
+        "Borja Bastón"
+      ]
+    },
+    {
+      "id": "SWA1617_LUCIANO_NARSINGH",
+      "fullname": "Luciano Narsingh",
+      "surname": "Narsingh",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Luciano Narsingh",
+        "Narsingh"
+      ]
+    },
+    {
+      "id": "SWA1617_NATHAN_DYER",
+      "fullname": "Nathan Dyer",
+      "surname": "Dyer",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Dyer",
+        "Nathan Dyer"
+      ]
+    },
+    {
+      "id": "SWA1617_JEFFERSON_MONTERO",
+      "fullname": "Jefferson Montero",
+      "surname": "Montero",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Jefferson Montero",
+        "Montero"
+      ]
+    },
+    {
+      "id": "SWA1617_KRISTOFFER_NORDFELDT",
+      "fullname": "Kristoffer Nordfeldt",
+      "surname": "Nordfeldt",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Kristoffer Nordfeldt",
+        "Nordfeldt"
+      ]
+    },
+    {
+      "id": "SWA1617_OLIVER_MCBURNIE",
+      "fullname": "Oliver McBurnie",
+      "surname": "McBurnie",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "McBurnie",
+        "Oliver McBurnie"
+      ]
+    },
+    {
+      "id": "SWA1617_DANIEL_JAMES",
+      "fullname": "Daniel James",
+      "surname": "James",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Daniel James",
+        "James"
+      ]
+    },
+    {
+      "id": "SWA1617_CONNOR_ROBERTS",
+      "fullname": "Connor Roberts",
+      "surname": "Roberts",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Connor Roberts",
+        "Roberts"
+      ]
+    },
+    {
+      "id": "SWA1617_GERHARD_TREMMEL",
+      "fullname": "Gerhard Tremmel",
+      "surname": "Tremmel",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Gerhard Tremmel",
+        "Tremmel"
+      ]
+    }
+  ]
+}

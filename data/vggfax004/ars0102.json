@@ -1,0 +1,355 @@
+{
+  "clubCode": "ARS0102",
+  "club": "Arsenal",
+  "season": "2001-02",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "ARS0102_ARSENE_WENGER",
+      "fullname": "Arsène Wenger",
+      "surname": "Wenger",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Arsène Wenger",
+        "Wenger"
+      ]
+    },
+    {
+      "id": "ARS0102_PATRICK_VIEIRA",
+      "fullname": "Patrick Vieira",
+      "surname": "Vieira",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Patrick Vieira",
+        "Vieira"
+      ]
+    },
+    {
+      "id": "ARS0102_THIERRY_HENRY",
+      "fullname": "Thierry Henry",
+      "surname": "Henry",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Henry",
+        "Thierry Henry"
+      ]
+    },
+    {
+      "id": "ARS0102_SOL_CAMPBELL",
+      "fullname": "Sol Campbell",
+      "surname": "Campbell",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Campbell",
+        "Sol Campbell"
+      ]
+    },
+    {
+      "id": "ARS0102_ASHLEY_COLE",
+      "fullname": "Ashley Cole",
+      "surname": "Cole",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Ashley Cole",
+        "Cole"
+      ]
+    },
+    {
+      "id": "ARS0102_LAUREN",
+      "fullname": "Lauren",
+      "surname": "Lauren",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Lauren"
+      ]
+    },
+    {
+      "id": "ARS0102_ROBERT_PIRES",
+      "fullname": "Robert Pirès",
+      "surname": "Pirès",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Pires",
+        "Pirès",
+        "Robert Pires",
+        "Robert Pirès"
+      ]
+    },
+    {
+      "id": "ARS0102_RAY_PARLOUR",
+      "fullname": "Ray Parlour",
+      "surname": "Parlour",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Parlour",
+        "Ray Parlour"
+      ]
+    },
+    {
+      "id": "ARS0102_FREDDIE_LJUNGBERG",
+      "fullname": "Freddie Ljungberg",
+      "surname": "Ljungberg",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Freddie Ljungberg",
+        "Ljungberg"
+      ]
+    },
+    {
+      "id": "ARS0102_SYLVAIN_WILTORD",
+      "fullname": "Sylvain Wiltord",
+      "surname": "Wiltord",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Sylvain Wiltord",
+        "Wiltord"
+      ]
+    },
+    {
+      "id": "ARS0102_DENNIS_BERGKAMP",
+      "fullname": "Dennis Bergkamp",
+      "surname": "Bergkamp",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Bergkamp",
+        "Dennis Bergkamp"
+      ]
+    },
+    {
+      "id": "ARS0102_MARTIN_KEOWN",
+      "fullname": "Martin Keown",
+      "surname": "Keown",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Keown",
+        "Martin Keown"
+      ]
+    },
+    {
+      "id": "ARS0102_DAVID_SEAMAN",
+      "fullname": "David Seaman",
+      "surname": "Seaman",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "David Seaman",
+        "Seaman"
+      ]
+    },
+    {
+      "id": "ARS0102_OLEH_LUZHNY",
+      "fullname": "Oleh Luzhny",
+      "surname": "Luzhny",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Luzhny",
+        "Oleh Luzhny"
+      ]
+    },
+    {
+      "id": "ARS0102_GIOVANNI_VAN_BRONCKHORST",
+      "fullname": "Giovanni van Bronckhorst",
+      "surname": "van Bronckhorst",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Giovanni van Bronckhorst",
+        "van Bronckhorst"
+      ]
+    },
+    {
+      "id": "ARS0102_RICHARD_WRIGHT",
+      "fullname": "Richard Wright",
+      "surname": "Wright",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Richard Wright",
+        "Wright"
+      ]
+    },
+    {
+      "id": "ARS0102_GILLES_GRIMANDI",
+      "fullname": "Gilles Grimandi",
+      "surname": "Grimandi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Gilles Grimandi",
+        "Grimandi"
+      ]
+    },
+    {
+      "id": "ARS0102_TONY_ADAMS",
+      "fullname": "Tony Adams",
+      "surname": "Adams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Adams",
+        "Tony Adams"
+      ]
+    },
+    {
+      "id": "ARS0102_MATT_UPSON",
+      "fullname": "Matt Upson",
+      "surname": "Upson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Matt Upson",
+        "Upson"
+      ]
+    },
+    {
+      "id": "ARS0102_NWANKWO_KANU",
+      "fullname": "Nwankwo Kanu",
+      "surname": "Kanu",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Kanu",
+        "Nwankwo Kanu"
+      ]
+    },
+    {
+      "id": "ARS0102_STUART_TAYLOR",
+      "fullname": "Stuart Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Stuart Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "ARS0102_EDU_GASPAR",
+      "fullname": "Edu Gaspar",
+      "surname": "Gaspar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Edu Gaspar",
+        "Gaspar"
+      ]
+    },
+    {
+      "id": "ARS0102_IGORS_STEPANOVS",
+      "fullname": "Igors Stepanovs",
+      "surname": "Stepanovs",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Igors Stepanovs",
+        "Stepanovs"
+      ]
+    },
+    {
+      "id": "ARS0102_LEE_DIXON",
+      "fullname": "Lee Dixon",
+      "surname": "Dixon",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Dixon",
+        "Lee Dixon"
+      ]
+    },
+    {
+      "id": "ARS0102_FRANCIS_JEFFERS",
+      "fullname": "Francis Jeffers",
+      "surname": "Jeffers",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Francis Jeffers",
+        "Jeffers"
+      ]
+    },
+    {
+      "id": "ARS0102_JEREMIE_ALIADIERE",
+      "fullname": "Jérémie Aliadière",
+      "surname": "Aliadière",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Aliadière",
+        "Jérémie Aliadière"
+      ]
+    }
+  ]
+}

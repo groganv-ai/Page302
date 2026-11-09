@@ -19,6 +19,10 @@ for (const number of ['001', '002', '003']) {
     const pack = JSON.parse(fs.readFileSync(path.join(root, `data/vggfax${number}.json`), 'utf8'));
     pool(pack.clubs);
     for (const club of pack.clubs) for (const person of club.squad) {
+        if (!context.isEligibleRecord(person)) {
+            for (const position of person.positions) assert.ok(!names(person.surname, position, club.clubCode.slice(0,3)).includes(person.fullname));
+            continue;
+        }
         const surname = context.normalizeSearchName(person.surname);
         for (const position of person.positions) {
             assert.ok(names(person.surname.toUpperCase(), position, club.clubCode.slice(0, 3)).includes(person.fullname), `${number}: uppercase ${person.fullname}`);
@@ -36,12 +40,12 @@ for (const number of ['001', '002', '003']) {
     }
 }
 pool([{ clubCode: 'AAA0001', squad: [
-    { fullname: 'Alex Stone', surname: 'Stone', positions: ['DF'] },
-    { fullname: 'Ben Stowe', surname: 'Stowe', positions: ['AT'] },
-    { fullname: 'Chris Stole', surname: 'Stole', positions: ['AT'] },
-    { fullname: 'Dan Son', surname: 'Son', positions: ['AT'] },
-    { fullname: 'Eli O’Shea', surname: 'O’Shea', positions: ['MD'] },
-    { fullname: 'Fran Oshea', surname: 'Oshea', positions: ['MD'] }
+    { fullname: 'Alex Stone', surname: 'Stone', positions: ['DF'], appearances:1 },
+    { fullname: 'Ben Stowe', surname: 'Stowe', positions: ['AT'], appearances:1 },
+    { fullname: 'Chris Stole', surname: 'Stole', positions: ['AT'], appearances:1 },
+    { fullname: 'Dan Son', surname: 'Son', positions: ['AT'], appearances:1 },
+    { fullname: 'Eli O’Shea', surname: 'O’Shea', positions: ['MD'], appearances:1 },
+    { fullname: 'Fran Oshea', surname: 'Oshea', positions: ['MD'], appearances:1 }
 ] }]);
 assert.deepEqual(names('Stone', 'AT', 'AAA'), []);
 assert.equal(context.playerExistsAtClub('S T O N E', 'AAA'), true);
@@ -51,7 +55,7 @@ assert.deepEqual(names('Son', 'AT', 'AAA'), ['Dan Son']);
 assert.deepEqual(names('O-SHEA', 'MD', 'AAA'), ['Eli O’Shea', 'Fran Oshea']);
 assert.deepEqual(names('Stowe', 'AT', 'AAB'), []);
 assert.deepEqual(names('Stowe', 'AX', 'AAA'), []);
-assert.deepEqual(names('Ben Stowe', 'AT', 'AAA'), []);
+assert.deepEqual(names('Ben Stowe', 'AT', 'AAA'), ['Ben Stowe']);
 assert.deepEqual(names('Sto', 'AT', 'AAA'), []);
 assert.equal(context.isOneLetterTypo('ronlado', 'ronaldo'), true);
 assert.equal(context.isOneLetterTypo('rnldo', 'ronaldo'), false);

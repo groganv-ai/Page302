@@ -1,0 +1,329 @@
+{
+  "clubCode": "LIV0809",
+  "club": "Liverpool",
+  "season": "2008-09",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "LIV0809_RAFAEL_BENITEZ",
+      "fullname": "Rafael Benítez",
+      "surname": "Benítez",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Benítez",
+        "Rafael Benítez"
+      ]
+    },
+    {
+      "id": "LIV0809_PEPE_REINA",
+      "fullname": "Pepe Reina",
+      "surname": "Reina",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Pepe Reina",
+        "Reina"
+      ]
+    },
+    {
+      "id": "LIV0809_JAMIE_CARRAGHER",
+      "fullname": "Jamie Carragher",
+      "surname": "Carragher",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Carragher",
+        "Jamie Carragher"
+      ]
+    },
+    {
+      "id": "LIV0809_DIRK_KUYT",
+      "fullname": "Dirk Kuyt",
+      "surname": "Kuyt",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Dirk Kuyt",
+        "Kuyt"
+      ]
+    },
+    {
+      "id": "LIV0809_STEVEN_GERRARD",
+      "fullname": "Steven Gerrard",
+      "surname": "Gerrard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Gerrard",
+        "Steven Gerrard"
+      ]
+    },
+    {
+      "id": "LIV0809_ALVARO_ARBELOA",
+      "fullname": "Álvaro Arbeloa",
+      "surname": "Arbeloa",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Álvaro Arbeloa",
+        "Arbeloa"
+      ]
+    },
+    {
+      "id": "LIV0809_XABI_ALONSO",
+      "fullname": "Xabi Alonso",
+      "surname": "Alonso",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Alonso",
+        "Xabi Alonso"
+      ]
+    },
+    {
+      "id": "LIV0809_JAVIER_MASCHERANO",
+      "fullname": "Javier Mascherano",
+      "surname": "Mascherano",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Javier Mascherano",
+        "Mascherano"
+      ]
+    },
+    {
+      "id": "LIV0809_ALBERT_RIERA",
+      "fullname": "Albert Riera",
+      "surname": "Riera",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Albert Riera",
+        "Riera"
+      ]
+    },
+    {
+      "id": "LIV0809_YOSSI_BENAYOUN",
+      "fullname": "Yossi Benayoun",
+      "surname": "Benayoun",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Benayoun",
+        "Yossi Benayoun"
+      ]
+    },
+    {
+      "id": "LIV0809_MARTIN_SKRTEL",
+      "fullname": "Martin Škrtel",
+      "surname": "Škrtel",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Martin Škrtel",
+        "Škrtel"
+      ]
+    },
+    {
+      "id": "LIV0809_FERNANDO_TORRES",
+      "fullname": "Fernando Torres",
+      "surname": "Torres",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Fernando Torres",
+        "Torres"
+      ]
+    },
+    {
+      "id": "LIV0809_FABIO_AURELIO",
+      "fullname": "Fábio Aurélio",
+      "surname": "Aurélio",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Aurélio",
+        "Fábio Aurélio"
+      ]
+    },
+    {
+      "id": "LIV0809_ROBBIE_KEANE",
+      "fullname": "Robbie Keane",
+      "surname": "Keane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Keane",
+        "Robbie Keane"
+      ]
+    },
+    {
+      "id": "LIV0809_DANIEL_AGGER",
+      "fullname": "Daniel Agger",
+      "surname": "Agger",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Agger",
+        "Daniel Agger"
+      ]
+    },
+    {
+      "id": "LIV0809_LUCAS_LEIVA",
+      "fullname": "Lucas Leiva",
+      "surname": "Leiva",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Leiva",
+        "Lucas Leiva"
+      ]
+    },
+    {
+      "id": "LIV0809_SAMI_HYYPIA",
+      "fullname": "Sami Hyypiä",
+      "surname": "Hyypiä",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Hyypiä",
+        "Sami Hyypiä"
+      ]
+    },
+    {
+      "id": "LIV0809_ANDREA_DOSSENA",
+      "fullname": "Andrea Dossena",
+      "surname": "Dossena",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Andrea Dossena",
+        "Dossena"
+      ]
+    },
+    {
+      "id": "LIV0809_EMILIANO_INSUA",
+      "fullname": "Emiliano Insúa",
+      "surname": "Insúa",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Emiliano Insúa",
+        "Insúa"
+      ]
+    },
+    {
+      "id": "LIV0809_RYAN_BABEL",
+      "fullname": "Ryan Babel",
+      "surname": "Babel",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Babel",
+        "Ryan Babel"
+      ]
+    },
+    {
+      "id": "LIV0809_DAVID_N_GOG",
+      "fullname": "David N'Gog",
+      "surname": "N'Gog",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "David N'Gog",
+        "N'Gog"
+      ]
+    },
+    {
+      "id": "LIV0809_JERMAINE_PENNANT",
+      "fullname": "Jermaine Pennant",
+      "surname": "Pennant",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Jermaine Pennant",
+        "Pennant"
+      ]
+    },
+    {
+      "id": "LIV0809_NABIL_EL_ZHAR",
+      "fullname": "Nabil El Zhar",
+      "surname": "Zhar",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Nabil El Zhar",
+        "Zhar"
+      ]
+    },
+    {
+      "id": "LIV0809_DAMIEN_PLESSIS",
+      "fullname": "Damien Plessis",
+      "surname": "Plessis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Damien Plessis",
+        "Plessis"
+      ]
+    }
+  ]
+}

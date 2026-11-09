@@ -1,0 +1,332 @@
+{
+  "clubCode": "MCI1314",
+  "club": "Man City",
+  "season": "2013-14",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MCI1314_MANUEL_PELLEGRINI",
+      "fullname": "Manuel Pellegrini",
+      "surname": "Pellegrini",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Manuel Pellegrini",
+        "Pellegrini"
+      ]
+    },
+    {
+      "id": "MCI1314_YAYA_TOURE",
+      "fullname": "Yaya Touré",
+      "surname": "Touré",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Touré",
+        "Yaya Touré"
+      ]
+    },
+    {
+      "id": "MCI1314_PABLO_ZABALETA",
+      "fullname": "Pablo Zabaleta",
+      "surname": "Zabaleta",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Pablo Zabaleta",
+        "Zabaleta"
+      ]
+    },
+    {
+      "id": "MCI1314_JOE_HART",
+      "fullname": "Joe Hart",
+      "surname": "Hart",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Hart",
+        "Joe Hart"
+      ]
+    },
+    {
+      "id": "MCI1314_FERNANDINHO",
+      "fullname": "Fernandinho",
+      "surname": "Fernandinho",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Fernandinho"
+      ]
+    },
+    {
+      "id": "MCI1314_SAMIR_NASRI",
+      "fullname": "Samir Nasri",
+      "surname": "Nasri",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Nasri",
+        "Samir Nasri"
+      ]
+    },
+    {
+      "id": "MCI1314_VINCENT_KOMPANY",
+      "fullname": "Vincent Kompany",
+      "surname": "Kompany",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Kompany",
+        "Vincent Kompany"
+      ]
+    },
+    {
+      "id": "MCI1314_MARTIN_DEMICHELIS",
+      "fullname": "Martín Demichelis",
+      "surname": "Demichelis",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Demichelis",
+        "Martín Demichelis"
+      ]
+    },
+    {
+      "id": "MCI1314_DAVID_SILVA",
+      "fullname": "David Silva",
+      "surname": "Silva",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "David Silva",
+        "Silva"
+      ]
+    },
+    {
+      "id": "MCI1314_EDIN_DZEKO",
+      "fullname": "Edin Džeko",
+      "surname": "Džeko",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Džeko",
+        "Edin Džeko"
+      ]
+    },
+    {
+      "id": "MCI1314_ALEKSANDAR_KOLAROV",
+      "fullname": "Aleksandar Kolarov",
+      "surname": "Kolarov",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Aleksandar Kolarov",
+        "Kolarov"
+      ]
+    },
+    {
+      "id": "MCI1314_ALVARO_NEGREDO",
+      "fullname": "Álvaro Negredo",
+      "surname": "Negredo",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Álvaro Negredo",
+        "Negredo"
+      ]
+    },
+    {
+      "id": "MCI1314_SERGIO_AGUERO",
+      "fullname": "Sergio Agüero",
+      "surname": "Agüero",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Agüero",
+        "Kun",
+        "Kun Agüero",
+        "Sergio Agüero"
+      ]
+    },
+    {
+      "id": "MCI1314_JESUS_NAVAS",
+      "fullname": "Jesús Navas",
+      "surname": "Navas",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Jesús Navas",
+        "Navas"
+      ]
+    },
+    {
+      "id": "MCI1314_GAEL_CLICHY",
+      "fullname": "Gaël Clichy",
+      "surname": "Clichy",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Clichy",
+        "Gaël Clichy"
+      ]
+    },
+    {
+      "id": "MCI1314_JAVI_GARCIA",
+      "fullname": "Javi García",
+      "surname": "García",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "García",
+        "Javi García"
+      ]
+    },
+    {
+      "id": "MCI1314_JAMES_MILNER",
+      "fullname": "James Milner",
+      "surname": "Milner",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "James Milner",
+        "Milner"
+      ]
+    },
+    {
+      "id": "MCI1314_MATIJA_NASTASIC",
+      "fullname": "Matija Nastasić",
+      "surname": "Nastasić",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Matija Nastasić",
+        "Nastasić"
+      ]
+    },
+    {
+      "id": "MCI1314_JOLEON_LESCOTT",
+      "fullname": "Joleon Lescott",
+      "surname": "Lescott",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Joleon Lescott",
+        "Lescott"
+      ]
+    },
+    {
+      "id": "MCI1314_COSTEL_PANTILIMON",
+      "fullname": "Costel Pantilimon",
+      "surname": "Pantilimon",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Costel Pantilimon",
+        "Pantilimon"
+      ]
+    },
+    {
+      "id": "MCI1314_STEVAN_JOVETIC",
+      "fullname": "Stevan Jovetić",
+      "surname": "Jovetić",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Jovetić",
+        "Stevan Jovetić"
+      ]
+    },
+    {
+      "id": "MCI1314_MICAH_RICHARDS",
+      "fullname": "Micah Richards",
+      "surname": "Richards",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Micah Richards",
+        "Richards"
+      ]
+    },
+    {
+      "id": "MCI1314_JACK_RODWELL",
+      "fullname": "Jack Rodwell",
+      "surname": "Rodwell",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Jack Rodwell",
+        "Rodwell"
+      ]
+    },
+    {
+      "id": "MCI1314_DEDRYCK_BOYATA",
+      "fullname": "Dedryck Boyata",
+      "surname": "Boyata",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Boyata",
+        "Dedryck Boyata"
+      ]
+    }
+  ]
+}

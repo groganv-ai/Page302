@@ -1,0 +1,7 @@
+{
+  "timeZone": "Europe/London",
+  "packs": [
+    {"packId": "004", "date": "2030-01-01", "file": "../outputs/game-pack-004/export/vggfax004.json"},
+    {"packId": "005", "date": "2030-01-02", "file": "../outputs/game-pack-005/export/vggfax005.json"}
+  ]
+}

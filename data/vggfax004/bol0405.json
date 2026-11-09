@@ -1,0 +1,357 @@
+{
+  "clubCode": "BOL0405",
+  "club": "Bolton",
+  "season": "2004-05",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "BOL0405_SAM_ALLARDYCE",
+      "fullname": "Sam Allardyce",
+      "surname": "Allardyce",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Allardyce",
+        "Sam Allardyce"
+      ]
+    },
+    {
+      "id": "BOL0405_GARY_SPEED",
+      "fullname": "Gary Speed",
+      "surname": "Speed",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Gary Speed",
+        "Speed"
+      ]
+    },
+    {
+      "id": "BOL0405_BRUNO_N_GOTTY",
+      "fullname": "Bruno N'Gotty",
+      "surname": "N'Gotty",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Bruno N'Gotty",
+        "N'Gotty"
+      ]
+    },
+    {
+      "id": "BOL0405_JUSSI_JAASKELAINEN",
+      "fullname": "Jussi Jääskeläinen",
+      "surname": "Jääskeläinen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Jääskeläinen",
+        "jaaskelainen",
+        "Jussi Jääskeläinen"
+      ]
+    },
+    {
+      "id": "BOL0405_KEVIN_DAVIES",
+      "fullname": "Kevin Davies",
+      "surname": "Davies",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Davies",
+        "Kevin Davies"
+      ]
+    },
+    {
+      "id": "BOL0405_RICARDO_GARDNER",
+      "fullname": "Ricardo Gardner",
+      "surname": "Gardner",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Gardner",
+        "Ricardo Gardner"
+      ]
+    },
+    {
+      "id": "BOL0405_JAY_JAY_OKOCHA",
+      "fullname": "Jay-Jay Okocha",
+      "surname": "Okocha",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Jay-Jay Okocha",
+        "Okocha"
+      ]
+    },
+    {
+      "id": "BOL0405_NICKY_HUNT",
+      "fullname": "Nicky Hunt",
+      "surname": "Hunt",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Hunt",
+        "Nicky Hunt"
+      ]
+    },
+    {
+      "id": "BOL0405_STELIOS_GIANNAKOPOULOS",
+      "fullname": "Stelios Giannakopoulos",
+      "surname": "Giannakopoulos",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Giannakopoulos",
+        "Stelios",
+        "Stelios Giannakopoulos"
+      ]
+    },
+    {
+      "id": "BOL0405_KEVIN_NOLAN",
+      "fullname": "Kevin Nolan",
+      "surname": "Nolan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Kevin Nolan",
+        "Nolan"
+      ]
+    },
+    {
+      "id": "BOL0405_EL_HADJI_DIOUF",
+      "fullname": "El Hadji Diouf",
+      "surname": "Diouf",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Diouf",
+        "El Hadji Diouf"
+      ]
+    },
+    {
+      "id": "BOL0405_RADHI_JAIDI",
+      "fullname": "Radhi Jaïdi",
+      "surname": "Jaïdi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Jaïdi",
+        "Radhi Jaïdi"
+      ]
+    },
+    {
+      "id": "BOL0405_IVAN_CAMPO",
+      "fullname": "Iván Campo",
+      "surname": "Campo",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Campo",
+        "Iván Campo"
+      ]
+    },
+    {
+      "id": "BOL0405_TAL_BEN_HAIM",
+      "fullname": "Tal Ben Haim",
+      "surname": "Haim",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Haim",
+        "Tal Ben Haim"
+      ]
+    },
+    {
+      "id": "BOL0405_FERNANDO_HIERRO",
+      "fullname": "Fernando Hierro",
+      "surname": "Hierro",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Fernando Hierro",
+        "Hierro"
+      ]
+    },
+    {
+      "id": "BOL0405_HENRIK_PEDERSEN",
+      "fullname": "Henrik Pedersen",
+      "surname": "Pedersen",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Henrik Pedersen",
+        "Pedersen"
+      ]
+    },
+    {
+      "id": "BOL0405_VINCENT_CANDELA",
+      "fullname": "Vincent Candela",
+      "surname": "Candela",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Candela",
+        "Vincent Candela"
+      ]
+    },
+    {
+      "id": "BOL0405_ANTHONY_BARNESS",
+      "fullname": "Anthony Barness",
+      "surname": "Barness",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Anthony Barness",
+        "Barness"
+      ]
+    },
+    {
+      "id": "BOL0405_JULIO_CESAR",
+      "fullname": "Júlio César",
+      "surname": "César",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "César",
+        "Júlio César"
+      ]
+    },
+    {
+      "id": "BOL0405_LES_FERDINAND",
+      "fullname": "Les Ferdinand",
+      "surname": "Ferdinand",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Ferdinand",
+        "Les Ferdinand"
+      ]
+    },
+    {
+      "id": "BOL0405_RICARDO_VAZ_TE",
+      "fullname": "Ricardo Vaz Tê",
+      "surname": "Tê",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Ricardo Vaz Tê",
+        "Tê"
+      ]
+    },
+    {
+      "id": "BOL0405_KEVIN_POOLE",
+      "fullname": "Kevin Poole",
+      "surname": "Poole",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Kevin Poole",
+        "Poole"
+      ]
+    },
+    {
+      "id": "BOL0405_ANDY_OAKES",
+      "fullname": "Andy Oakes",
+      "surname": "Oakes",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Andy Oakes",
+        "Oakes"
+      ]
+    },
+    {
+      "id": "BOL0405_KHALILOU_FADIGA",
+      "fullname": "Khalilou Fadiga",
+      "surname": "Fadiga",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Fadiga",
+        "Khalilou Fadiga"
+      ]
+    },
+    {
+      "id": "BOL0405_BLESSING_KAKU",
+      "fullname": "Blessing Kaku",
+      "surname": "Kaku",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Blessing Kaku",
+        "Kaku"
+      ]
+    },
+    {
+      "id": "BOL0405_JOEY_O_BRIEN",
+      "fullname": "Joey O'Brien",
+      "surname": "O'Brien",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Joey O'Brien",
+        "O'Brien"
+      ]
+    }
+  ]
+}
