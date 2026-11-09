@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Gordon Strachan",
+        "Strachan"
+      ]
     },
     {
       "id": "COV0001_GARY_BREEN",
@@ -21,7 +25,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Breen",
+        "Gary Breen"
+      ]
     },
     {
       "id": "COV0001_MUSTAPHA_HADJI",
@@ -30,7 +38,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Hadji",
+        "Mustapha Hadji"
+      ]
     },
     {
       "id": "COV0001_PAUL_WILLIAMS",
@@ -39,7 +51,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Paul Williams",
+        "Williams"
+      ]
     },
     {
       "id": "COV0001_PAUL_TELFER",
@@ -49,7 +65,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Paul Telfer",
+        "Telfer"
+      ]
     },
     {
       "id": "COV0001_BARRY_QUINN",
@@ -58,7 +78,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Barry Quinn",
+        "Quinn"
+      ]
     },
     {
       "id": "COV0001_RICHARD_SHAW",
@@ -67,7 +91,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Richard Shaw",
+        "Shaw"
+      ]
     },
     {
       "id": "COV0001_CHRIS_KIRKLAND",
@@ -76,7 +104,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Chris Kirkland",
+        "Kirkland"
+      ]
     },
     {
       "id": "COV0001_JOHN_EUSTACE",
@@ -85,7 +117,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Eustace",
+        "John Eustace"
+      ]
     },
     {
       "id": "COV0001_DAVID_THOMPSON",
@@ -94,7 +130,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "David Thompson",
+        "Thompson"
+      ]
     },
     {
       "id": "COV0001_MARCUS_HALL",
@@ -103,7 +143,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Hall",
+        "Marcus Hall"
+      ]
     },
     {
       "id": "COV0001_LEE_CARSLEY",
@@ -112,7 +156,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Carsley",
+        "Lee Carsley"
+      ]
     },
     {
       "id": "COV0001_MARC_EDWORTHY",
@@ -121,7 +169,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Edworthy",
+        "Marc Edworthy"
+      ]
     },
     {
       "id": "COV0001_YOUSSEF_CHIPPO",
@@ -130,7 +182,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Chippo",
+        "Youssef Chippo"
+      ]
     },
     {
       "id": "COV0001_MAGNUS_HEDMAN",
@@ -139,7 +195,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Hedman",
+        "Magnus Hedman"
+      ]
     },
     {
       "id": "COV0001_CARLTON_PALMER",
@@ -148,7 +208,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Carlton Palmer",
+        "Palmer"
+      ]
     },
     {
       "id": "COV0001_JOHN_HARTSON",
@@ -157,7 +221,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Hartson",
+        "John Hartson"
+      ]
     },
     {
       "id": "COV0001_CDRIC_ROUSSEL",
@@ -166,7 +234,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Cédric Roussel",
+        "Roussel"
+      ]
     },
     {
       "id": "COV0001_JOHN_ALOISI",
@@ -175,7 +247,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Aloisi",
+        "John Aloisi"
+      ]
     },
     {
       "id": "COV0001_MUHAMED_KONJI",
@@ -184,7 +260,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Konjić",
+        "Muhamed Konjić"
+      ]
     },
     {
       "id": "COV0001_YSRAEL_ZIGA",
@@ -193,7 +273,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Ysrael Zúñiga",
+        "Zúñiga"
+      ]
     },
     {
       "id": "COV0001_JAY_BOTHROYD",
@@ -202,7 +286,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Bothroyd",
+        "Jay Bothroyd"
+      ]
     },
     {
       "id": "COV0001_IVN_GUERRERO",
@@ -211,7 +299,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Guerrero",
+        "Iván Guerrero"
+      ]
     },
     {
       "id": "COV0001_GAVIN_STRACHAN",
@@ -220,7 +312,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Gavin Strachan",
+        "Strachan"
+      ]
     },
     {
       "id": "COV0001_COLIN_HENDRY",
@@ -229,7 +325,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Colin Hendry",
+        "Hendry"
+      ]
     },
     {
       "id": "COV0001_ALAN_MILLER",
@@ -238,7 +338,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Alan Miller",
+        "Miller"
+      ]
     },
     {
       "id": "COV0001_CALUM_DAVENPORT",
@@ -247,7 +351,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Calum Davenport",
+        "Davenport"
+      ]
     },
     {
       "id": "COV0001_ROBERT_BETTS",
@@ -256,7 +364,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Betts",
+        "Robert Betts"
+      ]
     }
   ]
 }

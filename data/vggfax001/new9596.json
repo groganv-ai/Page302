@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Keegan",
+        "Kevin Keegan"
+      ]
     },
     {
       "id": "NEW9596_LES_FERDINAND",
@@ -21,7 +25,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Ferdinand",
+        "Les Ferdinand"
+      ]
     },
     {
       "id": "NEW9596_ROB_LEE",
@@ -30,7 +38,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Lee",
+        "Rob Lee"
+      ]
     },
     {
       "id": "NEW9596_PETER_BEARDSLEY",
@@ -40,7 +52,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Beardsley",
+        "Peter Beardsley"
+      ]
     },
     {
       "id": "NEW9596_DAVID_GINOLA",
@@ -50,7 +66,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "David Ginola",
+        "Ginola"
+      ]
     },
     {
       "id": "NEW9596_DARREN_PEACOCK",
@@ -59,7 +79,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Darren Peacock",
+        "Peacock"
+      ]
     },
     {
       "id": "NEW9596_JOHN_BERESFORD",
@@ -68,7 +92,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Beresford",
+        "John Beresford"
+      ]
     },
     {
       "id": "NEW9596_WARREN_BARTON",
@@ -77,7 +105,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Barton",
+        "Warren Barton"
+      ]
     },
     {
       "id": "NEW9596_STEVE_HOWEY",
@@ -86,7 +118,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Howey",
+        "Steve Howey"
+      ]
     },
     {
       "id": "NEW9596_KEITH_GILLESPIE",
@@ -96,7 +132,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Gillespie",
+        "Keith Gillespie"
+      ]
     },
     {
       "id": "NEW9596_SHAKA_HISLOP",
@@ -105,7 +145,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Hislop",
+        "Shaka Hislop"
+      ]
     },
     {
       "id": "NEW9596_LEE_CLARK",
@@ -114,7 +158,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Clark",
+        "Lee Clark"
+      ]
     },
     {
       "id": "NEW9596_PHILIPPE_ALBERT",
@@ -123,7 +171,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Albert",
+        "Philippe Albert"
+      ]
     },
     {
       "id": "NEW9596_STEVE_WATSON",
@@ -133,7 +185,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Steve Watson",
+        "Watson"
+      ]
     },
     {
       "id": "NEW9596_PAVEL_SRNEK",
@@ -142,7 +198,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Pavel Srníček",
+        "Srníček"
+      ]
     },
     {
       "id": "NEW9596_DAVID_BATTY",
@@ -151,7 +211,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 11
+      "appearances": 11,
+      "aliases": [
+        "Batty",
+        "David Batty"
+      ]
     },
     {
       "id": "NEW9596_FAUSTINO_ASPRILLA",
@@ -160,7 +224,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Asprilla",
+        "Faustino Asprilla"
+      ]
     },
     {
       "id": "NEW9596_ROBBIE_ELLIOTT",
@@ -169,7 +237,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Elliott",
+        "Robbie Elliott"
+      ]
     },
     {
       "id": "NEW9596_SCOTT_SELLARS",
@@ -178,7 +250,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Scott Sellars",
+        "Sellars"
+      ]
     },
     {
       "id": "NEW9596_PAUL_KITSON",
@@ -187,7 +263,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Kitson",
+        "Paul Kitson"
+      ]
     },
     {
       "id": "NEW9596_RUEL_FOX",
@@ -196,7 +276,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Fox",
+        "Ruel Fox"
+      ]
     },
     {
       "id": "NEW9596_DARREN_HUCKERBY",
@@ -206,7 +290,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Darren Huckerby",
+        "Huckerby"
+      ]
     },
     {
       "id": "NEW9596_MARC_HOTTIGER",
@@ -215,7 +303,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Hottiger",
+        "Marc Hottiger"
+      ]
     }
   ]
 }

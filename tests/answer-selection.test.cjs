@@ -20,8 +20,48 @@ const root = path.resolve(__dirname, '..');
             const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.ttf': 'font/ttf', '.png': 'image/png' };
             return route.fulfill({ body: fs.readFileSync(file), contentType: types[path.extname(file)] || 'application/octet-stream' });
         });
+        await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test/');
         await page.waitForFunction(() => clubPool.length === 11 && document.querySelector('#squadBoard').textContent.indexOf('Loading') === -1);
+        const aliasPacks = Array.from({ length: 7 }, (_, i) => {
+            const pack = String(i + 1).padStart(3, '0');
+            const file = `data/vggfax${pack}.json`;
+            return JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
+        });
+        const checked = await page.evaluate(packs => {
+            const saved = clubPool;
+            let answers = 0;
+            const special = { Kepa: 0, Haaland: 0 };
+            try {
+                for (const pack of packs) {
+                    clubPool = pack.clubs;
+                    for (const club of clubPool) for (const player of club.squad) {
+                        if (!isEligibleRecord(player)) {
+                            for (const answer of player.aliases || []) {
+                                if (findPlayers(answer, player.positions[0], club.clubCode.substring(0, 3)).some(p => p.id === player.id)) throw new Error(`Ineligible answer accepted: ${player.fullname}`);
+                            }
+                            continue;
+                        }
+                        for (const answer of player.aliases || []) {
+                            for (const position of player.positions) {
+                                const matches = findPlayers(answer, position, club.clubCode.substring(0, 3));
+                                if (!matches.some(record => record.id === player.id)) throw new Error(`${pack.packNumber}: ${answer} rejected for ${player.fullname}`);
+                                if (!playerExistsAtClub(answer, club.clubCode.substring(0, 3))) throw new Error(`Club check rejected ${answer}`);
+                                answers++;
+                            }
+                            if (answer === 'Kepa' && player.fullname.includes('Kepa')) special.Kepa++;
+                            if (answer === 'Haaland' && player.fullname === 'Alf-Inge Haaland') special.Haaland++;
+                        }
+                    }
+                }
+            } finally { clubPool = saved; }
+            return { answers, special, build: document.querySelector('#buildLabel').textContent };
+        }, aliasPacks);
+        assert.ok(checked.answers > 4000);
+        assert.ok(checked.special.Kepa > 0, 'Kepa is accepted');
+        assert.ok(checked.special.Haaland > 0, 'Haaland is accepted for Alf-Inge');
+        assert.match(checked.build, /v4\.1\.06_003/);
+        console.log('Valid pack answers checked:', checked);
         async function reset(pack = '003', formation = '4-4-2') {
             await page.evaluate(async ({ pack, formation }) => {
                 clearPendingAnswer();

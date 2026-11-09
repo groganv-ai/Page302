@@ -1,0 +1,325 @@
+{
+  "clubCode": "MUN9596",
+  "club": "Man Utd",
+  "season": "1995-96",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MUN9596_ALEX_FERGUSON",
+      "fullname": "Alex Ferguson",
+      "surname": "Ferguson",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Alex Ferguson",
+        "Ferguson"
+      ]
+    },
+    {
+      "id": "MUN9596_PETER_SCHMEICHEL",
+      "fullname": "Peter Schmeichel",
+      "surname": "Schmeichel",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Peter Schmeichel",
+        "Schmeichel"
+      ]
+    },
+    {
+      "id": "MUN9596_ANDY_COLE",
+      "fullname": "Andy Cole",
+      "surname": "Cole",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Andy Cole",
+        "Cole"
+      ]
+    },
+    {
+      "id": "MUN9596_DENIS_IRWIN",
+      "fullname": "Denis Irwin",
+      "surname": "Irwin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Denis Irwin",
+        "Irwin"
+      ]
+    },
+    {
+      "id": "MUN9596_NICKY_BUTT",
+      "fullname": "Nicky Butt",
+      "surname": "Butt",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Butt",
+        "Nicky Butt"
+      ]
+    },
+    {
+      "id": "MUN9596_RYAN_GIGGS",
+      "fullname": "Ryan Giggs",
+      "surname": "Giggs",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Giggs",
+        "Ryan Giggs"
+      ]
+    },
+    {
+      "id": "MUN9596_ERIC_CANTONA",
+      "fullname": "Eric Cantona",
+      "surname": "Cantona",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Cantona",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "id": "MUN9596_GARY_NEVILLE",
+      "fullname": "Gary Neville",
+      "surname": "Neville",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Gary Neville",
+        "Neville"
+      ]
+    },
+    {
+      "id": "MUN9596_STEVE_BRUCE",
+      "fullname": "Steve Bruce",
+      "surname": "Bruce",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Bruce",
+        "Steve Bruce"
+      ]
+    },
+    {
+      "id": "MUN9596_ROY_KEANE",
+      "fullname": "Roy Keane",
+      "surname": "Keane",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Keane",
+        "Roy Keane"
+      ]
+    },
+    {
+      "id": "MUN9596_DAVID_BECKHAM",
+      "fullname": "David Beckham",
+      "surname": "Beckham",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Beckham",
+        "David Beckham"
+      ]
+    },
+    {
+      "id": "MUN9596_LEE_SHARPE",
+      "fullname": "Lee Sharpe",
+      "surname": "Sharpe",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Lee Sharpe",
+        "Sharpe"
+      ]
+    },
+    {
+      "id": "MUN9596_GARY_PALLISTER",
+      "fullname": "Gary Pallister",
+      "surname": "Pallister",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Gary Pallister",
+        "Pallister"
+      ]
+    },
+    {
+      "id": "MUN9596_PHIL_NEVILLE",
+      "fullname": "Phil Neville",
+      "surname": "Neville",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Neville",
+        "Phil Neville"
+      ]
+    },
+    {
+      "id": "MUN9596_PAUL_SCHOLES",
+      "fullname": "Paul Scholes",
+      "surname": "Scholes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Paul Scholes",
+        "Scholes"
+      ]
+    },
+    {
+      "id": "MUN9596_BRIAN_MCCLAIR",
+      "fullname": "Brian McClair",
+      "surname": "McClair",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Brian McClair",
+        "McClair"
+      ]
+    },
+    {
+      "id": "MUN9596_DAVID_MAY",
+      "fullname": "David May",
+      "surname": "May",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "David May",
+        "May"
+      ]
+    },
+    {
+      "id": "MUN9596_PAUL_PARKER",
+      "fullname": "Paul Parker",
+      "surname": "Parker",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Parker",
+        "Paul Parker"
+      ]
+    },
+    {
+      "id": "MUN9596_KEVIN_PILKINGTON",
+      "fullname": "Kevin Pilkington",
+      "surname": "Pilkington",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Kevin Pilkington",
+        "Pilkington"
+      ]
+    },
+    {
+      "id": "MUN9596_WILLIAM_PRUNIER",
+      "fullname": "William Prunier",
+      "surname": "Prunier",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Prunier",
+        "William Prunier"
+      ]
+    },
+    {
+      "id": "MUN9596_TERRY_COOKE",
+      "fullname": "Terry Cooke",
+      "surname": "Cooke",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Cooke",
+        "Terry Cooke"
+      ]
+    },
+    {
+      "id": "MUN9596_SIMON_DAVIES",
+      "fullname": "Simon Davies",
+      "surname": "Davies",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Davies",
+        "Simon Davies"
+      ]
+    },
+    {
+      "id": "MUN9596_JOHN_O_KANE",
+      "fullname": "John O'Kane",
+      "surname": "O'Kane",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "John O'Kane",
+        "O'Kane"
+      ]
+    },
+    {
+      "id": "MUN9596_BEN_THORNLEY",
+      "fullname": "Ben Thornley",
+      "surname": "Thornley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Ben Thornley",
+        "Thornley"
+      ]
+    }
+  ]
+}

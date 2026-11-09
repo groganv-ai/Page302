@@ -1,1 +1,350 @@
-{"clubCode":"CRY9495","club":"Crystal Palace","season":"1994-95","competition":"Premier League","version":2,"squad":[{"id":"CRY9495_ALAN_SMITH","fullname":"Alan Smith","surname":"Smith","positions":["MAN"],"appearances":42},{"id":"CRY9495_GARETH_SOUTHGATE","fullname":"Gareth Southgate","surname":"Southgate","positions":["DF"],"appearances":42},{"id":"CRY9495_RICHARD_SHAW","fullname":"Richard Shaw","surname":"Shaw","positions":["DF"],"appearances":41},{"id":"CRY9495_CHRIS_ARMSTRONG","fullname":"Chris Armstrong","surname":"Armstrong","positions":["AT"],"appearances":40},{"id":"CRY9495_JOHN_SALAKO","fullname":"John Salako","surname":"Salako","positions":["MD"],"appearances":39},{"id":"CRY9495_DEAN_GORDON","fullname":"Dean Gordon","surname":"Gordon","positions":["DF","MD"],"appearances":41},{"id":"CRY9495_NIGEL_MARTYN","fullname":"Nigel Martyn","surname":"Martyn","positions":["GK"],"appearances":37},{"id":"CRY9495_CHRIS_COLEMAN","fullname":"Chris Coleman","surname":"Coleman","positions":["DF"],"appearances":35},{"id":"CRY9495_RICKY_NEWMAN","fullname":"Ricky Newman","surname":"Newman","positions":["MD"],"appearances":35},{"id":"CRY9495_DARREN_PATTERSON","fullname":"Darren Patterson","surname":"Patterson","positions":["DF"],"appearances":22},{"id":"CRY9495_DARREN_PITCHER","fullname":"Darren Pitcher","surname":"Pitcher","positions":["DF","MD"],"appearances":25},{"id":"CRY9495_JOHN_HUMPHREY","fullname":"John Humphrey","surname":"Humphrey","positions":["DF"],"appearances":21},{"id":"CRY9495_ANDY_PREECE","fullname":"Andy Preece","surname":"Preece","positions":["AT"],"appearances":20},{"id":"CRY9495_IAIN_DOWIE","fullname":"Iain Dowie","surname":"Dowie","positions":["AT"],"appearances":15},{"id":"CRY9495_BOBBY_BOWRY","fullname":"Bobby Bowry","surname":"Bowry","positions":["AT","MD"],"appearances":18},{"id":"CRY9495_ERIC_YOUNG","fullname":"Eric Young","surname":"Young","positions":["DF"],"appearances":13},{"id":"CRY9495_RAY_HOUGHTON","fullname":"Ray Houghton","surname":"Houghton","positions":["MD"],"appearances":10},{"id":"CRY9495_BRUCE_DYER","fullname":"Bruce Dyer","surname":"Dyer","positions":["AT"],"appearances":16},{"id":"CRY9495_GEORGE_NDAH","fullname":"George Ndah","surname":"Ndah","positions":["AT"],"appearances":12},{"id":"CRY9495_RHYS_WILMOT","fullname":"Rhys Wilmot","surname":"Wilmot","positions":["GK"],"appearances":6},{"id":"CRY9495_SIMON_RODGER","fullname":"Simon Rodger","surname":"Rodger","positions":["MD"],"appearances":4},{"id":"CRY9495_PAUL_WILLIAMS","fullname":"Paul Williams","surname":"Williams","positions":["AT"],"appearances":4},{"id":"CRY9495_DAMIAN_MATTHEW","fullname":"Damian Matthew","surname":"Matthew","positions":["MD"],"appearances":4},{"id":"CRY9495_IAN_COX","fullname":"Ian Cox","surname":"Cox","positions":["DF"],"appearances":11},{"id":"CRY9495_RAY_WILKINS","fullname":"Ray Wilkins","surname":"Wilkins","positions":["MD"],"appearances":1},{"id":"CRY9495_BRIAN_LAUNDERS","fullname":"Brian Launders","surname":"Launders","positions":["MD"],"appearances":2}]}
+{
+  "clubCode": "CRY9495",
+  "club": "Crystal Palace",
+  "season": "1994-95",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CRY9495_ALAN_SMITH",
+      "fullname": "Alan Smith",
+      "surname": "Smith",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "Alan Smith",
+        "Smith"
+      ]
+    },
+    {
+      "id": "CRY9495_GARETH_SOUTHGATE",
+      "fullname": "Gareth Southgate",
+      "surname": "Southgate",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "Gareth Southgate",
+        "Southgate"
+      ]
+    },
+    {
+      "id": "CRY9495_RICHARD_SHAW",
+      "fullname": "Richard Shaw",
+      "surname": "Shaw",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 41,
+      "aliases": [
+        "Richard Shaw",
+        "Shaw"
+      ]
+    },
+    {
+      "id": "CRY9495_CHRIS_ARMSTRONG",
+      "fullname": "Chris Armstrong",
+      "surname": "Armstrong",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 40,
+      "aliases": [
+        "Armstrong",
+        "Chris Armstrong"
+      ]
+    },
+    {
+      "id": "CRY9495_JOHN_SALAKO",
+      "fullname": "John Salako",
+      "surname": "Salako",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 39,
+      "aliases": [
+        "John Salako",
+        "Salako"
+      ]
+    },
+    {
+      "id": "CRY9495_DEAN_GORDON",
+      "fullname": "Dean Gordon",
+      "surname": "Gordon",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 41,
+      "aliases": [
+        "Dean Gordon",
+        "Gordon"
+      ]
+    },
+    {
+      "id": "CRY9495_NIGEL_MARTYN",
+      "fullname": "Nigel Martyn",
+      "surname": "Martyn",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Martyn",
+        "Nigel Martyn"
+      ]
+    },
+    {
+      "id": "CRY9495_CHRIS_COLEMAN",
+      "fullname": "Chris Coleman",
+      "surname": "Coleman",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Chris Coleman",
+        "Coleman"
+      ]
+    },
+    {
+      "id": "CRY9495_RICKY_NEWMAN",
+      "fullname": "Ricky Newman",
+      "surname": "Newman",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Newman",
+        "Ricky Newman"
+      ]
+    },
+    {
+      "id": "CRY9495_DARREN_PATTERSON",
+      "fullname": "Darren Patterson",
+      "surname": "Patterson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Darren Patterson",
+        "Patterson"
+      ]
+    },
+    {
+      "id": "CRY9495_DARREN_PITCHER",
+      "fullname": "Darren Pitcher",
+      "surname": "Pitcher",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Darren Pitcher",
+        "Pitcher"
+      ]
+    },
+    {
+      "id": "CRY9495_JOHN_HUMPHREY",
+      "fullname": "John Humphrey",
+      "surname": "Humphrey",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Humphrey",
+        "John Humphrey"
+      ]
+    },
+    {
+      "id": "CRY9495_ANDY_PREECE",
+      "fullname": "Andy Preece",
+      "surname": "Preece",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Andy Preece",
+        "Preece"
+      ]
+    },
+    {
+      "id": "CRY9495_IAIN_DOWIE",
+      "fullname": "Iain Dowie",
+      "surname": "Dowie",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Dowie",
+        "Iain Dowie"
+      ]
+    },
+    {
+      "id": "CRY9495_BOBBY_BOWRY",
+      "fullname": "Bobby Bowry",
+      "surname": "Bowry",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Bobby Bowry",
+        "Bowry"
+      ]
+    },
+    {
+      "id": "CRY9495_ERIC_YOUNG",
+      "fullname": "Eric Young",
+      "surname": "Young",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Eric Young",
+        "Young"
+      ]
+    },
+    {
+      "id": "CRY9495_RAY_HOUGHTON",
+      "fullname": "Ray Houghton",
+      "surname": "Houghton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Houghton",
+        "Ray Houghton"
+      ]
+    },
+    {
+      "id": "CRY9495_BRUCE_DYER",
+      "fullname": "Bruce Dyer",
+      "surname": "Dyer",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Bruce Dyer",
+        "Dyer"
+      ]
+    },
+    {
+      "id": "CRY9495_GEORGE_NDAH",
+      "fullname": "George Ndah",
+      "surname": "Ndah",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "George Ndah",
+        "Ndah"
+      ]
+    },
+    {
+      "id": "CRY9495_RHYS_WILMOT",
+      "fullname": "Rhys Wilmot",
+      "surname": "Wilmot",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Rhys Wilmot",
+        "Wilmot"
+      ]
+    },
+    {
+      "id": "CRY9495_SIMON_RODGER",
+      "fullname": "Simon Rodger",
+      "surname": "Rodger",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Rodger",
+        "Simon Rodger"
+      ]
+    },
+    {
+      "id": "CRY9495_PAUL_WILLIAMS",
+      "fullname": "Paul Williams",
+      "surname": "Williams",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Paul Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "CRY9495_DAMIAN_MATTHEW",
+      "fullname": "Damian Matthew",
+      "surname": "Matthew",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Damian Matthew",
+        "Matthew"
+      ]
+    },
+    {
+      "id": "CRY9495_IAN_COX",
+      "fullname": "Ian Cox",
+      "surname": "Cox",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Cox",
+        "Ian Cox"
+      ]
+    },
+    {
+      "id": "CRY9495_RAY_WILKINS",
+      "fullname": "Ray Wilkins",
+      "surname": "Wilkins",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Ray Wilkins",
+        "Wilkins"
+      ]
+    },
+    {
+      "id": "CRY9495_BRIAN_LAUNDERS",
+      "fullname": "Brian Launders",
+      "surname": "Launders",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Brian Launders",
+        "Launders"
+      ]
+    }
+  ]
+}

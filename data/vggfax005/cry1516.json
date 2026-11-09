@@ -1,0 +1,475 @@
+{
+  "clubCode": "CRY1516",
+  "club": "Crystal Palace",
+  "season": "2015-16",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CRY1516_ALAN_PARDEW",
+      "fullname": "Alan Pardew",
+      "surname": "Pardew",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Alan Pardew",
+        "Pardew"
+      ]
+    },
+    {
+      "id": "CRY1516_SCOTT_DANN",
+      "fullname": "Scott Dann",
+      "surname": "Dann",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Dann",
+        "Scott Dann"
+      ]
+    },
+    {
+      "id": "CRY1516_PAPE_SOUARE",
+      "fullname": "Pape Souaré",
+      "surname": "Souaré",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Pape Souaré",
+        "Souaré"
+      ]
+    },
+    {
+      "id": "CRY1516_DAMIEN_DELANEY",
+      "fullname": "Damien Delaney",
+      "surname": "Delaney",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Damien Delaney",
+        "Delaney"
+      ]
+    },
+    {
+      "id": "CRY1516_YOHAN_CABAYE",
+      "fullname": "Yohan Cabaye",
+      "surname": "Cabaye",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Cabaye",
+        "Yohan Cabaye"
+      ]
+    },
+    {
+      "id": "CRY1516_JASON_PUNCHEON",
+      "fullname": "Jason Puncheon",
+      "surname": "Puncheon",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Jason Puncheon",
+        "Puncheon"
+      ]
+    },
+    {
+      "id": "CRY1516_JOEL_WARD",
+      "fullname": "Joel Ward",
+      "surname": "Ward",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Joel Ward",
+        "Ward"
+      ]
+    },
+    {
+      "id": "CRY1516_WILFRIED_ZAHA",
+      "fullname": "Wilfried Zaha",
+      "surname": "Zaha",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Wilfried Zaha",
+        "Zaha"
+      ]
+    },
+    {
+      "id": "CRY1516_WAYNE_HENNESSEY",
+      "fullname": "Wayne Hennessey",
+      "surname": "Hennessey",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Hennessey",
+        "Wayne Hennessey"
+      ]
+    },
+    {
+      "id": "CRY1516_JAMES_MCARTHUR",
+      "fullname": "James McArthur",
+      "surname": "McArthur",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "James McArthur",
+        "McArthur"
+      ]
+    },
+    {
+      "id": "CRY1516_YANNICK_BOLASIE",
+      "fullname": "Yannick Bolasie",
+      "surname": "Bolasie",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Bolasie",
+        "Yannick Bolasie"
+      ]
+    },
+    {
+      "id": "CRY1516_MILE_JEDINAK",
+      "fullname": "Mile Jedinak",
+      "surname": "Jedinak",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Jedinak",
+        "Mile Jedinak"
+      ]
+    },
+    {
+      "id": "CRY1516_CONNOR_WICKHAM",
+      "fullname": "Connor Wickham",
+      "surname": "Wickham",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Connor Wickham",
+        "Wickham"
+      ]
+    },
+    {
+      "id": "CRY1516_BAKARY_SAKO",
+      "fullname": "Bakary Sako",
+      "surname": "Sako",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Bakary Sako",
+        "Sako"
+      ]
+    },
+    {
+      "id": "CRY1516_MARTIN_KELLY",
+      "fullname": "Martin Kelly",
+      "surname": "Kelly",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Kelly",
+        "Martin Kelly"
+      ]
+    },
+    {
+      "id": "CRY1516_JOE_LEDLEY",
+      "fullname": "Joe Ledley",
+      "surname": "Ledley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Joe Ledley",
+        "Ledley"
+      ]
+    },
+    {
+      "id": "CRY1516_DWIGHT_GAYLE",
+      "fullname": "Dwight Gayle",
+      "surname": "Gayle",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Dwight Gayle",
+        "Gayle"
+      ]
+    },
+    {
+      "id": "CRY1516_JORDON_MUTCH",
+      "fullname": "Jordon Mutch",
+      "surname": "Mutch",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Jordon Mutch",
+        "Mutch"
+      ]
+    },
+    {
+      "id": "CRY1516_BREDE_HANGELAND",
+      "fullname": "Brede Hangeland",
+      "surname": "Hangeland",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Brede Hangeland",
+        "Hangeland"
+      ]
+    },
+    {
+      "id": "CRY1516_ALEX_MCCARTHY",
+      "fullname": "Alex McCarthy",
+      "surname": "McCarthy",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Alex McCarthy",
+        "McCarthy"
+      ]
+    },
+    {
+      "id": "CRY1516_EMMANUEL_ADEBAYOR",
+      "fullname": "Emmanuel Adebayor",
+      "surname": "Adebayor",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Adebayor",
+        "Emmanuel Adebayor"
+      ]
+    },
+    {
+      "id": "CRY1516_LEE_CHUNG_YONG",
+      "fullname": "Lee Chung-yong",
+      "surname": "Chung-yong",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Chung-yong",
+        "Chung-yong Lee",
+        "Lee",
+        "Lee Chung-yong"
+      ]
+    },
+    {
+      "id": "CRY1516_FRAIZER_CAMPBELL",
+      "fullname": "Fraizer Campbell",
+      "surname": "Campbell",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Campbell",
+        "Fraizer Campbell"
+      ]
+    },
+    {
+      "id": "CRY1516_ADRIAN_MARIAPPA",
+      "fullname": "Adrian Mariappa",
+      "surname": "Mariappa",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Adrian Mariappa",
+        "Mariappa"
+      ]
+    },
+    {
+      "id": "CRY1516_JULIAN_SPERONI",
+      "fullname": "Julián Speroni",
+      "surname": "Speroni",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Julián Speroni",
+        "Speroni"
+      ]
+    },
+    {
+      "id": "CRY1516_GLENN_MURRAY",
+      "fullname": "Glenn Murray",
+      "surname": "Murray",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Glenn Murray",
+        "Murray"
+      ]
+    },
+    {
+      "id": "CRY1516_MAROUANE_CHAMAKH",
+      "fullname": "Marouane Chamakh",
+      "surname": "Chamakh",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Chamakh",
+        "Marouane Chamakh"
+      ]
+    },
+    {
+      "id": "CRY1516_PATRICK_BAMFORD",
+      "fullname": "Patrick Bamford",
+      "surname": "Bamford",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Bamford",
+        "Patrick Bamford"
+      ]
+    },
+    {
+      "id": "CRY1516_SULLAY_KAIKAI",
+      "fullname": "Sullay Kaikai",
+      "surname": "Kaikai",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Kaikai",
+        "Sullay Kaikai"
+      ]
+    },
+    {
+      "id": "CRY1516_HIRAM_BOATENG",
+      "fullname": "Hiram Boateng",
+      "surname": "Boateng",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Boateng",
+        "Hiram Boateng"
+      ]
+    },
+    {
+      "id": "CRY1516_JONNY_WILLIAMS",
+      "fullname": "Jonny Williams",
+      "surname": "Williams",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Jonny Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "CRY1516_LUKE_CROLL",
+      "fullname": "Luke Croll",
+      "surname": "Croll",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Croll",
+        "Luke Croll"
+      ]
+    },
+    {
+      "id": "CRY1516_LUKE_DREHER",
+      "fullname": "Luke Dreher",
+      "surname": "Dreher",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Dreher",
+        "Luke Dreher"
+      ]
+    },
+    {
+      "id": "CRY1516_CONNOR_DYMOND",
+      "fullname": "Connor Dymond",
+      "surname": "Dymond",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Connor Dymond",
+        "Dymond"
+      ]
+    },
+    {
+      "id": "CRY1516_JAKE_GRAY",
+      "fullname": "Jake Gray",
+      "surname": "Gray",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Gray",
+        "Jake Gray"
+      ]
+    }
+  ]
+}

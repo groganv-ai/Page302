@@ -14,6 +14,13 @@ function createServer(store, options = {}) {
     try {
       const url=new URL(req.url,'http://localhost');
       let result;
+      if(req.method==='GET'&&(url.pathname==='/api/releases'||/^\/api\/packs\/\d{3,}$/.test(url.pathname))){
+        const {releaseManifest,releasePayload}=await import('./cloudflare/release-scheduler.mjs');
+        const {sqliteBinding}=require('./sqlite-binding.cjs');
+        result=url.pathname==='/api/releases'?await releaseManifest(sqliteBinding(store.db),store.now()):await releasePayload(sqliteBinding(store.db),url.pathname.split('/').pop(),store.now());
+        if(result===null){res.writeHead(404);res.end(JSON.stringify({error:'Pack unavailable'}));return;}
+        res.end(JSON.stringify(result));return;
+      }
       if(req.method==='POST'&&url.pathname==='/api/submissions') {
         if(!req.headers['content-type']?.startsWith('application/json')) {res.writeHead(415);res.end(JSON.stringify({error:'Use application/json'}));return;}
         const chunks=[];let size=0;

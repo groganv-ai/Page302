@@ -18,7 +18,8 @@ test('report entry points, hover, optional fields, retry, success, focus and mob
    const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.ttf':'font/ttf','.png':'image/png'};
    return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});
   });
-  await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);
+  await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);
   await page.evaluate(()=>showHelp());
   const helpButton=page.locator('#helpOverlay .helpPageFooter button').nth(2);assert.equal(await helpButton.textContent(),'REPORT');
   await helpButton.hover();assert.equal(await helpButton.evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(255, 255, 0)');
@@ -31,7 +32,7 @@ test('report entry points, hover, optional fields, retry, success, focus and mob
   await page.locator('#reportType').selectOption('data');
   await page.locator('textarea[name=description]').fill('Manager data test');
   await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent==='Please try later.');
-  assert.equal(await page.locator('textarea[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v4.1.04_003');assert.equal(payload.pack,'003');
+  assert.equal(await page.locator('textarea[name=description]').inputValue(),'Manager data test');assert.equal(payload.person,'');assert.equal(payload.build,'v4.1.06_003');assert.equal(payload.pack,'003');
   fail=false;await page.locator('#reportSend').click();await page.waitForFunction(()=>document.getElementById('reportStatus').textContent.includes('Thank you'));
   assert.equal(await page.locator('textarea[name=description]').inputValue(),'');
   await page.keyboard.press('Escape');assert.ok(await page.locator('#helpOverlay').isVisible());

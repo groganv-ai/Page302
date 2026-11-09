@@ -354,6 +354,10 @@
  </div>
 </div>
 <script src="progress.js"></script>
+<script>
+window.PAGE302_SCORES_API = window.PAGE302_SCORES_API || (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? '' : 'https://page302-scores-preview.vince-grogan-games.workers.dev');
+window.PAGE302_RELEASES_ENABLED = window.PAGE302_RELEASES_ENABLED ?? !/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+</script>
 <script src="script.js"></script>
 <script src="report-client.js"></script>
 

@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Allardyce",
+        "Sam Allardyce"
+      ]
     },
     {
       "id": "BOL0607_JUSSI_J_SKEL_INEN",
@@ -21,7 +25,12 @@
       "positions": [
         "GK"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Jääskeläinen",
+        "jaaskelainen",
+        "Jussi Jääskeläinen"
+      ]
     },
     {
       "id": "BOL0607_GARY_SPEED",
@@ -30,7 +39,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Gary Speed",
+        "Speed"
+      ]
     },
     {
       "id": "BOL0607_ABDOULAYE_M_T_",
@@ -39,7 +52,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Abdoulaye Méïté",
+        "Méïté"
+      ]
     },
     {
       "id": "BOL0607_NICOLAS_ANELKA",
@@ -48,7 +65,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Anelka",
+        "Nicolas Anelka"
+      ]
     },
     {
       "id": "BOL0607_EL_HADJI_DIOUF",
@@ -58,7 +79,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Diouf",
+        "El Hadji Diouf"
+      ]
     },
     {
       "id": "BOL0607_NICKY_HUNT",
@@ -67,7 +92,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Hunt",
+        "Nicky Hunt"
+      ]
     },
     {
       "id": "BOL0607_IV_N_CAMPO",
@@ -77,7 +106,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Campo",
+        "Iván Campo"
+      ]
     },
     {
       "id": "BOL0607_KEVIN_NOLAN",
@@ -86,7 +119,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Kevin Nolan",
+        "Nolan"
+      ]
     },
     {
       "id": "BOL0607_TAL_BEN_HAIM",
@@ -95,7 +132,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Haim",
+        "Tal Ben Haim"
+      ]
     },
     {
       "id": "BOL0607_KEVIN_DAVIES",
@@ -104,7 +145,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Davies",
+        "Kevin Davies"
+      ]
     },
     {
       "id": "BOL0607_ABDOULAYE_FAYE",
@@ -114,7 +159,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Abdoulaye Faye",
+        "Faye"
+      ]
     },
     {
       "id": "BOL0607_RICARDO_GARDNER",
@@ -124,7 +173,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Gardner",
+        "Ricardo Gardner"
+      ]
     },
     {
       "id": "BOL0607_STELIOS_GIANNAKOPOULOS",
@@ -134,7 +187,12 @@
         "AT",
         "MD"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Giannakopoulos",
+        "Stelios",
+        "Stelios Giannakopoulos"
+      ]
     },
     {
       "id": "BOL0607_HENRIK_PEDERSEN",
@@ -143,7 +201,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Henrik Pedersen",
+        "Pedersen"
+      ]
     },
     {
       "id": "BOL0607_ANDRANIK_TEYMOURIAN",
@@ -152,7 +214,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Andranik Teymourian",
+        "Teymourian"
+      ]
     },
     {
       "id": "BOL0607_QUINTON_FORTUNE",
@@ -161,7 +227,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Fortune",
+        "Quinton Fortune"
+      ]
     },
     {
       "id": "BOL0607_IDAN_TAL",
@@ -170,7 +240,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Idan Tal",
+        "Tal"
+      ]
     },
     {
       "id": "BOL0607__UBOM_R_MICHAL_K",
@@ -179,7 +253,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Ľubomír Michalík",
+        "Michalík"
+      ]
     },
     {
       "id": "BOL0607_DAVID_THOMPSON",
@@ -188,7 +266,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "David Thompson",
+        "Thompson"
+      ]
     },
     {
       "id": "BOL0607_RICARDO_VAZ_T_",
@@ -198,7 +280,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Ricardo Vaz Tê",
+        "Tê"
+      ]
     },
     {
       "id": "BOL0607_JAMES_SINCLAIR",
@@ -208,7 +294,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "James Sinclair",
+        "Sinclair"
+      ]
     },
     {
       "id": "BOL0607_JOHANN_SMITH",
@@ -218,7 +308,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Johann Smith",
+        "Smith"
+      ]
     },
     {
       "id": "BOL0607_C_SAR_MART_N",
@@ -227,7 +321,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "César Martín",
+        "Martín"
+      ]
     }
   ]
 }

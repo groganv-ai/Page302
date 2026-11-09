@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Koeman",
+        "Ronald Koeman"
+      ]
     },
     {
       "id": "SOU1516_JOS_FONTE",
@@ -21,7 +25,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Fonte",
+        "José Fonte"
+      ]
     },
     {
       "id": "SOU1516_VIRGIL_VAN_DIJK",
@@ -30,7 +38,12 @@
       "positions": [
         "DF"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Dijk",
+        "van Dijk",
+        "Virgil van Dijk"
+      ]
     },
     {
       "id": "SOU1516_RYAN_BERTRAND",
@@ -40,7 +53,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Bertrand",
+        "Ryan Bertrand"
+      ]
     },
     {
       "id": "SOU1516_STEVEN_DAVIS",
@@ -49,7 +66,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Davis",
+        "Steven Davis"
+      ]
     },
     {
       "id": "SOU1516_SADIO_MAN_",
@@ -59,7 +80,12 @@
         "MD",
         "AT"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Mane",
+        "Mané",
+        "Sadio Mané"
+      ]
     },
     {
       "id": "SOU1516_VICTOR_WANYAMA",
@@ -68,7 +94,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Victor Wanyama",
+        "Wanyama"
+      ]
     },
     {
       "id": "SOU1516_DU_AN_TADI_",
@@ -78,7 +108,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Dušan Tadić",
+        "Tadić"
+      ]
     },
     {
       "id": "SOU1516_GRAZIANO_PELL_",
@@ -87,7 +121,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Graziano Pellè",
+        "Pellè"
+      ]
     },
     {
       "id": "SOU1516_SHANE_LONG",
@@ -97,7 +135,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Long",
+        "Shane Long"
+      ]
     },
     {
       "id": "SOU1516_C_DRIC_SOARES",
@@ -107,7 +149,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Cédric Soares",
+        "Soares"
+      ]
     },
     {
       "id": "SOU1516_JORDY_CLASIE",
@@ -116,7 +162,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 22
+      "appearances": 22,
+      "aliases": [
+        "Clasie",
+        "Jordy Clasie"
+      ]
     },
     {
       "id": "SOU1516_FRASER_FORSTER",
@@ -125,7 +175,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Forster",
+        "Fraser Forster"
+      ]
     },
     {
       "id": "SOU1516_ORIOL_ROMEU",
@@ -134,7 +188,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Oriol Romeu",
+        "Romeu"
+      ]
     },
     {
       "id": "SOU1516_MAARTEN_STEKELENBURG",
@@ -143,7 +201,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Maarten Stekelenburg",
+        "Stekelenburg"
+      ]
     },
     {
       "id": "SOU1516_JAMES_WARD_PROWSE",
@@ -152,7 +214,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "James Ward-Prowse",
+        "Ward-Prowse"
+      ]
     },
     {
       "id": "SOU1516_MATT_TARGETT",
@@ -162,7 +228,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Matt Targett",
+        "Targett"
+      ]
     },
     {
       "id": "SOU1516_CUCO_MARTINA",
@@ -171,7 +241,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Cuco Martina",
+        "Martina"
+      ]
     },
     {
       "id": "SOU1516_MAYA_YOSHIDA",
@@ -181,7 +255,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Maya Yoshida",
+        "Yoshida"
+      ]
     },
     {
       "id": "SOU1516_JAY_RODRIGUEZ",
@@ -191,7 +269,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Jay Rodriguez",
+        "Rodriguez"
+      ]
     },
     {
       "id": "SOU1516_CHARLIE_AUSTIN",
@@ -200,7 +282,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Austin",
+        "Charlie Austin"
+      ]
     },
     {
       "id": "SOU1516_PAULO_GAZZANIGA",
@@ -209,7 +295,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Gazzaniga",
+        "Paulo Gazzaniga"
+      ]
     },
     {
       "id": "SOU1516_STEVEN_CAULKER",
@@ -218,7 +308,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Caulker",
+        "Steven Caulker"
+      ]
     },
     {
       "id": "SOU1516_KELVIN_DAVIS",
@@ -227,7 +321,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Davis",
+        "Kelvin Davis"
+      ]
     },
     {
       "id": "SOU1516_JUANMI",
@@ -237,7 +335,10 @@
         "AT",
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Juanmi"
+      ]
     },
     {
       "id": "SOU1516_GAST_N_RAM_REZ",
@@ -247,7 +348,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Gastón Ramírez",
+        "Ramírez"
+      ]
     },
     {
       "id": "SOU1516_HARRISON_REED",
@@ -256,7 +361,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Harrison Reed",
+        "Reed"
+      ]
     },
     {
       "id": "SOU1516_OLUFELA_OLOMOLA",
@@ -266,7 +375,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 0
+      "appearances": 0,
+      "aliases": [
+        "Olomola",
+        "Olufela Olomola"
+      ]
     },
     {
       "id": "SOU1516_RYAN_SEAGER",
@@ -275,7 +388,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 0
+      "appearances": 0,
+      "aliases": [
+        "Ryan Seager",
+        "Seager"
+      ]
     }
   ]
 }

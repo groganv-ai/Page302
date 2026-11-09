@@ -55,7 +55,7 @@ assert.deepEqual(names('Son', 'AT', 'AAA'), ['Dan Son']);
 assert.deepEqual(names('O-SHEA', 'MD', 'AAA'), ['Eli O’Shea', 'Fran Oshea']);
 assert.deepEqual(names('Stowe', 'AT', 'AAB'), []);
 assert.deepEqual(names('Stowe', 'AX', 'AAA'), []);
-assert.deepEqual(names('Ben Stowe', 'AT', 'AAA'), []);
+assert.deepEqual(names('Ben Stowe', 'AT', 'AAA'), ['Ben Stowe']);
 assert.deepEqual(names('Sto', 'AT', 'AAA'), []);
 assert.equal(context.isOneLetterTypo('ronlado', 'ronaldo'), true);
 assert.equal(context.isOneLetterTypo('rnldo', 'ronaldo'), false);

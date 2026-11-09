@@ -29,8 +29,9 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
    return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});
   });
   const ready=()=>page.waitForFunction(()=>progressReady&&clubPool.length===11&&document.querySelector('.clubPick'));
-  await page.goto('http://page302.test/');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.04_003');
+  await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test/');await ready();await page.emulateMedia({reducedMotion:'reduce'});
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.06_003');
   assert.ok((await page.locator('.clubPick').evaluateAll(rows=>rows.map(row=>getComputedStyle(row).color))).every(colour=>colour==='rgb(255, 255, 255)'));
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,squad,usage:clubUsage}));
   const selected=()=>page.locator('.mainLayout [aria-pressed="true"]').count();

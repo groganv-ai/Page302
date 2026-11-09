@@ -15,8 +15,9 @@ test('live selection flow rejects Hein with one guess and safely discards an old
   });
   const ready=()=>page.waitForFunction(()=>progressReady&&clubPool.length===11&&document.querySelector('.clubPick'));
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,usage:clubUsage,used:[...usedPeople]}));
-  await page.goto('http://page302.test');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.04_003');
+  await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test');await ready();await page.emulateMedia({reducedMotion:'reduce'});
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.06_003');
   await page.locator('.clubPick[data-club="ARS"]').click();await page.locator('.positionPick[data-position="GK"]').click();
   await page.locator('#answer').fill('HEIN');await page.locator('#answer').press('Enter');
   assert.deepEqual(await stats(),{score:0,guesses:1,answers:{},usage:{},used:[]});

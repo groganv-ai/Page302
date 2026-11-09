@@ -1,0 +1,350 @@
+{
+  "clubCode": "REA0607",
+  "club": "Reading",
+  "season": "2006-07",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "REA0607_STEVE_COPPELL",
+      "fullname": "Steve Coppell",
+      "surname": "Coppell",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Coppell",
+        "Steve Coppell"
+      ]
+    },
+    {
+      "id": "REA0607_IVAR_INGIMARSSON",
+      "fullname": "Ívar Ingimarsson",
+      "surname": "Ingimarsson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38,
+      "playerId": "f7fcdb88",
+      "aliases": [
+        "Ingimarsson",
+        "Ívar Ingimarsson"
+      ]
+    },
+    {
+      "id": "REA0607_MARCUS_HAHNEMANN",
+      "fullname": "Marcus Hahnemann",
+      "surname": "Hahnemann",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "playerId": "c6be3102",
+      "aliases": [
+        "Hahnemann",
+        "Marcus Hahnemann"
+      ]
+    },
+    {
+      "id": "REA0607_NICKY_SHOREY",
+      "fullname": "Nicky Shorey",
+      "surname": "Shorey",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 37,
+      "playerId": "9665e2ea",
+      "aliases": [
+        "Nicky Shorey",
+        "Shorey"
+      ]
+    },
+    {
+      "id": "REA0607_JAMES_HARPER",
+      "fullname": "James Harper",
+      "surname": "Harper",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "playerId": "3bdf320f",
+      "aliases": [
+        "Harper",
+        "James Harper"
+      ]
+    },
+    {
+      "id": "REA0607_STEVE_SIDWELL",
+      "fullname": "Steve Sidwell",
+      "surname": "Sidwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "playerId": "ed083afd",
+      "aliases": [
+        "Sidwell",
+        "Steve Sidwell"
+      ]
+    },
+    {
+      "id": "REA0607_KEVIN_DOYLE",
+      "fullname": "Kevin Doyle",
+      "surname": "Doyle",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 32,
+      "playerId": "c4689de2",
+      "aliases": [
+        "Doyle",
+        "Kevin Doyle"
+      ]
+    },
+    {
+      "id": "REA0607_STEPHEN_HUNT",
+      "fullname": "Stephen Hunt",
+      "surname": "Hunt",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 35,
+      "playerId": "51ac7604",
+      "aliases": [
+        "Hunt",
+        "Stephen Hunt"
+      ]
+    },
+    {
+      "id": "REA0607_GRAEME_MURTY",
+      "fullname": "Graeme Murty",
+      "surname": "Murty",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "playerId": "6b4b0d92",
+      "aliases": [
+        "Graeme Murty",
+        "Murty"
+      ]
+    },
+    {
+      "id": "REA0607_IBRAHIMA_SONKO",
+      "fullname": "Ibrahima Sonko",
+      "surname": "Sonko",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "playerId": "1e7c36d0",
+      "aliases": [
+        "Ibrahima Sonko",
+        "Sonko"
+      ]
+    },
+    {
+      "id": "REA0607_LEROY_LITA",
+      "fullname": "Leroy Lita",
+      "surname": "Lita",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "playerId": "238f467d",
+      "aliases": [
+        "Leroy Lita",
+        "Lita"
+      ]
+    },
+    {
+      "id": "REA0607_SEOL_KI_HYEON",
+      "fullname": "Seol Ki-hyeon",
+      "surname": "Ki-hyeon",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "playerId": "cd5cfcd5",
+      "aliases": [
+        "Ki-hyeon",
+        "Seol Ki-hyeon"
+      ]
+    },
+    {
+      "id": "REA0607_GLEN_LITTLE",
+      "fullname": "Glen Little",
+      "surname": "Little",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "playerId": "3c418660",
+      "aliases": [
+        "Glen Little",
+        "Little"
+      ]
+    },
+    {
+      "id": "REA0607_BRYNJAR_GUNNARSSON",
+      "fullname": "Brynjar Gunnarsson",
+      "surname": "Gunnarsson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "playerId": "511aa791",
+      "aliases": [
+        "Brynjar Gunnarsson",
+        "Gunnarsson"
+      ]
+    },
+    {
+      "id": "REA0607_SHANE_LONG",
+      "fullname": "Shane Long",
+      "surname": "Long",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21,
+      "playerId": "9f472354",
+      "aliases": [
+        "Long",
+        "Shane Long"
+      ]
+    },
+    {
+      "id": "REA0607_DAVE_KITSON",
+      "fullname": "Dave Kitson",
+      "surname": "Kitson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13,
+      "playerId": "53c758b9",
+      "aliases": [
+        "Dave Kitson",
+        "Kitson"
+      ]
+    },
+    {
+      "id": "REA0607_ULISES_DE_LA_CRUZ",
+      "fullname": "Ulises de la Cruz",
+      "surname": "la Cruz",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "playerId": "36e01a2c",
+      "aliases": [
+        "Ulises de la Cruz",
+        "la Cruz"
+      ]
+    },
+    {
+      "id": "REA0607_MICHAEL_DUBERRY",
+      "fullname": "Michael Duberry",
+      "surname": "Duberry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "playerId": "db61b520",
+      "aliases": [
+        "Duberry",
+        "Michael Duberry"
+      ]
+    },
+    {
+      "id": "REA0607_BOBBY_CONVEY",
+      "fullname": "Bobby Convey",
+      "surname": "Convey",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 9,
+      "playerId": "7910a892",
+      "aliases": [
+        "Bobby Convey",
+        "Convey"
+      ]
+    },
+    {
+      "id": "REA0607_ANDRE_BIKEY",
+      "fullname": "André Bikey",
+      "surname": "Bikey",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 15,
+      "playerId": "2c3ab6dd",
+      "aliases": [
+        "André Bikey",
+        "Bikey"
+      ]
+    },
+    {
+      "id": "REA0607_JOHN_OSTER",
+      "fullname": "John Oster",
+      "surname": "Oster",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "playerId": "bbf029eb",
+      "aliases": [
+        "John Oster",
+        "Oster"
+      ]
+    },
+    {
+      "id": "REA0607_GREG_HALFORD",
+      "fullname": "Greg Halford",
+      "surname": "Halford",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 3,
+      "playerId": "06d45e81",
+      "aliases": [
+        "Greg Halford",
+        "Halford"
+      ]
+    },
+    {
+      "id": "REA0607_SAM_SODJE",
+      "fullname": "Sam Sodje",
+      "surname": "Sodje",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "playerId": "36f2b3ef",
+      "aliases": [
+        "Sam Sodje",
+        "Sodje"
+      ]
+    },
+    {
+      "id": "REA0607_ADAM_FEDERICI",
+      "fullname": "Adam Federici",
+      "surname": "Federici",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2,
+      "playerId": "e5ea8be7",
+      "aliases": [
+        "Adam Federici",
+        "Federici"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "clubCode": "AVL2324",
+  "club": "Aston Villa",
+  "season": "2023-24",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "AVL2324_UNAI_EMERY",
+      "fullname": "Unai Emery",
+      "surname": "Emery",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Emery",
+        "Unai Emery"
+      ]
+    },
+    {
+      "id": "AVL2324_OLLIE_WATKINS",
+      "fullname": "Ollie Watkins",
+      "surname": "Watkins",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Ollie Watkins",
+        "Watkins"
+      ]
+    },
+    {
+      "id": "AVL2324_EZRI_KONSA",
+      "fullname": "Ezri Konsa",
+      "surname": "Konsa",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Ezri Konsa",
+        "Konsa"
+      ]
+    },
+    {
+      "id": "AVL2324_JOHN_MCGINN",
+      "fullname": "John McGinn",
+      "surname": "McGinn",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "John McGinn",
+        "McGinn"
+      ]
+    },
+    {
+      "id": "AVL2324_DOUGLAS_LUIZ",
+      "fullname": "Douglas Luiz",
+      "surname": "Luiz",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Douglas Luiz",
+        "Luiz"
+      ]
+    },
+    {
+      "id": "AVL2324_EMILIANO_MARTINEZ",
+      "fullname": "Emiliano Martínez",
+      "surname": "Martínez",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Emiliano Martínez",
+        "Martínez"
+      ]
+    },
+    {
+      "id": "AVL2324_PAU_TORRES",
+      "fullname": "Pau Torres",
+      "surname": "Torres",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Pau Torres",
+        "Torres"
+      ]
+    },
+    {
+      "id": "AVL2324_LUCAS_DIGNE",
+      "fullname": "Lucas Digne",
+      "surname": "Digne",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Digne",
+        "Lucas Digne"
+      ]
+    },
+    {
+      "id": "AVL2324_MOUSSA_DIABY",
+      "fullname": "Moussa Diaby",
+      "surname": "Diaby",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Diaby",
+        "Moussa Diaby"
+      ]
+    },
+    {
+      "id": "AVL2324_MATTY_CASH",
+      "fullname": "Matty Cash",
+      "surname": "Cash",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Cash",
+        "Matty Cash"
+      ]
+    },
+    {
+      "id": "AVL2324_LEON_BAILEY",
+      "fullname": "Leon Bailey",
+      "surname": "Bailey",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Bailey",
+        "Leon Bailey"
+      ]
+    },
+    {
+      "id": "AVL2324_DIEGO_CARLOS",
+      "fullname": "Diego Carlos",
+      "surname": "Carlos",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Carlos",
+        "Diego Carlos"
+      ]
+    },
+    {
+      "id": "AVL2324_BOUBACAR_KAMARA",
+      "fullname": "Boubacar Kamara",
+      "surname": "Kamara",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Boubacar Kamara",
+        "Kamara"
+      ]
+    },
+    {
+      "id": "AVL2324_YOURI_TIELEMANS",
+      "fullname": "Youri Tielemans",
+      "surname": "Tielemans",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Tielemans",
+        "Youri Tielemans"
+      ]
+    },
+    {
+      "id": "AVL2324_CLEMENT_LENGLET",
+      "fullname": "Clément Lenglet",
+      "surname": "Lenglet",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Clément Lenglet",
+        "Lenglet"
+      ]
+    },
+    {
+      "id": "AVL2324_ALEX_MORENO",
+      "fullname": "Álex Moreno",
+      "surname": "Moreno",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Álex Moreno",
+        "Moreno"
+      ]
+    },
+    {
+      "id": "AVL2324_NICOLO_ZANIOLO",
+      "fullname": "Nicolò Zaniolo",
+      "surname": "Zaniolo",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Nicolò Zaniolo",
+        "Zaniolo"
+      ]
+    },
+    {
+      "id": "AVL2324_JACOB_RAMSEY",
+      "fullname": "Jacob Ramsey",
+      "surname": "Ramsey",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Jacob Ramsey",
+        "Ramsey"
+      ]
+    },
+    {
+      "id": "AVL2324_MORGAN_ROGERS",
+      "fullname": "Morgan Rogers",
+      "surname": "Rogers",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Morgan Rogers",
+        "Rogers"
+      ]
+    },
+    {
+      "id": "AVL2324_ROBIN_OLSEN",
+      "fullname": "Robin Olsen",
+      "surname": "Olsen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Olsen",
+        "Robin Olsen"
+      ]
+    },
+    {
+      "id": "AVL2324_JADER_DURAN",
+      "fullname": "Jáder Durán",
+      "surname": "Durán",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Durán",
+        "Jáder Durán"
+      ]
+    },
+    {
+      "id": "AVL2324_TIM_IROEGBUNAM",
+      "fullname": "Tim Iroegbunam",
+      "surname": "Iroegbunam",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Iroegbunam",
+        "Tim Iroegbunam"
+      ]
+    },
+    {
+      "id": "AVL2324_CALUM_CHAMBERS",
+      "fullname": "Calum Chambers",
+      "surname": "Chambers",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Calum Chambers",
+        "Chambers"
+      ]
+    },
+    {
+      "id": "AVL2324_LEANDER_DENDONCKER",
+      "fullname": "Leander Dendoncker",
+      "surname": "Dendoncker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Dendoncker",
+        "Leander Dendoncker"
+      ]
+    },
+    {
+      "id": "AVL2324_TYRONE_MINGS",
+      "fullname": "Tyrone Mings",
+      "surname": "Mings",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Mings",
+        "Tyrone Mings"
+      ]
+    },
+    {
+      "id": "AVL2324_OMARI_KELLYMAN",
+      "fullname": "Omari Kellyman",
+      "surname": "Kellyman",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Kellyman",
+        "Omari Kellyman"
+      ]
+    },
+    {
+      "id": "AVL2324_PHILIPPE_COUTINHO",
+      "fullname": "Philippe Coutinho",
+      "surname": "Coutinho",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Coutinho",
+        "Philippe Coutinho"
+      ]
+    },
+    {
+      "id": "AVL2324_BERTRAND_TRAORE",
+      "fullname": "Bertrand Traoré",
+      "surname": "Traoré",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Bertrand Traoré",
+        "Traoré"
+      ]
+    },
+    {
+      "id": "AVL2324_CAMERON_ARCHER",
+      "fullname": "Cameron Archer",
+      "surname": "Archer",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Archer",
+        "Cameron Archer"
+      ]
+    },
+    {
+      "id": "AVL2324_KAINE_KESLER_HAYDEN",
+      "fullname": "Kaine Kesler-Hayden",
+      "surname": "Kesler-Hayden",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Kaine Kesler-Hayden",
+        "Kesler-Hayden"
+      ]
+    },
+    {
+      "id": "AVL2324_FINLEY_MUNROE",
+      "fullname": "Finley Munroe",
+      "surname": "Munroe",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Finley Munroe",
+        "Munroe"
+      ]
+    }
+  ]
+}

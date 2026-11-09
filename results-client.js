@@ -24,7 +24,9 @@ async function showScores(){
   if(!pack){status.textContent='NO CLOSED PACK RESULTS YET';return;}
   document.getElementById('leaderboardTitle').textContent='PACK '+pack.packId+' LEADERBOARD';
   document.getElementById('resultFormation').textContent='FORMATION : '+pack.formation;
-  const response=await fetch('data/vggfax'+pack.packId+'.json');if(!response.ok)throw Error('PACK DETAILS UNAVAILABLE');const data=await response.json();if(token!==resultLoad)return;
+  let response=await fetch('data/vggfax'+pack.packId+'.json');
+  if(!response.ok&&scoresServiceUrl)response=await fetch(scoresServiceUrl.replace(/\/$/,'')+'/api/packs/'+pack.packId);
+  if(!response.ok)throw Error('PACK DETAILS UNAVAILABLE');const data=await response.json();if(token!==resultLoad)return;
   const clubs=document.getElementById('resultClubs');clubs.replaceChildren();data.clubs.forEach(c=>clubs.append(resultNode('li',c.clubCode.slice(0,3)+' - '+c.club+' '+c.season.replace(/^\d{2}(\d{2}-\d{2})$/,'$1'))));
   resultRows=pack.results;resultPage=0;renderLeaderboard();status.textContent='';
  }catch(error){if(token===resultLoad)status.textContent=error.message+' · TRY SCORES AGAIN';}

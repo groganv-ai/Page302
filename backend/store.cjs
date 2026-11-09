@@ -28,6 +28,7 @@ class ScoreStore {
   constructor(file = ':memory:', options = {}) {
     this.db = new DatabaseSync(file);
     this.db.exec(readFileSync(join(__dirname, 'schema.sql'), 'utf8'));
+    this.db.exec(readFileSync(join(__dirname, 'cloudflare/migrations/0002_release_scheduler.sql'), 'utf8'));
     this.db.exec('PRAGMA busy_timeout=5000');
     this.now = options.now || (() => new Date());
     this.reference = options.reference || (() => String(randomInt(0, 1000000)).padStart(6, '0'));
@@ -55,6 +56,8 @@ class ScoreStore {
       if (!pack) reject('Unknown pack',404);
       const timestamp = this.now().toISOString();
       if (timestamp < pack.opens_at || (pack.closes_at && timestamp >= pack.closes_at) || pack.published_at) reject('Pack is not open',409);
+      if (this.db.prepare('SELECT enabled FROM release_control WHERE id=1').get()?.enabled &&
+          !this.db.prepare("SELECT 1 FROM release_schedule s JOIN release_events e ON e.pack_id=s.pack_id AND e.action='open' AND e.status='done' WHERE s.pack_id=?").get(data.packId)) reject('Pack is not open',409);
       const counts = {GK:1,DF:Number(pack.formation[0]),MD:Number(pack.formation[2]),AT:Number(pack.formation[4]),MAN:1};
       for (const [position,count] of Object.entries(counts)) if (data.answers.filter(a=>a.position===position).length !== count) reject('Squad does not match formation');
       let reference;

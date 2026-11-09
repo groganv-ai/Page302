@@ -1,0 +1,365 @@
+{
+  "clubCode": "COV9798",
+  "club": "Coventry",
+  "season": "1997-98",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "COV9798_GORDON_STRACHAN",
+      "fullname": "Gordon Strachan",
+      "surname": "Strachan",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Gordon Strachan",
+        "Strachan"
+      ]
+    },
+    {
+      "id": "COV9798_DION_DUBLIN",
+      "fullname": "Dion Dublin",
+      "surname": "Dublin",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Dion Dublin",
+        "Dublin"
+      ]
+    },
+    {
+      "id": "COV9798_DAVID_BURROWS",
+      "fullname": "David Burrows",
+      "surname": "Burrows",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Burrows",
+        "David Burrows"
+      ]
+    },
+    {
+      "id": "COV9798_RICHARD_SHAW",
+      "fullname": "Richard Shaw",
+      "surname": "Shaw",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Richard Shaw",
+        "Shaw"
+      ]
+    },
+    {
+      "id": "COV9798_PAUL_TELFER",
+      "fullname": "Paul Telfer",
+      "surname": "Telfer",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Paul Telfer",
+        "Telfer"
+      ]
+    },
+    {
+      "id": "COV9798_ROLAND_NILSSON",
+      "fullname": "Roland Nilsson",
+      "surname": "Nilsson",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Nilsson",
+        "Roland Nilsson"
+      ]
+    },
+    {
+      "id": "COV9798_DARREN_HUCKERBY",
+      "fullname": "Darren Huckerby",
+      "surname": "Huckerby",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Darren Huckerby",
+        "Huckerby"
+      ]
+    },
+    {
+      "id": "COV9798_GARY_BREEN",
+      "fullname": "Gary Breen",
+      "surname": "Breen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Breen",
+        "Gary Breen"
+      ]
+    },
+    {
+      "id": "COV9798_TROND_EGIL_SOLTVEDT",
+      "fullname": "Trond Egil Soltvedt",
+      "surname": "Soltvedt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Soltvedt",
+        "Trond Egil Soltvedt"
+      ]
+    },
+    {
+      "id": "COV9798_STEVE_OGRIZOVIC",
+      "fullname": "Steve Ogrizovic",
+      "surname": "Ogrizovic",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Ogrizovic",
+        "Steve Ogrizovic"
+      ]
+    },
+    {
+      "id": "COV9798_NOEL_WHELAN",
+      "fullname": "Noel Whelan",
+      "surname": "Whelan",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Noel Whelan",
+        "Whelan"
+      ]
+    },
+    {
+      "id": "COV9798_MARCUS_HALL",
+      "fullname": "Marcus Hall",
+      "surname": "Hall",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Hall",
+        "Marcus Hall"
+      ]
+    },
+    {
+      "id": "COV9798_PAUL_WILLIAMS",
+      "fullname": "Paul Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Paul Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "COV9798_MAGNUS_HEDMAN",
+      "fullname": "Magnus Hedman",
+      "surname": "Hedman",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Hedman",
+        "Magnus Hedman"
+      ]
+    },
+    {
+      "id": "COV9798_GARY_MCALLISTER",
+      "fullname": "Gary McAllister",
+      "surname": "McAllister",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Gary McAllister",
+        "McAllister"
+      ]
+    },
+    {
+      "id": "COV9798_GEORGE_BOATENG",
+      "fullname": "George Boateng",
+      "surname": "Boateng",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Boateng",
+        "George Boateng"
+      ]
+    },
+    {
+      "id": "COV9798_JOHN_SALAKO",
+      "fullname": "John Salako",
+      "surname": "Salako",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "John Salako",
+        "Salako"
+      ]
+    },
+    {
+      "id": "COV9798_WILLIE_BOLAND",
+      "fullname": "Willie Boland",
+      "surname": "Boland",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Boland",
+        "Willie Boland"
+      ]
+    },
+    {
+      "id": "COV9798_VIOREL_MOLDOVAN",
+      "fullname": "Viorel Moldovan",
+      "surname": "Moldovan",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Moldovan",
+        "Viorel Moldovan"
+      ]
+    },
+    {
+      "id": "COV9798_SIMON_HAWORTH",
+      "fullname": "Simon Haworth",
+      "surname": "Haworth",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Haworth",
+        "Simon Haworth"
+      ]
+    },
+    {
+      "id": "COV9798_KEVIN_RICHARDSON",
+      "fullname": "Kevin Richardson",
+      "surname": "Richardson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Kevin Richardson",
+        "Richardson"
+      ]
+    },
+    {
+      "id": "COV9798_MICHAEL_O_NEILL",
+      "fullname": "Michael O'Neill",
+      "surname": "O'Neill",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Michael O'Neill",
+        "O'Neill"
+      ]
+    },
+    {
+      "id": "COV9798_SAM_SHILTON",
+      "fullname": "Sam Shilton",
+      "surname": "Shilton",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Sam Shilton",
+        "Shilton"
+      ]
+    },
+    {
+      "id": "COV9798_GAVIN_STRACHAN",
+      "fullname": "Gavin Strachan",
+      "surname": "Strachan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Gavin Strachan",
+        "Strachan"
+      ]
+    },
+    {
+      "id": "COV9798_KYLE_LIGHTBOURNE",
+      "fullname": "Kyle Lightbourne",
+      "surname": "Lightbourne",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Kyle Lightbourne",
+        "Lightbourne"
+      ]
+    },
+    {
+      "id": "COV9798_ANDY_DUCROS",
+      "fullname": "Andy Ducros",
+      "surname": "Ducros",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Andy Ducros",
+        "Ducros"
+      ]
+    },
+    {
+      "id": "COV9798_MARTIN_JOHANSEN",
+      "fullname": "Martin Johansen",
+      "surname": "Johansen",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Johansen",
+        "Martin Johansen"
+      ]
+    }
+  ]
+}

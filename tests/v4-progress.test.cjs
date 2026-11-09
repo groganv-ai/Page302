@@ -14,7 +14,8 @@ test('accepted picks, guesses and score recover safely; stale and blocked storag
   });
   const ready=()=>page.waitForFunction(()=>typeof progressReady!=='undefined'&&progressReady);
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,squad:squadDisplay,usage:clubUsage,used:[...usedPeople]}));
-  await page.goto('http://page302.test');await ready();
+  await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test');await ready();
   await page.emulateMedia({reducedMotion:'reduce'});
   assert.equal(await page.locator('.dosCursor').evaluate(e=>getComputedStyle(e).animationName),'none');
   assert.equal(await page.locator('.dosCursor').evaluate(e=>getComputedStyle(e).display),'block');

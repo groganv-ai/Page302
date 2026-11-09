@@ -1,0 +1,30 @@
+{
+  "timeZone": "Europe/London",
+  "packs": [
+    {
+      "packId": "003",
+      "date": "2026-11-10",
+      "file": "../data/vggfax003.json"
+    },
+    {
+      "packId": "004",
+      "date": "2026-11-11",
+      "file": "../data/vggfax004.json"
+    },
+    {
+      "packId": "005",
+      "date": "2026-11-12",
+      "file": "../data/vggfax005.json"
+    },
+    {
+      "packId": "006",
+      "date": "2026-11-13",
+      "file": "../data/vggfax006.json"
+    },
+    {
+      "packId": "007",
+      "date": "2026-11-14",
+      "file": "../data/vggfax007.json"
+    }
+  ]
+}

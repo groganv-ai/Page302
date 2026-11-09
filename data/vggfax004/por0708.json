@@ -1,0 +1,390 @@
+{
+  "clubCode": "POR0708",
+  "club": "Portsmouth",
+  "season": "2007-08",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "POR0708_HARRY_REDKNAPP",
+      "fullname": "Harry Redknapp",
+      "surname": "Redknapp",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Harry Redknapp",
+        "Redknapp"
+      ]
+    },
+    {
+      "id": "POR0708_SYLVAIN_DISTIN",
+      "fullname": "Sylvain Distin",
+      "surname": "Distin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Distin",
+        "Sylvain Distin"
+      ]
+    },
+    {
+      "id": "POR0708_DAVID_JAMES",
+      "fullname": "David James",
+      "surname": "James",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "David James",
+        "James"
+      ]
+    },
+    {
+      "id": "POR0708_NIKO_KRANJCAR",
+      "fullname": "Niko Kranjčar",
+      "surname": "Kranjčar",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Kranjčar",
+        "Niko Kranjčar"
+      ]
+    },
+    {
+      "id": "POR0708_SOL_CAMPBELL",
+      "fullname": "Sol Campbell",
+      "surname": "Campbell",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Campbell",
+        "Sol Campbell"
+      ]
+    },
+    {
+      "id": "POR0708_HERMANN_HREI_ARSSON",
+      "fullname": "Hermann Hreiðarsson",
+      "surname": "Hreiðarsson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Hermann Hreiðarsson",
+        "Hreiðarsson"
+      ]
+    },
+    {
+      "id": "POR0708_GLEN_JOHNSON",
+      "fullname": "Glen Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Glen Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "POR0708_SULLEY_MUNTARI",
+      "fullname": "Sulley Muntari",
+      "surname": "Muntari",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Muntari",
+        "Sulley Muntari"
+      ]
+    },
+    {
+      "id": "POR0708_PAPA_BOUBA_DIOP",
+      "fullname": "Papa Bouba Diop",
+      "surname": "Diop",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Diop",
+        "Papa Bouba Diop"
+      ]
+    },
+    {
+      "id": "POR0708_JOHN_UTAKA",
+      "fullname": "John Utaka",
+      "surname": "Utaka",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "John Utaka",
+        "Utaka"
+      ]
+    },
+    {
+      "id": "POR0708_BENJANI",
+      "fullname": "Benjani",
+      "surname": "Benjani",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Benjani"
+      ]
+    },
+    {
+      "id": "POR0708_SEAN_DAVIS",
+      "fullname": "Sean Davis",
+      "surname": "Davis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Davis",
+        "Sean Davis"
+      ]
+    },
+    {
+      "id": "POR0708_PEDRO_MENDES",
+      "fullname": "Pedro Mendes",
+      "surname": "Mendes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Mendes",
+        "Pedro Mendes"
+      ]
+    },
+    {
+      "id": "POR0708_NOE_PAMAROT",
+      "fullname": "Noé Pamarot",
+      "surname": "Pamarot",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Noé Pamarot",
+        "Pamarot"
+      ]
+    },
+    {
+      "id": "POR0708_NWANKWO_KANU",
+      "fullname": "Nwankwo Kanu",
+      "surname": "Kanu",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Kanu",
+        "Nwankwo Kanu"
+      ]
+    },
+    {
+      "id": "POR0708_JERMAIN_DEFOE",
+      "fullname": "Jermain Defoe",
+      "surname": "Defoe",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Defoe",
+        "Jermain Defoe"
+      ]
+    },
+    {
+      "id": "POR0708_LASSANA_DIARRA",
+      "fullname": "Lassana Diarra",
+      "surname": "Diarra",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Diarra",
+        "Lassana Diarra"
+      ]
+    },
+    {
+      "id": "POR0708_LAUREN",
+      "fullname": "Lauren",
+      "surname": "Lauren",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Lauren"
+      ]
+    },
+    {
+      "id": "POR0708_RICHARD_HUGHES",
+      "fullname": "Richard Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Hughes",
+        "Richard Hughes"
+      ]
+    },
+    {
+      "id": "POR0708_MILAN_BAROS",
+      "fullname": "Milan Baroš",
+      "surname": "Baroš",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Baroš",
+        "Milan Baroš"
+      ]
+    },
+    {
+      "id": "POR0708_DAVID_NUGENT",
+      "fullname": "David Nugent",
+      "surname": "Nugent",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "David Nugent",
+        "Nugent"
+      ]
+    },
+    {
+      "id": "POR0708_MATTHEW_TAYLOR",
+      "fullname": "Matthew Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Matthew Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "POR0708_ARNOLD_MVUEMBA",
+      "fullname": "Arnold Mvuemba",
+      "surname": "Mvuemba",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Arnold Mvuemba",
+        "Mvuemba"
+      ]
+    },
+    {
+      "id": "POR0708_JAMIE_ASHDOWN",
+      "fullname": "Jamie Ashdown",
+      "surname": "Ashdown",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Ashdown",
+        "Jamie Ashdown"
+      ]
+    },
+    {
+      "id": "POR0708_GARY_O_NEIL",
+      "fullname": "Gary O'Neil",
+      "surname": "O'Neil",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Gary O'Neil",
+        "O'Neil"
+      ]
+    },
+    {
+      "id": "POR0708_LUCIEN_AUBEY",
+      "fullname": "Lucien Aubey",
+      "surname": "Aubey",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Aubey",
+        "Lucien Aubey"
+      ]
+    },
+    {
+      "id": "POR0708_DJIMI_TRAORE",
+      "fullname": "Djimi Traoré",
+      "surname": "Traoré",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Djimi Traoré",
+        "Traoré"
+      ]
+    },
+    {
+      "id": "POR0708_MARTIN_CRANIE",
+      "fullname": "Martin Cranie",
+      "surname": "Cranie",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Cranie",
+        "Martin Cranie"
+      ]
+    },
+    {
+      "id": "POR0708_FRANCK_SONGO_O",
+      "fullname": "Franck Songo'o",
+      "surname": "Songo'o",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Franck Songo'o",
+        "Songo'o"
+      ]
+    }
+  ]
+}

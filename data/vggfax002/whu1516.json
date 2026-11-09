@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Bilic",
+        "Slaven Bilic"
+      ]
     },
     {
       "id": "WHU1516_AARON_CRESSWELL",
@@ -21,7 +25,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Aaron Cresswell",
+        "Cresswell"
+      ]
     },
     {
       "id": "WHU1516_MARK_NOBLE",
@@ -30,7 +38,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Mark Noble",
+        "Noble"
+      ]
     },
     {
       "id": "WHU1516_CHEIKHOU_KOUYAT_",
@@ -39,7 +51,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Cheikhou Kouyaté",
+        "Kouyaté"
+      ]
     },
     {
       "id": "WHU1516_ADRI_N",
@@ -48,7 +64,10 @@
       "positions": [
         "GK"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Adrián"
+      ]
     },
     {
       "id": "WHU1516_DIMITRI_PAYET",
@@ -58,7 +77,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Dimitri Payet",
+        "Payet"
+      ]
     },
     {
       "id": "WHU1516_ANGELO_OGBONNA",
@@ -67,7 +90,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Angelo Ogbonna",
+        "Ogbonna"
+      ]
     },
     {
       "id": "WHU1516_WINSTON_REID",
@@ -76,7 +103,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Reid",
+        "Winston Reid"
+      ]
     },
     {
       "id": "WHU1516_MICHAIL_ANTONIO",
@@ -86,7 +117,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Antonio",
+        "Michail Antonio"
+      ]
     },
     {
       "id": "WHU1516_JAMES_TOMKINS",
@@ -95,7 +130,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "James Tomkins",
+        "Tomkins"
+      ]
     },
     {
       "id": "WHU1516_MANUEL_LANZINI",
@@ -104,7 +143,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Lanzini",
+        "Manuel Lanzini"
+      ]
     },
     {
       "id": "WHU1516_DIAFRA_SAKHO",
@@ -113,7 +156,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Diafra Sakho",
+        "Sakho"
+      ]
     },
     {
       "id": "WHU1516_JAMES_COLLINS",
@@ -122,7 +169,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Collins",
+        "James Collins"
+      ]
     },
     {
       "id": "WHU1516_ANDY_CARROLL",
@@ -131,7 +182,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Andy Carroll",
+        "Carroll"
+      ]
     },
     {
       "id": "WHU1516_CARL_JENKINSON",
@@ -140,7 +195,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Carl Jenkinson",
+        "Jenkinson"
+      ]
     },
     {
       "id": "WHU1516_VICTOR_MOSES",
@@ -150,7 +209,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Moses",
+        "Victor Moses"
+      ]
     },
     {
       "id": "WHU1516_PEDRO_OBIANG",
@@ -159,7 +222,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Obiang",
+        "Pedro Obiang"
+      ]
     },
     {
       "id": "WHU1516_ENNER_VALENCIA",
@@ -169,7 +236,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Enner Valencia",
+        "Valencia"
+      ]
     },
     {
       "id": "WHU1516_MAURO_Z_RATE",
@@ -179,7 +250,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Mauro Zárate",
+        "Zárate"
+      ]
     },
     {
       "id": "WHU1516_ALEXANDRE_SONG",
@@ -188,7 +263,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Alexandre Song",
+        "Song"
+      ]
     },
     {
       "id": "WHU1516_DARREN_RANDOLPH",
@@ -197,7 +276,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Darren Randolph",
+        "Randolph"
+      ]
     },
     {
       "id": "WHU1516_EMMANUEL_EMENIKE",
@@ -207,7 +290,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Emenike",
+        "Emmanuel Emenike"
+      ]
     },
     {
       "id": "WHU1516_REECE_OXFORD",
@@ -217,7 +304,11 @@
         "MD",
         "DF"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Oxford",
+        "Reece Oxford"
+      ]
     },
     {
       "id": "WHU1516_SAM_BYRAM",
@@ -226,7 +317,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Byram",
+        "Sam Byram"
+      ]
     },
     {
       "id": "WHU1516_NIKICA_JELAVI_",
@@ -235,7 +330,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Jelavić",
+        "Nikica Jelavić"
+      ]
     },
     {
       "id": "WHU1516_KEVIN_NOLAN",
@@ -244,7 +343,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Kevin Nolan",
+        "Nolan"
+      ]
     },
     {
       "id": "WHU1516_MATTHEW_JARVIS",
@@ -253,7 +356,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Jarvis",
+        "Matthew Jarvis"
+      ]
     },
     {
       "id": "WHU1516_MODIBO_MA_GA",
@@ -263,7 +370,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Maïga",
+        "Modibo Maïga"
+      ]
     },
     {
       "id": "WHU1516_JOSH_CULLEN",
@@ -273,7 +384,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Cullen",
+        "Josh Cullen"
+      ]
     },
     {
       "id": "WHU1516_MARCUS_BROWNE",
@@ -283,7 +398,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 0
+      "appearances": 0,
+      "aliases": [
+        "Browne",
+        "Marcus Browne"
+      ]
     },
     {
       "id": "WHU1516_GEORGE_DOBSON",
@@ -292,7 +411,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 0
+      "appearances": 0,
+      "aliases": [
+        "Dobson",
+        "George Dobson"
+      ]
     }
   ]
 }

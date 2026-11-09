@@ -12,14 +12,24 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Claudio Ranieri",
+        "Ranieri"
+      ]
     },
     {
-    "id": "LEI1516_MORGAN",
-    "fullname": "Wes Morgan",
-    "surname": "Morgan",
-    "positions": ["DF"],
-    "appearances": 38
+      "id": "LEI1516_MORGAN",
+      "fullname": "Wes Morgan",
+      "surname": "Morgan",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Morgan",
+        "Wes Morgan"
+      ]
     },
     {
       "id": "LEI1516_KASPER_SCHMEICHEL",
@@ -28,7 +38,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Kasper Schmeichel",
+        "Schmeichel"
+      ]
     },
     {
       "id": "LEI1516_JAMIE_VARDY",
@@ -37,7 +51,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Jamie Vardy",
+        "Vardy"
+      ]
     },
     {
       "id": "LEI1516_RIYAD_MAHREZ",
@@ -46,7 +64,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Mahrez",
+        "Riyad Mahrez"
+      ]
     },
     {
       "id": "LEI1516_ROBERT_HUTH",
@@ -55,7 +77,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Huth",
+        "Robert Huth"
+      ]
     },
     {
       "id": "LEI1516_DANNY_DRINKWATER",
@@ -64,7 +90,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Danny Drinkwater",
+        "Drinkwater"
+      ]
     },
     {
       "id": "LEI1516_MARC_ALBRIGHTON",
@@ -73,7 +103,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Albrighton",
+        "Marc Albrighton"
+      ]
     },
     {
       "id": "LEI1516_NGOLO_KANT",
@@ -82,7 +116,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Kanté",
+        "N'Golo Kanté"
+      ]
     },
     {
       "id": "LEI1516_CHRISTIAN_FUCHS",
@@ -91,7 +129,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Christian Fuchs",
+        "Fuchs"
+      ]
     },
     {
       "id": "LEI1516_DANNY_SIMPSON",
@@ -100,7 +142,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Danny Simpson",
+        "Simpson"
+      ]
     },
     {
       "id": "LEI1516_SHINJI_OKAZAKI",
@@ -110,7 +156,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Okazaki",
+        "Shinji Okazaki"
+      ]
     },
     {
       "id": "LEI1516_JEFFREY_SCHLUPP",
@@ -120,7 +170,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Jeffrey Schlupp",
+        "Schlupp"
+      ]
     },
     {
       "id": "LEI1516_ANDY_KING",
@@ -129,7 +183,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Andy King",
+        "King"
+      ]
     },
     {
       "id": "LEI1516_LEONARDO_ULLOA",
@@ -138,7 +196,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Leonardo Ulloa",
+        "Ulloa"
+      ]
     },
     {
       "id": "LEI1516_RITCHIE_DE_LAET",
@@ -147,7 +209,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "De Laet",
+        "Ritchie De Laet"
+      ]
     },
     {
       "id": "LEI1516_MARCIN_WASILEWSKI",
@@ -156,7 +222,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Marcin Wasilewski",
+        "Wasilewski"
+      ]
     },
     {
       "id": "LEI1516_GKHAN_INLER",
@@ -165,7 +235,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Gökhan Inler",
+        "Inler"
+      ]
     },
     {
       "id": "LEI1516_DEMARAI_GRAY",
@@ -174,7 +248,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Demarai Gray",
+        "Gray"
+      ]
     },
     {
       "id": "LEI1516_DANIEL_AMARTEY",
@@ -183,7 +261,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Amartey",
+        "Daniel Amartey"
+      ]
     },
     {
       "id": "LEI1516_NATHAN_DYER",
@@ -193,7 +275,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Dyer",
+        "Nathan Dyer"
+      ]
     },
     {
       "id": "LEI1516_YOHAN_BENALOUANE",
@@ -202,7 +288,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Benalouane",
+        "Yohan Benalouane"
+      ]
     },
     {
       "id": "LEI1516_ANDREJ_KRAMARI",
@@ -212,7 +302,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Andrej Kramarić",
+        "Kramarić"
+      ]
     },
     {
       "id": "LEI1516_JOE_DODOO",
@@ -222,7 +316,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Dodoo",
+        "Joe Dodoo"
+      ]
     }
   ]
 }

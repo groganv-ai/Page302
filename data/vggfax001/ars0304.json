@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Arsene Wenger",
+        "Wenger"
+      ]
     },
     {
       "id": "ARS0304_JENS_LEHMANN",
@@ -21,7 +25,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Jens Lehmann",
+        "Lehmann"
+      ]
     },
     {
       "id": "ARS0304_THIERRY_HENRY",
@@ -30,7 +38,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Henry",
+        "Thierry Henry"
+      ]
     },
     {
       "id": "ARS0304_KOLO_TOUR",
@@ -39,7 +51,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Kolo Touré",
+        "Touré"
+      ]
     },
     {
       "id": "ARS0304_SOL_CAMPBELL",
@@ -49,7 +65,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Campbell",
+        "Sol Campbell"
+      ]
     },
     {
       "id": "ARS0304_ROBERT_PIRS",
@@ -59,7 +79,13 @@
         "AT",
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Pires",
+        "Pirès",
+        "Robert Pires",
+        "Robert Pirès"
+      ]
     },
     {
       "id": "ARS0304_ASHLEY_COLE",
@@ -68,7 +94,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Ashley Cole",
+        "Cole"
+      ]
     },
     {
       "id": "ARS0304_LAUREN",
@@ -77,7 +107,10 @@
       "positions": [
         "DF"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Lauren"
+      ]
     },
     {
       "id": "ARS0304_GILBERTO_SILVA",
@@ -87,7 +120,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Gilberto Silva",
+        "Silva"
+      ]
     },
     {
       "id": "ARS0304_PATRICK_VIEIRA",
@@ -96,7 +133,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Patrick Vieira",
+        "Vieira"
+      ]
     },
     {
       "id": "ARS0304_FREDDIE_LJUNGBERG",
@@ -106,7 +147,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Freddie Ljungberg",
+        "Ljungberg"
+      ]
     },
     {
       "id": "ARS0304_DENNIS_BERGKAMP",
@@ -115,7 +160,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Bergkamp",
+        "Dennis Bergkamp"
+      ]
     },
     {
       "id": "ARS0304_RAY_PARLOUR",
@@ -124,7 +173,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Parlour",
+        "Ray Parlour"
+      ]
     },
     {
       "id": "ARS0304_EDU_GASPAR",
@@ -133,7 +186,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Edu Gaspar",
+        "Gaspar"
+      ]
     },
     {
       "id": "ARS0304_PASCAL_CYGAN",
@@ -142,7 +199,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Cygan",
+        "Pascal Cygan"
+      ]
     },
     {
       "id": "ARS0304_SYLVAIN_WILTORD",
@@ -152,7 +213,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Sylvain Wiltord",
+        "Wiltord"
+      ]
     },
     {
       "id": "ARS0304_GAL_CLICHY",
@@ -161,7 +226,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Clichy",
+        "Gaël Clichy"
+      ]
     },
     {
       "id": "ARS0304_JOS_ANTONIO_REYES",
@@ -170,7 +239,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "José Antonio Reyes",
+        "Reyes"
+      ]
     },
     {
       "id": "ARS0304_NWANKWO_KANU",
@@ -179,7 +252,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Kanu",
+        "Nwankwo Kanu"
+      ]
     },
     {
       "id": "ARS0304_MARTIN_KEOWN",
@@ -189,7 +266,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Keown",
+        "Martin Keown"
+      ]
     },
     {
       "id": "ARS0304_JRMIE_ALIADIRE",
@@ -199,7 +280,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Aliadière",
+        "Jérémie Aliadière"
+      ]
     },
     {
       "id": "ARS0304_DAVID_BENTLEY",
@@ -208,7 +293,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Bentley",
+        "David Bentley"
+      ]
     },
     {
       "id": "ARS0304_JUSTIN_HOYTE",
@@ -217,7 +306,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Hoyte",
+        "Justin Hoyte"
+      ]
     }
   ]
 }

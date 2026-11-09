@@ -11,7 +11,8 @@ test('real pack 002 squads, leaderboard search, detail and permanent link while 
  if(url.pathname==='/api/results/latest')return route.fulfill({json:store.latest()});
  if(url.pathname.startsWith('/api/results/'))return route.fulfill({json:store.find(url.pathname.split('/').pop(),{initials:url.searchParams.get('initials'),reference:url.searchParams.get('reference')})});
  const file=path.resolve(root,url.pathname.slice(1)||'index.html');if(!file.startsWith(root+path.sep)||!fs.existsSync(file))return route.abort();const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.ttf':'font/ttf','.png':'image/png'};return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});});
- await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);assert.equal(await page.evaluate(()=>currentVggfax),'003');
+ await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);assert.equal(await page.evaluate(()=>currentVggfax),'003');
  await page.locator('.footerScores').click();await page.waitForFunction(()=>document.querySelectorAll('#leaderboardRows tr').length===10);
  assert.match(await page.locator('#resultFormation').textContent(),/4-3-3/);assert.equal(await page.locator('#resultClubs li').count(),11);
  assert.equal(await page.locator('#resultPrevious').isVisible(),false);assert.equal(await page.locator('#resultNext').isVisible(),false);
@@ -28,7 +29,8 @@ test('real pack 002 squads, leaderboard search, detail and permanent link while 
  await page.setViewportSize({width:390,height:844});assert.equal(await page.locator('.wideCubes').first().isVisible(),false);
  await page.locator('#leaderboardRows button').first().click();const bounds=await page.locator('#closedResult').boundingBox();assert.ok(bounds.x>=0&&bounds.x+bounds.width<=390);
  await page.screenshot({path:path.join(root,'outputs/leaderboard-mobile-review.png'),fullPage:true});
- const r=snapshot.results[0];await page.goto('http://page302.test/?resultPack=002&resultRef='+r.reference);await page.waitForFunction(()=>document.querySelectorAll('.closedAnswer').length===12);assert.match(await page.locator('.closedMetrics').textContent(),/RANK #1/);
+ const r=snapshot.results[0];await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
+        await page.goto('http://page302.test/?resultPack=002&resultRef='+r.reference);await page.waitForFunction(()=>document.querySelectorAll('.closedAnswer').length===12);assert.match(await page.locator('.closedMetrics').textContent(),/RANK #1/);
  await page.setViewportSize({width:1100,height:900});await page.screenshot({path:path.join(root,'outputs/closed-result-desktop-review.png'),fullPage:true});assert.deepEqual(errors,[]);
  }finally{await browser.close();store.close()}
 });

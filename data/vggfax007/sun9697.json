@@ -1,0 +1,381 @@
+{
+  "clubCode": "SUN9697",
+  "club": "Sunderland",
+  "season": "1996-97",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "SUN9697_PETER_REID",
+      "fullname": "Peter Reid",
+      "surname": "Reid",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Peter Reid",
+        "Reid"
+      ]
+    },
+    {
+      "id": "SUN9697_PAUL_BRACEWELL",
+      "fullname": "Paul Bracewell",
+      "surname": "Bracewell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "playerId": "383bd71f",
+      "aliases": [
+        "Bracewell",
+        "Paul Bracewell"
+      ]
+    },
+    {
+      "id": "SUN9697_RICHARD_ORD",
+      "fullname": "Richard Ord",
+      "surname": "Ord",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "playerId": "5618f1fb",
+      "aliases": [
+        "Ord",
+        "Richard Ord"
+      ]
+    },
+    {
+      "id": "SUN9697_KEVIN_BALL",
+      "fullname": "Kevin Ball",
+      "surname": "Ball",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32,
+      "playerId": "aedf2328",
+      "aliases": [
+        "Ball",
+        "Kevin Ball"
+      ]
+    },
+    {
+      "id": "SUN9697_GARETH_HALL",
+      "fullname": "Gareth Hall",
+      "surname": "Hall",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "playerId": "283329e8",
+      "aliases": [
+        "Gareth Hall",
+        "Hall"
+      ]
+    },
+    {
+      "id": "SUN9697_MICHAEL_GRAY",
+      "fullname": "Michael Gray",
+      "surname": "Gray",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 34,
+      "playerId": "fefae709",
+      "aliases": [
+        "Gray",
+        "Michael Gray"
+      ]
+    },
+    {
+      "id": "SUN9697_ANDY_MELVILLE",
+      "fullname": "Andy Melville",
+      "surname": "Melville",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 30,
+      "playerId": "d65253c8",
+      "aliases": [
+        "Andy Melville",
+        "Melville"
+      ]
+    },
+    {
+      "id": "SUN9697_LIONEL_PEREZ",
+      "fullname": "Lionel Pérez",
+      "surname": "Pérez",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 29,
+      "playerId": "dd705701",
+      "aliases": [
+        "Lionel Pérez",
+        "Pérez"
+      ]
+    },
+    {
+      "id": "SUN9697_DARIUSZ_KUBICKI",
+      "fullname": "Dariusz Kubicki",
+      "surname": "Kubicki",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "playerId": "b8945f5b",
+      "aliases": [
+        "Dariusz Kubicki",
+        "Kubicki"
+      ]
+    },
+    {
+      "id": "SUN9697_DAVID_KELLY",
+      "fullname": "David Kelly",
+      "surname": "Kelly",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 24,
+      "playerId": "90e0e86d",
+      "aliases": [
+        "David Kelly",
+        "Kelly"
+      ]
+    },
+    {
+      "id": "SUN9697_PAUL_STEWART",
+      "fullname": "Paul Stewart",
+      "surname": "Stewart",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 24,
+      "playerId": "91aca8f3",
+      "aliases": [
+        "Paul Stewart",
+        "Stewart"
+      ]
+    },
+    {
+      "id": "SUN9697_MARTIN_SCOTT",
+      "fullname": "Martin Scott",
+      "surname": "Scott",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "playerId": "a59a820f",
+      "aliases": [
+        "Martin Scott",
+        "Scott"
+      ]
+    },
+    {
+      "id": "SUN9697_ALEX_RAE",
+      "fullname": "Alex Rae",
+      "surname": "Rae",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "playerId": "a64175a1",
+      "aliases": [
+        "Alex Rae",
+        "Rae"
+      ]
+    },
+    {
+      "id": "SUN9697_STEVE_AGNEW",
+      "fullname": "Steve Agnew",
+      "surname": "Agnew",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 15,
+      "playerId": "23d5ce02",
+      "aliases": [
+        "Agnew",
+        "Steve Agnew"
+      ]
+    },
+    {
+      "id": "SUN9697_CRAIG_RUSSELL",
+      "fullname": "Craig Russell",
+      "surname": "Russell",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 29,
+      "playerId": "fb6f16c0",
+      "aliases": [
+        "Craig Russell",
+        "Russell"
+      ]
+    },
+    {
+      "id": "SUN9697_MICHAEL_BRIDGES",
+      "fullname": "Michael Bridges",
+      "surname": "Bridges",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 25,
+      "playerId": "a57b3014",
+      "aliases": [
+        "Bridges",
+        "Michael Bridges"
+      ]
+    },
+    {
+      "id": "SUN9697_DARREN_WILLIAMS",
+      "fullname": "Darren Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 11,
+      "playerId": "45364051",
+      "aliases": [
+        "Darren Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "SUN9697_TONY_COTON",
+      "fullname": "Tony Coton",
+      "surname": "Coton",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 10,
+      "playerId": "e469c1d8",
+      "aliases": [
+        "Coton",
+        "Tony Coton"
+      ]
+    },
+    {
+      "id": "SUN9697_LEE_HOWEY",
+      "fullname": "Lee Howey",
+      "surname": "Howey",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 12,
+      "playerId": "d73f8431",
+      "aliases": [
+        "Howey",
+        "Lee Howey"
+      ]
+    },
+    {
+      "id": "SUN9697_JOHN_MULLIN",
+      "fullname": "John Mullin",
+      "surname": "Mullin",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "playerId": "00f9de3d",
+      "aliases": [
+        "John Mullin",
+        "Mullin"
+      ]
+    },
+    {
+      "id": "SUN9697_NIALL_QUINN",
+      "fullname": "Niall Quinn",
+      "surname": "Quinn",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "playerId": "050093a9",
+      "aliases": [
+        "Niall Quinn",
+        "Quinn"
+      ]
+    },
+    {
+      "id": "SUN9697_CHRIS_WADDLE",
+      "fullname": "Chris Waddle",
+      "surname": "Waddle",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "playerId": "27215170",
+      "aliases": [
+        "Chris Waddle",
+        "Waddle"
+      ]
+    },
+    {
+      "id": "SUN9697_MARTIN_SMITH",
+      "fullname": "Martin Smith",
+      "surname": "Smith",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 11,
+      "playerId": "408476a3",
+      "aliases": [
+        "Martin Smith",
+        "Smith"
+      ]
+    },
+    {
+      "id": "SUN9697_ALLAN_JOHNSTON",
+      "fullname": "Allan Johnston",
+      "surname": "Johnston",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "playerId": "6136320d",
+      "aliases": [
+        "Allan Johnston",
+        "Johnston"
+      ]
+    },
+    {
+      "id": "SUN9697_JAN_ERIKSSON",
+      "fullname": "Jan Eriksson",
+      "surname": "Eriksson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "playerId": "b29b0d73",
+      "aliases": [
+        "Eriksson",
+        "Jan Eriksson"
+      ]
+    },
+    {
+      "id": "SUN9697_SAM_AISTON",
+      "fullname": "Sam Aiston",
+      "surname": "Aiston",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "playerId": "a480e353",
+      "aliases": [
+        "Aiston",
+        "Sam Aiston"
+      ]
+    }
+  ]
+}

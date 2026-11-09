@@ -1,6 +1,14 @@
 import {D1Store} from './d1-store.mjs';
 import {readReport,reportConfigured,reserveReport,sendReport} from '../report-mail.mjs';
+import {releaseManifest,releasePayload,runReleases} from './release-scheduler.mjs';
 export default {
+ async scheduled(controller,env){
+  try {
+   const result=await runReleases(env.DB,new Date());
+   if(result.enabled)console.log(JSON.stringify({event:'release_scheduler',...result}));
+   if(result.actions.some(a=>a.status==='failed'))throw Error('Pack publication failed');
+  }catch(error){console.error(JSON.stringify({event:'release_scheduler_failed',message:error.message}));throw error}
+ },
  async fetch(request,env){
   const origin=request.headers.get('Origin');const allowed=(env.ALLOWED_ORIGINS||'').split(',').map(s=>s.trim()).filter(Boolean);
   const headers={'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Vary':'Origin'};
@@ -17,6 +25,11 @@ export default {
     if(!reportConfigured(env))return respond({error:'Report sending is not configured yet. Please try later.'},503);
     await reserveReport(env.DB,request.headers.get('CF-Connecting-IP')||'unknown');
     return respond(await sendReport(report,env));
+   }
+   if(request.method==='GET'&&url.pathname==='/api/releases')return respond(await releaseManifest(env.DB));
+   if(request.method==='GET'&&/^\/api\/packs\/\d{3,}$/.test(url.pathname)){
+    const payload=await releasePayload(env.DB,url.pathname.split('/').pop());
+    return payload?respond(payload):respond({error:'Pack unavailable'},404);
    }
    if(request.method==='POST'&&url.pathname==='/api/submissions'){
     if(!request.headers.get('Content-Type')?.startsWith('application/json'))return respond({error:'Use application/json'},415);

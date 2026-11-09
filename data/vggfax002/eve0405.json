@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "David Moyes",
+        "Moyes"
+      ]
     },
     {
       "id": "EVE0405_KEVIN_KILBANE",
@@ -22,7 +26,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Kevin Kilbane",
+        "Kilbane"
+      ]
     },
     {
       "id": "EVE0405_TONY_HIBBERT",
@@ -31,7 +39,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Hibbert",
+        "Tony Hibbert"
+      ]
     },
     {
       "id": "EVE0405_LEE_CARSLEY",
@@ -40,7 +52,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Carsley",
+        "Lee Carsley"
+      ]
     },
     {
       "id": "EVE0405_DAVID_WEIR",
@@ -49,7 +65,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "David Weir",
+        "Weir"
+      ]
     },
     {
       "id": "EVE0405_TIM_CAHILL",
@@ -59,7 +79,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Cahill",
+        "Tim Cahill"
+      ]
     },
     {
       "id": "EVE0405_NIGEL_MARTYN",
@@ -68,7 +92,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Martyn",
+        "Nigel Martyn"
+      ]
     },
     {
       "id": "EVE0405_ALESSANDRO_PISTONE",
@@ -77,7 +105,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Alessandro Pistone",
+        "Pistone"
+      ]
     },
     {
       "id": "EVE0405_MARCUS_BENT",
@@ -86,7 +118,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Bent",
+        "Marcus Bent"
+      ]
     },
     {
       "id": "EVE0405_ALAN_STUBBS",
@@ -95,7 +131,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Alan Stubbs",
+        "Stubbs"
+      ]
     },
     {
       "id": "EVE0405_LEON_OSMAN",
@@ -104,7 +144,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Leon Osman",
+        "Osman"
+      ]
     },
     {
       "id": "EVE0405_THOMAS_GRAVESEN",
@@ -113,7 +157,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Gravesen",
+        "Thomas Gravesen"
+      ]
     },
     {
       "id": "EVE0405_JOSEPH_YOBO",
@@ -122,7 +170,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Joseph Yobo",
+        "Yobo"
+      ]
     },
     {
       "id": "EVE0405_STEVE_WATSON",
@@ -132,7 +184,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Steve Watson",
+        "Watson"
+      ]
     },
     {
       "id": "EVE0405_MIKEL_ARTETA",
@@ -141,7 +197,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Arteta",
+        "Mikel Arteta"
+      ]
     },
     {
       "id": "EVE0405_JAMES_MCFADDEN",
@@ -151,7 +211,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "James McFadden",
+        "McFadden"
+      ]
     },
     {
       "id": "EVE0405_JAMES_BEATTIE",
@@ -160,7 +224,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 11
+      "appearances": 11,
+      "aliases": [
+        "Beattie",
+        "James Beattie"
+      ]
     },
     {
       "id": "EVE0405_DUNCAN_FERGUSON",
@@ -169,7 +237,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Duncan Ferguson",
+        "Ferguson"
+      ]
     },
     {
       "id": "EVE0405_RICHARD_WRIGHT",
@@ -178,7 +250,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Richard Wright",
+        "Wright"
+      ]
     },
     {
       "id": "EVE0405_GARY_NAYSMITH",
@@ -188,7 +264,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 11
+      "appearances": 11,
+      "aliases": [
+        "Gary Naysmith",
+        "Naysmith"
+      ]
     },
     {
       "id": "EVE0405_KEVIN_CAMPBELL",
@@ -197,7 +277,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Campbell",
+        "Kevin Campbell"
+      ]
     },
     {
       "id": "EVE0405_JAMES_VAUGHAN",
@@ -206,7 +290,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "James Vaughan",
+        "Vaughan"
+      ]
     },
     {
       "id": "EVE0405_NICK_CHADWICK",
@@ -215,7 +303,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Chadwick",
+        "Nick Chadwick"
+      ]
     }
   ]
 }

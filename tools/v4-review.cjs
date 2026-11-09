@@ -15,7 +15,7 @@ http.createServer((req,res)=>{
   if(!/^(index\.html|privacy\.html|site\.webmanifest|[\w-]+\.(?:js|css)|(?:assets|data|fonts)\/[\w./-]+)$/.test(relative))throw Error();
   const file=path.resolve(root,relative);if(!file.startsWith(root+path.sep))throw Error();
   let body=fs.readFileSync(file);
-  if(relative==='index.html')body=body.toString().replace('<script src="scores-client.js">','<script>window.PAGE302_SCORES_API=location.origin;</script><script src="scores-client.js">');
+  if(relative==='index.html')body=body.toString().replace('<script src="script.js"></script>','<script>window.PAGE302_SCORES_API=location.origin;window.PAGE302_RELEASES_ENABLED=false;</script><script src="script.js"></script>');
   const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.svg':'image/svg+xml','.ttf':'font/ttf','.png':'image/png'};
   res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');res.setHeader('Cache-Control','no-store');res.end(body);
  }catch{res.writeHead(404);res.end('Not found');}

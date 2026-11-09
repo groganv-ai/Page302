@@ -1,0 +1,69 @@
+{
+  "description": "Curated player aliases keyed by stable FBref player ID. Preserved across database rebuilds.",
+  "aliases": {
+    "3bb7b8b4": [
+      "Ederson"
+    ],
+    "543e7bda": [
+      "Tugay"
+    ],
+    "67ac5bb8": [
+      "Gabriel"
+    ],
+    "28d596a0": [
+      "Kepa"
+    ],
+    "92e7e919": [
+      "Son"
+    ],
+    "cea4ee8f": [
+      "Dele"
+    ],
+    "0db5d2c8": [
+      "Zanka"
+    ],
+    "4d034881": [
+      "Kun",
+      "Kun Agüero"
+    ],
+    "48add958": [
+      "Emre"
+    ],
+    "29a5f7d3": [
+      "Stelios"
+    ],
+    "77e84962": [
+      "Thiago"
+    ],
+    "e7a2dc67": [
+      "Tuncay"
+    ],
+    "3de4cb30": [
+      "Park",
+      "Ji-sung Park"
+    ],
+    "1d8c99b0": [
+      "Ki",
+      "Sung-yueng Ki"
+    ],
+    "587ddfd6": [
+      "Kim",
+      "Bo-kyung Kim"
+    ],
+    "49b05a83": [
+      "Lee",
+      "Chung-yong Lee"
+    ],
+    "df94ada2": [
+      "Lee",
+      "Young-pyo Lee"
+    ],
+    "8aec0537": [
+      "Gross"
+    ],
+    "3ae21039": [
+      "Alfie Haaland",
+      "Haaland"
+    ]
+  }
+}
