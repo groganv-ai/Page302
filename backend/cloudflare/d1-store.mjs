@@ -1,7 +1,16 @@
 import validation from '../validation.cjs';
+import statusHelpers from '../challenge-status.cjs';
 const {normalize,ServiceError}=validation;
 const fail=(status,message)=>{throw new ServiceError(status,message)};
 export class D1Store {
+ async challenge(packId){const pack=await this.query('SELECT * FROM packs WHERE id=?',packId).first();if(!pack)fail(404,'Unknown pack');return statusHelpers.challengeStatus(pack,this.now())}
+ async standing(packId,reference){
+  const published=await this.query('SELECT snapshot FROM publications WHERE pack_id=?',packId).first();
+  if(published){const snapshot=JSON.parse(published.snapshot),result=snapshot.results.find(r=>r.reference===reference);if(!result)fail(404,'Result not found');return statusHelpers.standing(result.rank,snapshot.totalSubmissions,true)}
+  const result=await this.query('SELECT score,guesses FROM submissions WHERE pack_id=? AND reference=?',packId,reference).first();if(!result)fail(404,'Result not found');
+  const counts=await this.query('SELECT COUNT(*) AS total, SUM(CASE WHEN score>? OR (score=? AND guesses<?) THEN 1 ELSE 0 END) AS ahead FROM submissions WHERE pack_id=?',result.score,result.score,result.guesses,packId).first();
+  return statusHelpers.standing(1+Number(counts.ahead),Number(counts.total),false);
+ }
  constructor(db,{now=()=>new Date(),reference}={}){this.db=db;this.now=now;this.reference=reference||(()=>{const limit=4294000000;let n;do{n=crypto.getRandomValues(new Uint32Array(1))[0]}while(n>=limit);return String(n%1000000).padStart(6,'0')});}
  query(sql,...values){return this.db.prepare(sql).bind(...values)}
  receipt(r){return {packId:r.pack_id,initials:r.initials,reference:r.reference,score:r.score,guesses:r.guesses,receivedAt:r.received_at}}

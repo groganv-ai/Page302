@@ -2,7 +2,7 @@
 const scoresServiceUrl = window.PAGE302_SCORES_API ||
     (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? 'http://127.0.0.1:8787' : '');
 let scoreAttempt = null;
-function resetScoreSubmission() { scoreAttempt = null; }
+function resetScoreSubmission() { scoreAttempt = null; if(document.getElementById('currentStanding'))document.getElementById('currentStanding').textContent=''; }
 
 function scoreMessage(text) {
     document.getElementById('scoreSubmissionStatus').textContent = text;
@@ -15,7 +15,7 @@ function prepareScoreSubmission() {
     });
     // Reopening a completed result must not allocate a second attempt.
     const fingerprint = JSON.stringify({packId:currentVggfax,score:currentGame.score,guesses:currentGame.totalGuesses,answers});
-    if (scoreAttempt && scoreAttempt.fingerprint === fingerprint) return;
+    if (scoreAttempt && scoreAttempt.fingerprint === fingerprint) { if(typeof refreshCurrentStanding==='function')refreshCurrentStanding(); return; }
     const requestId = typeof crypto.randomUUID === 'function' ? crypto.randomUUID()
         : Array.from(crypto.getRandomValues(new Uint8Array(16)),b=>b.toString(16).padStart(2,'0')).join('');
     scoreAttempt = {fingerprint,requestId,packId:currentVggfax,
@@ -24,6 +24,7 @@ function prepareScoreSubmission() {
     input.value='';input.disabled=false;
     const button=document.getElementById('submitScoreButton');
     button.disabled=false;button.textContent='SUBMIT SCORE';
+    document.querySelector('label[for="scoreInitials"]').textContent='ENTER 3 LETTERS TO SUBMIT YOUR SCORE';
     scoreMessage('');
 }
 async function submitCompletedScore(event) {
@@ -37,6 +38,7 @@ async function submitCompletedScore(event) {
     // Freeze content from the first send: a lost response may still mean it saved.
     if(attempt.initials && attempt.initials!==initials){scoreMessage('KEEP THE ORIGINAL INITIALS WHEN RETRYING');return;}
     attempt.initials=initials;attempt.saving=true;input.disabled=true;
+    if(typeof saveGameProgress==='function')saveGameProgress();
     const button=document.getElementById('submitScoreButton');button.disabled=true;button.textContent='SAVING…';
     scoreMessage('SAVING YOUR SCORE…');
     const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),10000);
@@ -49,7 +51,13 @@ async function submitCompletedScore(event) {
         if(!response.ok)throw new Error(receipt.error||'Unable to save');
         if(!/^\d{6}$/.test(receipt.reference)||receipt.packId!==attempt.packId||receipt.score!==attempt.score||receipt.initials!==attempt.initials)throw new Error('Invalid receipt');
         attempt.saved=true;attempt.receipt=receipt;
-        if(scoreAttempt===attempt){button.textContent='SAVED';scoreMessage(receipt.initials+' · '+receipt.reference);}
+        if(typeof saveGameProgress==='function')saveGameProgress();
+        if(scoreAttempt===attempt){
+            button.textContent='SAVED';
+            document.querySelector('label[for="scoreInitials"]').textContent='SAVE THIS CODE AND COME BACK TOMORROW TO FIND YOUR SCORE';
+            scoreMessage(receipt.initials+' · '+receipt.reference);
+            if(typeof refreshCurrentStanding==='function')refreshCurrentStanding();
+        }
     }catch(error){
         if(scoreAttempt===attempt){button.disabled=false;button.textContent='RETRY SUBMISSION';scoreMessage(error.message==='Pack is not open'?'PACK CLOSED OR NOT YET OPEN · SCORE NOT SAVED':'SAVE NOT CONFIRMED · RETRY WITH THE SAME INITIALS');}
     }finally{clearTimeout(timeout);attempt.saving=false;}

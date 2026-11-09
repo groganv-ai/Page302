@@ -1,0 +1,62 @@
+{
+  "source": "outputs/game-pack-007/export/vggfax007.json",
+  "sourceSha256": "08e050e426f32bc06ac4de59ecb7f86cbfdd8a1bbcff4ad0f0a6e25ab773cb19",
+  "packNumber": "007",
+  "formation": "5-4-1",
+  "clubs": [
+    {
+      "clubCode": "FUL1314",
+      "club": "Fulham",
+      "season": "2013-14",
+      "competition": "Premier League",
+      "version": 2,
+      "squad": [
+        {
+          "id": "FUL1314_STEVE_SIDWELL",
+          "fullname": "Steve Sidwell",
+          "surname": "Sidwell",
+          "positions": [
+            "MD"
+          ],
+          "appearances": 38
+        }
+      ]
+    },
+    {
+      "clubCode": "BRI1718",
+      "club": "Brighton",
+      "season": "2017-18",
+      "competition": "Premier League",
+      "version": 2,
+      "squad": [
+        {
+          "id": "BRI1718_STEVE_SIDWELL",
+          "fullname": "Steve Sidwell",
+          "surname": "Sidwell",
+          "positions": [
+            "MD"
+          ],
+          "appearances": 0
+        }
+      ]
+    },
+    {
+      "clubCode": "REA0607",
+      "club": "Reading",
+      "season": "2006-07",
+      "competition": "Premier League",
+      "version": 2,
+      "squad": [
+        {
+          "id": "REA0607_STEVE_SIDWELL",
+          "fullname": "Steve Sidwell",
+          "surname": "Sidwell",
+          "positions": [
+            "MD"
+          ],
+          "appearances": 35
+        }
+      ]
+    }
+  ]
+}
