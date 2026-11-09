@@ -1,0 +1,352 @@
+{
+  "clubCode": "WIG0506",
+  "club": "Wigan",
+  "season": "2005-06",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "WIG0506_PAUL_JEWELL",
+      "fullname": "Paul Jewell",
+      "surname": "Jewell",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Jewell",
+        "Paul Jewell"
+      ]
+    },
+    {
+      "id": "WIG0506_PASCAL_CHIMBONDA",
+      "fullname": "Pascal Chimbonda",
+      "surname": "Chimbonda",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Chimbonda",
+        "Pascal Chimbonda"
+      ]
+    },
+    {
+      "id": "WIG0506_JIMMY_BULLARD",
+      "fullname": "Jimmy Bullard",
+      "surname": "Bullard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Bullard",
+        "Jimmy Bullard"
+      ]
+    },
+    {
+      "id": "WIG0506_LEIGHTON_BAINES",
+      "fullname": "Leighton Baines",
+      "surname": "Baines",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Baines",
+        "Leighton Baines"
+      ]
+    },
+    {
+      "id": "WIG0506_JASON_ROBERTS",
+      "fullname": "Jason Roberts",
+      "surname": "Roberts",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Jason Roberts",
+        "Roberts"
+      ]
+    },
+    {
+      "id": "WIG0506_GRAHAM_KAVANAGH",
+      "fullname": "Graham Kavanagh",
+      "surname": "Kavanagh",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Graham Kavanagh",
+        "Kavanagh"
+      ]
+    },
+    {
+      "id": "WIG0506_ARJAN_DE_ZEEUW",
+      "fullname": "Arjan de Zeeuw",
+      "surname": "de Zeeuw",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Arjan de Zeeuw",
+        "de Zeeuw"
+      ]
+    },
+    {
+      "id": "WIG0506_LEE_MCCULLOCH",
+      "fullname": "Lee McCulloch",
+      "surname": "McCulloch",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Lee McCulloch",
+        "McCulloch"
+      ]
+    },
+    {
+      "id": "WIG0506_STEPHANE_HENCHOZ",
+      "fullname": "Stéphane Henchoz",
+      "surname": "Henchoz",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Henchoz",
+        "Stéphane Henchoz"
+      ]
+    },
+    {
+      "id": "WIG0506_HENRI_CAMARA",
+      "fullname": "Henri Camara",
+      "surname": "Camara",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Camara",
+        "Henri Camara"
+      ]
+    },
+    {
+      "id": "WIG0506_MIKE_POLLITT",
+      "fullname": "Mike Pollitt",
+      "surname": "Pollitt",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Mike Pollitt",
+        "Pollitt"
+      ]
+    },
+    {
+      "id": "WIG0506_GARY_TEALE",
+      "fullname": "Gary Teale",
+      "surname": "Teale",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Gary Teale",
+        "Teale"
+      ]
+    },
+    {
+      "id": "WIG0506_DAMIEN_FRANCIS",
+      "fullname": "Damien Francis",
+      "surname": "Francis",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Damien Francis",
+        "Francis"
+      ]
+    },
+    {
+      "id": "WIG0506_JOHN_FILAN",
+      "fullname": "John Filan",
+      "surname": "Filan",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Filan",
+        "John Filan"
+      ]
+    },
+    {
+      "id": "WIG0506_PAUL_SCHARNER",
+      "fullname": "Paul Scharner",
+      "surname": "Scharner",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Paul Scharner",
+        "Scharner"
+      ]
+    },
+    {
+      "id": "WIG0506_MATT_JACKSON",
+      "fullname": "Matt Jackson",
+      "surname": "Jackson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Jackson",
+        "Matt Jackson"
+      ]
+    },
+    {
+      "id": "WIG0506_DAVID_THOMPSON",
+      "fullname": "David Thompson",
+      "surname": "Thompson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "David Thompson",
+        "Thompson"
+      ]
+    },
+    {
+      "id": "WIG0506_ANDREAS_JOHANSSON",
+      "fullname": "Andreas Johansson",
+      "surname": "Johansson",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Andreas Johansson",
+        "Johansson"
+      ]
+    },
+    {
+      "id": "WIG0506_RETO_ZIEGLER",
+      "fullname": "Reto Ziegler",
+      "surname": "Ziegler",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Reto Ziegler",
+        "Ziegler"
+      ]
+    },
+    {
+      "id": "WIG0506_ALAN_MAHON",
+      "fullname": "Alan Mahon",
+      "surname": "Mahon",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Alan Mahon",
+        "Mahon"
+      ]
+    },
+    {
+      "id": "WIG0506_DAVID_CONNOLLY",
+      "fullname": "David Connolly",
+      "surname": "Connolly",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Connolly",
+        "David Connolly"
+      ]
+    },
+    {
+      "id": "WIG0506_RYAN_TAYLOR",
+      "fullname": "Ryan Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Ryan Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "WIG0506_NEIL_MELLOR",
+      "fullname": "Neil Mellor",
+      "surname": "Mellor",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Mellor",
+        "Neil Mellor"
+      ]
+    },
+    {
+      "id": "WIG0506_JOSIP_SKOKO",
+      "fullname": "Josip Skoko",
+      "surname": "Skoko",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Josip Skoko",
+        "Skoko"
+      ]
+    },
+    {
+      "id": "WIG0506_DAVID_WRIGHT",
+      "fullname": "David Wright",
+      "surname": "Wright",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "David Wright",
+        "Wright"
+      ]
+    },
+    {
+      "id": "WIG0506_STEVE_MCMILLAN",
+      "fullname": "Steve McMillan",
+      "surname": "McMillan",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "McMillan",
+        "Steve McMillan"
+      ]
+    }
+  ]
+}

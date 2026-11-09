@@ -1,0 +1,436 @@
+{
+  "clubCode": "EVE1617",
+  "club": "Everton",
+  "season": "2016-17",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "EVE1617_RONALD_KOEMAN",
+      "fullname": "Ronald Koeman",
+      "surname": "Koeman",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Koeman",
+        "Ronald Koeman"
+      ]
+    },
+    {
+      "id": "EVE1617_ROMELU_LUKAKU",
+      "fullname": "Romelu Lukaku",
+      "surname": "Lukaku",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Lukaku",
+        "Romelu Lukaku"
+      ]
+    },
+    {
+      "id": "EVE1617_ASHLEY_WILLIAMS",
+      "fullname": "Ashley Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Ashley Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "EVE1617_ROSS_BARKLEY",
+      "fullname": "Ross Barkley",
+      "surname": "Barkley",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Barkley",
+        "Ross Barkley"
+      ]
+    },
+    {
+      "id": "EVE1617_LEIGHTON_BAINES",
+      "fullname": "Leighton Baines",
+      "surname": "Baines",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Baines",
+        "Leighton Baines"
+      ]
+    },
+    {
+      "id": "EVE1617_IDRISSA_GUEYE",
+      "fullname": "Idrissa Gueye",
+      "surname": "Gueye",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Gueye",
+        "Idrissa Gueye"
+      ]
+    },
+    {
+      "id": "EVE1617_SEAMUS_COLEMAN",
+      "fullname": "Séamus Coleman",
+      "surname": "Coleman",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Coleman",
+        "Séamus Coleman"
+      ]
+    },
+    {
+      "id": "EVE1617_PHIL_JAGIELKA",
+      "fullname": "Phil Jagielka",
+      "surname": "Jagielka",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Jagielka",
+        "Phil Jagielka"
+      ]
+    },
+    {
+      "id": "EVE1617_GARETH_BARRY",
+      "fullname": "Gareth Barry",
+      "surname": "Barry",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Barry",
+        "Gareth Barry"
+      ]
+    },
+    {
+      "id": "EVE1617_KEVIN_MIRALLAS",
+      "fullname": "Kevin Mirallas",
+      "surname": "Mirallas",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Kevin Mirallas",
+        "Mirallas"
+      ]
+    },
+    {
+      "id": "EVE1617_JOEL_ROBLES",
+      "fullname": "Joel Robles",
+      "surname": "Robles",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Joel Robles",
+        "Robles"
+      ]
+    },
+    {
+      "id": "EVE1617_MAARTEN_STEKELENBURG",
+      "fullname": "Maarten Stekelenburg",
+      "surname": "Stekelenburg",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Maarten Stekelenburg",
+        "Stekelenburg"
+      ]
+    },
+    {
+      "id": "EVE1617_TOM_DAVIES",
+      "fullname": "Tom Davies",
+      "surname": "Davies",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Davies",
+        "Tom Davies"
+      ]
+    },
+    {
+      "id": "EVE1617_RAMIRO_FUNES_MORI",
+      "fullname": "Ramiro Funes Mori",
+      "surname": "Mori",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Mori",
+        "Ramiro Funes Mori"
+      ]
+    },
+    {
+      "id": "EVE1617_MASON_HOLGATE",
+      "fullname": "Mason Holgate",
+      "surname": "Holgate",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Holgate",
+        "Mason Holgate"
+      ]
+    },
+    {
+      "id": "EVE1617_MORGAN_SCHNEIDERLIN",
+      "fullname": "Morgan Schneiderlin",
+      "surname": "Schneiderlin",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Morgan Schneiderlin",
+        "Schneiderlin"
+      ]
+    },
+    {
+      "id": "EVE1617_YANNICK_BOLASIE",
+      "fullname": "Yannick Bolasie",
+      "surname": "Bolasie",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Bolasie",
+        "Yannick Bolasie"
+      ]
+    },
+    {
+      "id": "EVE1617_JAMES_MCCARTHY",
+      "fullname": "James McCarthy",
+      "surname": "McCarthy",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "James McCarthy",
+        "McCarthy"
+      ]
+    },
+    {
+      "id": "EVE1617_AARON_LENNON",
+      "fullname": "Aaron Lennon",
+      "surname": "Lennon",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Aaron Lennon",
+        "Lennon"
+      ]
+    },
+    {
+      "id": "EVE1617_BRYAN_OVIEDO",
+      "fullname": "Bryan Oviedo",
+      "surname": "Oviedo",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Bryan Oviedo",
+        "Oviedo"
+      ]
+    },
+    {
+      "id": "EVE1617_ENNER_VALENCIA",
+      "fullname": "Enner Valencia",
+      "surname": "Valencia",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Enner Valencia",
+        "Valencia"
+      ]
+    },
+    {
+      "id": "EVE1617_DOMINIC_CALVERT_LEWIN",
+      "fullname": "Dominic Calvert-Lewin",
+      "surname": "Calvert-Lewin",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Calvert-Lewin",
+        "Dominic Calvert-Lewin"
+      ]
+    },
+    {
+      "id": "EVE1617_GERARD_DEULOFEU",
+      "fullname": "Gerard Deulofeu",
+      "surname": "Deulofeu",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Deulofeu",
+        "Gerard Deulofeu"
+      ]
+    },
+    {
+      "id": "EVE1617_TOM_CLEVERLEY",
+      "fullname": "Tom Cleverley",
+      "surname": "Cleverley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Cleverley",
+        "Tom Cleverley"
+      ]
+    },
+    {
+      "id": "EVE1617_ADEMOLA_LOOKMAN",
+      "fullname": "Ademola Lookman",
+      "surname": "Lookman",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Ademola Lookman",
+        "Lookman"
+      ]
+    },
+    {
+      "id": "EVE1617_MATTHEW_PENNINGTON",
+      "fullname": "Matthew Pennington",
+      "surname": "Pennington",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Matthew Pennington",
+        "Pennington"
+      ]
+    },
+    {
+      "id": "EVE1617_AROUNA_KONE",
+      "fullname": "Arouna Koné",
+      "surname": "Koné",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Arouna Koné",
+        "Koné"
+      ]
+    },
+    {
+      "id": "EVE1617_JONJOE_KENNY",
+      "fullname": "Jonjoe Kenny",
+      "surname": "Kenny",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Jonjoe Kenny",
+        "Kenny"
+      ]
+    },
+    {
+      "id": "EVE1617_MUHAMED_BESIC",
+      "fullname": "Muhamed Bešić",
+      "surname": "Bešić",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Bešić",
+        "Muhamed Bešić"
+      ]
+    },
+    {
+      "id": "EVE1617_BRENDAN_GALLOWAY",
+      "fullname": "Brendan Galloway",
+      "surname": "Galloway",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Brendan Galloway",
+        "Galloway"
+      ]
+    },
+    {
+      "id": "EVE1617_MATEUSZ_HEWELT",
+      "fullname": "Mateusz Hewelt",
+      "surname": "Hewelt",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Hewelt",
+        "Mateusz Hewelt"
+      ]
+    },
+    {
+      "id": "EVE1617_JOE_WILLIAMS",
+      "fullname": "Joe Williams",
+      "surname": "Williams",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Joe Williams",
+        "Williams"
+      ]
+    }
+  ]
+}

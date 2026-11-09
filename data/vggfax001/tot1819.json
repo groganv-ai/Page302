@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Mauricio Pochettino",
+        "Pochettino"
+      ]
     },
     {
       "id": "TOT1819_HUGO_LLORIS",
@@ -21,7 +25,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Hugo Lloris",
+        "Lloris"
+      ]
     },
     {
       "id": "TOT1819_TOBY_ALDERWEIRELD",
@@ -30,7 +38,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Alderweireld",
+        "Toby Alderweireld"
+      ]
     },
     {
       "id": "TOT1819_CHRISTIAN_ERIKSEN",
@@ -40,7 +52,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Christian Eriksen",
+        "Eriksen"
+      ]
     },
     {
       "id": "TOT1819_HARRY_KANE",
@@ -49,7 +65,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Harry Kane",
+        "Kane"
+      ]
     },
     {
       "id": "TOT1819_MOUSSA_SISSOKO",
@@ -58,7 +78,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Moussa Sissoko",
+        "Sissoko"
+      ]
     },
     {
       "id": "TOT1819_KIERAN_TRIPPIER",
@@ -68,7 +92,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Kieran Trippier",
+        "Trippier"
+      ]
     },
     {
       "id": "TOT1819_LUCAS_MOURA",
@@ -78,7 +106,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Lucas Moura",
+        "Moura"
+      ]
     },
     {
       "id": "TOT1819_SON_HEUNG_MIN",
@@ -88,7 +120,12 @@
         "AT",
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Heung-min",
+        "Son",
+        "Son Heung-min"
+      ]
     },
     {
       "id": "TOT1819_DAVINSON_SNCHEZ",
@@ -97,7 +134,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Davinson Sánchez",
+        "Sánchez"
+      ]
     },
     {
       "id": "TOT1819_JAN_VERTONGHEN",
@@ -106,7 +147,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 22
+      "appearances": 22,
+      "aliases": [
+        "Jan Vertonghen",
+        "Vertonghen"
+      ]
     },
     {
       "id": "TOT1819_DELE_ALLI",
@@ -116,7 +161,12 @@
         "MD",
         "AT"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Alli",
+        "Dele",
+        "Dele Alli"
+      ]
     },
     {
       "id": "TOT1819_BEN_DAVIES",
@@ -126,7 +176,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Ben Davies",
+        "Davies"
+      ]
     },
     {
       "id": "TOT1819_DANNY_ROSE",
@@ -136,7 +190,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Danny Rose",
+        "Rose"
+      ]
     },
     {
       "id": "TOT1819_ERIC_DIER",
@@ -145,7 +203,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Dier",
+        "Eric Dier"
+      ]
     },
     {
       "id": "TOT1819_HARRY_WINKS",
@@ -154,7 +216,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Harry Winks",
+        "Winks"
+      ]
     },
     {
       "id": "TOT1819_JUAN_FOYTH",
@@ -163,7 +229,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Foyth",
+        "Juan Foyth"
+      ]
     },
     {
       "id": "TOT1819_RIK_LAMELA",
@@ -173,7 +243,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Érik Lamela",
+        "Lamela"
+      ]
     },
     {
       "id": "TOT1819_MOUSA_DEMBL",
@@ -182,7 +256,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Dembélé",
+        "Mousa Dembélé"
+      ]
     },
     {
       "id": "TOT1819_FERNANDO_LLORENTE",
@@ -191,7 +269,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Fernando Llorente",
+        "Llorente"
+      ]
     },
     {
       "id": "TOT1819_SERGE_AURIER",
@@ -201,7 +283,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Aurier",
+        "Serge Aurier"
+      ]
     },
     {
       "id": "TOT1819_VICTOR_WANYAMA",
@@ -210,7 +296,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Victor Wanyama",
+        "Wanyama"
+      ]
     },
     {
       "id": "TOT1819_KYLE_WALKER_PETERS",
@@ -220,7 +310,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Kyle Walker-Peters",
+        "Walker-Peters"
+      ]
     },
     {
       "id": "TOT1819_PAULO_GAZZANIGA",
@@ -229,7 +323,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Gazzaniga",
+        "Paulo Gazzaniga"
+      ]
     },
     {
       "id": "TOT1819_OLIVER_SKIPP",
@@ -238,7 +336,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Oliver Skipp",
+        "Skipp"
+      ]
     },
     {
       "id": "TOT1819_MICHEL_VORM",
@@ -247,7 +349,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Michel Vorm",
+        "Vorm"
+      ]
     },
     {
       "id": "TOT1819_VINCENT_JANSSEN",
@@ -256,7 +362,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Janssen",
+        "Vincent Janssen"
+      ]
     },
     {
       "id": "TOT1819_GEORGES_KVIN_NKOUDOU",
@@ -266,7 +376,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Georges-Kévin N'Koudou",
+        "N'Koudou"
+      ]
     },
     {
       "id": "TOT1819_LUKE_AMOS",
@@ -275,7 +389,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Amos",
+        "Luke Amos"
+      ]
     }
   ]
 }

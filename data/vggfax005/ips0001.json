@@ -1,0 +1,324 @@
+{
+  "clubCode": "IPS0001",
+  "club": "Ipswich",
+  "season": "2000-01",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "IPS0001_GEORGE_BURLEY",
+      "fullname": "George Burley",
+      "surname": "Burley",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Burley",
+        "George Burley"
+      ]
+    },
+    {
+      "id": "IPS0001_MATT_HOLLAND",
+      "fullname": "Matt Holland",
+      "surname": "Holland",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Holland",
+        "Matt Holland"
+      ]
+    },
+    {
+      "id": "IPS0001_RICHARD_WRIGHT",
+      "fullname": "Richard Wright",
+      "surname": "Wright",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Richard Wright",
+        "Wright"
+      ]
+    },
+    {
+      "id": "IPS0001_HERMANN_HREI_ARSSON",
+      "fullname": "Hermann Hreiðarsson",
+      "surname": "Hreiðarsson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Hermann Hreiðarsson",
+        "Hreiðarsson"
+      ]
+    },
+    {
+      "id": "IPS0001_JERMAINE_WRIGHT",
+      "fullname": "Jermaine Wright",
+      "surname": "Wright",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Jermaine Wright",
+        "Wright"
+      ]
+    },
+    {
+      "id": "IPS0001_MARCUS_STEWART",
+      "fullname": "Marcus Stewart",
+      "surname": "Stewart",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Marcus Stewart",
+        "Stewart"
+      ]
+    },
+    {
+      "id": "IPS0001_JIM_MAGILTON",
+      "fullname": "Jim Magilton",
+      "surname": "Magilton",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Jim Magilton",
+        "Magilton"
+      ]
+    },
+    {
+      "id": "IPS0001_JAMIE_CLAPHAM",
+      "fullname": "Jamie Clapham",
+      "surname": "Clapham",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Clapham",
+        "Jamie Clapham"
+      ]
+    },
+    {
+      "id": "IPS0001_FABIAN_WILNIS",
+      "fullname": "Fabian Wilnis",
+      "surname": "Wilnis",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Fabian Wilnis",
+        "Wilnis"
+      ]
+    },
+    {
+      "id": "IPS0001_JOHN_MCGREAL",
+      "fullname": "John McGreal",
+      "surname": "McGreal",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "John McGreal",
+        "McGreal"
+      ]
+    },
+    {
+      "id": "IPS0001_TITUS_BRAMBLE",
+      "fullname": "Titus Bramble",
+      "surname": "Bramble",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Bramble",
+        "Titus Bramble"
+      ]
+    },
+    {
+      "id": "IPS0001_MARK_VENUS",
+      "fullname": "Mark Venus",
+      "surname": "Venus",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Mark Venus",
+        "Venus"
+      ]
+    },
+    {
+      "id": "IPS0001_JAMES_SCOWCROFT",
+      "fullname": "James Scowcroft",
+      "surname": "Scowcroft",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "James Scowcroft",
+        "Scowcroft"
+      ]
+    },
+    {
+      "id": "IPS0001_ALUN_ARMSTRONG",
+      "fullname": "Alun Armstrong",
+      "surname": "Armstrong",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Alun Armstrong",
+        "Armstrong"
+      ]
+    },
+    {
+      "id": "IPS0001_MARTIJN_REUSER",
+      "fullname": "Martijn Reuser",
+      "surname": "Reuser",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Martijn Reuser",
+        "Reuser"
+      ]
+    },
+    {
+      "id": "IPS0001_CHRIS_MAKIN",
+      "fullname": "Chris Makin",
+      "surname": "Makin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Chris Makin",
+        "Makin"
+      ]
+    },
+    {
+      "id": "IPS0001_DAVID_JOHNSON",
+      "fullname": "David Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "David Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "IPS0001_GARY_CROFT",
+      "fullname": "Gary Croft",
+      "surname": "Croft",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Croft",
+        "Gary Croft"
+      ]
+    },
+    {
+      "id": "IPS0001_RICHARD_NAYLOR",
+      "fullname": "Richard Naylor",
+      "surname": "Naylor",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Naylor",
+        "Richard Naylor"
+      ]
+    },
+    {
+      "id": "IPS0001_MARK_BURCHILL",
+      "fullname": "Mark Burchill",
+      "surname": "Burchill",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Burchill",
+        "Mark Burchill"
+      ]
+    },
+    {
+      "id": "IPS0001_KEITH_BRANAGAN",
+      "fullname": "Keith Branagan",
+      "surname": "Branagan",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Branagan",
+        "Keith Branagan"
+      ]
+    },
+    {
+      "id": "IPS0001_JOHN_SCALES",
+      "fullname": "John Scales",
+      "surname": "Scales",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "John Scales",
+        "Scales"
+      ]
+    },
+    {
+      "id": "IPS0001_WAYNE_BROWN",
+      "fullname": "Wayne Brown",
+      "surname": "Brown",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Brown",
+        "Wayne Brown"
+      ]
+    },
+    {
+      "id": "IPS0001_NABIL_ABIDALLAH",
+      "fullname": "Nabil Abidallah",
+      "surname": "Abidallah",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Abidallah",
+        "Nabil Abidallah"
+      ]
+    }
+  ]
+}

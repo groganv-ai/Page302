@@ -1,0 +1,356 @@
+{
+  "clubCode": "STK1011",
+  "club": "Stoke",
+  "season": "2010-11",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "STK1011_TONY_PULIS",
+      "fullname": "Tony Pulis",
+      "surname": "Pulis",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Pulis",
+        "Tony Pulis"
+      ]
+    },
+    {
+      "id": "STK1011_RYAN_SHAWCROSS",
+      "fullname": "Ryan Shawcross",
+      "surname": "Shawcross",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Ryan Shawcross",
+        "Shawcross"
+      ]
+    },
+    {
+      "id": "STK1011_ROBERT_HUTH",
+      "fullname": "Robert Huth",
+      "surname": "Huth",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Huth",
+        "Robert Huth"
+      ]
+    },
+    {
+      "id": "STK1011_RORY_DELAP",
+      "fullname": "Rory Delap",
+      "surname": "Delap",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Delap",
+        "Rory Delap"
+      ]
+    },
+    {
+      "id": "STK1011_KENWYNE_JONES",
+      "fullname": "Kenwyne Jones",
+      "surname": "Jones",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Jones",
+        "Kenwyne Jones"
+      ]
+    },
+    {
+      "id": "STK1011_DEAN_WHITEHEAD",
+      "fullname": "Dean Whitehead",
+      "surname": "Whitehead",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Dean Whitehead",
+        "Whitehead"
+      ]
+    },
+    {
+      "id": "STK1011_MATTHEW_ETHERINGTON",
+      "fullname": "Matthew Etherington",
+      "surname": "Etherington",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Etherington",
+        "Matthew Etherington"
+      ]
+    },
+    {
+      "id": "STK1011_ASMIR_BEGOVIC",
+      "fullname": "Asmir Begović",
+      "surname": "Begović",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Asmir Begović",
+        "Begović"
+      ]
+    },
+    {
+      "id": "STK1011_JONATHAN_WALTERS",
+      "fullname": "Jonathan Walters",
+      "surname": "Walters",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Jonathan Walters",
+        "Walters"
+      ]
+    },
+    {
+      "id": "STK1011_JERMAINE_PENNANT",
+      "fullname": "Jermaine Pennant",
+      "surname": "Pennant",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Jermaine Pennant",
+        "Pennant"
+      ]
+    },
+    {
+      "id": "STK1011_DANNY_COLLINS",
+      "fullname": "Danny Collins",
+      "surname": "Collins",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Collins",
+        "Danny Collins"
+      ]
+    },
+    {
+      "id": "STK1011_MARC_WILSON",
+      "fullname": "Marc Wilson",
+      "surname": "Wilson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Marc Wilson",
+        "Wilson"
+      ]
+    },
+    {
+      "id": "STK1011_ANDY_WILKINSON",
+      "fullname": "Andy Wilkinson",
+      "surname": "Wilkinson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Andy Wilkinson",
+        "Wilkinson"
+      ]
+    },
+    {
+      "id": "STK1011_GLENN_WHELAN",
+      "fullname": "Glenn Whelan",
+      "surname": "Whelan",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Glenn Whelan",
+        "Whelan"
+      ]
+    },
+    {
+      "id": "STK1011_ABDOULAYE_FAYE",
+      "fullname": "Abdoulaye Faye",
+      "surname": "Faye",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Abdoulaye Faye",
+        "Faye"
+      ]
+    },
+    {
+      "id": "STK1011_THOMAS_S_RENSEN",
+      "fullname": "Thomas Sørensen",
+      "surname": "Sørensen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Sørensen",
+        "Thomas Sørensen"
+      ]
+    },
+    {
+      "id": "STK1011_RICARDO_FULLER",
+      "fullname": "Ricardo Fuller",
+      "surname": "Fuller",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Fuller",
+        "Ricardo Fuller"
+      ]
+    },
+    {
+      "id": "STK1011_DANNY_HIGGINBOTHAM",
+      "fullname": "Danny Higginbotham",
+      "surname": "Higginbotham",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Danny Higginbotham",
+        "Higginbotham"
+      ]
+    },
+    {
+      "id": "STK1011_JOHN_CAREW",
+      "fullname": "John Carew",
+      "surname": "Carew",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Carew",
+        "John Carew"
+      ]
+    },
+    {
+      "id": "STK1011_TUNCAY_SANL",
+      "fullname": "Tuncay Şanlı",
+      "surname": "Şanlı",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Şanlı",
+        "Tuncay",
+        "Tuncay Şanlı"
+      ]
+    },
+    {
+      "id": "STK1011_DANNY_PUGH",
+      "fullname": "Danny Pugh",
+      "surname": "Pugh",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Danny Pugh",
+        "Pugh"
+      ]
+    },
+    {
+      "id": "STK1011_SALIF_DIAO",
+      "fullname": "Salif Diao",
+      "surname": "Diao",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Diao",
+        "Salif Diao"
+      ]
+    },
+    {
+      "id": "STK1011_EI_UR_GU_JOHNSEN",
+      "fullname": "Eiður Guðjohnsen",
+      "surname": "Guðjohnsen",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Eiður Guðjohnsen",
+        "Guðjohnsen"
+      ]
+    },
+    {
+      "id": "STK1011_RYAN_SHOTTON",
+      "fullname": "Ryan Shotton",
+      "surname": "Shotton",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Ryan Shotton",
+        "Shotton"
+      ]
+    },
+    {
+      "id": "STK1011_MAMADY_SIDIBE",
+      "fullname": "Mamady Sidibé",
+      "surname": "Sidibé",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Mamady Sidibé",
+        "Sidibé"
+      ]
+    },
+    {
+      "id": "STK1011_MICHAEL_TONGE",
+      "fullname": "Michael Tonge",
+      "surname": "Tonge",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Michael Tonge",
+        "Tonge"
+      ]
+    }
+  ]
+}

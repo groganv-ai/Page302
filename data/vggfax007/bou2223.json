@@ -1,0 +1,445 @@
+{
+  "clubCode": "BOU2223",
+  "club": "Bournemouth",
+  "season": "2022-23",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "BOU2223_SCOTT_PARKER",
+      "fullname": "Scott Parker",
+      "surname": "Parker",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Parker",
+        "Scott Parker"
+      ]
+    },
+    {
+      "id": "BOU2223_GARY_O_NEIL",
+      "fullname": "Gary O’Neil",
+      "surname": "O’Neil",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Gary O’Neil",
+        "O’Neil"
+      ]
+    },
+    {
+      "id": "BOU2223_JEFFERSON_LERMA",
+      "fullname": "Jefferson Lerma",
+      "surname": "Lerma",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Jefferson Lerma",
+        "Lerma"
+      ]
+    },
+    {
+      "id": "BOU2223_ADAM_SMITH",
+      "fullname": "Adam Smith",
+      "surname": "Smith",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Adam Smith",
+        "Smith"
+      ]
+    },
+    {
+      "id": "BOU2223_PHILIP_BILLING",
+      "fullname": "Philip Billing",
+      "surname": "Billing",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Billing",
+        "Philip Billing"
+      ]
+    },
+    {
+      "id": "BOU2223_DOMINIC_SOLANKE",
+      "fullname": "Dominic Solanke",
+      "surname": "Solanke",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Dominic Solanke",
+        "Solanke"
+      ]
+    },
+    {
+      "id": "BOU2223_MARCOS_SENESI",
+      "fullname": "Marcos Senesi",
+      "surname": "Senesi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Marcos Senesi",
+        "Senesi"
+      ]
+    },
+    {
+      "id": "BOU2223_NETO",
+      "fullname": "Neto",
+      "surname": "Neto",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Neto"
+      ]
+    },
+    {
+      "id": "BOU2223_CHRIS_MEPHAM",
+      "fullname": "Chris Mepham",
+      "surname": "Mepham",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Chris Mepham",
+        "Mepham"
+      ]
+    },
+    {
+      "id": "BOU2223_LLOYD_KELLY",
+      "fullname": "Lloyd Kelly",
+      "surname": "Kelly",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Kelly",
+        "Lloyd Kelly"
+      ]
+    },
+    {
+      "id": "BOU2223_RYAN_CHRISTIE",
+      "fullname": "Ryan Christie",
+      "surname": "Christie",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Christie",
+        "Ryan Christie"
+      ]
+    },
+    {
+      "id": "BOU2223_MARCUS_TAVERNIER",
+      "fullname": "Marcus Tavernier",
+      "surname": "Tavernier",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Marcus Tavernier",
+        "Tavernier"
+      ]
+    },
+    {
+      "id": "BOU2223_LEWIS_COOK",
+      "fullname": "Lewis Cook",
+      "surname": "Cook",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Cook",
+        "Lewis Cook"
+      ]
+    },
+    {
+      "id": "BOU2223_JORDAN_ZEMURA",
+      "fullname": "Jordan Zemura",
+      "surname": "Zemura",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Jordan Zemura",
+        "Zemura"
+      ]
+    },
+    {
+      "id": "BOU2223_DANGO_OUATTARA",
+      "fullname": "Dango Ouattara",
+      "surname": "Ouattara",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Dango Ouattara",
+        "Ouattara"
+      ]
+    },
+    {
+      "id": "BOU2223_JACK_STEPHENS",
+      "fullname": "Jack Stephens",
+      "surname": "Stephens",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Jack Stephens",
+        "Stephens"
+      ]
+    },
+    {
+      "id": "BOU2223_KIEFFER_MOORE",
+      "fullname": "Kieffer Moore",
+      "surname": "Moore",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Kieffer Moore",
+        "Moore"
+      ]
+    },
+    {
+      "id": "BOU2223_JOE_ROTHWELL",
+      "fullname": "Joe Rothwell",
+      "surname": "Rothwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Joe Rothwell",
+        "Rothwell"
+      ]
+    },
+    {
+      "id": "BOU2223_JAIDON_ANTHONY",
+      "fullname": "Jaidon Anthony",
+      "surname": "Anthony",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Anthony",
+        "Jaidon Anthony"
+      ]
+    },
+    {
+      "id": "BOU2223_MARK_TRAVERS",
+      "fullname": "Mark Travers",
+      "surname": "Travers",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Mark Travers",
+        "Travers"
+      ]
+    },
+    {
+      "id": "BOU2223_RYAN_FREDERICKS",
+      "fullname": "Ryan Fredericks",
+      "surname": "Fredericks",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Fredericks",
+        "Ryan Fredericks"
+      ]
+    },
+    {
+      "id": "BOU2223_MATIAS_VINA",
+      "fullname": "Matías Viña",
+      "surname": "Viña",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Matías Viña",
+        "Viña"
+      ]
+    },
+    {
+      "id": "BOU2223_HAMED_JUNIOR_TRAORE",
+      "fullname": "Hamed Junior Traorè",
+      "surname": "Traorè",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Hamed Junior Traorè",
+        "Traorè"
+      ]
+    },
+    {
+      "id": "BOU2223_JACK_STACEY",
+      "fullname": "Jack Stacey",
+      "surname": "Stacey",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Jack Stacey",
+        "Stacey"
+      ]
+    },
+    {
+      "id": "BOU2223_ILLIA_ZABARNYI",
+      "fullname": "Illia Zabarnyi",
+      "surname": "Zabarnyi",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Illia Zabarnyi",
+        "Zabarnyi"
+      ]
+    },
+    {
+      "id": "BOU2223_BEN_PEARSON",
+      "fullname": "Ben Pearson",
+      "surname": "Pearson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Ben Pearson",
+        "Pearson"
+      ]
+    },
+    {
+      "id": "BOU2223_ANTOINE_SEMENYO",
+      "fullname": "Antoine Semenyo",
+      "surname": "Semenyo",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Antoine Semenyo",
+        "Semenyo"
+      ]
+    },
+    {
+      "id": "BOU2223_DAVID_BROOKS",
+      "fullname": "David Brooks",
+      "surname": "Brooks",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Brooks",
+        "David Brooks"
+      ]
+    },
+    {
+      "id": "BOU2223_SIRIKI_DEMBELE",
+      "fullname": "Siriki Dembélé",
+      "surname": "Dembélé",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Dembélé",
+        "Siriki Dembélé"
+      ]
+    },
+    {
+      "id": "BOU2223_JUNIOR_STANISLAS",
+      "fullname": "Junior Stanislas",
+      "surname": "Stanislas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Junior Stanislas",
+        "Stanislas"
+      ]
+    },
+    {
+      "id": "BOU2223_JAMAL_LOWE",
+      "fullname": "Jamal Lowe",
+      "surname": "Lowe",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Jamal Lowe",
+        "Lowe"
+      ]
+    },
+    {
+      "id": "BOU2223_OWEN_BEVAN",
+      "fullname": "Owen Bevan",
+      "surname": "Bevan",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Bevan",
+        "Owen Bevan"
+      ]
+    },
+    {
+      "id": "BOU2223_EMILIANO_MARCONDES",
+      "fullname": "Emiliano Marcondes",
+      "surname": "Marcondes",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Emiliano Marcondes",
+        "Marcondes"
+      ]
+    }
+  ]
+}

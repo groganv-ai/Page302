@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Mancini",
+        "Roberto Mancini"
+      ]
     },
     {
       "id": "MCI1112_JOE_HART",
@@ -21,7 +25,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Hart",
+        "Joe Hart"
+      ]
     },
     {
       "id": "MCI1112_DAVID_SILVA",
@@ -31,7 +39,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "David Silva",
+        "Silva"
+      ]
     },
     {
       "id": "MCI1112_VINCENT_KOMPANY",
@@ -40,7 +52,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Kompany",
+        "Vincent Kompany"
+      ]
     },
     {
       "id": "MCI1112_GARETH_BARRY",
@@ -49,7 +65,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Barry",
+        "Gareth Barry"
+      ]
     },
     {
       "id": "MCI1112_YAYA_TOUR",
@@ -58,7 +78,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Touré",
+        "Yaya Touré"
+      ]
     },
     {
       "id": "MCI1112_SERGIO_AGERO",
@@ -67,7 +91,13 @@
       "positions": [
         "AT"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Agüero",
+        "Kun",
+        "Kun Agüero",
+        "Sergio Agüero"
+      ]
     },
     {
       "id": "MCI1112_JOLEON_LESCOTT",
@@ -76,7 +106,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Joleon Lescott",
+        "Lescott"
+      ]
     },
     {
       "id": "MCI1112_GAL_CLICHY",
@@ -85,7 +119,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Clichy",
+        "Gaël Clichy"
+      ]
     },
     {
       "id": "MCI1112_SAMIR_NASRI",
@@ -95,7 +133,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Nasri",
+        "Samir Nasri"
+      ]
     },
     {
       "id": "MCI1112_MICAH_RICHARDS",
@@ -104,7 +146,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Micah Richards",
+        "Richards"
+      ]
     },
     {
       "id": "MCI1112_PABLO_ZABALETA",
@@ -114,7 +160,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Pablo Zabaleta",
+        "Zabaleta"
+      ]
     },
     {
       "id": "MCI1112_JAMES_MILNER",
@@ -124,7 +174,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "James Milner",
+        "Milner"
+      ]
     },
     {
       "id": "MCI1112_EDIN_DEKO",
@@ -133,7 +187,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Džeko",
+        "Edin Džeko"
+      ]
     },
     {
       "id": "MCI1112_MARIO_BALOTELLI",
@@ -142,7 +200,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Balotelli",
+        "Mario Balotelli"
+      ]
     },
     {
       "id": "MCI1112_NIGEL_DE_JONG",
@@ -151,7 +213,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "de Jong",
+        "Nigel de Jong"
+      ]
     },
     {
       "id": "MCI1112_ADAM_JOHNSON",
@@ -160,7 +226,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Adam Johnson",
+        "Johnson"
+      ]
     },
     {
       "id": "MCI1112_ALEKSANDAR_KOLAROV",
@@ -169,7 +239,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Aleksandar Kolarov",
+        "Kolarov"
+      ]
     },
     {
       "id": "MCI1112_KOLO_TOUR",
@@ -178,7 +252,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Kolo Touré",
+        "Touré"
+      ]
     },
     {
       "id": "MCI1112_CARLOS_TEVEZ",
@@ -188,7 +266,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Carlos Tevez",
+        "Tevez"
+      ]
     },
     {
       "id": "MCI1112_STEFAN_SAVI",
@@ -198,7 +280,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 11
+      "appearances": 11,
+      "aliases": [
+        "Savić",
+        "Stefan Savić"
+      ]
     },
     {
       "id": "MCI1112_DAVID_PIZARRO",
@@ -207,7 +293,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "David Pizarro",
+        "Pizarro"
+      ]
     },
     {
       "id": "MCI1112_OWEN_HARGREAVES",
@@ -216,7 +306,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Hargreaves",
+        "Owen Hargreaves"
+      ]
     },
     {
       "id": "MCI1112_ABDUL_RAZAK",
@@ -225,7 +319,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Abdul Razak",
+        "Razak"
+      ]
     },
     {
       "id": "MCI1112_NEDUM_ONUOHA",
@@ -234,7 +332,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Nedum Onuoha",
+        "Onuoha"
+      ]
     }
   ]
 }

@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Mackay",
+        "Malky Mackay"
+      ]
     },
     {
       "id": "CAR1314_STEVEN_CAULKER",
@@ -21,7 +25,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Caulker",
+        "Steven Caulker"
+      ]
     },
     {
       "id": "CAR1314_DAVID_MARSHALL",
@@ -30,7 +38,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "David Marshall",
+        "Marshall"
+      ]
     },
     {
       "id": "CAR1314_GARY_MEDEL",
@@ -40,7 +52,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Gary Medel",
+        "Medel"
+      ]
     },
     {
       "id": "CAR1314_FRAIZER_CAMPBELL",
@@ -49,7 +65,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Campbell",
+        "Fraizer Campbell"
+      ]
     },
     {
       "id": "CAR1314_BEN_TURNER",
@@ -58,7 +78,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Ben Turner",
+        "Turner"
+      ]
     },
     {
       "id": "CAR1314_PETER_WHITTINGHAM",
@@ -67,7 +91,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Peter Whittingham",
+        "Whittingham"
+      ]
     },
     {
       "id": "CAR1314_KVIN_THOPHILE_CATHERINE",
@@ -76,7 +104,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Kévin Théophile-Catherine",
+        "Théophile-Catherine"
+      ]
     },
     {
       "id": "CAR1314_JORDON_MUTCH",
@@ -85,7 +117,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Jordon Mutch",
+        "Mutch"
+      ]
     },
     {
       "id": "CAR1314_KIM_BO_KYUNG",
@@ -94,7 +130,13 @@
       "positions": [
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Bo-kyung",
+        "Bo-kyung Kim",
+        "Kim",
+        "Kim Bo-kyung"
+      ]
     },
     {
       "id": "CAR1314_ANDREW_TAYLOR",
@@ -104,7 +146,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Andrew Taylor",
+        "Taylor"
+      ]
     },
     {
       "id": "CAR1314_ARON_GUNNARSSON",
@@ -114,7 +160,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Aron Gunnarsson",
+        "Gunnarsson"
+      ]
     },
     {
       "id": "CAR1314_DECLAN_JOHN",
@@ -124,7 +174,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Declan John",
+        "John"
+      ]
     },
     {
       "id": "CAR1314_CRAIG_BELLAMY",
@@ -133,7 +187,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 22
+      "appearances": 22,
+      "aliases": [
+        "Bellamy",
+        "Craig Bellamy"
+      ]
     },
     {
       "id": "CAR1314_CRAIG_NOONE",
@@ -143,7 +201,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Craig Noone",
+        "Noone"
+      ]
     },
     {
       "id": "CAR1314_FBIO",
@@ -152,7 +214,10 @@
       "positions": [
         "DF"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Fábio"
+      ]
     },
     {
       "id": "CAR1314_PETER_ODEMWINGIE",
@@ -161,7 +226,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Odemwingie",
+        "Peter Odemwingie"
+      ]
     },
     {
       "id": "CAR1314_DON_COWIE",
@@ -170,7 +239,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Cowie",
+        "Don Cowie"
+      ]
     },
     {
       "id": "CAR1314_CALA",
@@ -179,7 +252,10 @@
       "positions": [
         "DF"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Cala"
+      ]
     },
     {
       "id": "CAR1314_KENWYNE_JONES",
@@ -188,7 +264,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 11
+      "appearances": 11,
+      "aliases": [
+        "Jones",
+        "Kenwyne Jones"
+      ]
     },
     {
       "id": "CAR1314_MATS_MLLER_DHLI",
@@ -198,7 +278,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Dæhli",
+        "Mats Møller Dæhli"
+      ]
     },
     {
       "id": "CAR1314_WILFRIED_ZAHA",
@@ -208,7 +292,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Wilfried Zaha",
+        "Zaha"
+      ]
     },
     {
       "id": "CAR1314_KEVIN_MCNAUGHTON",
@@ -217,7 +305,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Kevin McNaughton",
+        "McNaughton"
+      ]
     },
     {
       "id": "CAR1314_MATTHEW_CONNOLLY",
@@ -226,7 +318,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Connolly",
+        "Matthew Connolly"
+      ]
     },
     {
       "id": "CAR1314_MARK_HUDSON",
@@ -235,7 +331,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Hudson",
+        "Mark Hudson"
+      ]
     },
     {
       "id": "CAR1314_MAGNUS_WOLFF_EIKREM",
@@ -245,7 +345,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Eikrem",
+        "Magnus Wolff Eikrem"
+      ]
     },
     {
       "id": "CAR1314_JOE_LEWIS",
@@ -254,7 +358,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Joe Lewis",
+        "Lewis"
+      ]
     },
     {
       "id": "CAR1314_NICKY_MAYNARD",
@@ -263,7 +371,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Maynard",
+        "Nicky Maynard"
+      ]
     },
     {
       "id": "CAR1314_ANDREAS_CORNELIUS",
@@ -272,7 +384,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 8
+      "appearances": 8,
+      "aliases": [
+        "Andreas Cornelius",
+        "Cornelius"
+      ]
     },
     {
       "id": "CAR1314_RUDY_GESTEDE",
@@ -281,7 +397,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Gestede",
+        "Rudy Gestede"
+      ]
     },
     {
       "id": "CAR1314_RHYS_HEALEY",
@@ -290,7 +410,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Healey",
+        "Rhys Healey"
+      ]
     },
     {
       "id": "CAR1314_JO_INGE_BERGET",
@@ -300,7 +424,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Berget",
+        "Jo Inge Berget"
+      ]
     },
     {
       "id": "CAR1314_TOM_JAMES",
@@ -310,7 +438,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "James",
+        "Tom James"
+      ]
     }
   ]
 }

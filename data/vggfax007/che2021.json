@@ -1,0 +1,436 @@
+{
+  "clubCode": "CHE2021",
+  "club": "Chelsea",
+  "season": "2020-21",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CHE2021_FRANK_LAMPARD",
+      "fullname": "Frank Lampard",
+      "surname": "Lampard",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Frank Lampard",
+        "Lampard"
+      ]
+    },
+    {
+      "id": "CHE2021_THOMAS_TUCHEL",
+      "fullname": "Thomas Tuchel",
+      "surname": "Tuchel",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Thomas Tuchel",
+        "Tuchel"
+      ]
+    },
+    {
+      "id": "CHE2021_MASON_MOUNT",
+      "fullname": "Mason Mount",
+      "surname": "Mount",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Mason Mount",
+        "Mount"
+      ]
+    },
+    {
+      "id": "CHE2021_EDOUARD_MENDY",
+      "fullname": "Édouard Mendy",
+      "surname": "Mendy",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Édouard Mendy",
+        "Mendy"
+      ]
+    },
+    {
+      "id": "CHE2021_TIMO_WERNER",
+      "fullname": "Timo Werner",
+      "surname": "Werner",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Timo Werner",
+        "Werner"
+      ]
+    },
+    {
+      "id": "CHE2021_BEN_CHILWELL",
+      "fullname": "Ben Chilwell",
+      "surname": "Chilwell",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Ben Chilwell",
+        "Chilwell"
+      ]
+    },
+    {
+      "id": "CHE2021_REECE_JAMES",
+      "fullname": "Reece James",
+      "surname": "James",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "James",
+        "Reece James"
+      ]
+    },
+    {
+      "id": "CHE2021_CESAR_AZPILICUETA",
+      "fullname": "César Azpilicueta",
+      "surname": "Azpilicueta",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Azpilicueta",
+        "César Azpilicueta"
+      ]
+    },
+    {
+      "id": "CHE2021_N_GOLO_KANTE",
+      "fullname": "N'Golo Kanté",
+      "surname": "Kanté",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Kanté",
+        "N'Golo Kanté"
+      ]
+    },
+    {
+      "id": "CHE2021_JORGINHO",
+      "fullname": "Jorginho",
+      "surname": "Jorginho",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Jorginho"
+      ]
+    },
+    {
+      "id": "CHE2021_THIAGO_SILVA",
+      "fullname": "Thiago Silva",
+      "surname": "Silva",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Silva",
+        "Thiago Silva"
+      ]
+    },
+    {
+      "id": "CHE2021_KURT_ZOUMA",
+      "fullname": "Kurt Zouma",
+      "surname": "Zouma",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Kurt Zouma",
+        "Zouma"
+      ]
+    },
+    {
+      "id": "CHE2021_MATEO_KOVACIC",
+      "fullname": "Mateo Kovačić",
+      "surname": "Kovačić",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Kovačić",
+        "Mateo Kovačić"
+      ]
+    },
+    {
+      "id": "CHE2021_ANTONIO_RUDIGER",
+      "fullname": "Antonio Rüdiger",
+      "surname": "Rüdiger",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Antonio Rüdiger",
+        "Rüdiger"
+      ]
+    },
+    {
+      "id": "CHE2021_CHRISTIAN_PULISIC",
+      "fullname": "Christian Pulisic",
+      "surname": "Pulisic",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Christian Pulisic",
+        "Pulisic"
+      ]
+    },
+    {
+      "id": "CHE2021_KAI_HAVERTZ",
+      "fullname": "Kai Havertz",
+      "surname": "Havertz",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Havertz",
+        "Kai Havertz"
+      ]
+    },
+    {
+      "id": "CHE2021_ANDREAS_CHRISTENSEN",
+      "fullname": "Andreas Christensen",
+      "surname": "Christensen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Andreas Christensen",
+        "Christensen"
+      ]
+    },
+    {
+      "id": "CHE2021_HAKIM_ZIYECH",
+      "fullname": "Hakim Ziyech",
+      "surname": "Ziyech",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Hakim Ziyech",
+        "Ziyech"
+      ]
+    },
+    {
+      "id": "CHE2021_TAMMY_ABRAHAM",
+      "fullname": "Tammy Abraham",
+      "surname": "Abraham",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Abraham",
+        "Tammy Abraham"
+      ]
+    },
+    {
+      "id": "CHE2021_MARCOS_ALONSO",
+      "fullname": "Marcos Alonso",
+      "surname": "Alonso",
+      "positions": [
+        "MD",
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Alonso",
+        "Marcos Alonso"
+      ]
+    },
+    {
+      "id": "CHE2021_CALLUM_HUDSON_ODOI",
+      "fullname": "Callum Hudson-Odoi",
+      "surname": "Hudson-Odoi",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Callum Hudson-Odoi",
+        "Hudson-Odoi"
+      ]
+    },
+    {
+      "id": "CHE2021_OLIVIER_GIROUD",
+      "fullname": "Olivier Giroud",
+      "surname": "Giroud",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Giroud",
+        "Olivier Giroud"
+      ]
+    },
+    {
+      "id": "CHE2021_KEPA_ARRIZABALAGA",
+      "fullname": "Kepa Arrizabalaga",
+      "surname": "Arrizabalaga",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Arrizabalaga",
+        "Kepa",
+        "Kepa Arrizabalaga"
+      ]
+    },
+    {
+      "id": "CHE2021_BILLY_GILMOUR",
+      "fullname": "Billy Gilmour",
+      "surname": "Gilmour",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Billy Gilmour",
+        "Gilmour"
+      ]
+    },
+    {
+      "id": "CHE2021_WILLY_CABALLERO",
+      "fullname": "Willy Caballero",
+      "surname": "Caballero",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Caballero",
+        "Willy Caballero"
+      ]
+    },
+    {
+      "id": "CHE2021_RUBEN_LOFTUS_CHEEK",
+      "fullname": "Ruben Loftus-Cheek",
+      "surname": "Loftus-Cheek",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Loftus-Cheek",
+        "Ruben Loftus-Cheek"
+      ]
+    },
+    {
+      "id": "CHE2021_EMERSON_PALMIERI",
+      "fullname": "Emerson Palmieri",
+      "surname": "Palmieri",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Emerson Palmieri",
+        "Palmieri"
+      ]
+    },
+    {
+      "id": "CHE2021_FIKAYO_TOMORI",
+      "fullname": "Fikayo Tomori",
+      "surname": "Tomori",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Fikayo Tomori",
+        "Tomori"
+      ]
+    },
+    {
+      "id": "CHE2021_ROSS_BARKLEY",
+      "fullname": "Ross Barkley",
+      "surname": "Barkley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Barkley",
+        "Ross Barkley"
+      ]
+    },
+    {
+      "id": "CHE2021_FAUSTINO_ANJORIN",
+      "fullname": "Faustino Anjorin",
+      "surname": "Anjorin",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Anjorin",
+        "Faustino Anjorin"
+      ]
+    },
+    {
+      "id": "CHE2021_TINO_LIVRAMENTO",
+      "fullname": "Tino Livramento",
+      "surname": "Livramento",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Livramento",
+        "Tino Livramento"
+      ]
+    },
+    {
+      "id": "CHE2021_KARLO_ZIGER",
+      "fullname": "Karlo Ziger",
+      "surname": "Ziger",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Karlo Ziger",
+        "Ziger"
+      ]
+    }
+  ]
+}

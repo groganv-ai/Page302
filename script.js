@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "003";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v3.7.13_003";
+const APP_BUILD = "v3.7.14_003";
 
 const FALLBACK_VGGFAX = [
 
@@ -1968,12 +1968,16 @@ function isOneLetterTypo(answer, surname) {
         : rest(a, i) === rest(b, i + 1);
 }
 
+function validAnswerNames(player) {
+    return [player.surname, player.fullname, ...(player.aliases || [])];
+}
+
 function findPlayers(surname, position, clubCode) {
     const club = getClubByCode(clubCode);
     if (!club) return [];
     const answer = normalizeSearchName(surname);
     const exact = club.squad.filter(function(player) {
-        return normalizeSearchName(player.surname) === answer;
+        return validAnswerNames(player).some(name => normalizeSearchName(name) === answer);
     });
     // An exact name at the wrong position must not become a different player.
     if (exact.length) return exact.filter(player => player.positions.includes(position));
@@ -2019,11 +2023,8 @@ function playerExistsAtClub(
 
         if (
 
-            normalizeSearchName(club.squad[i].surname)
-
-            ==
-
-            normalizeSearchName(surname)
+            validAnswerNames(club.squad[i]).some(name =>
+                normalizeSearchName(name) === normalizeSearchName(surname))
 
         ) {
 

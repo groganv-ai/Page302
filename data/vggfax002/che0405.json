@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "José Mourinho",
+        "Mourinho"
+      ]
     },
     {
       "id": "CHE0405_FRANK_LAMPARD",
@@ -21,7 +25,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Frank Lampard",
+        "Lampard"
+      ]
     },
     {
       "id": "CHE0405_CLAUDE_MAK_L_L_",
@@ -30,7 +38,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Claude Makélélé",
+        "Makélélé"
+      ]
     },
     {
       "id": "CHE0405_JOHN_TERRY",
@@ -39,7 +51,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "John Terry",
+        "Terry"
+      ]
     },
     {
       "id": "CHE0405_PETR_ECH",
@@ -48,7 +64,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Čech",
+        "Petr Čech"
+      ]
     },
     {
       "id": "CHE0405_EI_UR_GU_JOHNSEN",
@@ -58,7 +78,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Eiður Guðjohnsen",
+        "Guðjohnsen"
+      ]
     },
     {
       "id": "CHE0405_PAULO_FERREIRA",
@@ -67,7 +91,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Ferreira",
+        "Paulo Ferreira"
+      ]
     },
     {
       "id": "CHE0405_WILLIAM_GALLAS",
@@ -76,7 +104,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Gallas",
+        "William Gallas"
+      ]
     },
     {
       "id": "CHE0405_DAMIEN_DUFF",
@@ -86,7 +118,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Damien Duff",
+        "Duff"
+      ]
     },
     {
       "id": "CHE0405_RICARDO_CARVALHO",
@@ -95,7 +131,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Carvalho",
+        "Ricardo Carvalho"
+      ]
     },
     {
       "id": "CHE0405_TIAGO_MENDES",
@@ -104,7 +144,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Mendes",
+        "Tiago Mendes"
+      ]
     },
     {
       "id": "CHE0405_JOE_COLE",
@@ -113,7 +157,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Cole",
+        "Joe Cole"
+      ]
     },
     {
       "id": "CHE0405_DIDIER_DROGBA",
@@ -122,7 +170,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Didier Drogba",
+        "Drogba"
+      ]
     },
     {
       "id": "CHE0405_ARJEN_ROBBEN",
@@ -132,7 +184,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Arjen Robben",
+        "Robben"
+      ]
     },
     {
       "id": "CHE0405_GLEN_JOHNSON",
@@ -141,7 +197,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Glen Johnson",
+        "Johnson"
+      ]
     },
     {
       "id": "CHE0405_WAYNE_BRIDGE",
@@ -150,7 +210,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Bridge",
+        "Wayne Bridge"
+      ]
     },
     {
       "id": "CHE0405_ALEXEY_SMERTIN",
@@ -159,7 +223,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Alexey Smertin",
+        "Smertin"
+      ]
     },
     {
       "id": "CHE0405_MATEJA_KE_MAN",
@@ -168,7 +236,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 25
+      "appearances": 25,
+      "aliases": [
+        "Kežman",
+        "Mateja Kežman"
+      ]
     },
     {
       "id": "CHE0405_GEREMI",
@@ -178,7 +250,10 @@
         "DF",
         "MD"
       ],
-      "appearances": 13
+      "appearances": 13,
+      "aliases": [
+        "Geremi"
+      ]
     },
     {
       "id": "CHE0405_ROBERT_HUTH",
@@ -187,7 +262,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Huth",
+        "Robert Huth"
+      ]
     },
     {
       "id": "CHE0405_JI_JARO_K",
@@ -197,7 +276,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 14
+      "appearances": 14,
+      "aliases": [
+        "Jarošík",
+        "Jiří Jarošík"
+      ]
     },
     {
       "id": "CHE0405_CELESTINE_BABAYARO",
@@ -207,7 +290,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Babayaro",
+        "Celestine Babayaro"
+      ]
     },
     {
       "id": "CHE0405_CARLO_CUDICINI",
@@ -216,7 +303,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Carlo Cudicini",
+        "Cudicini"
+      ]
     },
     {
       "id": "CHE0405_SCOTT_PARKER",
@@ -225,7 +316,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Parker",
+        "Scott Parker"
+      ]
     },
     {
       "id": "CHE0405_ADRIAN_MUTU",
@@ -235,7 +330,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Adrian Mutu",
+        "Mutu"
+      ]
     },
     {
       "id": "CHE0405_MIKAEL_FORSSELL",
@@ -244,7 +343,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Forssell",
+        "Mikael Forssell"
+      ]
     },
     {
       "id": "CHE0405_LENNY_PIDGELEY",
@@ -253,7 +356,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Lenny Pidgeley",
+        "Pidgeley"
+      ]
     },
     {
       "id": "CHE0405_FILIPE_OLIVEIRA",
@@ -263,7 +370,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Filipe Oliveira",
+        "Oliveira"
+      ]
     },
     {
       "id": "CHE0405_NUNO_MORAIS",
@@ -273,7 +384,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Morais",
+        "Nuno Morais"
+      ]
     },
     {
       "id": "CHE0405_ANTHONY_GRANT",
@@ -283,7 +398,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Anthony Grant",
+        "Grant"
+      ]
     },
     {
       "id": "CHE0405_STEVEN_WATT",
@@ -292,7 +411,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Steven Watt",
+        "Watt"
+      ]
     }
   ]
 }

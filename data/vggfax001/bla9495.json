@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 42
+      "appearances": 42,
+      "aliases": [
+        "Dalglish",
+        "Kenny Dalglish"
+      ]
     },
     {
       "id": "BLA9495_ALAN_SHEARER",
@@ -21,7 +25,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 42
+      "appearances": 42,
+      "aliases": [
+        "Alan Shearer",
+        "Shearer"
+      ]
     },
     {
       "id": "BLA9495_HENNING_BERG",
@@ -30,7 +38,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 40
+      "appearances": 40,
+      "aliases": [
+        "Berg",
+        "Henning Berg"
+      ]
     },
     {
       "id": "BLA9495_CHRIS_SUTTON",
@@ -40,7 +52,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 40
+      "appearances": 40,
+      "aliases": [
+        "Chris Sutton",
+        "Sutton"
+      ]
     },
     {
       "id": "BLA9495_GRAEME_LE_SAUX",
@@ -49,7 +65,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 39
+      "appearances": 39,
+      "aliases": [
+        "Graeme Le Saux",
+        "Le Saux"
+      ]
     },
     {
       "id": "BLA9495_TIM_FLOWERS",
@@ -58,7 +78,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 39
+      "appearances": 39,
+      "aliases": [
+        "Flowers",
+        "Tim Flowers"
+      ]
     },
     {
       "id": "BLA9495_COLIN_HENDRY",
@@ -67,7 +91,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Colin Hendry",
+        "Hendry"
+      ]
     },
     {
       "id": "BLA9495_TIM_SHERWOOD",
@@ -76,7 +104,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Sherwood",
+        "Tim Sherwood"
+      ]
     },
     {
       "id": "BLA9495_STUART_RIPLEY",
@@ -86,7 +118,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Ripley",
+        "Stuart Ripley"
+      ]
     },
     {
       "id": "BLA9495_MARK_ATKINS",
@@ -96,7 +132,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Atkins",
+        "Mark Atkins"
+      ]
     },
     {
       "id": "BLA9495_JASON_WILCOX",
@@ -106,7 +146,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Jason Wilcox",
+        "Wilcox"
+      ]
     },
     {
       "id": "BLA9495_IAN_PEARCE",
@@ -115,7 +159,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Ian Pearce",
+        "Pearce"
+      ]
     },
     {
       "id": "BLA9495_PAUL_WARHURST",
@@ -125,7 +173,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 27
+      "appearances": 27,
+      "aliases": [
+        "Paul Warhurst",
+        "Warhurst"
+      ]
     },
     {
       "id": "BLA9495_TONY_GALE",
@@ -134,7 +186,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Gale",
+        "Tony Gale"
+      ]
     },
     {
       "id": "BLA9495_ROBBIE_SLATER",
@@ -143,7 +199,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Robbie Slater",
+        "Slater"
+      ]
     },
     {
       "id": "BLA9495_JEFF_KENNA",
@@ -152,7 +212,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 9
+      "appearances": 9,
+      "aliases": [
+        "Jeff Kenna",
+        "Kenna"
+      ]
     },
     {
       "id": "BLA9495_DAVID_BATTY",
@@ -161,7 +225,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Batty",
+        "David Batty"
+      ]
     },
     {
       "id": "BLA9495_ALAN_WRIGHT",
@@ -170,7 +238,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Alan Wright",
+        "Wright"
+      ]
     },
     {
       "id": "BLA9495_BOBBY_MIMMS",
@@ -179,7 +251,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 4
+      "appearances": 4,
+      "aliases": [
+        "Bobby Mimms",
+        "Mimms"
+      ]
     },
     {
       "id": "BLA9495_MIKE_NEWELL",
@@ -188,7 +264,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 12
+      "appearances": 12,
+      "aliases": [
+        "Mike Newell",
+        "Newell"
+      ]
     },
     {
       "id": "BLA9495_RICHARD_WITSCHGE",
@@ -197,7 +277,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Richard Witschge",
+        "Witschge"
+      ]
     },
     {
       "id": "BLA9495_KEVIN_GALLACHER",
@@ -207,7 +291,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Gallacher",
+        "Kevin Gallacher"
+      ]
     }
   ]
 }

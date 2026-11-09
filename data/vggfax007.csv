@@ -1,0 +1,334 @@
+﻿pack,clubCode,club,season,id,fullname,surname,positions,appearances,playerId,aliases
+007,ARS9293,Arsenal,1992-93,ARS9293_GEORGE_GRAHAM,George Graham,Graham,MAN,42,,George Graham|Graham
+007,ARS9293,Arsenal,1992-93,ARS9293_DAVID_SEAMAN,David Seaman,Seaman,GK,39,,David Seaman|Seaman
+007,ARS9293,Arsenal,1992-93,ARS9293_TONY_ADAMS,Tony Adams,Adams,DF,35,,Adams|Tony Adams
+007,ARS9293,Arsenal,1992-93,ARS9293_KEVIN_CAMPBELL,Kevin Campbell,Campbell,AT,37,,Campbell|Kevin Campbell
+007,ARS9293,Arsenal,1992-93,ARS9293_PAUL_MERSON,Paul Merson,Merson,AT|MD,33,,Merson|Paul Merson
+007,ARS9293,Arsenal,1992-93,ARS9293_IAN_WRIGHT,Ian Wright,Wright,AT,31,,Ian Wright|Wright
+007,ARS9293,Arsenal,1992-93,ARS9293_JOHN_JENSEN,John Jensen,Jensen,MD,32,,Jensen|John Jensen
+007,ARS9293,Arsenal,1992-93,ARS9293_NIGEL_WINTERBURN,Nigel Winterburn,Winterburn,DF,29,,Nigel Winterburn|Winterburn
+007,ARS9293,Arsenal,1992-93,ARS9293_LEE_DIXON,Lee Dixon,Dixon,DF,29,,Dixon|Lee Dixon
+007,ARS9293,Arsenal,1992-93,ARS9293_ALAN_SMITH,Alan Smith,Smith,AT,31,,Alan Smith|Smith
+007,ARS9293,Arsenal,1992-93,ARS9293_DAVID_HILLIER,David Hillier,Hillier,MD,30,,David Hillier|Hillier
+007,ARS9293,Arsenal,1992-93,ARS9293_STEVE_BOULD,Steve Bould,Bould,DF,24,,Bould|Steve Bould
+007,ARS9293,Arsenal,1992-93,ARS9293_ANDY_LINIGHAN,Andy Linighan,Linighan,DF,21,,Andy Linighan|Linighan
+007,ARS9293,Arsenal,1992-93,ARS9293_RAY_PARLOUR,Ray Parlour,Parlour,MD,21,,Parlour|Ray Parlour
+007,ARS9293,Arsenal,1992-93,ARS9293_MARTIN_KEOWN,Martin Keown,Keown,DF|MD,16,,Keown|Martin Keown
+007,ARS9293,Arsenal,1992-93,ARS9293_STEVE_MORROW,Steve Morrow,Morrow,DF|MD,16,,Morrow|Steve Morrow
+007,ARS9293,Arsenal,1992-93,ARS9293_ANDERS_LIMPAR,Anders Limpar,Limpar,MD,23,,Anders Limpar|Limpar
+007,ARS9293,Arsenal,1992-93,ARS9293_JIMMY_CARTER,Jimmy Carter,Carter,MD,16,,Carter|Jimmy Carter
+007,ARS9293,Arsenal,1992-93,ARS9293_IAN_SELLEY,Ian Selley,Selley,MD,9,,Ian Selley|Selley
+007,ARS9293,Arsenal,1992-93,ARS9293_PAL_LYDERSEN,Pål Lydersen,Lydersen,DF,8,,Lydersen|Pål Lydersen
+007,ARS9293,Arsenal,1992-93,ARS9293_DAVID_O_LEARY,David O'Leary,O'Leary,DF,11,,David O'Leary|O'Leary
+007,ARS9293,Arsenal,1992-93,ARS9293_PAUL_DAVIS,Paul Davis,Davis,MD,6,,Davis|Paul Davis
+007,ARS9293,Arsenal,1992-93,ARS9293_MARK_FLATTS,Mark Flatts,Flatts,MD,10,,Flatts|Mark Flatts
+007,ARS9293,Arsenal,1992-93,ARS9293_ALAN_MILLER,Alan Miller,Miller,GK,4,,Alan Miller|Miller
+007,ARS9293,Arsenal,1992-93,ARS9293_NEIL_HEANEY,Neil Heaney,Heaney,MD,5,,Heaney|Neil Heaney
+007,ARS9293,Arsenal,1992-93,ARS9293_SCOTT_MARSHALL,Scott Marshall,Marshall,DF,2,,Marshall|Scott Marshall
+007,ARS9293,Arsenal,1992-93,ARS9293_COLIN_PATES,Colin Pates,Pates,DF,7,,Colin Pates|Pates
+007,ARS9293,Arsenal,1992-93,ARS9293_PAUL_DICKOV,Paul Dickov,Dickov,AT,3,,Dickov|Paul Dickov
+007,ARS9293,Arsenal,1992-93,ARS9293_GAVIN_MCGOWAN,Gavin McGowan,McGowan,DF|MD,2,,Gavin McGowan|McGowan
+007,ARS9293,Arsenal,1992-93,ARS9293_PERRY_GROVES,Perry Groves,Groves,MD,1,,Groves|Perry Groves
+007,CHE2021,Chelsea,2020-21,CHE2021_FRANK_LAMPARD,Frank Lampard,Lampard,MAN,19,,Frank Lampard|Lampard
+007,CHE2021,Chelsea,2020-21,CHE2021_THOMAS_TUCHEL,Thomas Tuchel,Tuchel,MAN,19,,Thomas Tuchel|Tuchel
+007,CHE2021,Chelsea,2020-21,CHE2021_MASON_MOUNT,Mason Mount,Mount,MD,36,,Mason Mount|Mount
+007,CHE2021,Chelsea,2020-21,CHE2021_EDOUARD_MENDY,Édouard Mendy,Mendy,GK,31,,Édouard Mendy|Mendy
+007,CHE2021,Chelsea,2020-21,CHE2021_TIMO_WERNER,Timo Werner,Werner,AT|MD,35,,Timo Werner|Werner
+007,CHE2021,Chelsea,2020-21,CHE2021_BEN_CHILWELL,Ben Chilwell,Chilwell,DF|MD,27,,Ben Chilwell|Chilwell
+007,CHE2021,Chelsea,2020-21,CHE2021_REECE_JAMES,Reece James,James,DF|MD,32,,James|Reece James
+007,CHE2021,Chelsea,2020-21,CHE2021_CESAR_AZPILICUETA,César Azpilicueta,Azpilicueta,DF|MD,26,,Azpilicueta|César Azpilicueta
+007,CHE2021,Chelsea,2020-21,CHE2021_N_GOLO_KANTE,N'Golo Kanté,Kanté,MD,30,,Kanté|N'Golo Kanté
+007,CHE2021,Chelsea,2020-21,CHE2021_JORGINHO,Jorginho,Jorginho,MD,28,,Jorginho
+007,CHE2021,Chelsea,2020-21,CHE2021_THIAGO_SILVA,Thiago Silva,Silva,DF,23,,Silva|Thiago Silva
+007,CHE2021,Chelsea,2020-21,CHE2021_KURT_ZOUMA,Kurt Zouma,Zouma,DF,24,,Kurt Zouma|Zouma
+007,CHE2021,Chelsea,2020-21,CHE2021_MATEO_KOVACIC,Mateo Kovačić,Kovačić,MD,27,,Kovačić|Mateo Kovačić
+007,CHE2021,Chelsea,2020-21,CHE2021_ANTONIO_RUDIGER,Antonio Rüdiger,Rüdiger,DF,19,,Antonio Rüdiger|Rüdiger
+007,CHE2021,Chelsea,2020-21,CHE2021_CHRISTIAN_PULISIC,Christian Pulisic,Pulisic,MD|AT,27,,Christian Pulisic|Pulisic
+007,CHE2021,Chelsea,2020-21,CHE2021_KAI_HAVERTZ,Kai Havertz,Havertz,MD|AT,27,,Havertz|Kai Havertz
+007,CHE2021,Chelsea,2020-21,CHE2021_ANDREAS_CHRISTENSEN,Andreas Christensen,Christensen,DF,17,,Andreas Christensen|Christensen
+007,CHE2021,Chelsea,2020-21,CHE2021_HAKIM_ZIYECH,Hakim Ziyech,Ziyech,AT|MD,23,,Hakim Ziyech|Ziyech
+007,CHE2021,Chelsea,2020-21,CHE2021_TAMMY_ABRAHAM,Tammy Abraham,Abraham,AT,22,,Abraham|Tammy Abraham
+007,CHE2021,Chelsea,2020-21,CHE2021_MARCOS_ALONSO,Marcos Alonso,Alonso,MD|DF,13,,Alonso|Marcos Alonso
+007,CHE2021,Chelsea,2020-21,CHE2021_CALLUM_HUDSON_ODOI,Callum Hudson-Odoi,Hudson-Odoi,MD|AT,23,,Callum Hudson-Odoi|Hudson-Odoi
+007,CHE2021,Chelsea,2020-21,CHE2021_OLIVIER_GIROUD,Olivier Giroud,Giroud,AT,17,,Giroud|Olivier Giroud
+007,CHE2021,Chelsea,2020-21,CHE2021_KEPA_ARRIZABALAGA,Kepa Arrizabalaga,Arrizabalaga,GK,7,,Arrizabalaga|Kepa|Kepa Arrizabalaga
+007,CHE2021,Chelsea,2020-21,CHE2021_BILLY_GILMOUR,Billy Gilmour,Gilmour,MD,5,,Billy Gilmour|Gilmour
+007,CHE2021,Chelsea,2020-21,CHE2021_WILLY_CABALLERO,Willy Caballero,Caballero,GK,1,,Caballero|Willy Caballero
+007,CHE2021,Chelsea,2020-21,CHE2021_RUBEN_LOFTUS_CHEEK,Ruben Loftus-Cheek,Loftus-Cheek,AT,1,,Loftus-Cheek|Ruben Loftus-Cheek
+007,CHE2021,Chelsea,2020-21,CHE2021_EMERSON_PALMIERI,Emerson Palmieri,Palmieri,DF|MD,2,,Emerson Palmieri|Palmieri
+007,CHE2021,Chelsea,2020-21,CHE2021_FIKAYO_TOMORI,Fikayo Tomori,Tomori,DF,1,,Fikayo Tomori|Tomori
+007,CHE2021,Chelsea,2020-21,CHE2021_ROSS_BARKLEY,Ross Barkley,Barkley,MD,2,,Barkley|Ross Barkley
+007,CHE2021,Chelsea,2020-21,CHE2021_FAUSTINO_ANJORIN,Faustino Anjorin,Anjorin,MD,0,,Anjorin|Faustino Anjorin
+007,CHE2021,Chelsea,2020-21,CHE2021_TINO_LIVRAMENTO,Tino Livramento,Livramento,DF|MD,0,,Livramento|Tino Livramento
+007,CHE2021,Chelsea,2020-21,CHE2021_KARLO_ZIGER,Karlo Ziger,Ziger,GK,0,,Karlo Ziger|Ziger
+007,MCI0910,Man City,2009-10,MCI0910_MARK_HUGHES,Mark Hughes,Hughes,MAN,16,,Hughes|Mark Hughes
+007,MCI0910,Man City,2009-10,MCI0910_ROBERTO_MANCINI,Roberto Mancini,Mancini,MAN,22,,Mancini|Roberto Mancini
+007,MCI0910,Man City,2009-10,MCI0910_SHAY_GIVEN,Shay Given,Given,GK,35,,Given|Shay Given
+007,MCI0910,Man City,2009-10,MCI0910_GARETH_BARRY,Gareth Barry,Barry,MD,34,,Barry|Gareth Barry
+007,MCI0910,Man City,2009-10,MCI0910_CARLOS_TEVEZ,Carlos Tevez,Tevez,AT|MD,35,,Carlos Tevez|Tevez
+007,MCI0910,Man City,2009-10,MCI0910_KOLO_TOURE,Kolo Touré,Touré,DF,31,,Kolo Touré|Touré
+007,MCI0910,Man City,2009-10,MCI0910_NIGEL_DE_JONG,Nigel de Jong,de Jong,MD,34,,de Jong|Nigel de Jong
+007,MCI0910,Man City,2009-10,MCI0910_CRAIG_BELLAMY,Craig Bellamy,Bellamy,AT,32,,Bellamy|Craig Bellamy
+007,MCI0910,Man City,2009-10,MCI0910_EMMANUEL_ADEBAYOR,Emmanuel Adebayor,Adebayor,AT,26,,Adebayor|Emmanuel Adebayor
+007,MCI0910,Man City,2009-10,MCI0910_PABLO_ZABALETA,Pablo Zabaleta,Zabaleta,DF|MD,27,,Pablo Zabaleta|Zabaleta
+007,MCI0910,Man City,2009-10,MCI0910_WAYNE_BRIDGE,Wayne Bridge,Bridge,DF,23,,Bridge|Wayne Bridge
+007,MCI0910,Man City,2009-10,MCI0910_VINCENT_KOMPANY,Vincent Kompany,Kompany,DF,25,,Kompany|Vincent Kompany
+007,MCI0910,Man City,2009-10,MCI0910_SHAUN_WRIGHT_PHILLIPS,Shaun Wright-Phillips,Wright-Phillips,AT|MD,30,,Shaun Wright-Phillips|Wright-Phillips
+007,MCI0910,Man City,2009-10,MCI0910_MICAH_RICHARDS,Micah Richards,Richards,DF,23,,Micah Richards|Richards
+007,MCI0910,Man City,2009-10,MCI0910_JOLEON_LESCOTT,Joleon Lescott,Lescott,DF,18,,Joleon Lescott|Lescott
+007,MCI0910,Man City,2009-10,MCI0910_STEPHEN_IRELAND,Stephen Ireland,Ireland,MD,22,,Ireland|Stephen Ireland
+007,MCI0910,Man City,2009-10,MCI0910_ADAM_JOHNSON,Adam Johnson,Johnson,MD,16,,Adam Johnson|Johnson
+007,MCI0910,Man City,2009-10,MCI0910_PATRICK_VIEIRA,Patrick Vieira,Vieira,MD,13,,Patrick Vieira|Vieira
+007,MCI0910,Man City,2009-10,MCI0910_MARTIN_PETROV,Martin Petrov,Petrov,AT|MD,16,,Martin Petrov|Petrov
+007,MCI0910,Man City,2009-10,MCI0910_JAVIER_GARRIDO,Javier Garrido,Garrido,DF,9,,Garrido|Javier Garrido
+007,MCI0910,Man City,2009-10,MCI0910_ROQUE_SANTA_CRUZ,Roque Santa Cruz,Cruz,AT,19,,Cruz|Roque Santa Cruz
+007,MCI0910,Man City,2009-10,MCI0910_ROBINHO,Robinho,Robinho,AT|MD,10,,Robinho
+007,MCI0910,Man City,2009-10,MCI0910_SYLVINHO,Sylvinho,Sylvinho,DF,10,,Sylvinho
+007,MCI0910,Man City,2009-10,MCI0910_NEDUM_ONUOHA,Nedum Onuoha,Onuoha,DF,10,,Nedum Onuoha|Onuoha
+007,MCI0910,Man City,2009-10,MCI0910_MARTON_FULOP,Márton Fülöp,Fülöp,GK,3,,Fülöp|Márton Fülöp
+007,MCI0910,Man City,2009-10,MCI0910_RICHARD_DUNNE,Richard Dunne,Dunne,DF,2,,Dunne|Richard Dunne
+007,MCI0910,Man City,2009-10,MCI0910_DEDRYCK_BOYATA,Dedryck Boyata,Boyata,DF,3,,Boyata|Dedryck Boyata
+007,MCI0910,Man City,2009-10,MCI0910_BENJANI,Benjani,Benjani,AT,2,,Benjani
+007,MCI0910,Man City,2009-10,MCI0910_GUNNAR_NIELSEN,Gunnar Nielsen,Nielsen,GK,1,,Gunnar Nielsen|Nielsen
+007,MCI0910,Man City,2009-10,MCI0910_ABDISALAM_IBRAHIM,Abdisalam Ibrahim,Ibrahim,DF|MD,1,,Abdisalam Ibrahim|Ibrahim
+007,MCI0910,Man City,2009-10,MCI0910_ALEX_NIMELY,Alex Nimely,Nimely,AT,1,,Alex Nimely|Nimely
+007,MCI0910,Man City,2009-10,MCI0910_GREG_CUNNINGHAM,Greg Cunningham,Cunningham,DF|MD,2,,Cunningham|Greg Cunningham
+007,MCI0910,Man City,2009-10,MCI0910_MICHAEL_JOHNSON,Michael Johnson,Johnson,MD,1,,Johnson|Michael Johnson
+007,TOT0506,Tottenham,2005-06,TOT0506_MARTIN_JOL,Martin Jol,Jol,MAN,38,,Jol|Martin Jol
+007,TOT0506,Tottenham,2005-06,TOT0506_PAUL_ROBINSON,Paul Robinson,Robinson,GK,38,,Paul Robinson|Robinson
+007,TOT0506,Tottenham,2005-06,TOT0506_MICHAEL_CARRICK,Michael Carrick,Carrick,MD,35,,Carrick|Michael Carrick
+007,TOT0506,Tottenham,2005-06,TOT0506_PAUL_STALTERI,Paul Stalteri,Stalteri,DF|MD,33,,Paul Stalteri|Stalteri
+007,TOT0506,Tottenham,2005-06,TOT0506_MICHAEL_DAWSON,Michael Dawson,Dawson,DF,32,,Dawson|Michael Dawson
+007,TOT0506,Tottenham,2005-06,TOT0506_LEE_YOUNG_PYO,Lee Young-pyo,Young-pyo,DF,31,,Lee|Lee Young-pyo|Young-pyo|Young-pyo Lee
+007,TOT0506,Tottenham,2005-06,TOT0506_JERMAINE_JENAS,Jermaine Jenas,Jenas,MD,30,,Jenas|Jermaine Jenas
+007,TOT0506,Tottenham,2005-06,TOT0506_EDGAR_DAVIDS,Edgar Davids,Davids,MD,31,,Davids|Edgar Davids
+007,TOT0506,Tottenham,2005-06,TOT0506_LEDLEY_KING,Ledley King,King,DF|MD,26,,King|Ledley King
+007,TOT0506,Tottenham,2005-06,TOT0506_ROBBIE_KEANE,Robbie Keane,Keane,AT,36,,Keane|Robbie Keane
+007,TOT0506,Tottenham,2005-06,TOT0506_MIDO,Mido,Mido,AT,27,,Mido
+007,TOT0506,Tottenham,2005-06,TOT0506_JERMAIN_DEFOE,Jermain Defoe,Defoe,AT,36,,Defoe|Jermain Defoe
+007,TOT0506,Tottenham,2005-06,TOT0506_TEEMU_TAINIO,Teemu Tainio,Tainio,MD,24,,Tainio|Teemu Tainio
+007,TOT0506,Tottenham,2005-06,TOT0506_AARON_LENNON,Aaron Lennon,Lennon,AT|MD,27,,Aaron Lennon|Lennon
+007,TOT0506,Tottenham,2005-06,TOT0506_ANTHONY_GARDNER,Anthony Gardner,Gardner,DF,17,,Anthony Gardner|Gardner
+007,TOT0506,Tottenham,2005-06,TOT0506_STEPHEN_KELLY,Stephen Kelly,Kelly,DF,9,,Kelly|Stephen Kelly
+007,TOT0506,Tottenham,2005-06,TOT0506_ANDY_REID,Andy Reid,Reid,MD,13,,Andy Reid|Reid
+007,TOT0506,Tottenham,2005-06,TOT0506_GRZEGORZ_RASIAK,Grzegorz Rasiak,Rasiak,AT,8,,Grzegorz Rasiak|Rasiak
+007,TOT0506,Tottenham,2005-06,TOT0506_ERIK_EDMAN,Erik Edman,Edman,DF,3,,Edman|Erik Edman
+007,TOT0506,Tottenham,2005-06,TOT0506_PEDRO_MENDES,Pedro Mendes,Mendes,MD,6,,Mendes|Pedro Mendes
+007,TOT0506,Tottenham,2005-06,TOT0506_DANNY_MURPHY,Danny Murphy,Murphy,MD,10,,Danny Murphy|Murphy
+007,TOT0506,Tottenham,2005-06,TOT0506_MICHAEL_BROWN,Michael Brown,Brown,MD,9,,Brown|Michael Brown
+007,TOT0506,Tottenham,2005-06,TOT0506_NOUREDDINE_NAYBET,Noureddine Naybet,Naybet,DF,3,,Naybet|Noureddine Naybet
+007,TOT0506,Tottenham,2005-06,TOT0506_WAYNE_ROUTLEDGE,Wayne Routledge,Routledge,AT|MD,3,,Routledge|Wayne Routledge
+007,TOT0506,Tottenham,2005-06,TOT0506_CALUM_DAVENPORT,Calum Davenport,Davenport,DF,4,,Calum Davenport|Davenport
+007,TOT0506,Tottenham,2005-06,TOT0506_TOM_HUDDLESTONE,Tom Huddlestone,Huddlestone,MD,4,,Huddlestone|Tom Huddlestone
+007,TOT0506,Tottenham,2005-06,TOT0506_LEE_BARNARD,Lee Barnard,Barnard,AT,3,,Barnard|Lee Barnard
+007,TOT0506,Tottenham,2005-06,TOT0506_JOHNNIE_JACKSON,Johnnie Jackson,Jackson,MD,1,,Jackson|Johnnie Jackson
+007,TOT0506,Tottenham,2005-06,TOT0506_NOE_PAMAROT,Noé Pamarot,Pamarot,DF,2,,Noé Pamarot|Pamarot
+007,TOT0506,Tottenham,2005-06,TOT0506_FREDERIC_KANOUTE,Frédéric Kanouté,Kanouté,AT,1,,Frédéric Kanouté|Kanouté
+007,LEE0001,Leeds,2000-01,LEE0001_DAVID_O_LEARY,David O’Leary,O’Leary,MAN,38,,David O’Leary|O’Leary
+007,LEE0001,Leeds,2000-01,LEE0001_LEE_BOWYER,Lee Bowyer,Bowyer,MD,38,,Bowyer|Lee Bowyer
+007,LEE0001,Leeds,2000-01,LEE0001_MARK_VIDUKA,Mark Viduka,Viduka,AT,34,,Mark Viduka|Viduka
+007,LEE0001,Leeds,2000-01,LEE0001_OLIVIER_DACOURT,Olivier Dacourt,Dacourt,MD,33,,Dacourt|Olivier Dacourt
+007,LEE0001,Leeds,2000-01,LEE0001_DOMINIC_MATTEO,Dominic Matteo,Matteo,DF|MD,30,,Dominic Matteo|Matteo
+007,LEE0001,Leeds,2000-01,LEE0001_IAN_HARTE,Ian Harte,Harte,DF,29,,Harte|Ian Harte
+007,LEE0001,Leeds,2000-01,LEE0001_ALAN_SMITH,Alan Smith,Smith,AT|MD,33,,Alan Smith|Smith
+007,LEE0001,Leeds,2000-01,LEE0001_EIRIK_BAKKE,Eirik Bakke,Bakke,MD,29,,Bakke|Eirik Bakke
+007,LEE0001,Leeds,2000-01,LEE0001_RIO_FERDINAND,Rio Ferdinand,Ferdinand,DF,23,,Ferdinand|Rio Ferdinand
+007,LEE0001,Leeds,2000-01,LEE0001_NIGEL_MARTYN,Nigel Martyn,Martyn,GK,23,,Martyn|Nigel Martyn
+007,LEE0001,Leeds,2000-01,LEE0001_GARY_KELLY,Gary Kelly,Kelly,DF,24,,Gary Kelly|Kelly
+007,LEE0001,Leeds,2000-01,LEE0001_DANNY_MILLS,Danny Mills,Mills,DF,23,,Danny Mills|Mills
+007,LEE0001,Leeds,2000-01,LEE0001_LUCAS_RADEBE,Lucas Radebe,Radebe,DF,20,,Lucas Radebe|Radebe
+007,LEE0001,Leeds,2000-01,LEE0001_PAUL_ROBINSON,Paul Robinson,Robinson,GK,16,,Paul Robinson|Robinson
+007,LEE0001,Leeds,2000-01,LEE0001_JONATHAN_WOODGATE,Jonathan Woodgate,Woodgate,DF,14,,Jonathan Woodgate|Woodgate
+007,LEE0001,Leeds,2000-01,LEE0001_DAVID_BATTY,David Batty,Batty,MD,16,,Batty|David Batty
+007,LEE0001,Leeds,2000-01,LEE0001_HARRY_KEWELL,Harry Kewell,Kewell,AT|MD,17,,Harry Kewell|Kewell
+007,LEE0001,Leeds,2000-01,LEE0001_ROBBIE_KEANE,Robbie Keane,Keane,AT,18,,Keane|Robbie Keane
+007,LEE0001,Leeds,2000-01,LEE0001_JASON_WILCOX,Jason Wilcox,Wilcox,AT|MD,17,,Jason Wilcox|Wilcox
+007,LEE0001,Leeds,2000-01,LEE0001_MICHAEL_BRIDGES,Michael Bridges,Bridges,AT|MD,7,,Bridges|Michael Bridges
+007,LEE0001,Leeds,2000-01,LEE0001_MICHAEL_DUBERRY,Michael Duberry,Duberry,DF,5,,Duberry|Michael Duberry
+007,LEE0001,Leeds,2000-01,LEE0001_STEPHEN_MCPHAIL,Stephen McPhail,McPhail,MD,7,,McPhail|Stephen McPhail
+007,LEE0001,Leeds,2000-01,LEE0001_JACOB_BURNS,Jacob Burns,Burns,MD,4,,Burns|Jacob Burns
+007,LEE0001,Leeds,2000-01,LEE0001_MATT_JONES,Matt Jones,Jones,MD,4,,Jones|Matt Jones
+007,LEE0001,Leeds,2000-01,LEE0001_DANNY_HAY,Danny Hay,Hay,DF,4,,Danny Hay|Hay
+007,LEE0001,Leeds,2000-01,LEE0001_DARREN_HUCKERBY,Darren Huckerby,Huckerby,AT|MD,7,,Darren Huckerby|Huckerby
+007,LEE0001,Leeds,2000-01,LEE0001_GARETH_EVANS,Gareth Evans,Evans,DF,1,,Evans|Gareth Evans
+007,FUL1314,Fulham,2013-14,FUL1314_MARTIN_JOL,Martin Jol,Jol,MAN,13,,Jol|Martin Jol
+007,FUL1314,Fulham,2013-14,FUL1314_RENE_MEULENSTEEN,René Meulensteen,Meulensteen,MAN,13,,Meulensteen|René Meulensteen
+007,FUL1314,Fulham,2013-14,FUL1314_FELIX_MAGATH,Felix Magath,Magath,MAN,12,,Felix Magath|Magath
+007,FUL1314,Fulham,2013-14,FUL1314_STEVE_SIDWELL,Steve Sidwell,Sidwell,MD,38,,Sidwell|Steve Sidwell
+007,FUL1314,Fulham,2013-14,FUL1314_SASCHA_RIETHER,Sascha Riether,Riether,DF|MD,31,,Riether|Sascha Riether
+007,FUL1314,Fulham,2013-14,FUL1314_KIERAN_RICHARDSON,Kieran Richardson,Richardson,DF|MD,31,,Kieran Richardson|Richardson
+007,FUL1314,Fulham,2013-14,FUL1314_SCOTT_PARKER,Scott Parker,Parker,MD,29,,Parker|Scott Parker
+007,FUL1314,Fulham,2013-14,FUL1314_BREDE_HANGELAND,Brede Hangeland,Hangeland,DF,23,,Brede Hangeland|Hangeland
+007,FUL1314,Fulham,2013-14,FUL1314_FERNANDO_AMOREBIETA,Fernando Amorebieta,Amorebieta,DF,23,,Amorebieta|Fernando Amorebieta
+007,FUL1314,Fulham,2013-14,FUL1314_PAJTIM_KASAMI,Pajtim Kasami,Kasami,AT|MD,29,,Kasami|Pajtim Kasami
+007,FUL1314,Fulham,2013-14,FUL1314_DAVID_STOCKDALE,David Stockdale,Stockdale,GK,21,,David Stockdale|Stockdale
+007,FUL1314,Fulham,2013-14,FUL1314_MAARTEN_STEKELENBURG,Maarten Stekelenburg,Stekelenburg,GK,19,,Maarten Stekelenburg|Stekelenburg
+007,FUL1314,Fulham,2013-14,FUL1314_DIMITAR_BERBATOV,Dimitar Berbatov,Berbatov,AT,18,,Berbatov|Dimitar Berbatov
+007,FUL1314,Fulham,2013-14,FUL1314_JOHN_ARNE_RIISE,John Arne Riise,Riise,DF|MD,20,,John Arne Riise|Riise
+007,FUL1314,Fulham,2013-14,FUL1314_ALEXANDER_KACANIKLIC,Alexander Kačaniklić,Kačaniklić,AT|MD,23,,Alexander Kačaniklić|Kačaniklić
+007,FUL1314,Fulham,2013-14,FUL1314_JOHN_HEITINGA,John Heitinga,Heitinga,DF|MD,14,,Heitinga|John Heitinga
+007,FUL1314,Fulham,2013-14,FUL1314_ASHKAN_DEJAGAH,Ashkan Dejagah,Dejagah,AT|MD,22,,Ashkan Dejagah|Dejagah
+007,FUL1314,Fulham,2013-14,FUL1314_PHILIPPE_SENDEROS,Philippe Senderos,Senderos,DF,12,,Philippe Senderos|Senderos
+007,FUL1314,Fulham,2013-14,FUL1314_DARREN_BENT,Darren Bent,Bent,AT,24,,Bent|Darren Bent
+007,FUL1314,Fulham,2013-14,FUL1314_AARON_HUGHES,Aaron Hughes,Hughes,DF,13,,Aaron Hughes|Hughes
+007,FUL1314,Fulham,2013-14,FUL1314_LEWIS_HOLTBY,Lewis Holtby,Holtby,MD,13,,Holtby|Lewis Holtby
+007,FUL1314,Fulham,2013-14,FUL1314_DAMIEN_DUFF,Damien Duff,Duff,AT|MD,15,,Damien Duff|Duff
+007,FUL1314,Fulham,2013-14,FUL1314_BRYAN_RUIZ,Bryan Ruiz,Ruiz,AT|MD,12,,Bryan Ruiz|Ruiz
+007,FUL1314,Fulham,2013-14,FUL1314_ADEL_TAARABT,Adel Taarabt,Taarabt,AT|MD,12,,Adel Taarabt|Taarabt
+007,FUL1314,Fulham,2013-14,FUL1314_WILLIAM_KVIST,William Kvist,Kvist,MD,8,,Kvist|William Kvist
+007,FUL1314,Fulham,2013-14,FUL1314_GIORGOS_KARAGOUNIS,Giorgos Karagounis,Karagounis,MD,14,,Giorgos Karagounis|Karagounis
+007,FUL1314,Fulham,2013-14,FUL1314_HUGO_RODALLEGA,Hugo Rodallega,Rodallega,AT,13,,Hugo Rodallega|Rodallega
+007,FUL1314,Fulham,2013-14,FUL1314_DAN_BURN,Dan Burn,Burn,DF,9,,Burn|Dan Burn
+007,FUL1314,Fulham,2013-14,FUL1314_CAULEY_WOODROW,Cauley Woodrow,Woodrow,AT|MD,6,,Cauley Woodrow|Woodrow
+007,FUL1314,Fulham,2013-14,FUL1314_ELSAD_ZVEROTIC,Elsad Zverotić,Zverotić,DF|MD,6,,Elsad Zverotić|Zverotić
+007,FUL1314,Fulham,2013-14,FUL1314_CLINT_DEMPSEY,Clint Dempsey,Dempsey,AT|MD,5,,Clint Dempsey|Dempsey
+007,FUL1314,Fulham,2013-14,FUL1314_MAHAMADOU_DIARRA,Mahamadou Diarra,Diarra,MD,4,,Diarra|Mahamadou Diarra
+007,FUL1314,Fulham,2013-14,FUL1314_RYAN_TUNNICLIFFE,Ryan Tunnicliffe,Tunnicliffe,MD,3,,Ryan Tunnicliffe|Tunnicliffe
+007,FUL1314,Fulham,2013-14,FUL1314_DEREK_BOATENG,Derek Boateng,Boateng,MD,3,,Boateng|Derek Boateng
+007,FUL1314,Fulham,2013-14,FUL1314_KOSTAS_MITROGLOU,Kostas Mitroglou,Mitroglou,AT,3,,Kostas Mitroglou|Mitroglou
+007,FUL1314,Fulham,2013-14,FUL1314_MOUSSA_DEMBELE,Moussa Dembélé,Dembélé,AT,2,,Dembélé|Moussa Dembélé
+007,FUL1314,Fulham,2013-14,FUL1314_MUAMER_TANKOVIC,Muamer Tanković,Tanković,AT|MD,3,,Muamer Tanković|Tanković
+007,FUL1314,Fulham,2013-14,FUL1314_MATTHEW_BRIGGS,Matthew Briggs,Briggs,DF,2,,Briggs|Matthew Briggs
+007,FUL1314,Fulham,2013-14,FUL1314_CHRIS_DAVID,Chris David,David,AT|MD,1,,Chris David|David
+007,FUL1314,Fulham,2013-14,FUL1314_PATRICK_ROBERTS,Patrick Roberts,Roberts,AT|MD,2,,Patrick Roberts|Roberts
+007,FUL1314,Fulham,2013-14,FUL1314_MESCA,Mesca,Mesca,MD,1,,Mesca
+007,FUL1314,Fulham,2013-14,FUL1314_LARNELL_COLE,Larnell Cole,Cole,MD,1,,Cole|Larnell Cole
+007,BRI1718,Brighton,2017-18,BRI1718_CHRIS_HUGHTON,Chris Hughton,Hughton,MAN,38,,Chris Hughton|Hughton
+007,BRI1718,Brighton,2017-18,BRI1718_LEWIS_DUNK,Lewis Dunk,Dunk,DF,38,,Dunk|Lewis Dunk
+007,BRI1718,Brighton,2017-18,BRI1718_MATHEW_RYAN,Mathew Ryan,Ryan,GK,38,,Mathew Ryan|Ryan
+007,BRI1718,Brighton,2017-18,BRI1718_SHANE_DUFFY,Shane Duffy,Duffy,DF,37,,Duffy|Shane Duffy
+007,BRI1718,Brighton,2017-18,BRI1718_DALE_STEPHENS,Dale Stephens,Stephens,MD,36,,Dale Stephens|Stephens
+007,BRI1718,Brighton,2017-18,BRI1718_DAVY_PROPPER,Davy Pröpper,Pröpper,MD,35,,Davy Pröpper|Pröpper
+007,BRI1718,Brighton,2017-18,BRI1718_PASCAL_GRO,Pascal Groß,Groß,MD|AT,38,,Gross|Groß|Pascal Groß
+007,BRI1718,Brighton,2017-18,BRI1718_ANTHONY_KNOCKAERT,Anthony Knockaert,Knockaert,MD,33,,Anthony Knockaert|Knockaert
+007,BRI1718,Brighton,2017-18,BRI1718_GAETAN_BONG,Gaëtan Bong,Bong,DF,25,,Bong|Gaëtan Bong
+007,BRI1718,Brighton,2017-18,BRI1718_GLENN_MURRAY,Glenn Murray,Murray,AT,35,,Glenn Murray|Murray
+007,BRI1718,Brighton,2017-18,BRI1718_BRUNO,Bruno,Bruno,DF,25,,Bruno
+007,BRI1718,Brighton,2017-18,BRI1718_JOSE_IZQUIERDO,José Izquierdo,Izquierdo,MD,32,,Izquierdo|José Izquierdo
+007,BRI1718,Brighton,2017-18,BRI1718_SOLLY_MARCH,Solly March,March,MD,36,,March|Solly March
+007,BRI1718,Brighton,2017-18,BRI1718_EZEQUIEL_SCHELOTTO,Ezequiel Schelotto,Schelotto,DF,20,,Ezequiel Schelotto|Schelotto
+007,BRI1718,Brighton,2017-18,BRI1718_MARKUS_SUTTNER,Markus Suttner,Suttner,DF,14,,Markus Suttner|Suttner
+007,BRI1718,Brighton,2017-18,BRI1718_TOMER_HEMED,Tomer Hemed,Hemed,AT,16,,Hemed|Tomer Hemed
+007,BRI1718,Brighton,2017-18,BRI1718_BERAM_KAYAL,Beram Kayal,Kayal,MD,19,,Beram Kayal|Kayal
+007,BRI1718,Brighton,2017-18,BRI1718_IZZY_BROWN,Izzy Brown,Brown,MD|AT,13,,Brown|Izzy Brown
+007,BRI1718,Brighton,2017-18,BRI1718_JURGEN_LOCADIA,Jürgen Locadia,Locadia,AT|MD,6,,Jürgen Locadia|Locadia
+007,BRI1718,Brighton,2017-18,BRI1718_LEONARDO_ULLOA,Leonardo Ulloa,Ulloa,AT,10,,Leonardo Ulloa|Ulloa
+007,BRI1718,Brighton,2017-18,BRI1718_CONNOR_GOLDSON,Connor Goldson,Goldson,DF,3,,Connor Goldson|Goldson
+007,BRI1718,Brighton,2017-18,BRI1718_JAMIE_MURPHY,Jamie Murphy,Murphy,MD,4,,Jamie Murphy|Murphy
+007,BRI1718,Brighton,2017-18,BRI1718_LIAM_ROSENIOR,Liam Rosenior,Rosenior,DF,3,,Liam Rosenior|Rosenior
+007,BRI1718,Brighton,2017-18,BRI1718_SAM_BALDOCK,Sam Baldock,Baldock,AT|MD,2,,Baldock|Sam Baldock
+007,BRI1718,Brighton,2017-18,BRI1718_UWE_HUNEMEIER,Uwe Hünemeier,Hünemeier,DF,1,,Hünemeier|Uwe Hünemeier
+007,BRI1718,Brighton,2017-18,BRI1718_TIM_KRUL,Tim Krul,Krul,GK,0,,Krul|Tim Krul
+007,BRI1718,Brighton,2017-18,BRI1718_NIKI_MAENPAA,Niki Mäenpää,Mäenpää,GK,0,,Mäenpää|Niki Mäenpää
+007,BRI1718,Brighton,2017-18,BRI1718_JAYSON_MOLUMBY,Jayson Molumby,Molumby,MD,0,,Jayson Molumby|Molumby
+007,BRI1718,Brighton,2017-18,BRI1718_STEVE_SIDWELL,Steve Sidwell,Sidwell,MD,0,,Sidwell|Steve Sidwell
+007,BRI1718,Brighton,2017-18,BRI1718_JIRI_SKALAK,Jiří Skalák,Skalák,AT|MD,0,,Jiří Skalák|Skalák
+007,BOU2223,Bournemouth,2022-23,BOU2223_SCOTT_PARKER,Scott Parker,Parker,MAN,4,,Parker|Scott Parker
+007,BOU2223,Bournemouth,2022-23,BOU2223_GARY_O_NEIL,Gary O’Neil,O’Neil,MAN,23,,Gary O’Neil|O’Neil
+007,BOU2223,Bournemouth,2022-23,BOU2223_JEFFERSON_LERMA,Jefferson Lerma,Lerma,MD,37,,Jefferson Lerma|Lerma
+007,BOU2223,Bournemouth,2022-23,BOU2223_ADAM_SMITH,Adam Smith,Smith,DF,37,,Adam Smith|Smith
+007,BOU2223,Bournemouth,2022-23,BOU2223_PHILIP_BILLING,Philip Billing,Billing,MD|AT,36,,Billing|Philip Billing
+007,BOU2223,Bournemouth,2022-23,BOU2223_DOMINIC_SOLANKE,Dominic Solanke,Solanke,AT,33,,Dominic Solanke|Solanke
+007,BOU2223,Bournemouth,2022-23,BOU2223_MARCOS_SENESI,Marcos Senesi,Senesi,DF,31,,Marcos Senesi|Senesi
+007,BOU2223,Bournemouth,2022-23,BOU2223_NETO,Neto,Neto,GK,27,,Neto
+007,BOU2223,Bournemouth,2022-23,BOU2223_CHRIS_MEPHAM,Chris Mepham,Mepham,DF,26,,Chris Mepham|Mepham
+007,BOU2223,Bournemouth,2022-23,BOU2223_LLOYD_KELLY,Lloyd Kelly,Kelly,DF,23,,Kelly|Lloyd Kelly
+007,BOU2223,Bournemouth,2022-23,BOU2223_RYAN_CHRISTIE,Ryan Christie,Christie,MD,32,,Christie|Ryan Christie
+007,BOU2223,Bournemouth,2022-23,BOU2223_MARCUS_TAVERNIER,Marcus Tavernier,Tavernier,MD,23,,Marcus Tavernier|Tavernier
+007,BOU2223,Bournemouth,2022-23,BOU2223_LEWIS_COOK,Lewis Cook,Cook,MD,28,,Cook|Lewis Cook
+007,BOU2223,Bournemouth,2022-23,BOU2223_JORDAN_ZEMURA,Jordan Zemura,Zemura,DF|MD,19,,Jordan Zemura|Zemura
+007,BOU2223,Bournemouth,2022-23,BOU2223_DANGO_OUATTARA,Dango Ouattara,Ouattara,MD,19,,Dango Ouattara|Ouattara
+007,BOU2223,Bournemouth,2022-23,BOU2223_JACK_STEPHENS,Jack Stephens,Stephens,DF,15,,Jack Stephens|Stephens
+007,BOU2223,Bournemouth,2022-23,BOU2223_KIEFFER_MOORE,Kieffer Moore,Moore,AT,27,,Kieffer Moore|Moore
+007,BOU2223,Bournemouth,2022-23,BOU2223_JOE_ROTHWELL,Joe Rothwell,Rothwell,MD,20,,Joe Rothwell|Rothwell
+007,BOU2223,Bournemouth,2022-23,BOU2223_JAIDON_ANTHONY,Jaidon Anthony,Anthony,MD,30,,Anthony|Jaidon Anthony
+007,BOU2223,Bournemouth,2022-23,BOU2223_MARK_TRAVERS,Mark Travers,Travers,GK,12,,Mark Travers|Travers
+007,BOU2223,Bournemouth,2022-23,BOU2223_RYAN_FREDERICKS,Ryan Fredericks,Fredericks,DF,12,,Fredericks|Ryan Fredericks
+007,BOU2223,Bournemouth,2022-23,BOU2223_MATIAS_VINA,Matías Viña,Viña,DF|MD,12,,Matías Viña|Viña
+007,BOU2223,Bournemouth,2022-23,BOU2223_HAMED_JUNIOR_TRAORE,Hamed Junior Traorè,Traorè,MD,7,,Hamed Junior Traorè|Traorè
+007,BOU2223,Bournemouth,2022-23,BOU2223_JACK_STACEY,Jack Stacey,Stacey,DF|MD,10,,Jack Stacey|Stacey
+007,BOU2223,Bournemouth,2022-23,BOU2223_ILLIA_ZABARNYI,Illia Zabarnyi,Zabarnyi,DF,5,,Illia Zabarnyi|Zabarnyi
+007,BOU2223,Bournemouth,2022-23,BOU2223_BEN_PEARSON,Ben Pearson,Pearson,MD,7,,Ben Pearson|Pearson
+007,BOU2223,Bournemouth,2022-23,BOU2223_ANTOINE_SEMENYO,Antoine Semenyo,Semenyo,MD|AT,11,,Antoine Semenyo|Semenyo
+007,BOU2223,Bournemouth,2022-23,BOU2223_DAVID_BROOKS,David Brooks,Brooks,MD,6,,Brooks|David Brooks
+007,BOU2223,Bournemouth,2022-23,BOU2223_SIRIKI_DEMBELE,Siriki Dembélé,Dembélé,AT|MD,6,,Dembélé|Siriki Dembélé
+007,BOU2223,Bournemouth,2022-23,BOU2223_JUNIOR_STANISLAS,Junior Stanislas,Stanislas,MD,4,,Junior Stanislas|Stanislas
+007,BOU2223,Bournemouth,2022-23,BOU2223_JAMAL_LOWE,Jamal Lowe,Lowe,AT|MD,2,,Jamal Lowe|Lowe
+007,BOU2223,Bournemouth,2022-23,BOU2223_OWEN_BEVAN,Owen Bevan,Bevan,DF,1,,Bevan|Owen Bevan
+007,BOU2223,Bournemouth,2022-23,BOU2223_EMILIANO_MARCONDES,Emiliano Marcondes,Marcondes,AT|MD,1,,Emiliano Marcondes|Marcondes
+007,SUN9697,Sunderland,1996-97,SUN9697_PETER_REID,Peter Reid,Reid,MAN,38,,Peter Reid|Reid
+007,SUN9697,Sunderland,1996-97,SUN9697_PAUL_BRACEWELL,Paul Bracewell,Bracewell,MD,38,,Bracewell|Paul Bracewell
+007,SUN9697,Sunderland,1996-97,SUN9697_RICHARD_ORD,Richard Ord,Ord,DF,33,,Ord|Richard Ord
+007,SUN9697,Sunderland,1996-97,SUN9697_KEVIN_BALL,Kevin Ball,Ball,DF|MD,32,,Ball|Kevin Ball
+007,SUN9697,Sunderland,1996-97,SUN9697_GARETH_HALL,Gareth Hall,Hall,DF,32,,Gareth Hall|Hall
+007,SUN9697,Sunderland,1996-97,SUN9697_MICHAEL_GRAY,Michael Gray,Gray,DF|MD,34,,Gray|Michael Gray
+007,SUN9697,Sunderland,1996-97,SUN9697_ANDY_MELVILLE,Andy Melville,Melville,DF|MD,30,,Andy Melville|Melville
+007,SUN9697,Sunderland,1996-97,SUN9697_LIONEL_PEREZ,Lionel Pérez,Pérez,GK,29,,Lionel Pérez|Pérez
+007,SUN9697,Sunderland,1996-97,SUN9697_DARIUSZ_KUBICKI,Dariusz Kubicki,Kubicki,DF,29,,Dariusz Kubicki|Kubicki
+007,SUN9697,Sunderland,1996-97,SUN9697_DAVID_KELLY,David Kelly,Kelly,AT,24,,David Kelly|Kelly
+007,SUN9697,Sunderland,1996-97,SUN9697_PAUL_STEWART,Paul Stewart,Stewart,AT|MD,24,,Paul Stewart|Stewart
+007,SUN9697,Sunderland,1996-97,SUN9697_MARTIN_SCOTT,Martin Scott,Scott,DF,15,,Martin Scott|Scott
+007,SUN9697,Sunderland,1996-97,SUN9697_ALEX_RAE,Alex Rae,Rae,MD,23,,Alex Rae|Rae
+007,SUN9697,Sunderland,1996-97,SUN9697_STEVE_AGNEW,Steve Agnew,Agnew,MD,15,,Agnew|Steve Agnew
+007,SUN9697,Sunderland,1996-97,SUN9697_CRAIG_RUSSELL,Craig Russell,Russell,DF|AT,29,,Craig Russell|Russell
+007,SUN9697,Sunderland,1996-97,SUN9697_MICHAEL_BRIDGES,Michael Bridges,Bridges,AT|MD,25,,Bridges|Michael Bridges
+007,SUN9697,Sunderland,1996-97,SUN9697_DARREN_WILLIAMS,Darren Williams,Williams,DF,11,,Darren Williams|Williams
+007,SUN9697,Sunderland,1996-97,SUN9697_TONY_COTON,Tony Coton,Coton,GK,10,,Coton|Tony Coton
+007,SUN9697,Sunderland,1996-97,SUN9697_LEE_HOWEY,Lee Howey,Howey,DF|AT,12,,Howey|Lee Howey
+007,SUN9697,Sunderland,1996-97,SUN9697_JOHN_MULLIN,John Mullin,Mullin,MD,10,,John Mullin|Mullin
+007,SUN9697,Sunderland,1996-97,SUN9697_NIALL_QUINN,Niall Quinn,Quinn,AT,12,,Niall Quinn|Quinn
+007,SUN9697,Sunderland,1996-97,SUN9697_CHRIS_WADDLE,Chris Waddle,Waddle,AT|MD,7,,Chris Waddle|Waddle
+007,SUN9697,Sunderland,1996-97,SUN9697_MARTIN_SMITH,Martin Smith,Smith,AT|MD,11,,Martin Smith|Smith
+007,SUN9697,Sunderland,1996-97,SUN9697_ALLAN_JOHNSTON,Allan Johnston,Johnston,MD,6,,Allan Johnston|Johnston
+007,SUN9697,Sunderland,1996-97,SUN9697_JAN_ERIKSSON,Jan Eriksson,Eriksson,DF,1,,Eriksson|Jan Eriksson
+007,SUN9697,Sunderland,1996-97,SUN9697_SAM_AISTON,Sam Aiston,Aiston,MD,2,,Aiston|Sam Aiston
+007,REA0607,Reading,2006-07,REA0607_STEVE_COPPELL,Steve Coppell,Coppell,MAN,38,,Coppell|Steve Coppell
+007,REA0607,Reading,2006-07,REA0607_IVAR_INGIMARSSON,Ívar Ingimarsson,Ingimarsson,DF,38,,Ingimarsson|Ívar Ingimarsson
+007,REA0607,Reading,2006-07,REA0607_MARCUS_HAHNEMANN,Marcus Hahnemann,Hahnemann,GK,38,,Hahnemann|Marcus Hahnemann
+007,REA0607,Reading,2006-07,REA0607_NICKY_SHOREY,Nicky Shorey,Shorey,DF|MD,37,,Nicky Shorey|Shorey
+007,REA0607,Reading,2006-07,REA0607_JAMES_HARPER,James Harper,Harper,MD,38,,Harper|James Harper
+007,REA0607,Reading,2006-07,REA0607_STEVE_SIDWELL,Steve Sidwell,Sidwell,MD,35,,Sidwell|Steve Sidwell
+007,REA0607,Reading,2006-07,REA0607_KEVIN_DOYLE,Kevin Doyle,Doyle,AT,32,,Doyle|Kevin Doyle
+007,REA0607,Reading,2006-07,REA0607_STEPHEN_HUNT,Stephen Hunt,Hunt,AT|MD,35,,Hunt|Stephen Hunt
+007,REA0607,Reading,2006-07,REA0607_GRAEME_MURTY,Graeme Murty,Murty,DF,23,,Graeme Murty|Murty
+007,REA0607,Reading,2006-07,REA0607_IBRAHIMA_SONKO,Ibrahima Sonko,Sonko,DF,23,,Ibrahima Sonko|Sonko
+007,REA0607,Reading,2006-07,REA0607_LEROY_LITA,Leroy Lita,Lita,AT,33,,Leroy Lita|Lita
+007,REA0607,Reading,2006-07,REA0607_SEOL_KI_HYEON,Seol Ki-hyeon,Ki-hyeon,AT|MD,27,,Ki-hyeon|Seol Ki-hyeon
+007,REA0607,Reading,2006-07,REA0607_GLEN_LITTLE,Glen Little,Little,MD,24,,Glen Little|Little
+007,REA0607,Reading,2006-07,REA0607_BRYNJAR_GUNNARSSON,Brynjar Gunnarsson,Gunnarsson,MD,23,,Brynjar Gunnarsson|Gunnarsson
+007,REA0607,Reading,2006-07,REA0607_SHANE_LONG,Shane Long,Long,AT,21,,Long|Shane Long
+007,REA0607,Reading,2006-07,REA0607_DAVE_KITSON,Dave Kitson,Kitson,AT,13,,Dave Kitson|Kitson
+007,REA0607,Reading,2006-07,REA0607_ULISES_DE_LA_CRUZ,Ulises de la Cruz,la Cruz,DF,9,,la Cruz|Ulises de la Cruz
+007,REA0607,Reading,2006-07,REA0607_MICHAEL_DUBERRY,Michael Duberry,Duberry,DF,8,,Duberry|Michael Duberry
+007,REA0607,Reading,2006-07,REA0607_BOBBY_CONVEY,Bobby Convey,Convey,AT|MD,9,,Bobby Convey|Convey
+007,REA0607,Reading,2006-07,REA0607_ANDRE_BIKEY,André Bikey,Bikey,DF|MD,15,,André Bikey|Bikey
+007,REA0607,Reading,2006-07,REA0607_JOHN_OSTER,John Oster,Oster,MD,25,,John Oster|Oster
+007,REA0607,Reading,2006-07,REA0607_GREG_HALFORD,Greg Halford,Halford,DF|AT,3,,Greg Halford|Halford
+007,REA0607,Reading,2006-07,REA0607_SAM_SODJE,Sam Sodje,Sodje,DF,3,,Sam Sodje|Sodje
+007,REA0607,Reading,2006-07,REA0607_ADAM_FEDERICI,Adam Federici,Federici,GK,2,,Adam Federici|Federici
+007,STK1011,Stoke,2010-11,STK1011_TONY_PULIS,Tony Pulis,Pulis,MAN,38,,Pulis|Tony Pulis
+007,STK1011,Stoke,2010-11,STK1011_RYAN_SHAWCROSS,Ryan Shawcross,Shawcross,DF,36,,Ryan Shawcross|Shawcross
+007,STK1011,Stoke,2010-11,STK1011_ROBERT_HUTH,Robert Huth,Huth,DF,35,,Huth|Robert Huth
+007,STK1011,Stoke,2010-11,STK1011_RORY_DELAP,Rory Delap,Delap,MD,37,,Delap|Rory Delap
+007,STK1011,Stoke,2010-11,STK1011_KENWYNE_JONES,Kenwyne Jones,Jones,AT,34,,Jones|Kenwyne Jones
+007,STK1011,Stoke,2010-11,STK1011_DEAN_WHITEHEAD,Dean Whitehead,Whitehead,DF|MD,37,,Dean Whitehead|Whitehead
+007,STK1011,Stoke,2010-11,STK1011_MATTHEW_ETHERINGTON,Matthew Etherington,Etherington,MD,32,,Etherington|Matthew Etherington
+007,STK1011,Stoke,2010-11,STK1011_ASMIR_BEGOVIC,Asmir Begović,Begović,GK,28,,Asmir Begović|Begović
+007,STK1011,Stoke,2010-11,STK1011_JONATHAN_WALTERS,Jonathan Walters,Walters,AT|MD,36,,Jonathan Walters|Walters
+007,STK1011,Stoke,2010-11,STK1011_JERMAINE_PENNANT,Jermaine Pennant,Pennant,MD,29,,Jermaine Pennant|Pennant
+007,STK1011,Stoke,2010-11,STK1011_DANNY_COLLINS,Danny Collins,Collins,DF,25,,Collins|Danny Collins
+007,STK1011,Stoke,2010-11,STK1011_MARC_WILSON,Marc Wilson,Wilson,DF|MD,28,,Marc Wilson|Wilson
+007,STK1011,Stoke,2010-11,STK1011_ANDY_WILKINSON,Andy Wilkinson,Wilkinson,DF,22,,Andy Wilkinson|Wilkinson
+007,STK1011,Stoke,2010-11,STK1011_GLENN_WHELAN,Glenn Whelan,Whelan,MD,29,,Glenn Whelan|Whelan
+007,STK1011,Stoke,2010-11,STK1011_ABDOULAYE_FAYE,Abdoulaye Faye,Faye,DF|MD,14,,Abdoulaye Faye|Faye
+007,STK1011,Stoke,2010-11,STK1011_THOMAS_S_RENSEN,Thomas Sørensen,Sørensen,GK,10,,Sørensen|Thomas Sørensen
+007,STK1011,Stoke,2010-11,STK1011_RICARDO_FULLER,Ricardo Fuller,Fuller,AT,28,,Fuller|Ricardo Fuller
+007,STK1011,Stoke,2010-11,STK1011_DANNY_HIGGINBOTHAM,Danny Higginbotham,Higginbotham,DF,10,,Danny Higginbotham|Higginbotham
+007,STK1011,Stoke,2010-11,STK1011_JOHN_CAREW,John Carew,Carew,AT,10,,Carew|John Carew
+007,STK1011,Stoke,2010-11,STK1011_TUNCAY_SANL,Tuncay Şanlı,Şanlı,AT|MD,14,,Şanlı|Tuncay|Tuncay Şanlı
+007,STK1011,Stoke,2010-11,STK1011_DANNY_PUGH,Danny Pugh,Pugh,DF|MD,10,,Danny Pugh|Pugh
+007,STK1011,Stoke,2010-11,STK1011_SALIF_DIAO,Salif Diao,Diao,MD,8,,Diao|Salif Diao
+007,STK1011,Stoke,2010-11,STK1011_EI_UR_GU_JOHNSEN,Eiður Guðjohnsen,Guðjohnsen,AT|MD,4,,Eiður Guðjohnsen|Guðjohnsen
+007,STK1011,Stoke,2010-11,STK1011_RYAN_SHOTTON,Ryan Shotton,Shotton,DF|AT,2,,Ryan Shotton|Shotton
+007,STK1011,Stoke,2010-11,STK1011_MAMADY_SIDIBE,Mamady Sidibé,Sidibé,AT,2,,Mamady Sidibé|Sidibé
+007,STK1011,Stoke,2010-11,STK1011_MICHAEL_TONGE,Michael Tonge,Tonge,MD,2,,Michael Tonge|Tonge

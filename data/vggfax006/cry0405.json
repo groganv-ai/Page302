@@ -1,0 +1,378 @@
+{
+  "clubCode": "CRY0405",
+  "club": "Crystal Palace",
+  "season": "2004-05",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CRY0405_IAIN_DOWIE",
+      "fullname": "Iain Dowie",
+      "surname": "Dowie",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Dowie",
+        "Iain Dowie"
+      ]
+    },
+    {
+      "id": "CRY0405_WAYNE_ROUTLEDGE",
+      "fullname": "Wayne Routledge",
+      "surname": "Routledge",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Routledge",
+        "Wayne Routledge"
+      ]
+    },
+    {
+      "id": "CRY0405_ANDREW_JOHNSON",
+      "fullname": "Andrew Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Andrew Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "CRY0405_FITZ_HALL",
+      "fullname": "Fitz Hall",
+      "surname": "Hall",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Fitz Hall",
+        "Hall"
+      ]
+    },
+    {
+      "id": "CRY0405_DANNY_GRANVILLE",
+      "fullname": "Danny Granville",
+      "surname": "Granville",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Danny Granville",
+        "Granville"
+      ]
+    },
+    {
+      "id": "CRY0405_MICHAEL_HUGHES",
+      "fullname": "Michael Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Hughes",
+        "Michael Hughes"
+      ]
+    },
+    {
+      "id": "CRY0405_GABOR_KIRALY",
+      "fullname": "Gábor Király",
+      "surname": "Király",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Gábor Király",
+        "Király"
+      ]
+    },
+    {
+      "id": "CRY0405_AKI_RIIHILAHTI",
+      "fullname": "Aki Riihilahti",
+      "surname": "Riihilahti",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Aki Riihilahti",
+        "Riihilahti"
+      ]
+    },
+    {
+      "id": "CRY0405_EMMERSON_BOYCE",
+      "fullname": "Emmerson Boyce",
+      "surname": "Boyce",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Boyce",
+        "Emmerson Boyce"
+      ]
+    },
+    {
+      "id": "CRY0405_TONY_POPOVIC",
+      "fullname": "Tony Popovic",
+      "surname": "Popovic",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Popovic",
+        "Tony Popovic"
+      ]
+    },
+    {
+      "id": "CRY0405_JOONAS_KOLKKA",
+      "fullname": "Joonas Kolkka",
+      "surname": "Kolkka",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Joonas Kolkka",
+        "Kolkka"
+      ]
+    },
+    {
+      "id": "CRY0405_MIKELE_LEIGERTWOOD",
+      "fullname": "Mikele Leigertwood",
+      "surname": "Leigertwood",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Leigertwood",
+        "Mikele Leigertwood"
+      ]
+    },
+    {
+      "id": "CRY0405_TOM_SOARES",
+      "fullname": "Tom Soares",
+      "surname": "Soares",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Soares",
+        "Tom Soares"
+      ]
+    },
+    {
+      "id": "CRY0405_BEN_WATSON",
+      "fullname": "Ben Watson",
+      "surname": "Watson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Ben Watson",
+        "Watson"
+      ]
+    },
+    {
+      "id": "CRY0405_GONZALO_SORONDO",
+      "fullname": "Gonzalo Sorondo",
+      "surname": "Sorondo",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Gonzalo Sorondo",
+        "Sorondo"
+      ]
+    },
+    {
+      "id": "CRY0405_DOUGIE_FREEDMAN",
+      "fullname": "Dougie Freedman",
+      "surname": "Freedman",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Dougie Freedman",
+        "Freedman"
+      ]
+    },
+    {
+      "id": "CRY0405_MARK_HUDSON",
+      "fullname": "Mark Hudson",
+      "surname": "Hudson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Hudson",
+        "Mark Hudson"
+      ]
+    },
+    {
+      "id": "CRY0405_DANNY_BUTTERFIELD",
+      "fullname": "Danny Butterfield",
+      "surname": "Butterfield",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Butterfield",
+        "Danny Butterfield"
+      ]
+    },
+    {
+      "id": "CRY0405_VASILIS_LAKIS",
+      "fullname": "Vasilis Lakis",
+      "surname": "Lakis",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Lakis",
+        "Vasilis Lakis"
+      ]
+    },
+    {
+      "id": "CRY0405_JULIAN_SPERONI",
+      "fullname": "Julián Speroni",
+      "surname": "Speroni",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Julián Speroni",
+        "Speroni"
+      ]
+    },
+    {
+      "id": "CRY0405_DARREN_POWELL",
+      "fullname": "Darren Powell",
+      "surname": "Powell",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Darren Powell",
+        "Powell"
+      ]
+    },
+    {
+      "id": "CRY0405_SANDOR_TORGHELLE",
+      "fullname": "Sándor Torghelle",
+      "surname": "Torghelle",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Sándor Torghelle",
+        "Torghelle"
+      ]
+    },
+    {
+      "id": "CRY0405_GARY_BORROWDALE",
+      "fullname": "Gary Borrowdale",
+      "surname": "Borrowdale",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Borrowdale",
+        "Gary Borrowdale"
+      ]
+    },
+    {
+      "id": "CRY0405_SHAUN_DERRY",
+      "fullname": "Shaun Derry",
+      "surname": "Derry",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Derry",
+        "Shaun Derry"
+      ]
+    },
+    {
+      "id": "CRY0405_IVAN_KAVIEDES",
+      "fullname": "Iván Kaviedes",
+      "surname": "Kaviedes",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Iván Kaviedes",
+        "Kaviedes"
+      ]
+    },
+    {
+      "id": "CRY0405_WAYNE_ANDREWS",
+      "fullname": "Wayne Andrews",
+      "surname": "Andrews",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Andrews",
+        "Wayne Andrews"
+      ]
+    },
+    {
+      "id": "CRY0405_NICOLA_VENTOLA",
+      "fullname": "Nicola Ventola",
+      "surname": "Ventola",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Nicola Ventola",
+        "Ventola"
+      ]
+    },
+    {
+      "id": "CRY0405_NEIL_SHIPPERLEY",
+      "fullname": "Neil Shipperley",
+      "surname": "Shipperley",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Neil Shipperley",
+        "Shipperley"
+      ]
+    }
+  ]
+}

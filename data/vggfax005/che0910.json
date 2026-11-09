@@ -1,0 +1,419 @@
+{
+  "clubCode": "CHE0910",
+  "club": "Chelsea",
+  "season": "2009-10",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "CHE0910_CARLO_ANCELOTTI",
+      "fullname": "Carlo Ancelotti",
+      "surname": "Ancelotti",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Ancelotti",
+        "Carlo Ancelotti"
+      ]
+    },
+    {
+      "id": "CHE0910_JOHN_TERRY",
+      "fullname": "John Terry",
+      "surname": "Terry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "John Terry",
+        "Terry"
+      ]
+    },
+    {
+      "id": "CHE0910_FRANK_LAMPARD",
+      "fullname": "Frank Lampard",
+      "surname": "Lampard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Frank Lampard",
+        "Lampard"
+      ]
+    },
+    {
+      "id": "CHE0910_PETR_CECH",
+      "fullname": "Petr Čech",
+      "surname": "Čech",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Čech",
+        "Petr Čech"
+      ]
+    },
+    {
+      "id": "CHE0910_DIDIER_DROGBA",
+      "fullname": "Didier Drogba",
+      "surname": "Drogba",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Didier Drogba",
+        "Drogba"
+      ]
+    },
+    {
+      "id": "CHE0910_NICOLAS_ANELKA",
+      "fullname": "Nicolas Anelka",
+      "surname": "Anelka",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Anelka",
+        "Nicolas Anelka"
+      ]
+    },
+    {
+      "id": "CHE0910_MICHAEL_BALLACK",
+      "fullname": "Michael Ballack",
+      "surname": "Ballack",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Ballack",
+        "Michael Ballack"
+      ]
+    },
+    {
+      "id": "CHE0910_FLORENT_MALOUDA",
+      "fullname": "Florent Malouda",
+      "surname": "Malouda",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Florent Malouda",
+        "Malouda"
+      ]
+    },
+    {
+      "id": "CHE0910_BRANISLAV_IVANOVIC",
+      "fullname": "Branislav Ivanović",
+      "surname": "Ivanović",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Branislav Ivanović",
+        "Ivanović"
+      ]
+    },
+    {
+      "id": "CHE0910_ASHLEY_COLE",
+      "fullname": "Ashley Cole",
+      "surname": "Cole",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Ashley Cole",
+        "Cole"
+      ]
+    },
+    {
+      "id": "CHE0910_RICARDO_CARVALHO",
+      "fullname": "Ricardo Carvalho",
+      "surname": "Carvalho",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Carvalho",
+        "Ricardo Carvalho"
+      ]
+    },
+    {
+      "id": "CHE0910_JOHN_OBI_MIKEL",
+      "fullname": "John Obi Mikel",
+      "surname": "Mikel",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "John Obi Mikel",
+        "Mikel"
+      ]
+    },
+    {
+      "id": "CHE0910_JOE_COLE",
+      "fullname": "Joe Cole",
+      "surname": "Cole",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Cole",
+        "Joe Cole"
+      ]
+    },
+    {
+      "id": "CHE0910_DECO",
+      "fullname": "Deco",
+      "surname": "Deco",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Deco"
+      ]
+    },
+    {
+      "id": "CHE0910_ALEX",
+      "fullname": "Alex",
+      "surname": "Alex",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Alex"
+      ]
+    },
+    {
+      "id": "CHE0910_MICHAEL_ESSIEN",
+      "fullname": "Michael Essien",
+      "surname": "Essien",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Essien",
+        "Michael Essien"
+      ]
+    },
+    {
+      "id": "CHE0910_SALOMON_KALOU",
+      "fullname": "Salomon Kalou",
+      "surname": "Kalou",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Kalou",
+        "Salomon Kalou"
+      ]
+    },
+    {
+      "id": "CHE0910_PAULO_FERREIRA",
+      "fullname": "Paulo Ferreira",
+      "surname": "Ferreira",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Ferreira",
+        "Paulo Ferreira"
+      ]
+    },
+    {
+      "id": "CHE0910_YURI_ZHIRKOV",
+      "fullname": "Yuri Zhirkov",
+      "surname": "Zhirkov",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Yuri Zhirkov",
+        "Zhirkov"
+      ]
+    },
+    {
+      "id": "CHE0910_JOSE_BOSINGWA",
+      "fullname": "José Bosingwa",
+      "surname": "Bosingwa",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Bosingwa",
+        "José Bosingwa"
+      ]
+    },
+    {
+      "id": "CHE0910_JULIANO_BELLETTI",
+      "fullname": "Juliano Belletti",
+      "surname": "Belletti",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Belletti",
+        "Juliano Belletti"
+      ]
+    },
+    {
+      "id": "CHE0910_DANIEL_STURRIDGE",
+      "fullname": "Daniel Sturridge",
+      "surname": "Sturridge",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Daniel Sturridge",
+        "Sturridge"
+      ]
+    },
+    {
+      "id": "CHE0910_HENRIQUE_HILARIO",
+      "fullname": "Henrique Hilário",
+      "surname": "Hilário",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Henrique Hilário",
+        "Hilário"
+      ]
+    },
+    {
+      "id": "CHE0910_ROSS_TURNBULL",
+      "fullname": "Ross Turnbull",
+      "surname": "Turnbull",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Ross Turnbull",
+        "Turnbull"
+      ]
+    },
+    {
+      "id": "CHE0910_JEFFREY_BRUMA",
+      "fullname": "Jeffrey Bruma",
+      "surname": "Bruma",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Bruma",
+        "Jeffrey Bruma"
+      ]
+    },
+    {
+      "id": "CHE0910_NEMANJA_MATIC",
+      "fullname": "Nemanja Matić",
+      "surname": "Matić",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Matić",
+        "Nemanja Matić"
+      ]
+    },
+    {
+      "id": "CHE0910_FABIO_BORINI",
+      "fullname": "Fabio Borini",
+      "surname": "Borini",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Borini",
+        "Fabio Borini"
+      ]
+    },
+    {
+      "id": "CHE0910_PATRICK_VAN_AANHOLT",
+      "fullname": "Patrick van Aanholt",
+      "surname": "van Aanholt",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Patrick van Aanholt",
+        "van Aanholt"
+      ]
+    },
+    {
+      "id": "CHE0910_GAEL_KAKUTA",
+      "fullname": "Gaël Kakuta",
+      "surname": "Kakuta",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Gaël Kakuta",
+        "Kakuta"
+      ]
+    },
+    {
+      "id": "CHE0910_SAM_HUTCHINSON",
+      "fullname": "Sam Hutchinson",
+      "surname": "Hutchinson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Hutchinson",
+        "Sam Hutchinson"
+      ]
+    },
+    {
+      "id": "CHE0910_ANDRIY_SHEVCHENKO",
+      "fullname": "Andriy Shevchenko",
+      "surname": "Shevchenko",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Andriy Shevchenko",
+        "Shevchenko"
+      ]
+    }
+  ]
+}

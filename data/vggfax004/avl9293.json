@@ -1,0 +1,336 @@
+{
+  "clubCode": "AVL9293",
+  "club": "Aston Villa",
+  "season": "1992-93",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "AVL9293_RON_ATKINSON",
+      "fullname": "Ron Atkinson",
+      "surname": "Atkinson",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "Atkinson",
+        "Ron Atkinson"
+      ]
+    },
+    {
+      "id": "AVL9293_EARL_BARRETT",
+      "fullname": "Earl Barrett",
+      "surname": "Barrett",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "Barrett",
+        "Earl Barrett"
+      ]
+    },
+    {
+      "id": "AVL9293_PAUL_MCGRATH",
+      "fullname": "Paul McGrath",
+      "surname": "McGrath",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "McGrath",
+        "Paul McGrath"
+      ]
+    },
+    {
+      "id": "AVL9293_STEVE_STAUNTON",
+      "fullname": "Steve Staunton",
+      "surname": "Staunton",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "Staunton",
+        "Steve Staunton"
+      ]
+    },
+    {
+      "id": "AVL9293_KEVIN_RICHARDSON",
+      "fullname": "Kevin Richardson",
+      "surname": "Richardson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 42,
+      "aliases": [
+        "Kevin Richardson",
+        "Richardson"
+      ]
+    },
+    {
+      "id": "AVL9293_RAY_HOUGHTON",
+      "fullname": "Ray Houghton",
+      "surname": "Houghton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 39,
+      "aliases": [
+        "Houghton",
+        "Ray Houghton"
+      ]
+    },
+    {
+      "id": "AVL9293_SHAUN_TEALE",
+      "fullname": "Shaun Teale",
+      "surname": "Teale",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 39,
+      "aliases": [
+        "Shaun Teale",
+        "Teale"
+      ]
+    },
+    {
+      "id": "AVL9293_GARRY_PARKER",
+      "fullname": "Garry Parker",
+      "surname": "Parker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Garry Parker",
+        "Parker"
+      ]
+    },
+    {
+      "id": "AVL9293_DEAN_SAUNDERS",
+      "fullname": "Dean Saunders",
+      "surname": "Saunders",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Dean Saunders",
+        "Saunders"
+      ]
+    },
+    {
+      "id": "AVL9293_DALIAN_ATKINSON",
+      "fullname": "Dalian Atkinson",
+      "surname": "Atkinson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Atkinson",
+        "Dalian Atkinson"
+      ]
+    },
+    {
+      "id": "AVL9293_NIGEL_SPINK",
+      "fullname": "Nigel Spink",
+      "surname": "Spink",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Nigel Spink",
+        "Spink"
+      ]
+    },
+    {
+      "id": "AVL9293_DWIGHT_YORKE",
+      "fullname": "Dwight Yorke",
+      "surname": "Yorke",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Dwight Yorke",
+        "Yorke"
+      ]
+    },
+    {
+      "id": "AVL9293_MARK_BOSNICH",
+      "fullname": "Mark Bosnich",
+      "surname": "Bosnich",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Bosnich",
+        "Mark Bosnich"
+      ]
+    },
+    {
+      "id": "AVL9293_STEVE_FROGGATT",
+      "fullname": "Steve Froggatt",
+      "surname": "Froggatt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Froggatt",
+        "Steve Froggatt"
+      ]
+    },
+    {
+      "id": "AVL9293_BRYAN_SMALL",
+      "fullname": "Bryan Small",
+      "surname": "Small",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Bryan Small",
+        "Small"
+      ]
+    },
+    {
+      "id": "AVL9293_TONY_DALEY",
+      "fullname": "Tony Daley",
+      "surname": "Daley",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Daley",
+        "Tony Daley"
+      ]
+    },
+    {
+      "id": "AVL9293_CYRILLE_REGIS",
+      "fullname": "Cyrille Regis",
+      "surname": "Regis",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Cyrille Regis",
+        "Regis"
+      ]
+    },
+    {
+      "id": "AVL9293_NEIL_COX",
+      "fullname": "Neil Cox",
+      "surname": "Cox",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Cox",
+        "Neil Cox"
+      ]
+    },
+    {
+      "id": "AVL9293_MATTHIAS_BREITKREUTZ",
+      "fullname": "Matthias Breitkreutz",
+      "surname": "Breitkreutz",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Breitkreutz",
+        "Matthias Breitkreutz"
+      ]
+    },
+    {
+      "id": "AVL9293_UGO_EHIOGU",
+      "fullname": "Ugo Ehiogu",
+      "surname": "Ehiogu",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Ehiogu",
+        "Ugo Ehiogu"
+      ]
+    },
+    {
+      "id": "AVL9293_STEFAN_BEINLICH",
+      "fullname": "Stefan Beinlich",
+      "surname": "Beinlich",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Beinlich",
+        "Stefan Beinlich"
+      ]
+    },
+    {
+      "id": "AVL9293_DAVID_FARRELL",
+      "fullname": "David Farrell",
+      "surname": "Farrell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "David Farrell",
+        "Farrell"
+      ]
+    },
+    {
+      "id": "AVL9293_FRANK_MCAVENNIE",
+      "fullname": "Frank McAvennie",
+      "surname": "McAvennie",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Frank McAvennie",
+        "McAvennie"
+      ]
+    },
+    {
+      "id": "AVL9293_MARK_BLAKE",
+      "fullname": "Mark Blake",
+      "surname": "Blake",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Blake",
+        "Mark Blake"
+      ]
+    },
+    {
+      "id": "AVL9293_MARTIN_CARRUTHERS",
+      "fullname": "Martin Carruthers",
+      "surname": "Carruthers",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Carruthers",
+        "Martin Carruthers"
+      ]
+    }
+  ]
+}

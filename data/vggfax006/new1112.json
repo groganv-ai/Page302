@@ -1,0 +1,372 @@
+{
+  "clubCode": "NEW1112",
+  "club": "Newcastle",
+  "season": "2011-12",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "NEW1112_ALAN_PARDEW",
+      "fullname": "Alan Pardew",
+      "surname": "Pardew",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Alan Pardew",
+        "Pardew"
+      ]
+    },
+    {
+      "id": "NEW1112_TIM_KRUL",
+      "fullname": "Tim Krul",
+      "surname": "Krul",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Krul",
+        "Tim Krul"
+      ]
+    },
+    {
+      "id": "NEW1112_JONAS_GUTIERREZ",
+      "fullname": "Jonás Gutiérrez",
+      "surname": "Gutiérrez",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Gutiérrez",
+        "Jonás Gutiérrez"
+      ]
+    },
+    {
+      "id": "NEW1112_DANNY_SIMPSON",
+      "fullname": "Danny Simpson",
+      "surname": "Simpson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Danny Simpson",
+        "Simpson"
+      ]
+    },
+    {
+      "id": "NEW1112_FABRICIO_COLOCCINI",
+      "fullname": "Fabricio Coloccini",
+      "surname": "Coloccini",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Coloccini",
+        "Fabricio Coloccini"
+      ]
+    },
+    {
+      "id": "NEW1112_YOHAN_CABAYE",
+      "fullname": "Yohan Cabaye",
+      "surname": "Cabaye",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Cabaye",
+        "Yohan Cabaye"
+      ]
+    },
+    {
+      "id": "NEW1112_DEMBA_BA",
+      "fullname": "Demba Ba",
+      "surname": "Ba",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Ba",
+        "Demba Ba"
+      ]
+    },
+    {
+      "id": "NEW1112_CHEICK_TIOTE",
+      "fullname": "Cheick Tioté",
+      "surname": "Tioté",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Cheick Tioté",
+        "Tioté"
+      ]
+    },
+    {
+      "id": "NEW1112_RYAN_TAYLOR",
+      "fullname": "Ryan Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Ryan Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "NEW1112_MIKE_WILLIAMSON",
+      "fullname": "Mike Williamson",
+      "surname": "Williamson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Mike Williamson",
+        "Williamson"
+      ]
+    },
+    {
+      "id": "NEW1112_DAVIDE_SANTON",
+      "fullname": "Davide Santon",
+      "surname": "Santon",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Davide Santon",
+        "Santon"
+      ]
+    },
+    {
+      "id": "NEW1112_GABRIEL_OBERTAN",
+      "fullname": "Gabriel Obertan",
+      "surname": "Obertan",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Gabriel Obertan",
+        "Obertan"
+      ]
+    },
+    {
+      "id": "NEW1112_HATEM_BEN_ARFA",
+      "fullname": "Hatem Ben Arfa",
+      "surname": "Arfa",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Arfa",
+        "Hatem Ben Arfa"
+      ]
+    },
+    {
+      "id": "NEW1112_LEON_BEST",
+      "fullname": "Leon Best",
+      "surname": "Best",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Best",
+        "Leon Best"
+      ]
+    },
+    {
+      "id": "NEW1112_STEVEN_TAYLOR",
+      "fullname": "Steven Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Steven Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "NEW1112_JAMES_PERCH",
+      "fullname": "James Perch",
+      "surname": "Perch",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "James Perch",
+        "Perch"
+      ]
+    },
+    {
+      "id": "NEW1112_DANNY_GUTHRIE",
+      "fullname": "Danny Guthrie",
+      "surname": "Guthrie",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Danny Guthrie",
+        "Guthrie"
+      ]
+    },
+    {
+      "id": "NEW1112_PAPISS_CISSE",
+      "fullname": "Papiss Cissé",
+      "surname": "Cissé",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Cissé",
+        "Papiss Cissé"
+      ]
+    },
+    {
+      "id": "NEW1112_SHOLA_AMEOBI",
+      "fullname": "Shola Ameobi",
+      "surname": "Ameobi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Ameobi",
+        "Shola Ameobi"
+      ]
+    },
+    {
+      "id": "NEW1112_PETER_L_VENKRANDS",
+      "fullname": "Peter Løvenkrands",
+      "surname": "Løvenkrands",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Løvenkrands",
+        "Peter Løvenkrands"
+      ]
+    },
+    {
+      "id": "NEW1112_JOEY_BARTON",
+      "fullname": "Joey Barton",
+      "surname": "Barton",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Barton",
+        "Joey Barton"
+      ]
+    },
+    {
+      "id": "NEW1112_HARIS_VUCKIC",
+      "fullname": "Haris Vučkić",
+      "surname": "Vučkić",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Haris Vučkić",
+        "Vučkić"
+      ]
+    },
+    {
+      "id": "NEW1112_DAN_GOSLING",
+      "fullname": "Dan Gosling",
+      "surname": "Gosling",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Dan Gosling",
+        "Gosling"
+      ]
+    },
+    {
+      "id": "NEW1112_SAMMY_AMEOBI",
+      "fullname": "Sammy Ameobi",
+      "surname": "Ameobi",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Ameobi",
+        "Sammy Ameobi"
+      ]
+    },
+    {
+      "id": "NEW1112_SYLVAIN_MARVEAUX",
+      "fullname": "Sylvain Marveaux",
+      "surname": "Marveaux",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Marveaux",
+        "Sylvain Marveaux"
+      ]
+    },
+    {
+      "id": "NEW1112_SHANE_FERGUSON",
+      "fullname": "Shane Ferguson",
+      "surname": "Ferguson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Ferguson",
+        "Shane Ferguson"
+      ]
+    },
+    {
+      "id": "NEW1112_ALAN_SMITH",
+      "fullname": "Alan Smith",
+      "surname": "Smith",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Alan Smith",
+        "Smith"
+      ]
+    }
+  ]
+}

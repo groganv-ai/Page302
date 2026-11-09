@@ -1,0 +1,404 @@
+{
+  "clubCode": "TOT0506",
+  "club": "Tottenham",
+  "season": "2005-06",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "TOT0506_MARTIN_JOL",
+      "fullname": "Martin Jol",
+      "surname": "Jol",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Jol",
+        "Martin Jol"
+      ]
+    },
+    {
+      "id": "TOT0506_PAUL_ROBINSON",
+      "fullname": "Paul Robinson",
+      "surname": "Robinson",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Paul Robinson",
+        "Robinson"
+      ]
+    },
+    {
+      "id": "TOT0506_MICHAEL_CARRICK",
+      "fullname": "Michael Carrick",
+      "surname": "Carrick",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Carrick",
+        "Michael Carrick"
+      ]
+    },
+    {
+      "id": "TOT0506_PAUL_STALTERI",
+      "fullname": "Paul Stalteri",
+      "surname": "Stalteri",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Paul Stalteri",
+        "Stalteri"
+      ]
+    },
+    {
+      "id": "TOT0506_MICHAEL_DAWSON",
+      "fullname": "Michael Dawson",
+      "surname": "Dawson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Dawson",
+        "Michael Dawson"
+      ]
+    },
+    {
+      "id": "TOT0506_LEE_YOUNG_PYO",
+      "fullname": "Lee Young-pyo",
+      "surname": "Young-pyo",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Lee",
+        "Lee Young-pyo",
+        "Young-pyo",
+        "Young-pyo Lee"
+      ]
+    },
+    {
+      "id": "TOT0506_JERMAINE_JENAS",
+      "fullname": "Jermaine Jenas",
+      "surname": "Jenas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Jenas",
+        "Jermaine Jenas"
+      ]
+    },
+    {
+      "id": "TOT0506_EDGAR_DAVIDS",
+      "fullname": "Edgar Davids",
+      "surname": "Davids",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Davids",
+        "Edgar Davids"
+      ]
+    },
+    {
+      "id": "TOT0506_LEDLEY_KING",
+      "fullname": "Ledley King",
+      "surname": "King",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "King",
+        "Ledley King"
+      ]
+    },
+    {
+      "id": "TOT0506_ROBBIE_KEANE",
+      "fullname": "Robbie Keane",
+      "surname": "Keane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Keane",
+        "Robbie Keane"
+      ]
+    },
+    {
+      "id": "TOT0506_MIDO",
+      "fullname": "Mido",
+      "surname": "Mido",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Mido"
+      ]
+    },
+    {
+      "id": "TOT0506_JERMAIN_DEFOE",
+      "fullname": "Jermain Defoe",
+      "surname": "Defoe",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Defoe",
+        "Jermain Defoe"
+      ]
+    },
+    {
+      "id": "TOT0506_TEEMU_TAINIO",
+      "fullname": "Teemu Tainio",
+      "surname": "Tainio",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Tainio",
+        "Teemu Tainio"
+      ]
+    },
+    {
+      "id": "TOT0506_AARON_LENNON",
+      "fullname": "Aaron Lennon",
+      "surname": "Lennon",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Aaron Lennon",
+        "Lennon"
+      ]
+    },
+    {
+      "id": "TOT0506_ANTHONY_GARDNER",
+      "fullname": "Anthony Gardner",
+      "surname": "Gardner",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Anthony Gardner",
+        "Gardner"
+      ]
+    },
+    {
+      "id": "TOT0506_STEPHEN_KELLY",
+      "fullname": "Stephen Kelly",
+      "surname": "Kelly",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Kelly",
+        "Stephen Kelly"
+      ]
+    },
+    {
+      "id": "TOT0506_ANDY_REID",
+      "fullname": "Andy Reid",
+      "surname": "Reid",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Andy Reid",
+        "Reid"
+      ]
+    },
+    {
+      "id": "TOT0506_GRZEGORZ_RASIAK",
+      "fullname": "Grzegorz Rasiak",
+      "surname": "Rasiak",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Grzegorz Rasiak",
+        "Rasiak"
+      ]
+    },
+    {
+      "id": "TOT0506_ERIK_EDMAN",
+      "fullname": "Erik Edman",
+      "surname": "Edman",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Edman",
+        "Erik Edman"
+      ]
+    },
+    {
+      "id": "TOT0506_PEDRO_MENDES",
+      "fullname": "Pedro Mendes",
+      "surname": "Mendes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Mendes",
+        "Pedro Mendes"
+      ]
+    },
+    {
+      "id": "TOT0506_DANNY_MURPHY",
+      "fullname": "Danny Murphy",
+      "surname": "Murphy",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Danny Murphy",
+        "Murphy"
+      ]
+    },
+    {
+      "id": "TOT0506_MICHAEL_BROWN",
+      "fullname": "Michael Brown",
+      "surname": "Brown",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Brown",
+        "Michael Brown"
+      ]
+    },
+    {
+      "id": "TOT0506_NOUREDDINE_NAYBET",
+      "fullname": "Noureddine Naybet",
+      "surname": "Naybet",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Naybet",
+        "Noureddine Naybet"
+      ]
+    },
+    {
+      "id": "TOT0506_WAYNE_ROUTLEDGE",
+      "fullname": "Wayne Routledge",
+      "surname": "Routledge",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Routledge",
+        "Wayne Routledge"
+      ]
+    },
+    {
+      "id": "TOT0506_CALUM_DAVENPORT",
+      "fullname": "Calum Davenport",
+      "surname": "Davenport",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Calum Davenport",
+        "Davenport"
+      ]
+    },
+    {
+      "id": "TOT0506_TOM_HUDDLESTONE",
+      "fullname": "Tom Huddlestone",
+      "surname": "Huddlestone",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Huddlestone",
+        "Tom Huddlestone"
+      ]
+    },
+    {
+      "id": "TOT0506_LEE_BARNARD",
+      "fullname": "Lee Barnard",
+      "surname": "Barnard",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Barnard",
+        "Lee Barnard"
+      ]
+    },
+    {
+      "id": "TOT0506_JOHNNIE_JACKSON",
+      "fullname": "Johnnie Jackson",
+      "surname": "Jackson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Jackson",
+        "Johnnie Jackson"
+      ]
+    },
+    {
+      "id": "TOT0506_NOE_PAMAROT",
+      "fullname": "Noé Pamarot",
+      "surname": "Pamarot",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Noé Pamarot",
+        "Pamarot"
+      ]
+    },
+    {
+      "id": "TOT0506_FREDERIC_KANOUTE",
+      "fullname": "Frédéric Kanouté",
+      "surname": "Kanouté",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Frédéric Kanouté",
+        "Kanouté"
+      ]
+    }
+  ]
+}

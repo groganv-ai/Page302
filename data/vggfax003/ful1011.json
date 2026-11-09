@@ -1,1 +1,407 @@
-{"clubCode":"FUL1011","club":"Fulham","season":"2010-11","competition":"Premier League","version":2,"squad":[{"id":"FUL1011_MARK_HUGHES","fullname":"Mark Hughes","surname":"Hughes","positions":["MAN"],"appearances":38},{"id":"FUL1011_AARON_HUGHES","fullname":"Aaron Hughes","surname":"Hughes","positions":["DF"],"appearances":38},{"id":"FUL1011_BREDE_HANGELAND","fullname":"Brede Hangeland","surname":"Hangeland","positions":["DF"],"appearances":37},{"id":"FUL1011_DANNY_MURPHY","fullname":"Danny Murphy","surname":"Murphy","positions":["MD"],"appearances":37},{"id":"FUL1011_CLINT_DEMPSEY","fullname":"Clint Dempsey","surname":"Dempsey","positions":["AT","MD"],"appearances":37},{"id":"FUL1011_MARK_SCHWARZER","fullname":"Mark Schwarzer","surname":"Schwarzer","positions":["GK"],"appearances":31},{"id":"FUL1011_CHRIS_BAIRD","fullname":"Chris Baird","surname":"Baird","positions":["DF","MD"],"appearances":29},{"id":"FUL1011_SIMON_DAVIES","fullname":"Simon Davies","surname":"Davies","positions":["MD"],"appearances":30},{"id":"FUL1011_DICKSON_ETUHU","fullname":"Dickson Etuhu","surname":"Etuhu","positions":["MD"],"appearances":28},{"id":"FUL1011_MOUSA_DEMBELE","fullname":"Mousa Dembélé","surname":"Dembélé","positions":["MD"],"appearances":24},{"id":"FUL1011_CARLOS_SALCIDO","fullname":"Carlos Salcido","surname":"Salcido","positions":["DF","MD"],"appearances":23},{"id":"FUL1011_DAMIEN_DUFF","fullname":"Damien Duff","surname":"Duff","positions":["AT","MD"],"appearances":24},{"id":"FUL1011_ANDREW_JOHNSON","fullname":"Andrew Johnson","surname":"Johnson","positions":["AT"],"appearances":27},{"id":"FUL1011_JOHN_PAINTSIL","fullname":"John Paintsil","surname":"Paintsil","positions":["DF","MD"],"appearances":16},{"id":"FUL1011_ZOLTAN_GERA","fullname":"Zoltán Gera","surname":"Gera","positions":["MD"],"appearances":27},{"id":"FUL1011_STEVE_SIDWELL","fullname":"Steve Sidwell","surname":"Sidwell","positions":["MD"],"appearances":12},{"id":"FUL1011_BOBBY_ZAMORA","fullname":"Bobby Zamora","surname":"Zamora","positions":["AT"],"appearances":14},{"id":"FUL1011_STEPHEN_KELLY","fullname":"Stephen Kelly","surname":"Kelly","positions":["DF"],"appearances":10},{"id":"FUL1011_DAVID_STOCKDALE","fullname":"David Stockdale","surname":"Stockdale","positions":["GK"],"appearances":7},{"id":"FUL1011_DIOMANSY_KAMARA","fullname":"Diomansy Kamara","surname":"Kamara","positions":["AT"],"appearances":10},{"id":"FUL1011_JONATHAN_GREENING","fullname":"Jonathan Greening","surname":"Greening","positions":["MD"],"appearances":10},{"id":"FUL1011_EI_UR_GU_JOHNSEN","fullname":"Eiður Guðjohnsen","surname":"Guðjohnsen","positions":["AT","MD"],"appearances":10},{"id":"FUL1011_PHILIPPE_SENDEROS","fullname":"Philippe Senderos","surname":"Senderos","positions":["DF"],"appearances":3},{"id":"FUL1011_MATTHEW_BRIGGS","fullname":"Matthew Briggs","surname":"Briggs","positions":["DF"],"appearances":3},{"id":"FUL1011_GAEL_KAKUTA","fullname":"Gaël Kakuta","surname":"Kakuta","positions":["AT","MD"],"appearances":7},{"id":"FUL1011_EDDIE_JOHNSON","fullname":"Eddie Johnson","surname":"Johnson","positions":["AT"],"appearances":11},{"id":"FUL1011_PAUL_KONCHESKY","fullname":"Paul Konchesky","surname":"Konchesky","positions":["DF","AT"],"appearances":1},{"id":"FUL1011_BJ_RN_HELGE_RIISE","fullname":"Bjørn Helge Riise","surname":"Riise","positions":["MD"],"appearances":3},{"id":"FUL1011_RAFIK_HALLICHE","fullname":"Rafik Halliche","surname":"Halliche","positions":["DF"],"appearances":1},{"id":"FUL1011_KAGISHO_DIKGACOI","fullname":"Kagisho Dikgacoi","surname":"Dikgacoi","positions":["MD"],"appearances":1}]}
+{
+  "clubCode": "FUL1011",
+  "club": "Fulham",
+  "season": "2010-11",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "FUL1011_MARK_HUGHES",
+      "fullname": "Mark Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Hughes",
+        "Mark Hughes"
+      ]
+    },
+    {
+      "id": "FUL1011_AARON_HUGHES",
+      "fullname": "Aaron Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Aaron Hughes",
+        "Hughes"
+      ]
+    },
+    {
+      "id": "FUL1011_BREDE_HANGELAND",
+      "fullname": "Brede Hangeland",
+      "surname": "Hangeland",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Brede Hangeland",
+        "Hangeland"
+      ]
+    },
+    {
+      "id": "FUL1011_DANNY_MURPHY",
+      "fullname": "Danny Murphy",
+      "surname": "Murphy",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Danny Murphy",
+        "Murphy"
+      ]
+    },
+    {
+      "id": "FUL1011_CLINT_DEMPSEY",
+      "fullname": "Clint Dempsey",
+      "surname": "Dempsey",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Clint Dempsey",
+        "Dempsey"
+      ]
+    },
+    {
+      "id": "FUL1011_MARK_SCHWARZER",
+      "fullname": "Mark Schwarzer",
+      "surname": "Schwarzer",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Mark Schwarzer",
+        "Schwarzer"
+      ]
+    },
+    {
+      "id": "FUL1011_CHRIS_BAIRD",
+      "fullname": "Chris Baird",
+      "surname": "Baird",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Baird",
+        "Chris Baird"
+      ]
+    },
+    {
+      "id": "FUL1011_SIMON_DAVIES",
+      "fullname": "Simon Davies",
+      "surname": "Davies",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Davies",
+        "Simon Davies"
+      ]
+    },
+    {
+      "id": "FUL1011_DICKSON_ETUHU",
+      "fullname": "Dickson Etuhu",
+      "surname": "Etuhu",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Dickson Etuhu",
+        "Etuhu"
+      ]
+    },
+    {
+      "id": "FUL1011_MOUSA_DEMBELE",
+      "fullname": "Mousa Dembélé",
+      "surname": "Dembélé",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Dembélé",
+        "Mousa Dembélé"
+      ]
+    },
+    {
+      "id": "FUL1011_CARLOS_SALCIDO",
+      "fullname": "Carlos Salcido",
+      "surname": "Salcido",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Carlos Salcido",
+        "Salcido"
+      ]
+    },
+    {
+      "id": "FUL1011_DAMIEN_DUFF",
+      "fullname": "Damien Duff",
+      "surname": "Duff",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Damien Duff",
+        "Duff"
+      ]
+    },
+    {
+      "id": "FUL1011_ANDREW_JOHNSON",
+      "fullname": "Andrew Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Andrew Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "FUL1011_JOHN_PAINTSIL",
+      "fullname": "John Paintsil",
+      "surname": "Paintsil",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "John Paintsil",
+        "Paintsil"
+      ]
+    },
+    {
+      "id": "FUL1011_ZOLTAN_GERA",
+      "fullname": "Zoltán Gera",
+      "surname": "Gera",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Gera",
+        "Zoltán Gera"
+      ]
+    },
+    {
+      "id": "FUL1011_STEVE_SIDWELL",
+      "fullname": "Steve Sidwell",
+      "surname": "Sidwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Sidwell",
+        "Steve Sidwell"
+      ]
+    },
+    {
+      "id": "FUL1011_BOBBY_ZAMORA",
+      "fullname": "Bobby Zamora",
+      "surname": "Zamora",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Bobby Zamora",
+        "Zamora"
+      ]
+    },
+    {
+      "id": "FUL1011_STEPHEN_KELLY",
+      "fullname": "Stephen Kelly",
+      "surname": "Kelly",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Kelly",
+        "Stephen Kelly"
+      ]
+    },
+    {
+      "id": "FUL1011_DAVID_STOCKDALE",
+      "fullname": "David Stockdale",
+      "surname": "Stockdale",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "David Stockdale",
+        "Stockdale"
+      ]
+    },
+    {
+      "id": "FUL1011_DIOMANSY_KAMARA",
+      "fullname": "Diomansy Kamara",
+      "surname": "Kamara",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Diomansy Kamara",
+        "Kamara"
+      ]
+    },
+    {
+      "id": "FUL1011_JONATHAN_GREENING",
+      "fullname": "Jonathan Greening",
+      "surname": "Greening",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Greening",
+        "Jonathan Greening"
+      ]
+    },
+    {
+      "id": "FUL1011_EI_UR_GU_JOHNSEN",
+      "fullname": "Eiður Guðjohnsen",
+      "surname": "Guðjohnsen",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Eiður Guðjohnsen",
+        "Guðjohnsen"
+      ]
+    },
+    {
+      "id": "FUL1011_PHILIPPE_SENDEROS",
+      "fullname": "Philippe Senderos",
+      "surname": "Senderos",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Philippe Senderos",
+        "Senderos"
+      ]
+    },
+    {
+      "id": "FUL1011_MATTHEW_BRIGGS",
+      "fullname": "Matthew Briggs",
+      "surname": "Briggs",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Briggs",
+        "Matthew Briggs"
+      ]
+    },
+    {
+      "id": "FUL1011_GAEL_KAKUTA",
+      "fullname": "Gaël Kakuta",
+      "surname": "Kakuta",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Gaël Kakuta",
+        "Kakuta"
+      ]
+    },
+    {
+      "id": "FUL1011_EDDIE_JOHNSON",
+      "fullname": "Eddie Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Eddie Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "FUL1011_PAUL_KONCHESKY",
+      "fullname": "Paul Konchesky",
+      "surname": "Konchesky",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Konchesky",
+        "Paul Konchesky"
+      ]
+    },
+    {
+      "id": "FUL1011_BJ_RN_HELGE_RIISE",
+      "fullname": "Bjørn Helge Riise",
+      "surname": "Riise",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Bjørn Helge Riise",
+        "Riise"
+      ]
+    },
+    {
+      "id": "FUL1011_RAFIK_HALLICHE",
+      "fullname": "Rafik Halliche",
+      "surname": "Halliche",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Halliche",
+        "Rafik Halliche"
+      ]
+    },
+    {
+      "id": "FUL1011_KAGISHO_DIKGACOI",
+      "fullname": "Kagisho Dikgacoi",
+      "surname": "Dikgacoi",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Dikgacoi",
+        "Kagisho Dikgacoi"
+      ]
+    }
+  ]
+}

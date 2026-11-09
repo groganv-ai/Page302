@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Arsène Wenger",
+        "Wenger"
+      ]
     },
     {
       "id": "ARS9798_NIGEL_WINTERBURN",
@@ -21,7 +25,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Nigel Winterburn",
+        "Winterburn"
+      ]
     },
     {
       "id": "ARS9798_RAY_PARLOUR",
@@ -30,7 +38,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Parlour",
+        "Ray Parlour"
+      ]
     },
     {
       "id": "ARS9798_EMMANUEL_PETIT",
@@ -40,7 +52,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Emmanuel Petit",
+        "Petit"
+      ]
     },
     {
       "id": "ARS9798_MARC_OVERMARS",
@@ -50,7 +66,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 32
+      "appearances": 32,
+      "aliases": [
+        "Marc Overmars",
+        "Overmars"
+      ]
     },
     {
       "id": "ARS9798_DAVID_SEAMAN",
@@ -59,7 +79,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "David Seaman",
+        "Seaman"
+      ]
     },
     {
       "id": "ARS9798_PATRICK_VIEIRA",
@@ -68,7 +92,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Patrick Vieira",
+        "Vieira"
+      ]
     },
     {
       "id": "ARS9798_DENNIS_BERGKAMP",
@@ -77,7 +105,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Bergkamp",
+        "Dennis Bergkamp"
+      ]
     },
     {
       "id": "ARS9798_TONY_ADAMS",
@@ -86,7 +118,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Adams",
+        "Tony Adams"
+      ]
     },
     {
       "id": "ARS9798_LEE_DIXON",
@@ -95,7 +131,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Dixon",
+        "Lee Dixon"
+      ]
     },
     {
       "id": "ARS9798_IAN_WRIGHT",
@@ -104,7 +144,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Ian Wright",
+        "Wright"
+      ]
     },
     {
       "id": "ARS9798_STEVE_BOULD",
@@ -113,7 +157,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Bould",
+        "Steve Bould"
+      ]
     },
     {
       "id": "ARS9798_MARTIN_KEOWN",
@@ -123,7 +171,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Keown",
+        "Martin Keown"
+      ]
     },
     {
       "id": "ARS9798_GILLES_GRIMANDI",
@@ -132,7 +184,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 22
+      "appearances": 22,
+      "aliases": [
+        "Gilles Grimandi",
+        "Grimandi"
+      ]
     },
     {
       "id": "ARS9798_NICOLAS_ANELKA",
@@ -141,7 +197,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Anelka",
+        "Nicolas Anelka"
+      ]
     },
     {
       "id": "ARS9798_DAVID_PLATT",
@@ -150,7 +210,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "David Platt",
+        "Platt"
+      ]
     },
     {
       "id": "ARS9798_STEPHEN_HUGHES",
@@ -159,7 +223,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 17
+      "appearances": 17,
+      "aliases": [
+        "Hughes",
+        "Stephen Hughes"
+      ]
     },
     {
       "id": "ARS9798_CHRISTOPHER_WREH",
@@ -168,7 +236,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Christopher Wreh",
+        "Wreh"
+      ]
     },
     {
       "id": "ARS9798_ALEX_MANNINGER",
@@ -177,7 +249,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Alex Manninger",
+        "Manninger"
+      ]
     },
     {
       "id": "ARS9798_R_MI_GARDE",
@@ -187,7 +263,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Garde",
+        "Rémi Garde"
+      ]
     },
     {
       "id": "ARS9798_MATT_UPSON",
@@ -196,7 +276,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 5
+      "appearances": 5,
+      "aliases": [
+        "Matt Upson",
+        "Upson"
+      ]
     },
     {
       "id": "ARS9798_LU_S_BOA_MORTE",
@@ -206,7 +290,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Luís Boa Morte",
+        "Morte"
+      ]
     },
     {
       "id": "ARS9798_SCOTT_MARSHALL",
@@ -215,7 +303,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Marshall",
+        "Scott Marshall"
+      ]
     },
     {
       "id": "ARS9798_ALBERTO_M_NDEZ",
@@ -224,7 +316,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Alberto Méndez",
+        "Méndez"
+      ]
     },
     {
       "id": "ARS9798_PAOLO_VERNAZZA",
@@ -233,7 +329,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Paolo Vernazza",
+        "Vernazza"
+      ]
     },
     {
       "id": "ARS9798_GAVIN_MCGOWAN",
@@ -243,7 +343,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Gavin McGowan",
+        "McGowan"
+      ]
     },
     {
       "id": "ARS9798_ISAIAH_RANKIN",
@@ -253,7 +357,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Isaiah Rankin",
+        "Rankin"
+      ]
     }
   ]
 }

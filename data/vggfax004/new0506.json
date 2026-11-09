@@ -1,0 +1,379 @@
+{
+  "clubCode": "NEW0506",
+  "club": "Newcastle",
+  "season": "2005-06",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "NEW0506_GRAEME_SOUNESS",
+      "fullname": "Graeme Souness",
+      "surname": "Souness",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Graeme Souness",
+        "Souness"
+      ]
+    },
+    {
+      "id": "NEW0506_GLENN_ROEDER",
+      "fullname": "Glenn Roeder",
+      "surname": "Roeder",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Glenn Roeder",
+        "Roeder"
+      ]
+    },
+    {
+      "id": "NEW0506_SHAY_GIVEN",
+      "fullname": "Shay Given",
+      "surname": "Given",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Given",
+        "Shay Given"
+      ]
+    },
+    {
+      "id": "NEW0506_ALAN_SHEARER",
+      "fullname": "Alan Shearer",
+      "surname": "Shearer",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Alan Shearer",
+        "Shearer"
+      ]
+    },
+    {
+      "id": "NEW0506_JEAN_ALAIN_BOUMSONG",
+      "fullname": "Jean-Alain Boumsong",
+      "surname": "Boumsong",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Boumsong",
+        "Jean-Alain Boumsong"
+      ]
+    },
+    {
+      "id": "NEW0506_CHARLES_N_ZOGBIA",
+      "fullname": "Charles N'Zogbia",
+      "surname": "N'Zogbia",
+      "positions": [
+        "DF",
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Charles N'Zogbia",
+        "N'Zogbia"
+      ]
+    },
+    {
+      "id": "NEW0506_NOLBERTO_SOLANO",
+      "fullname": "Nolberto Solano",
+      "surname": "Solano",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Nolberto Solano",
+        "Solano"
+      ]
+    },
+    {
+      "id": "NEW0506_CELESTINE_BABAYARO",
+      "fullname": "Celestine Babayaro",
+      "surname": "Babayaro",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Babayaro",
+        "Celestine Babayaro"
+      ]
+    },
+    {
+      "id": "NEW0506_SCOTT_PARKER",
+      "fullname": "Scott Parker",
+      "surname": "Parker",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Parker",
+        "Scott Parker"
+      ]
+    },
+    {
+      "id": "NEW0506_SHOLA_AMEOBI",
+      "fullname": "Shola Ameobi",
+      "surname": "Ameobi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Ameobi",
+        "Shola Ameobi"
+      ]
+    },
+    {
+      "id": "NEW0506_PETER_RAMAGE",
+      "fullname": "Peter Ramage",
+      "surname": "Ramage",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Peter Ramage",
+        "Ramage"
+      ]
+    },
+    {
+      "id": "NEW0506_TITUS_BRAMBLE",
+      "fullname": "Titus Bramble",
+      "surname": "Bramble",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Bramble",
+        "Titus Bramble"
+      ]
+    },
+    {
+      "id": "NEW0506_STEPHEN_CARR",
+      "fullname": "Stephen Carr",
+      "surname": "Carr",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Carr",
+        "Stephen Carr"
+      ]
+    },
+    {
+      "id": "NEW0506_EMRE_BELOZOGLU",
+      "fullname": "Emre Belözoğlu",
+      "surname": "Belözoğlu",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Belözoğlu",
+        "Emre",
+        "Emre Belözoğlu"
+      ]
+    },
+    {
+      "id": "NEW0506_LEE_BOWYER",
+      "fullname": "Lee Bowyer",
+      "surname": "Bowyer",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Bowyer",
+        "Lee Bowyer"
+      ]
+    },
+    {
+      "id": "NEW0506_AMDY_FAYE",
+      "fullname": "Amdy Faye",
+      "surname": "Faye",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Amdy Faye",
+        "Faye"
+      ]
+    },
+    {
+      "id": "NEW0506_ROBBIE_ELLIOTT",
+      "fullname": "Robbie Elliott",
+      "surname": "Elliott",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Elliott",
+        "Robbie Elliott"
+      ]
+    },
+    {
+      "id": "NEW0506_STEVEN_TAYLOR",
+      "fullname": "Steven Taylor",
+      "surname": "Taylor",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Steven Taylor",
+        "Taylor"
+      ]
+    },
+    {
+      "id": "NEW0506_MICHAEL_OWEN",
+      "fullname": "Michael Owen",
+      "surname": "Owen",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Michael Owen",
+        "Owen"
+      ]
+    },
+    {
+      "id": "NEW0506_LEE_CLARK",
+      "fullname": "Lee Clark",
+      "surname": "Clark",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Clark",
+        "Lee Clark"
+      ]
+    },
+    {
+      "id": "NEW0506_CRAIG_MOORE",
+      "fullname": "Craig Moore",
+      "surname": "Moore",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Craig Moore",
+        "Moore"
+      ]
+    },
+    {
+      "id": "NEW0506_ALBERT_LUQUE",
+      "fullname": "Albert Luque",
+      "surname": "Luque",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Albert Luque",
+        "Luque"
+      ]
+    },
+    {
+      "id": "NEW0506_MICHAEL_CHOPRA",
+      "fullname": "Michael Chopra",
+      "surname": "Chopra",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Chopra",
+        "Michael Chopra"
+      ]
+    },
+    {
+      "id": "NEW0506_KIERON_DYER",
+      "fullname": "Kieron Dyer",
+      "surname": "Dyer",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Dyer",
+        "Kieron Dyer"
+      ]
+    },
+    {
+      "id": "NEW0506_JERMAINE_JENAS",
+      "fullname": "Jermaine Jenas",
+      "surname": "Jenas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Jenas",
+        "Jermaine Jenas"
+      ]
+    },
+    {
+      "id": "NEW0506_MATTY_PATTISON",
+      "fullname": "Matty Pattison",
+      "surname": "Pattison",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Matty Pattison",
+        "Pattison"
+      ]
+    },
+    {
+      "id": "NEW0506_JAMES_MILNER",
+      "fullname": "James Milner",
+      "surname": "Milner",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "James Milner",
+        "Milner"
+      ]
+    },
+    {
+      "id": "NEW0506_ALAN_O_BRIEN",
+      "fullname": "Alan O'Brien",
+      "surname": "O'Brien",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Alan O'Brien",
+        "O'Brien"
+      ]
+    }
+  ]
+}

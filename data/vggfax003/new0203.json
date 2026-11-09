@@ -1,1 +1,364 @@
-{"clubCode":"NEW0203","club":"Newcastle","season":"2002-03","competition":"Premier League","version":2,"squad":[{"id":"NEW0203_BOBBY_ROBSON","fullname":"Bobby Robson","surname":"Robson","positions":["MAN"],"appearances":38},{"id":"NEW0203_SHAY_GIVEN","fullname":"Shay Given","surname":"Given","positions":["GK"],"appearances":38},{"id":"NEW0203_AARON_HUGHES","fullname":"Aaron Hughes","surname":"Hughes","positions":["DF"],"appearances":35},{"id":"NEW0203_ALAN_SHEARER","fullname":"Alan Shearer","surname":"Shearer","positions":["AT"],"appearances":35},{"id":"NEW0203_KIERON_DYER","fullname":"Kieron Dyer","surname":"Dyer","positions":["MD"],"appearances":35},{"id":"NEW0203_NOLBERTO_SOLANO","fullname":"Nolberto Solano","surname":"Solano","positions":["MD"],"appearances":31},{"id":"NEW0203_CRAIG_BELLAMY","fullname":"Craig Bellamy","surname":"Bellamy","positions":["AT"],"appearances":29},{"id":"NEW0203_ANDY_O_BRIEN","fullname":"Andy O'Brien","surname":"O'Brien","positions":["DF"],"appearances":26},{"id":"NEW0203_LAURENT_ROBERT","fullname":"Laurent Robert","surname":"Robert","positions":["AT","MD"],"appearances":27},{"id":"NEW0203_OLIVIER_BERNARD","fullname":"Olivier Bernard","surname":"Bernard","positions":["DF"],"appearances":30},{"id":"NEW0203_JERMAINE_JENAS","fullname":"Jermaine Jenas","surname":"Jenas","positions":["MD"],"appearances":32},{"id":"NEW0203_GARY_SPEED","fullname":"Gary Speed","surname":"Speed","positions":["MD"],"appearances":24},{"id":"NEW0203_ANDY_GRIFFIN","fullname":"Andy Griffin","surname":"Griffin","positions":["DF"],"appearances":27},{"id":"NEW0203_TITUS_BRAMBLE","fullname":"Titus Bramble","surname":"Bramble","positions":["DF"],"appearances":16},{"id":"NEW0203_NIKOS_DABIZAS","fullname":"Nikos Dabizas","surname":"Dabizas","positions":["DF"],"appearances":16},{"id":"NEW0203_STEVEN_CALDWELL","fullname":"Steven Caldwell","surname":"Caldwell","positions":["DF"],"appearances":14},{"id":"NEW0203_HUGO_VIANA","fullname":"Hugo Viana","surname":"Viana","positions":["MD"],"appearances":23},{"id":"NEW0203_JONATHAN_WOODGATE","fullname":"Jonathan Woodgate","surname":"Woodgate","positions":["DF"],"appearances":10},{"id":"NEW0203_SHOLA_AMEOBI","fullname":"Shola Ameobi","surname":"Ameobi","positions":["AT"],"appearances":28},{"id":"NEW0203_LOMANA_LUALUA","fullname":"Lomana LuaLua","surname":"LuaLua","positions":["AT","MD"],"appearances":11},{"id":"NEW0203_BRIAN_KERR","fullname":"Brian Kerr","surname":"Kerr","positions":["MD"],"appearances":8},{"id":"NEW0203_CLARENCE_ACUNA","fullname":"Clarence Acuña","surname":"Acuña","positions":["MD"],"appearances":4},{"id":"NEW0203_ROBBIE_ELLIOTT","fullname":"Robbie Elliott","surname":"Elliott","positions":["DF"],"appearances":2},{"id":"NEW0203_DARREN_AMBROSE","fullname":"Darren Ambrose","surname":"Ambrose","positions":["AT","MD"],"appearances":1},{"id":"NEW0203_MICHAEL_CHOPRA","fullname":"Michael Chopra","surname":"Chopra","positions":["AT"],"appearances":1},{"id":"NEW0203_CARL_CORT","fullname":"Carl Cort","surname":"Cort","positions":["AT"],"appearances":1},{"id":"NEW0203_JAMIE_MCCLEN","fullname":"Jamie McClen","surname":"McClen","positions":["DF","MD"],"appearances":1}]}
+{
+  "clubCode": "NEW0203",
+  "club": "Newcastle",
+  "season": "2002-03",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "NEW0203_BOBBY_ROBSON",
+      "fullname": "Bobby Robson",
+      "surname": "Robson",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Bobby Robson",
+        "Robson"
+      ]
+    },
+    {
+      "id": "NEW0203_SHAY_GIVEN",
+      "fullname": "Shay Given",
+      "surname": "Given",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Given",
+        "Shay Given"
+      ]
+    },
+    {
+      "id": "NEW0203_AARON_HUGHES",
+      "fullname": "Aaron Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Aaron Hughes",
+        "Hughes"
+      ]
+    },
+    {
+      "id": "NEW0203_ALAN_SHEARER",
+      "fullname": "Alan Shearer",
+      "surname": "Shearer",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Alan Shearer",
+        "Shearer"
+      ]
+    },
+    {
+      "id": "NEW0203_KIERON_DYER",
+      "fullname": "Kieron Dyer",
+      "surname": "Dyer",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Dyer",
+        "Kieron Dyer"
+      ]
+    },
+    {
+      "id": "NEW0203_NOLBERTO_SOLANO",
+      "fullname": "Nolberto Solano",
+      "surname": "Solano",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Nolberto Solano",
+        "Solano"
+      ]
+    },
+    {
+      "id": "NEW0203_CRAIG_BELLAMY",
+      "fullname": "Craig Bellamy",
+      "surname": "Bellamy",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Bellamy",
+        "Craig Bellamy"
+      ]
+    },
+    {
+      "id": "NEW0203_ANDY_O_BRIEN",
+      "fullname": "Andy O'Brien",
+      "surname": "O'Brien",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Andy O'Brien",
+        "O'Brien"
+      ]
+    },
+    {
+      "id": "NEW0203_LAURENT_ROBERT",
+      "fullname": "Laurent Robert",
+      "surname": "Robert",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Laurent Robert",
+        "Robert"
+      ]
+    },
+    {
+      "id": "NEW0203_OLIVIER_BERNARD",
+      "fullname": "Olivier Bernard",
+      "surname": "Bernard",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Bernard",
+        "Olivier Bernard"
+      ]
+    },
+    {
+      "id": "NEW0203_JERMAINE_JENAS",
+      "fullname": "Jermaine Jenas",
+      "surname": "Jenas",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Jenas",
+        "Jermaine Jenas"
+      ]
+    },
+    {
+      "id": "NEW0203_GARY_SPEED",
+      "fullname": "Gary Speed",
+      "surname": "Speed",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Gary Speed",
+        "Speed"
+      ]
+    },
+    {
+      "id": "NEW0203_ANDY_GRIFFIN",
+      "fullname": "Andy Griffin",
+      "surname": "Griffin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Andy Griffin",
+        "Griffin"
+      ]
+    },
+    {
+      "id": "NEW0203_TITUS_BRAMBLE",
+      "fullname": "Titus Bramble",
+      "surname": "Bramble",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Bramble",
+        "Titus Bramble"
+      ]
+    },
+    {
+      "id": "NEW0203_NIKOS_DABIZAS",
+      "fullname": "Nikos Dabizas",
+      "surname": "Dabizas",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Dabizas",
+        "Nikos Dabizas"
+      ]
+    },
+    {
+      "id": "NEW0203_STEVEN_CALDWELL",
+      "fullname": "Steven Caldwell",
+      "surname": "Caldwell",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Caldwell",
+        "Steven Caldwell"
+      ]
+    },
+    {
+      "id": "NEW0203_HUGO_VIANA",
+      "fullname": "Hugo Viana",
+      "surname": "Viana",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Hugo Viana",
+        "Viana"
+      ]
+    },
+    {
+      "id": "NEW0203_JONATHAN_WOODGATE",
+      "fullname": "Jonathan Woodgate",
+      "surname": "Woodgate",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Jonathan Woodgate",
+        "Woodgate"
+      ]
+    },
+    {
+      "id": "NEW0203_SHOLA_AMEOBI",
+      "fullname": "Shola Ameobi",
+      "surname": "Ameobi",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Ameobi",
+        "Shola Ameobi"
+      ]
+    },
+    {
+      "id": "NEW0203_LOMANA_LUALUA",
+      "fullname": "Lomana LuaLua",
+      "surname": "LuaLua",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Lomana LuaLua",
+        "LuaLua"
+      ]
+    },
+    {
+      "id": "NEW0203_BRIAN_KERR",
+      "fullname": "Brian Kerr",
+      "surname": "Kerr",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Brian Kerr",
+        "Kerr"
+      ]
+    },
+    {
+      "id": "NEW0203_CLARENCE_ACUNA",
+      "fullname": "Clarence Acuña",
+      "surname": "Acuña",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Acuña",
+        "Clarence Acuña"
+      ]
+    },
+    {
+      "id": "NEW0203_ROBBIE_ELLIOTT",
+      "fullname": "Robbie Elliott",
+      "surname": "Elliott",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Elliott",
+        "Robbie Elliott"
+      ]
+    },
+    {
+      "id": "NEW0203_DARREN_AMBROSE",
+      "fullname": "Darren Ambrose",
+      "surname": "Ambrose",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Ambrose",
+        "Darren Ambrose"
+      ]
+    },
+    {
+      "id": "NEW0203_MICHAEL_CHOPRA",
+      "fullname": "Michael Chopra",
+      "surname": "Chopra",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Chopra",
+        "Michael Chopra"
+      ]
+    },
+    {
+      "id": "NEW0203_CARL_CORT",
+      "fullname": "Carl Cort",
+      "surname": "Cort",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Carl Cort",
+        "Cort"
+      ]
+    },
+    {
+      "id": "NEW0203_JAMIE_MCCLEN",
+      "fullname": "Jamie McClen",
+      "surname": "McClen",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Jamie McClen",
+        "McClen"
+      ]
+    }
+  ]
+}

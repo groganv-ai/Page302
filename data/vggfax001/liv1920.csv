@@ -1,0 +1,26 @@
+﻿pack,clubCode,club,season,id,fullname,surname,positions,appearances,playerId,aliases
+001,LIV1920,Liverpool,19-20,LIV1920_KLOPP,Jurgen Klopp,Klopp,MAN,38,,Jurgen Klopp|Klopp
+001,LIV1920,Liverpool,19-20,LIV1920_VIRGIL_VAN_DIJK,Virgil van Dijk,van Dijk,DF,38,,Dijk|van Dijk|Virgil van Dijk
+001,LIV1920,Liverpool,19-20,LIV1920_TRENT_ALEXANDER_ARNOLD,Trent Alexander-Arnold,Alexander-Arnold,DF,38,,Alexander-Arnold|Trent Alexander-Arnold
+001,LIV1920,Liverpool,19-20,LIV1920_GEORGINIO_WIJNALDUM,Georginio Wijnaldum,Wijnaldum,MD,37,,Georginio Wijnaldum|Wijnaldum
+001,LIV1920,Liverpool,19-20,LIV1920_ANDY_ROBERTSON,Andy Robertson,Robertson,DF,36,,Andy Robertson|Robertson
+001,LIV1920,Liverpool,19-20,LIV1920_ROBERTO_FIRMINO,Roberto Firmino,Firmino,AT,38,,Firmino|Roberto Firmino
+001,LIV1920,Liverpool,19-20,LIV1920_MOHAMED_SALAH,Mohamed Salah,Salah,AT,34,,Mohamed Salah|Salah
+001,LIV1920,Liverpool,19-20,LIV1920_SADIO_MAN,Sadio Mané,Mane,AT,35,,Mane|Mané|Sadio Mané
+001,LIV1920,Liverpool,19-20,LIV1920_ALISSON,Alisson,Alisson,GK,29,,Alisson
+001,LIV1920,Liverpool,19-20,LIV1920_JORDAN_HENDERSON,Jordan Henderson,Henderson,MD,30,,Henderson|Jordan Henderson
+001,LIV1920,Liverpool,19-20,LIV1920_FABINHO,Fabinho,Fabinho,MD,28,,Fabinho
+001,LIV1920,Liverpool,19-20,LIV1920_JOE_GOMEZ,Joe Gomez,Gomez,DF,28,,Gomez|Joe Gomez
+001,LIV1920,Liverpool,19-20,LIV1920_ALEX_OXLADE_CHAMBERLAIN,Alex Oxlade-Chamberlain,Oxlade-Chamberlain,MD|AT,30,,Alex Oxlade-Chamberlain|Oxlade-Chamberlain
+001,LIV1920,Liverpool,19-20,LIV1920_JAMES_MILNER,James Milner,Milner,MD|DF,22,,James Milner|Milner
+001,LIV1920,Liverpool,19-20,LIV1920_ADRIN,Adrián,Adrián,GK,11,,Adrián
+001,LIV1920,Liverpool,19-20,LIV1920_NABY_KETA,Naby Keïta,Keïta,MD,18,,Keïta|Naby Keïta
+001,LIV1920,Liverpool,19-20,LIV1920_DEJAN_LOVREN,Dejan Lovren,Lovren,DF,10,,Dejan Lovren|Lovren
+001,LIV1920,Liverpool,19-20,LIV1920_JOL_MATIP,Joël Matip,Matip,DF,9,,Joël Matip|Matip
+001,LIV1920,Liverpool,19-20,LIV1920_DIVOCK_ORIGI,Divock Origi,Origi,AT,28,,Divock Origi|Origi
+001,LIV1920,Liverpool,19-20,LIV1920_ADAM_LALLANA,Adam Lallana,Lallana,MD,15,,Adam Lallana|Lallana
+001,LIV1920,Liverpool,19-20,LIV1920_NECO_WILLIAMS,Neco Williams,Williams,DF,6,,Neco Williams|Williams
+001,LIV1920,Liverpool,19-20,LIV1920_TAKUMI_MINAMINO,Takumi Minamino,Minamino,AT,10,,Minamino|Takumi Minamino
+001,LIV1920,Liverpool,19-20,LIV1920_XHERDAN_SHAQIRI,Xherdan Shaqiri,Shaqiri,MD,7,,Shaqiri|Xherdan Shaqiri
+001,LIV1920,Liverpool,19-20,LIV1920_CURTIS_JONES,Curtis Jones,Jones,MD,6,,Curtis Jones|Jones
+001,LIV1920,Liverpool,19-20,LIV1920_HARVEY_ELLIOTT,Harvey Elliott,Elliott,AT|MD,2,,Elliott|Harvey Elliott

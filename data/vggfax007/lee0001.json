@@ -1,0 +1,366 @@
+{
+  "clubCode": "LEE0001",
+  "club": "Leeds",
+  "season": "2000-01",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "LEE0001_DAVID_O_LEARY",
+      "fullname": "David O’Leary",
+      "surname": "O’Leary",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "David O’Leary",
+        "O’Leary"
+      ]
+    },
+    {
+      "id": "LEE0001_LEE_BOWYER",
+      "fullname": "Lee Bowyer",
+      "surname": "Bowyer",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Bowyer",
+        "Lee Bowyer"
+      ]
+    },
+    {
+      "id": "LEE0001_MARK_VIDUKA",
+      "fullname": "Mark Viduka",
+      "surname": "Viduka",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Mark Viduka",
+        "Viduka"
+      ]
+    },
+    {
+      "id": "LEE0001_OLIVIER_DACOURT",
+      "fullname": "Olivier Dacourt",
+      "surname": "Dacourt",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Dacourt",
+        "Olivier Dacourt"
+      ]
+    },
+    {
+      "id": "LEE0001_DOMINIC_MATTEO",
+      "fullname": "Dominic Matteo",
+      "surname": "Matteo",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Dominic Matteo",
+        "Matteo"
+      ]
+    },
+    {
+      "id": "LEE0001_IAN_HARTE",
+      "fullname": "Ian Harte",
+      "surname": "Harte",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Harte",
+        "Ian Harte"
+      ]
+    },
+    {
+      "id": "LEE0001_ALAN_SMITH",
+      "fullname": "Alan Smith",
+      "surname": "Smith",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Alan Smith",
+        "Smith"
+      ]
+    },
+    {
+      "id": "LEE0001_EIRIK_BAKKE",
+      "fullname": "Eirik Bakke",
+      "surname": "Bakke",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Bakke",
+        "Eirik Bakke"
+      ]
+    },
+    {
+      "id": "LEE0001_RIO_FERDINAND",
+      "fullname": "Rio Ferdinand",
+      "surname": "Ferdinand",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Ferdinand",
+        "Rio Ferdinand"
+      ]
+    },
+    {
+      "id": "LEE0001_NIGEL_MARTYN",
+      "fullname": "Nigel Martyn",
+      "surname": "Martyn",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Martyn",
+        "Nigel Martyn"
+      ]
+    },
+    {
+      "id": "LEE0001_GARY_KELLY",
+      "fullname": "Gary Kelly",
+      "surname": "Kelly",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Gary Kelly",
+        "Kelly"
+      ]
+    },
+    {
+      "id": "LEE0001_DANNY_MILLS",
+      "fullname": "Danny Mills",
+      "surname": "Mills",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Danny Mills",
+        "Mills"
+      ]
+    },
+    {
+      "id": "LEE0001_LUCAS_RADEBE",
+      "fullname": "Lucas Radebe",
+      "surname": "Radebe",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Lucas Radebe",
+        "Radebe"
+      ]
+    },
+    {
+      "id": "LEE0001_PAUL_ROBINSON",
+      "fullname": "Paul Robinson",
+      "surname": "Robinson",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Paul Robinson",
+        "Robinson"
+      ]
+    },
+    {
+      "id": "LEE0001_JONATHAN_WOODGATE",
+      "fullname": "Jonathan Woodgate",
+      "surname": "Woodgate",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Jonathan Woodgate",
+        "Woodgate"
+      ]
+    },
+    {
+      "id": "LEE0001_DAVID_BATTY",
+      "fullname": "David Batty",
+      "surname": "Batty",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Batty",
+        "David Batty"
+      ]
+    },
+    {
+      "id": "LEE0001_HARRY_KEWELL",
+      "fullname": "Harry Kewell",
+      "surname": "Kewell",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Harry Kewell",
+        "Kewell"
+      ]
+    },
+    {
+      "id": "LEE0001_ROBBIE_KEANE",
+      "fullname": "Robbie Keane",
+      "surname": "Keane",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Keane",
+        "Robbie Keane"
+      ]
+    },
+    {
+      "id": "LEE0001_JASON_WILCOX",
+      "fullname": "Jason Wilcox",
+      "surname": "Wilcox",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Jason Wilcox",
+        "Wilcox"
+      ]
+    },
+    {
+      "id": "LEE0001_MICHAEL_BRIDGES",
+      "fullname": "Michael Bridges",
+      "surname": "Bridges",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Bridges",
+        "Michael Bridges"
+      ]
+    },
+    {
+      "id": "LEE0001_MICHAEL_DUBERRY",
+      "fullname": "Michael Duberry",
+      "surname": "Duberry",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Duberry",
+        "Michael Duberry"
+      ]
+    },
+    {
+      "id": "LEE0001_STEPHEN_MCPHAIL",
+      "fullname": "Stephen McPhail",
+      "surname": "McPhail",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "McPhail",
+        "Stephen McPhail"
+      ]
+    },
+    {
+      "id": "LEE0001_JACOB_BURNS",
+      "fullname": "Jacob Burns",
+      "surname": "Burns",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Burns",
+        "Jacob Burns"
+      ]
+    },
+    {
+      "id": "LEE0001_MATT_JONES",
+      "fullname": "Matt Jones",
+      "surname": "Jones",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Jones",
+        "Matt Jones"
+      ]
+    },
+    {
+      "id": "LEE0001_DANNY_HAY",
+      "fullname": "Danny Hay",
+      "surname": "Hay",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Danny Hay",
+        "Hay"
+      ]
+    },
+    {
+      "id": "LEE0001_DARREN_HUCKERBY",
+      "fullname": "Darren Huckerby",
+      "surname": "Huckerby",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Darren Huckerby",
+        "Huckerby"
+      ]
+    },
+    {
+      "id": "LEE0001_GARETH_EVANS",
+      "fullname": "Gareth Evans",
+      "surname": "Evans",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Evans",
+        "Gareth Evans"
+      ]
+    }
+  ]
+}

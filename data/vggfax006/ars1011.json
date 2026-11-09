@@ -1,0 +1,381 @@
+{
+  "clubCode": "ARS1011",
+  "club": "Arsenal",
+  "season": "2010-11",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "ARS1011_ARSENE_WENGER",
+      "fullname": "Arsène Wenger",
+      "surname": "Wenger",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Arsène Wenger",
+        "Wenger"
+      ]
+    },
+    {
+      "id": "ARS1011_GAEL_CLICHY",
+      "fullname": "Gaël Clichy",
+      "surname": "Clichy",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Clichy",
+        "Gaël Clichy"
+      ]
+    },
+    {
+      "id": "ARS1011_BACARY_SAGNA",
+      "fullname": "Bacary Sagna",
+      "surname": "Sagna",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Bacary Sagna",
+        "Sagna"
+      ]
+    },
+    {
+      "id": "ARS1011_JACK_WILSHERE",
+      "fullname": "Jack Wilshere",
+      "surname": "Wilshere",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Jack Wilshere",
+        "Wilshere"
+      ]
+    },
+    {
+      "id": "ARS1011_LAURENT_KOSCIELNY",
+      "fullname": "Laurent Koscielny",
+      "surname": "Koscielny",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Koscielny",
+        "Laurent Koscielny"
+      ]
+    },
+    {
+      "id": "ARS1011_ALEXANDRE_SONG",
+      "fullname": "Alexandre Song",
+      "surname": "Song",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Alexandre Song",
+        "Song"
+      ]
+    },
+    {
+      "id": "ARS1011_SAMIR_NASRI",
+      "fullname": "Samir Nasri",
+      "surname": "Nasri",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Nasri",
+        "Samir Nasri"
+      ]
+    },
+    {
+      "id": "ARS1011_ANDREY_ARSHAVIN",
+      "fullname": "Andrey Arshavin",
+      "surname": "Arshavin",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Andrey Arshavin",
+        "Arshavin"
+      ]
+    },
+    {
+      "id": "ARS1011_CESC_FABREGAS",
+      "fullname": "Cesc Fàbregas",
+      "surname": "Fàbregas",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Cesc Fàbregas",
+        "Fàbregas"
+      ]
+    },
+    {
+      "id": "ARS1011_SEBASTIEN_SQUILLACI",
+      "fullname": "Sébastien Squillaci",
+      "surname": "Squillaci",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Sébastien Squillaci",
+        "Squillaci"
+      ]
+    },
+    {
+      "id": "ARS1011_JOHAN_DJOUROU",
+      "fullname": "Johan Djourou",
+      "surname": "Djourou",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Djourou",
+        "Johan Djourou"
+      ]
+    },
+    {
+      "id": "ARS1011_ROBIN_VAN_PERSIE",
+      "fullname": "Robin van Persie",
+      "surname": "van Persie",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Robin van Persie",
+        "van Persie"
+      ]
+    },
+    {
+      "id": "ARS1011_THEO_WALCOTT",
+      "fullname": "Theo Walcott",
+      "surname": "Walcott",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Theo Walcott",
+        "Walcott"
+      ]
+    },
+    {
+      "id": "ARS1011_MAROUANE_CHAMAKH",
+      "fullname": "Marouane Chamakh",
+      "surname": "Chamakh",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 29,
+      "aliases": [
+        "Chamakh",
+        "Marouane Chamakh"
+      ]
+    },
+    {
+      "id": "ARS1011_WOJCIECH_SZCZESNY",
+      "fullname": "Wojciech Szczęsny",
+      "surname": "Szczęsny",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Szczęsny",
+        "Wojciech Szczęsny"
+      ]
+    },
+    {
+      "id": "ARS1011_UKASZ_FABIANSKI",
+      "fullname": "Łukasz Fabiański",
+      "surname": "Fabiański",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Fabiański",
+        "Łukasz Fabiański"
+      ]
+    },
+    {
+      "id": "ARS1011_ABOU_DIABY",
+      "fullname": "Abou Diaby",
+      "surname": "Diaby",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Abou Diaby",
+        "Diaby"
+      ]
+    },
+    {
+      "id": "ARS1011_TOMAS_ROSICKY",
+      "fullname": "Tomáš Rosický",
+      "surname": "Rosický",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Rosický",
+        "Tomáš Rosický"
+      ]
+    },
+    {
+      "id": "ARS1011_MANUEL_ALMUNIA",
+      "fullname": "Manuel Almunia",
+      "surname": "Almunia",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Almunia",
+        "Manuel Almunia"
+      ]
+    },
+    {
+      "id": "ARS1011_EMMANUEL_EBOUE",
+      "fullname": "Emmanuel Eboué",
+      "surname": "Eboué",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Eboué",
+        "Emmanuel Eboué"
+      ]
+    },
+    {
+      "id": "ARS1011_DENILSON",
+      "fullname": "Denílson",
+      "surname": "Denílson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Denílson"
+      ]
+    },
+    {
+      "id": "ARS1011_THOMAS_VERMAELEN",
+      "fullname": "Thomas Vermaelen",
+      "surname": "Vermaelen",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 5,
+      "aliases": [
+        "Thomas Vermaelen",
+        "Vermaelen"
+      ]
+    },
+    {
+      "id": "ARS1011_AARON_RAMSEY",
+      "fullname": "Aaron Ramsey",
+      "surname": "Ramsey",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Aaron Ramsey",
+        "Ramsey"
+      ]
+    },
+    {
+      "id": "ARS1011_KIERAN_GIBBS",
+      "fullname": "Kieran Gibbs",
+      "surname": "Gibbs",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 7,
+      "aliases": [
+        "Gibbs",
+        "Kieran Gibbs"
+      ]
+    },
+    {
+      "id": "ARS1011_NICKLAS_BENDTNER",
+      "fullname": "Nicklas Bendtner",
+      "surname": "Bendtner",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 17,
+      "aliases": [
+        "Bendtner",
+        "Nicklas Bendtner"
+      ]
+    },
+    {
+      "id": "ARS1011_JENS_LEHMANN",
+      "fullname": "Jens Lehmann",
+      "surname": "Lehmann",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Jens Lehmann",
+        "Lehmann"
+      ]
+    },
+    {
+      "id": "ARS1011_CARLOS_VELA",
+      "fullname": "Carlos Vela",
+      "surname": "Vela",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Carlos Vela",
+        "Vela"
+      ]
+    },
+    {
+      "id": "ARS1011_JAY_EMMANUEL_THOMAS",
+      "fullname": "Jay Emmanuel-Thomas",
+      "surname": "Emmanuel-Thomas",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Emmanuel-Thomas",
+        "Jay Emmanuel-Thomas"
+      ]
+    }
+  ]
+}

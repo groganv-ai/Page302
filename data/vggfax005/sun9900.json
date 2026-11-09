@@ -1,0 +1,379 @@
+{
+  "clubCode": "SUN9900",
+  "club": "Sunderland",
+  "season": "1999-00",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "SUN9900_PETER_REID",
+      "fullname": "Peter Reid",
+      "surname": "Reid",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Peter Reid",
+        "Reid"
+      ]
+    },
+    {
+      "id": "SUN9900_THOMAS_S_RENSEN",
+      "fullname": "Thomas Sørensen",
+      "surname": "Sørensen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Sørensen",
+        "Thomas Sørensen"
+      ]
+    },
+    {
+      "id": "SUN9900_KEVIN_PHILLIPS",
+      "fullname": "Kevin Phillips",
+      "surname": "Phillips",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Kevin Phillips",
+        "Phillips"
+      ]
+    },
+    {
+      "id": "SUN9900_NIALL_QUINN",
+      "fullname": "Niall Quinn",
+      "surname": "Quinn",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Niall Quinn",
+        "Quinn"
+      ]
+    },
+    {
+      "id": "SUN9900_CHRIS_MAKIN",
+      "fullname": "Chris Makin",
+      "surname": "Makin",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Chris Makin",
+        "Makin"
+      ]
+    },
+    {
+      "id": "SUN9900_MICHAEL_GRAY",
+      "fullname": "Michael Gray",
+      "surname": "Gray",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Gray",
+        "Michael Gray"
+      ]
+    },
+    {
+      "id": "SUN9900_PAUL_BUTLER",
+      "fullname": "Paul Butler",
+      "surname": "Butler",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Butler",
+        "Paul Butler"
+      ]
+    },
+    {
+      "id": "SUN9900_NICKY_SUMMERBEE",
+      "fullname": "Nicky Summerbee",
+      "surname": "Summerbee",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Nicky Summerbee",
+        "Summerbee"
+      ]
+    },
+    {
+      "id": "SUN9900_STEFAN_SCHWARZ",
+      "fullname": "Stefan Schwarz",
+      "surname": "Schwarz",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Schwarz",
+        "Stefan Schwarz"
+      ]
+    },
+    {
+      "id": "SUN9900_ALEX_RAE",
+      "fullname": "Alex Rae",
+      "surname": "Rae",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Alex Rae",
+        "Rae"
+      ]
+    },
+    {
+      "id": "SUN9900_GAVIN_MCCANN",
+      "fullname": "Gavin McCann",
+      "surname": "McCann",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Gavin McCann",
+        "McCann"
+      ]
+    },
+    {
+      "id": "SUN9900_STEVE_BOULD",
+      "fullname": "Steve Bould",
+      "surname": "Bould",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Bould",
+        "Steve Bould"
+      ]
+    },
+    {
+      "id": "SUN9900_ERIC_ROY",
+      "fullname": "Éric Roy",
+      "surname": "Roy",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 24,
+      "aliases": [
+        "Éric Roy",
+        "Roy"
+      ]
+    },
+    {
+      "id": "SUN9900_JODY_CRADDOCK",
+      "fullname": "Jody Craddock",
+      "surname": "Craddock",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Craddock",
+        "Jody Craddock"
+      ]
+    },
+    {
+      "id": "SUN9900_KEVIN_KILBANE",
+      "fullname": "Kevin Kilbane",
+      "surname": "Kilbane",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Kevin Kilbane",
+        "Kilbane"
+      ]
+    },
+    {
+      "id": "SUN9900_DARREN_WILLIAMS",
+      "fullname": "Darren Williams",
+      "surname": "Williams",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Darren Williams",
+        "Williams"
+      ]
+    },
+    {
+      "id": "SUN9900_DARREN_HOLLOWAY",
+      "fullname": "Darren Holloway",
+      "surname": "Holloway",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 15,
+      "aliases": [
+        "Darren Holloway",
+        "Holloway"
+      ]
+    },
+    {
+      "id": "SUN9900_PAUL_THIRLWELL",
+      "fullname": "Paul Thirlwell",
+      "surname": "Thirlwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Paul Thirlwell",
+        "Thirlwell"
+      ]
+    },
+    {
+      "id": "SUN9900_KEVIN_BALL",
+      "fullname": "Kevin Ball",
+      "surname": "Ball",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 11,
+      "aliases": [
+        "Ball",
+        "Kevin Ball"
+      ]
+    },
+    {
+      "id": "SUN9900_JOHN_OSTER",
+      "fullname": "John Oster",
+      "surname": "Oster",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "John Oster",
+        "Oster"
+      ]
+    },
+    {
+      "id": "SUN9900_THOMAS_HELMER",
+      "fullname": "Thomas Helmer",
+      "surname": "Helmer",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Helmer",
+        "Thomas Helmer"
+      ]
+    },
+    {
+      "id": "SUN9900_ANDY_MARRIOTT",
+      "fullname": "Andy Marriott",
+      "surname": "Marriott",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Andy Marriott",
+        "Marriott"
+      ]
+    },
+    {
+      "id": "SUN9900_CHRIS_LUMSDON",
+      "fullname": "Chris Lumsdon",
+      "surname": "Lumsdon",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Chris Lumsdon",
+        "Lumsdon"
+      ]
+    },
+    {
+      "id": "SUN9900_DANNY_DICHIO",
+      "fullname": "Danny Dichio",
+      "surname": "Dichio",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 12,
+      "aliases": [
+        "Danny Dichio",
+        "Dichio"
+      ]
+    },
+    {
+      "id": "SUN9900_MICHAEL_REDDY",
+      "fullname": "Michael Reddy",
+      "surname": "Reddy",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 8,
+      "aliases": [
+        "Michael Reddy",
+        "Reddy"
+      ]
+    },
+    {
+      "id": "SUN9900_CARSTEN_FREDGAARD",
+      "fullname": "Carsten Fredgaard",
+      "surname": "Fredgaard",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Carsten Fredgaard",
+        "Fredgaard"
+      ]
+    },
+    {
+      "id": "SUN9900_MILTON_NUNEZ",
+      "fullname": "Milton Núñez",
+      "surname": "Núñez",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Milton Núñez",
+        "Núñez"
+      ]
+    },
+    {
+      "id": "SUN9900_THOMAS_BUTLER",
+      "fullname": "Thomas Butler",
+      "surname": "Butler",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Butler",
+        "Thomas Butler"
+      ]
+    }
+  ]
+}

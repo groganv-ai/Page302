@@ -1,0 +1,367 @@
+{
+  "clubCode": "MUN0203",
+  "club": "Man Utd",
+  "season": "2002-03",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MUN0203_ALEX_FERGUSON",
+      "fullname": "Alex Ferguson",
+      "surname": "Ferguson",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Alex Ferguson",
+        "Ferguson"
+      ]
+    },
+    {
+      "id": "MUN0203_MIKAEL_SILVESTRE",
+      "fullname": "Mikaël Silvestre",
+      "surname": "Silvestre",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Mikaël Silvestre",
+        "Silvestre"
+      ]
+    },
+    {
+      "id": "MUN0203_RUUD_VAN_NISTELROOY",
+      "fullname": "Ruud van Nistelrooy",
+      "surname": "van Nistelrooy",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Ruud van Nistelrooy",
+        "van Nistelrooy"
+      ]
+    },
+    {
+      "id": "MUN0203_RYAN_GIGGS",
+      "fullname": "Ryan Giggs",
+      "surname": "Giggs",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Giggs",
+        "Ryan Giggs"
+      ]
+    },
+    {
+      "id": "MUN0203_PAUL_SCHOLES",
+      "fullname": "Paul Scholes",
+      "surname": "Scholes",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Paul Scholes",
+        "Scholes"
+      ]
+    },
+    {
+      "id": "MUN0203_FABIEN_BARTHEZ",
+      "fullname": "Fabien Barthez",
+      "surname": "Barthez",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Barthez",
+        "Fabien Barthez"
+      ]
+    },
+    {
+      "id": "MUN0203_OLE_GUNNAR_SOLSKJ_R",
+      "fullname": "Ole Gunnar Solskjær",
+      "surname": "Solskjær",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Ole Gunnar Solskjær",
+        "Solskjær"
+      ]
+    },
+    {
+      "id": "MUN0203_DAVID_BECKHAM",
+      "fullname": "David Beckham",
+      "surname": "Beckham",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Beckham",
+        "David Beckham"
+      ]
+    },
+    {
+      "id": "MUN0203_RIO_FERDINAND",
+      "fullname": "Rio Ferdinand",
+      "surname": "Ferdinand",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 28,
+      "aliases": [
+        "Ferdinand",
+        "Rio Ferdinand"
+      ]
+    },
+    {
+      "id": "MUN0203_JOHN_O_SHEA",
+      "fullname": "John O'Shea",
+      "surname": "O'Shea",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "John O'Shea",
+        "O'Shea"
+      ]
+    },
+    {
+      "id": "MUN0203_WES_BROWN",
+      "fullname": "Wes Brown",
+      "surname": "Brown",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Brown",
+        "Wes Brown"
+      ]
+    },
+    {
+      "id": "MUN0203_JUAN_SEBASTIAN_VERON",
+      "fullname": "Juan Sebastián Verón",
+      "surname": "Verón",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Juan Sebastián Verón",
+        "Verón"
+      ]
+    },
+    {
+      "id": "MUN0203_GARY_NEVILLE",
+      "fullname": "Gary Neville",
+      "surname": "Neville",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Gary Neville",
+        "Neville"
+      ]
+    },
+    {
+      "id": "MUN0203_ROY_KEANE",
+      "fullname": "Roy Keane",
+      "surname": "Keane",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 21,
+      "aliases": [
+        "Keane",
+        "Roy Keane"
+      ]
+    },
+    {
+      "id": "MUN0203_PHIL_NEVILLE",
+      "fullname": "Phil Neville",
+      "surname": "Neville",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Neville",
+        "Phil Neville"
+      ]
+    },
+    {
+      "id": "MUN0203_LAURENT_BLANC",
+      "fullname": "Laurent Blanc",
+      "surname": "Blanc",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Blanc",
+        "Laurent Blanc"
+      ]
+    },
+    {
+      "id": "MUN0203_NICKY_BUTT",
+      "fullname": "Nicky Butt",
+      "surname": "Butt",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Butt",
+        "Nicky Butt"
+      ]
+    },
+    {
+      "id": "MUN0203_ROY_CARROLL",
+      "fullname": "Roy Carroll",
+      "surname": "Carroll",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Carroll",
+        "Roy Carroll"
+      ]
+    },
+    {
+      "id": "MUN0203_DIEGO_FORLAN",
+      "fullname": "Diego Forlán",
+      "surname": "Forlán",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Diego Forlán",
+        "Forlán"
+      ]
+    },
+    {
+      "id": "MUN0203_QUINTON_FORTUNE",
+      "fullname": "Quinton Fortune",
+      "surname": "Fortune",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Fortune",
+        "Quinton Fortune"
+      ]
+    },
+    {
+      "id": "MUN0203_RICARDO",
+      "fullname": "Ricardo",
+      "surname": "Ricardo",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Ricardo"
+      ]
+    },
+    {
+      "id": "MUN0203_KIERAN_RICHARDSON",
+      "fullname": "Kieran Richardson",
+      "surname": "Richardson",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Kieran Richardson",
+        "Richardson"
+      ]
+    },
+    {
+      "id": "MUN0203_LUKE_CHADWICK",
+      "fullname": "Luke Chadwick",
+      "surname": "Chadwick",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Chadwick",
+        "Luke Chadwick"
+      ]
+    },
+    {
+      "id": "MUN0203_LEE_ROCHE",
+      "fullname": "Lee Roche",
+      "surname": "Roche",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Lee Roche",
+        "Roche"
+      ]
+    },
+    {
+      "id": "MUN0203_DANNY_PUGH",
+      "fullname": "Danny Pugh",
+      "surname": "Pugh",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Danny Pugh",
+        "Pugh"
+      ]
+    },
+    {
+      "id": "MUN0203_DAVID_MAY",
+      "fullname": "David May",
+      "surname": "May",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "David May",
+        "May"
+      ]
+    },
+    {
+      "id": "MUN0203_MICHAEL_STEWART",
+      "fullname": "Michael Stewart",
+      "surname": "Stewart",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Michael Stewart",
+        "Stewart"
+      ]
+    }
+  ]
+}

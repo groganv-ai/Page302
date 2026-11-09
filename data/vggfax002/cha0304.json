@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Alan Curbishley",
+        "Curbishley"
+      ]
     },
     {
       "id": "CHA0304_MATT_HOLLAND",
@@ -21,7 +25,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Holland",
+        "Matt Holland"
+      ]
     },
     {
       "id": "CHA0304_DEAN_KIELY",
@@ -30,7 +38,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Dean Kiely",
+        "Kiely"
+      ]
     },
     {
       "id": "CHA0304_HERMANN_HREI_ARSSON",
@@ -39,7 +51,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Hermann Hreiðarsson",
+        "Hreiðarsson"
+      ]
     },
     {
       "id": "CHA0304_RADOSTIN_KISHISHEV",
@@ -49,7 +65,11 @@
         "DF",
         "MD"
       ],
-      "appearances": 33
+      "appearances": 33,
+      "aliases": [
+        "Kishishev",
+        "Radostin Kishishev"
+      ]
     },
     {
       "id": "CHA0304_CLAUS_JENSEN",
@@ -58,7 +78,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Claus Jensen",
+        "Jensen"
+      ]
     },
     {
       "id": "CHA0304_CHRIS_PERRY",
@@ -67,7 +91,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Chris Perry",
+        "Perry"
+      ]
     },
     {
       "id": "CHA0304_JASON_EUELL",
@@ -77,7 +105,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Euell",
+        "Jason Euell"
+      ]
     },
     {
       "id": "CHA0304_GRAHAM_STUART",
@@ -87,7 +119,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Graham Stuart",
+        "Stuart"
+      ]
     },
     {
       "id": "CHA0304_PAOLO_DI_CANIO",
@@ -96,7 +132,12 @@
       "positions": [
         "AT"
       ],
-      "appearances": 31
+      "appearances": 31,
+      "aliases": [
+        "Canio",
+        "Di Canio",
+        "Paolo Di Canio"
+      ]
     },
     {
       "id": "CHA0304_MARK_FISH",
@@ -106,7 +147,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 23
+      "appearances": 23,
+      "aliases": [
+        "Fish",
+        "Mark Fish"
+      ]
     },
     {
       "id": "CHA0304_JONATHAN_FORTUNE",
@@ -115,7 +160,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Fortune",
+        "Jonathan Fortune"
+      ]
     },
     {
       "id": "CHA0304_LUKE_YOUNG",
@@ -124,7 +173,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 24
+      "appearances": 24,
+      "aliases": [
+        "Luke Young",
+        "Young"
+      ]
     },
     {
       "id": "CHA0304_SCOTT_PARKER",
@@ -133,7 +186,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 20
+      "appearances": 20,
+      "aliases": [
+        "Parker",
+        "Scott Parker"
+      ]
     },
     {
       "id": "CHA0304_PAUL_KONCHESKY",
@@ -143,7 +200,11 @@
         "DF",
         "AT"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Konchesky",
+        "Paul Konchesky"
+      ]
     },
     {
       "id": "CHA0304_JONATAN_JOHANSSON",
@@ -152,7 +213,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 26
+      "appearances": 26,
+      "aliases": [
+        "Johansson",
+        "Jonatan Johansson"
+      ]
     },
     {
       "id": "CHA0304_SHAUN_BARTLETT",
@@ -161,7 +226,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 19
+      "appearances": 19,
+      "aliases": [
+        "Bartlett",
+        "Shaun Bartlett"
+      ]
     },
     {
       "id": "CHA0304_CHRIS_POWELL",
@@ -170,7 +239,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 16
+      "appearances": 16,
+      "aliases": [
+        "Chris Powell",
+        "Powell"
+      ]
     },
     {
       "id": "CHA0304_CARLTON_COLE",
@@ -179,7 +252,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 21
+      "appearances": 21,
+      "aliases": [
+        "Carlton Cole",
+        "Cole"
+      ]
     },
     {
       "id": "CHA0304_KEVIN_LISBIE",
@@ -188,7 +265,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 9
+      "appearances": 9,
+      "aliases": [
+        "Kevin Lisbie",
+        "Lisbie"
+      ]
     },
     {
       "id": "CHA0304_MATHIAS_SVENSSON",
@@ -197,7 +278,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 3
+      "appearances": 3,
+      "aliases": [
+        "Mathias Svensson",
+        "Svensson"
+      ]
     },
     {
       "id": "CHA0304_GARY_ROWETT",
@@ -206,7 +291,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Gary Rowett",
+        "Rowett"
+      ]
     },
     {
       "id": "CHA0304_SIMON_ROYCE",
@@ -215,7 +304,11 @@
       "positions": [
         "GK"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Royce",
+        "Simon Royce"
+      ]
     },
     {
       "id": "CHA0304_JEROME_THOMAS",
@@ -225,7 +318,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 1
+      "appearances": 1,
+      "aliases": [
+        "Jerome Thomas",
+        "Thomas"
+      ]
     },
     {
       "id": "CHA0304_JAMAL_CAMPBELL_RYCE",
@@ -235,7 +332,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Campbell-Ryce",
+        "Jamal Campbell-Ryce"
+      ]
     }
   ]
 }

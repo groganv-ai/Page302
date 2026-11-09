@@ -1,0 +1,442 @@
+{
+  "clubCode": "MCI0910",
+  "club": "Man City",
+  "season": "2009-10",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "MCI0910_MARK_HUGHES",
+      "fullname": "Mark Hughes",
+      "surname": "Hughes",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Hughes",
+        "Mark Hughes"
+      ]
+    },
+    {
+      "id": "MCI0910_ROBERTO_MANCINI",
+      "fullname": "Roberto Mancini",
+      "surname": "Mancini",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Mancini",
+        "Roberto Mancini"
+      ]
+    },
+    {
+      "id": "MCI0910_SHAY_GIVEN",
+      "fullname": "Shay Given",
+      "surname": "Given",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Given",
+        "Shay Given"
+      ]
+    },
+    {
+      "id": "MCI0910_GARETH_BARRY",
+      "fullname": "Gareth Barry",
+      "surname": "Barry",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "Barry",
+        "Gareth Barry"
+      ]
+    },
+    {
+      "id": "MCI0910_CARLOS_TEVEZ",
+      "fullname": "Carlos Tevez",
+      "surname": "Tevez",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Carlos Tevez",
+        "Tevez"
+      ]
+    },
+    {
+      "id": "MCI0910_KOLO_TOURE",
+      "fullname": "Kolo Touré",
+      "surname": "Touré",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 31,
+      "aliases": [
+        "Kolo Touré",
+        "Touré"
+      ]
+    },
+    {
+      "id": "MCI0910_NIGEL_DE_JONG",
+      "fullname": "Nigel de Jong",
+      "surname": "de Jong",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 34,
+      "aliases": [
+        "de Jong",
+        "Nigel de Jong"
+      ]
+    },
+    {
+      "id": "MCI0910_CRAIG_BELLAMY",
+      "fullname": "Craig Bellamy",
+      "surname": "Bellamy",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Bellamy",
+        "Craig Bellamy"
+      ]
+    },
+    {
+      "id": "MCI0910_EMMANUEL_ADEBAYOR",
+      "fullname": "Emmanuel Adebayor",
+      "surname": "Adebayor",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 26,
+      "aliases": [
+        "Adebayor",
+        "Emmanuel Adebayor"
+      ]
+    },
+    {
+      "id": "MCI0910_PABLO_ZABALETA",
+      "fullname": "Pablo Zabaleta",
+      "surname": "Zabaleta",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 27,
+      "aliases": [
+        "Pablo Zabaleta",
+        "Zabaleta"
+      ]
+    },
+    {
+      "id": "MCI0910_WAYNE_BRIDGE",
+      "fullname": "Wayne Bridge",
+      "surname": "Bridge",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Bridge",
+        "Wayne Bridge"
+      ]
+    },
+    {
+      "id": "MCI0910_VINCENT_KOMPANY",
+      "fullname": "Vincent Kompany",
+      "surname": "Kompany",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Kompany",
+        "Vincent Kompany"
+      ]
+    },
+    {
+      "id": "MCI0910_SHAUN_WRIGHT_PHILLIPS",
+      "fullname": "Shaun Wright-Phillips",
+      "surname": "Wright-Phillips",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 30,
+      "aliases": [
+        "Shaun Wright-Phillips",
+        "Wright-Phillips"
+      ]
+    },
+    {
+      "id": "MCI0910_MICAH_RICHARDS",
+      "fullname": "Micah Richards",
+      "surname": "Richards",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 23,
+      "aliases": [
+        "Micah Richards",
+        "Richards"
+      ]
+    },
+    {
+      "id": "MCI0910_JOLEON_LESCOTT",
+      "fullname": "Joleon Lescott",
+      "surname": "Lescott",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 18,
+      "aliases": [
+        "Joleon Lescott",
+        "Lescott"
+      ]
+    },
+    {
+      "id": "MCI0910_STEPHEN_IRELAND",
+      "fullname": "Stephen Ireland",
+      "surname": "Ireland",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 22,
+      "aliases": [
+        "Ireland",
+        "Stephen Ireland"
+      ]
+    },
+    {
+      "id": "MCI0910_ADAM_JOHNSON",
+      "fullname": "Adam Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Adam Johnson",
+        "Johnson"
+      ]
+    },
+    {
+      "id": "MCI0910_PATRICK_VIEIRA",
+      "fullname": "Patrick Vieira",
+      "surname": "Vieira",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Patrick Vieira",
+        "Vieira"
+      ]
+    },
+    {
+      "id": "MCI0910_MARTIN_PETROV",
+      "fullname": "Martin Petrov",
+      "surname": "Petrov",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Martin Petrov",
+        "Petrov"
+      ]
+    },
+    {
+      "id": "MCI0910_JAVIER_GARRIDO",
+      "fullname": "Javier Garrido",
+      "surname": "Garrido",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 9,
+      "aliases": [
+        "Garrido",
+        "Javier Garrido"
+      ]
+    },
+    {
+      "id": "MCI0910_ROQUE_SANTA_CRUZ",
+      "fullname": "Roque Santa Cruz",
+      "surname": "Cruz",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Cruz",
+        "Roque Santa Cruz"
+      ]
+    },
+    {
+      "id": "MCI0910_ROBINHO",
+      "fullname": "Robinho",
+      "surname": "Robinho",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Robinho"
+      ]
+    },
+    {
+      "id": "MCI0910_SYLVINHO",
+      "fullname": "Sylvinho",
+      "surname": "Sylvinho",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Sylvinho"
+      ]
+    },
+    {
+      "id": "MCI0910_NEDUM_ONUOHA",
+      "fullname": "Nedum Onuoha",
+      "surname": "Onuoha",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Nedum Onuoha",
+        "Onuoha"
+      ]
+    },
+    {
+      "id": "MCI0910_MARTON_FULOP",
+      "fullname": "Márton Fülöp",
+      "surname": "Fülöp",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Fülöp",
+        "Márton Fülöp"
+      ]
+    },
+    {
+      "id": "MCI0910_RICHARD_DUNNE",
+      "fullname": "Richard Dunne",
+      "surname": "Dunne",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Dunne",
+        "Richard Dunne"
+      ]
+    },
+    {
+      "id": "MCI0910_DEDRYCK_BOYATA",
+      "fullname": "Dedryck Boyata",
+      "surname": "Boyata",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Boyata",
+        "Dedryck Boyata"
+      ]
+    },
+    {
+      "id": "MCI0910_BENJANI",
+      "fullname": "Benjani",
+      "surname": "Benjani",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Benjani"
+      ]
+    },
+    {
+      "id": "MCI0910_GUNNAR_NIELSEN",
+      "fullname": "Gunnar Nielsen",
+      "surname": "Nielsen",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Gunnar Nielsen",
+        "Nielsen"
+      ]
+    },
+    {
+      "id": "MCI0910_ABDISALAM_IBRAHIM",
+      "fullname": "Abdisalam Ibrahim",
+      "surname": "Ibrahim",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Abdisalam Ibrahim",
+        "Ibrahim"
+      ]
+    },
+    {
+      "id": "MCI0910_ALEX_NIMELY",
+      "fullname": "Alex Nimely",
+      "surname": "Nimely",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Alex Nimely",
+        "Nimely"
+      ]
+    },
+    {
+      "id": "MCI0910_GREG_CUNNINGHAM",
+      "fullname": "Greg Cunningham",
+      "surname": "Cunningham",
+      "positions": [
+        "DF",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Cunningham",
+        "Greg Cunningham"
+      ]
+    },
+    {
+      "id": "MCI0910_MICHAEL_JOHNSON",
+      "fullname": "Michael Johnson",
+      "surname": "Johnson",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Johnson",
+        "Michael Johnson"
+      ]
+    }
+  ]
+}

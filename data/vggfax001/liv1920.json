@@ -12,7 +12,11 @@
       "positions": [
         "MAN"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Jurgen Klopp",
+        "Klopp"
+      ]
     },
     {
       "id": "LIV1920_VIRGIL_VAN_DIJK",
@@ -21,7 +25,12 @@
       "positions": [
         "DF"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Dijk",
+        "van Dijk",
+        "Virgil van Dijk"
+      ]
     },
     {
       "id": "LIV1920_TRENT_ALEXANDER_ARNOLD",
@@ -30,7 +39,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Alexander-Arnold",
+        "Trent Alexander-Arnold"
+      ]
     },
     {
       "id": "LIV1920_GEORGINIO_WIJNALDUM",
@@ -39,7 +52,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 37
+      "appearances": 37,
+      "aliases": [
+        "Georginio Wijnaldum",
+        "Wijnaldum"
+      ]
     },
     {
       "id": "LIV1920_ANDY_ROBERTSON",
@@ -48,7 +65,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 36
+      "appearances": 36,
+      "aliases": [
+        "Andy Robertson",
+        "Robertson"
+      ]
     },
     {
       "id": "LIV1920_ROBERTO_FIRMINO",
@@ -57,7 +78,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 38
+      "appearances": 38,
+      "aliases": [
+        "Firmino",
+        "Roberto Firmino"
+      ]
     },
     {
       "id": "LIV1920_MOHAMED_SALAH",
@@ -66,7 +91,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 34
+      "appearances": 34,
+      "aliases": [
+        "Mohamed Salah",
+        "Salah"
+      ]
     },
     {
       "id": "LIV1920_SADIO_MAN",
@@ -75,7 +104,12 @@
       "positions": [
         "AT"
       ],
-      "appearances": 35
+      "appearances": 35,
+      "aliases": [
+        "Mane",
+        "Mané",
+        "Sadio Mané"
+      ]
     },
     {
       "id": "LIV1920_ALISSON",
@@ -84,7 +118,10 @@
       "positions": [
         "GK"
       ],
-      "appearances": 29
+      "appearances": 29,
+      "aliases": [
+        "Alisson"
+      ]
     },
     {
       "id": "LIV1920_JORDAN_HENDERSON",
@@ -93,7 +130,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Henderson",
+        "Jordan Henderson"
+      ]
     },
     {
       "id": "LIV1920_FABINHO",
@@ -102,7 +143,10 @@
       "positions": [
         "MD"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Fabinho"
+      ]
     },
     {
       "id": "LIV1920_JOE_GOMEZ",
@@ -111,7 +155,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Gomez",
+        "Joe Gomez"
+      ]
     },
     {
       "id": "LIV1920_ALEX_OXLADE_CHAMBERLAIN",
@@ -121,7 +169,11 @@
         "MD",
         "AT"
       ],
-      "appearances": 30
+      "appearances": 30,
+      "aliases": [
+        "Alex Oxlade-Chamberlain",
+        "Oxlade-Chamberlain"
+      ]
     },
     {
       "id": "LIV1920_JAMES_MILNER",
@@ -131,7 +183,11 @@
         "MD",
         "DF"
       ],
-      "appearances": 22
+      "appearances": 22,
+      "aliases": [
+        "James Milner",
+        "Milner"
+      ]
     },
     {
       "id": "LIV1920_ADRIN",
@@ -140,7 +196,10 @@
       "positions": [
         "GK"
       ],
-      "appearances": 11
+      "appearances": 11,
+      "aliases": [
+        "Adrián"
+      ]
     },
     {
       "id": "LIV1920_NABY_KETA",
@@ -149,7 +208,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 18
+      "appearances": 18,
+      "aliases": [
+        "Keïta",
+        "Naby Keïta"
+      ]
     },
     {
       "id": "LIV1920_DEJAN_LOVREN",
@@ -158,7 +221,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Dejan Lovren",
+        "Lovren"
+      ]
     },
     {
       "id": "LIV1920_JOL_MATIP",
@@ -167,7 +234,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 9
+      "appearances": 9,
+      "aliases": [
+        "Joël Matip",
+        "Matip"
+      ]
     },
     {
       "id": "LIV1920_DIVOCK_ORIGI",
@@ -176,7 +247,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 28
+      "appearances": 28,
+      "aliases": [
+        "Divock Origi",
+        "Origi"
+      ]
     },
     {
       "id": "LIV1920_ADAM_LALLANA",
@@ -185,7 +260,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 15
+      "appearances": 15,
+      "aliases": [
+        "Adam Lallana",
+        "Lallana"
+      ]
     },
     {
       "id": "LIV1920_NECO_WILLIAMS",
@@ -194,7 +273,11 @@
       "positions": [
         "DF"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Neco Williams",
+        "Williams"
+      ]
     },
     {
       "id": "LIV1920_TAKUMI_MINAMINO",
@@ -203,7 +286,11 @@
       "positions": [
         "AT"
       ],
-      "appearances": 10
+      "appearances": 10,
+      "aliases": [
+        "Minamino",
+        "Takumi Minamino"
+      ]
     },
     {
       "id": "LIV1920_XHERDAN_SHAQIRI",
@@ -212,7 +299,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 7
+      "appearances": 7,
+      "aliases": [
+        "Shaqiri",
+        "Xherdan Shaqiri"
+      ]
     },
     {
       "id": "LIV1920_CURTIS_JONES",
@@ -221,7 +312,11 @@
       "positions": [
         "MD"
       ],
-      "appearances": 6
+      "appearances": 6,
+      "aliases": [
+        "Curtis Jones",
+        "Jones"
+      ]
     },
     {
       "id": "LIV1920_HARVEY_ELLIOTT",
@@ -231,7 +326,11 @@
         "AT",
         "MD"
       ],
-      "appearances": 2
+      "appearances": 2,
+      "aliases": [
+        "Elliott",
+        "Harvey Elliott"
+      ]
     }
   ]
 }

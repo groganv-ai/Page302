@@ -1,0 +1,404 @@
+{
+  "clubCode": "BRI1718",
+  "club": "Brighton",
+  "season": "2017-18",
+  "competition": "Premier League",
+  "version": 2,
+  "squad": [
+    {
+      "id": "BRI1718_CHRIS_HUGHTON",
+      "fullname": "Chris Hughton",
+      "surname": "Hughton",
+      "positions": [
+        "MAN"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Chris Hughton",
+        "Hughton"
+      ]
+    },
+    {
+      "id": "BRI1718_LEWIS_DUNK",
+      "fullname": "Lewis Dunk",
+      "surname": "Dunk",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Dunk",
+        "Lewis Dunk"
+      ]
+    },
+    {
+      "id": "BRI1718_MATHEW_RYAN",
+      "fullname": "Mathew Ryan",
+      "surname": "Ryan",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Mathew Ryan",
+        "Ryan"
+      ]
+    },
+    {
+      "id": "BRI1718_SHANE_DUFFY",
+      "fullname": "Shane Duffy",
+      "surname": "Duffy",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 37,
+      "aliases": [
+        "Duffy",
+        "Shane Duffy"
+      ]
+    },
+    {
+      "id": "BRI1718_DALE_STEPHENS",
+      "fullname": "Dale Stephens",
+      "surname": "Stephens",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "Dale Stephens",
+        "Stephens"
+      ]
+    },
+    {
+      "id": "BRI1718_DAVY_PROPPER",
+      "fullname": "Davy Pröpper",
+      "surname": "Pröpper",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Davy Pröpper",
+        "Pröpper"
+      ]
+    },
+    {
+      "id": "BRI1718_PASCAL_GRO",
+      "fullname": "Pascal Groß",
+      "surname": "Groß",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 38,
+      "aliases": [
+        "Gross",
+        "Groß",
+        "Pascal Groß"
+      ]
+    },
+    {
+      "id": "BRI1718_ANTHONY_KNOCKAERT",
+      "fullname": "Anthony Knockaert",
+      "surname": "Knockaert",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 33,
+      "aliases": [
+        "Anthony Knockaert",
+        "Knockaert"
+      ]
+    },
+    {
+      "id": "BRI1718_GAETAN_BONG",
+      "fullname": "Gaëtan Bong",
+      "surname": "Bong",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Bong",
+        "Gaëtan Bong"
+      ]
+    },
+    {
+      "id": "BRI1718_GLENN_MURRAY",
+      "fullname": "Glenn Murray",
+      "surname": "Murray",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 35,
+      "aliases": [
+        "Glenn Murray",
+        "Murray"
+      ]
+    },
+    {
+      "id": "BRI1718_BRUNO",
+      "fullname": "Bruno",
+      "surname": "Bruno",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 25,
+      "aliases": [
+        "Bruno"
+      ]
+    },
+    {
+      "id": "BRI1718_JOSE_IZQUIERDO",
+      "fullname": "José Izquierdo",
+      "surname": "Izquierdo",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 32,
+      "aliases": [
+        "Izquierdo",
+        "José Izquierdo"
+      ]
+    },
+    {
+      "id": "BRI1718_SOLLY_MARCH",
+      "fullname": "Solly March",
+      "surname": "March",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 36,
+      "aliases": [
+        "March",
+        "Solly March"
+      ]
+    },
+    {
+      "id": "BRI1718_EZEQUIEL_SCHELOTTO",
+      "fullname": "Ezequiel Schelotto",
+      "surname": "Schelotto",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 20,
+      "aliases": [
+        "Ezequiel Schelotto",
+        "Schelotto"
+      ]
+    },
+    {
+      "id": "BRI1718_MARKUS_SUTTNER",
+      "fullname": "Markus Suttner",
+      "surname": "Suttner",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 14,
+      "aliases": [
+        "Markus Suttner",
+        "Suttner"
+      ]
+    },
+    {
+      "id": "BRI1718_TOMER_HEMED",
+      "fullname": "Tomer Hemed",
+      "surname": "Hemed",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 16,
+      "aliases": [
+        "Hemed",
+        "Tomer Hemed"
+      ]
+    },
+    {
+      "id": "BRI1718_BERAM_KAYAL",
+      "fullname": "Beram Kayal",
+      "surname": "Kayal",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 19,
+      "aliases": [
+        "Beram Kayal",
+        "Kayal"
+      ]
+    },
+    {
+      "id": "BRI1718_IZZY_BROWN",
+      "fullname": "Izzy Brown",
+      "surname": "Brown",
+      "positions": [
+        "MD",
+        "AT"
+      ],
+      "appearances": 13,
+      "aliases": [
+        "Brown",
+        "Izzy Brown"
+      ]
+    },
+    {
+      "id": "BRI1718_JURGEN_LOCADIA",
+      "fullname": "Jürgen Locadia",
+      "surname": "Locadia",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 6,
+      "aliases": [
+        "Jürgen Locadia",
+        "Locadia"
+      ]
+    },
+    {
+      "id": "BRI1718_LEONARDO_ULLOA",
+      "fullname": "Leonardo Ulloa",
+      "surname": "Ulloa",
+      "positions": [
+        "AT"
+      ],
+      "appearances": 10,
+      "aliases": [
+        "Leonardo Ulloa",
+        "Ulloa"
+      ]
+    },
+    {
+      "id": "BRI1718_CONNOR_GOLDSON",
+      "fullname": "Connor Goldson",
+      "surname": "Goldson",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Connor Goldson",
+        "Goldson"
+      ]
+    },
+    {
+      "id": "BRI1718_JAMIE_MURPHY",
+      "fullname": "Jamie Murphy",
+      "surname": "Murphy",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 4,
+      "aliases": [
+        "Jamie Murphy",
+        "Murphy"
+      ]
+    },
+    {
+      "id": "BRI1718_LIAM_ROSENIOR",
+      "fullname": "Liam Rosenior",
+      "surname": "Rosenior",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 3,
+      "aliases": [
+        "Liam Rosenior",
+        "Rosenior"
+      ]
+    },
+    {
+      "id": "BRI1718_SAM_BALDOCK",
+      "fullname": "Sam Baldock",
+      "surname": "Baldock",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 2,
+      "aliases": [
+        "Baldock",
+        "Sam Baldock"
+      ]
+    },
+    {
+      "id": "BRI1718_UWE_HUNEMEIER",
+      "fullname": "Uwe Hünemeier",
+      "surname": "Hünemeier",
+      "positions": [
+        "DF"
+      ],
+      "appearances": 1,
+      "aliases": [
+        "Hünemeier",
+        "Uwe Hünemeier"
+      ]
+    },
+    {
+      "id": "BRI1718_TIM_KRUL",
+      "fullname": "Tim Krul",
+      "surname": "Krul",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Krul",
+        "Tim Krul"
+      ]
+    },
+    {
+      "id": "BRI1718_NIKI_MAENPAA",
+      "fullname": "Niki Mäenpää",
+      "surname": "Mäenpää",
+      "positions": [
+        "GK"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Mäenpää",
+        "Niki Mäenpää"
+      ]
+    },
+    {
+      "id": "BRI1718_JAYSON_MOLUMBY",
+      "fullname": "Jayson Molumby",
+      "surname": "Molumby",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Jayson Molumby",
+        "Molumby"
+      ]
+    },
+    {
+      "id": "BRI1718_STEVE_SIDWELL",
+      "fullname": "Steve Sidwell",
+      "surname": "Sidwell",
+      "positions": [
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Sidwell",
+        "Steve Sidwell"
+      ]
+    },
+    {
+      "id": "BRI1718_JIRI_SKALAK",
+      "fullname": "Jiří Skalák",
+      "surname": "Skalák",
+      "positions": [
+        "AT",
+        "MD"
+      ],
+      "appearances": 0,
+      "aliases": [
+        "Jiří Skalák",
+        "Skalák"
+      ]
+    }
+  ]
+}
