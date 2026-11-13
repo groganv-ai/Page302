@@ -26,3 +26,28 @@
 .headingPagination{display:flex;align-items:center;gap:8px;white-space:nowrap}
 #scoresOverlay .headingPagination button{border:2px solid #fff;padding:0 6px;background:transparent;color:#fff;font:inherit}
 #scoresOverlay .headingPagination button:hover,#scoresOverlay .headingPagination button:focus-visible{color:#ffff00}
+
+#scoresOverlay #resultTop:disabled{color:#888;border-color:#666;opacity:1;cursor:default}
+#rarestAward p{font-size:16px;line-height:1.4}
+#rarestAward{border:2px solid #00ffff;padding:10px;margin:12px 0;color:#00ffff}#rarestAward h2{font:inherit;margin:0}#rarestAward summary{cursor:pointer}#rarestAward li{margin:8px 0}
+.resultPackLine{flex-wrap:wrap}.resultPackLine details{flex:1;min-width:260px}.resultPackLine summary{list-style:none}.resultPackLine summary::-webkit-details-marker{display:none}.resultPackLine summary::before{content:'▶ '}.resultPackLine details[open] summary::before{content:'▼ '}
+#resultClubs{list-style:none;padding:0}#resultClubs li{display:flex;justify-content:space-between;gap:14px}#resultClubs li span:last-child{white-space:nowrap;text-align:right}
+#leaderboard th:nth-child(3),#leaderboard td:nth-child(3){text-align:right}
+@media(max-width:480px){.leaderboardHeading{flex-wrap:wrap;gap:8px}}
+
+.resultTeamHeading,.resultStrip{width:354px;margin-left:auto}.resultTeamHeading{display:block}.resultStrip{justify-content:flex-start}.resultStrip .resultCubePair{flex-shrink:0}
+
+/* Club list follows the ticket layout: its own band beneath formation. */
+.resultPackLine{display:block}
+.resultPackLine>span{display:block;margin-bottom:12px}
+.resultPackLine details{min-width:0;border-top:4px solid #00ff00;border-bottom:4px solid #00ff00;padding:12px 8px}
+.resultPackLine summary{color:#00ffff}
+#resultClubs{width:max-content;max-width:100%;margin:12px 0 0;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:28px;line-height:1.5}
+#resultClubs li{display:contents}
+#resultClubs li span:first-child{color:#fff}
+#resultClubs li span:last-child{color:#00ffff;text-align:right}
+@media(max-width:480px){#resultClubs{column-gap:16px}}
+
+button{ text-transform:uppercase; }
+#scoresOverlay #resultSearch button[aria-pressed="true"]{background:#ffff00;color:#000}
+#resultSortStatus{color:#00ffff;font-size:16px;margin-top:10px}

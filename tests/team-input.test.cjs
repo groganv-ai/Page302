@@ -32,8 +32,9 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   const ready=()=>page.waitForFunction(()=>progressReady&&clubPool.length===11&&document.querySelector('.clubPick'));
   await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test/');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.07_002');
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.08_002');
   assert.ok((await page.locator('.clubPick').evaluateAll(rows=>rows.map(row=>getComputedStyle(row).color))).every(colour=>colour==='rgb(255, 255, 255)'));
+  assert.ok((await page.locator('.clubPick .pickLabel').allTextContents()).every(label=>!/[+x]0/.test(label)));
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,squad,usage:clubUsage}));
   const selected=()=>page.locator('.mainLayout [aria-pressed="true"]').count();
   const position=slot=>page.locator('.positionPick[data-slot="'+slot+'"]');
@@ -55,14 +56,14 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   await submit('CECH');assert.match(await page.locator('#lastAnswer').textContent(),/TRY ANOTHER POSITION/);
   assert.equal((await stats()).guesses,1);assert.equal(await selected(),2);
   await page.emulateMedia({reducedMotion:'no-preference'});
-  await submit('TERRY');let state=await stats();assert.equal(state.answers[df].name,'John Terry');assert.equal(state.answers[1],undefined);
+  await submit('TERRY');let state=await stats();assert.equal(state.answers[df].name,'John Terry');assert.equal(state.answers[1],undefined);assert.match(await club('CHE').textContent(),/\(1\)/);
   assert.equal(await position(df).locator('.pickLabel').evaluate(el=>getComputedStyle(el).animationName),'vidiReveal');
   await page.emulateMedia({reducedMotion:'reduce'});
   assert.equal(await position(df).locator('.pickLabel').evaluate(el=>getComputedStyle(el).animationName),'none');
   assert.equal(await selected(),0);assert.equal(await position(df).isDisabled(),true);
   assert.equal(await position(df).locator('.pickLabel').evaluate(el=>getComputedStyle(el).fontWeight),'700');
   assert.equal(await club('CHE').locator('.pickLabel').evaluate(el=>getComputedStyle(el).fontWeight),'700');
-  assert.equal(await page.locator('#lastAnswer').isVisible(),true);
+  assert.equal(await page.locator('#lastAnswer').isVisible(),true);assert.equal(await page.locator('#lastAnswer .feedbackPoints').textContent(),'+'+state.answers[df].score.toLocaleString('en-GB')+' POINTS');
   await club('CHE').click();assert.equal(await page.locator('#lastAnswer').isVisible(),false);
   await page.reload();await ready();assert.deepEqual(await stats(),state);
   assert.equal(await page.locator('.vidiReveal').count(),0);
@@ -117,12 +118,14 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
     const rows=[...document.querySelectorAll('.clubPick,.positionPick')];
     return {width:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,
      rows:rows.map(row=>{const label=row.querySelector('.pickLabel'),dashes=row.querySelectorAll('.pickDashes');return {single:getComputedStyle(label).whiteSpace==='nowrap',equal:dashes[0].textContent===dashes[1].textContent,fits:label.getBoundingClientRect().width<=row.clientWidth,whole:[...dashes].every(d=>d.scrollWidth<=d.clientWidth)};}),
-     order:[...document.querySelector('.legendRowDesktop').children].map(p=>p.querySelector('.legendTitle').textContent.trim())};
+     hintsBelow:document.querySelector(innerWidth<=700?'.legendRowMobile':'.legendRowDesktop').getBoundingClientRect().top>=document.querySelector('.answerRow').getBoundingClientRect().bottom,
+     order:[...document.querySelector(innerWidth<=700?'.legendRowMobile':'.legendRowDesktop').children].map(p=>p.querySelector('.legendTitle').textContent.trim())};
    });
    if(layout.scroll!==layout.width)console.log(await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>document.documentElement.clientWidth).slice(0,12).map(e=>({tag:e.tagName,id:e.id,class:e.className,right:e.getBoundingClientRect().right,text:e.textContent.slice(0,55)}))));
    assert.equal(layout.scroll,layout.width,'page overflow at '+width);
    assert.ok(layout.rows.every(row=>row.single&&row.equal&&row.fits&&row.whole),'row fit at '+width);
-   assert.deepEqual(layout.order,['CLUB USAGE','PLAYER RARITY']);
+   assert.ok(layout.hintsBelow,'hints below answer at '+width);
+   assert.deepEqual(layout.order,width<=700?['PLAYER RARITY','CLUB USAGE']:['CLUB USAGE','PLAYER RARITY']);
    if(width===1100||width===390){
     fs.mkdirSync(path.join(root,'outputs'),{recursive:true});
     await page.screenshot({path:path.join(root,'outputs','v4.1.2-full-team-'+width+'.png'),fullPage:true});

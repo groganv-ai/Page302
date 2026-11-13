@@ -4,7 +4,7 @@ const root = path.resolve(__dirname, '..');
 const output = path.join(root, '.pages-dist');
 const files = [
   'index.html', 'privacy.html', 'script.js', 'style.css', 'report-client.js',
-  'scores-client.js', 'scores.css', 'results-client.js', 'results.css',
+  'scores-client.js', 'scores.css', 'results-client.js', 'results-ranking.js', 'results.css',
   'assets/page302-logo.png', 'assets/vince-teletext-host.png',
   'fonts/EuropeanTeletextNuevo.ttf',
   'v4.css', 'v4-ui.js', 'progress.js', 'challenge-client.js', 'site.webmanifest',

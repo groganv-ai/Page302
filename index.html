@@ -76,56 +76,6 @@
     </div>
 </div>
 <!-- LEGEND ROW -->
-<div class="legendRow legendRowDesktop">
-<div class="legendPanel">
-<div class="legendTitle">
-            PLAYER RARITY
-        </div>
-<div class="legendContent">
-<span class="rarityUni">UNI</span>
-
-            &gt;
-
-            <span class="raritySub">SUB</span>
-
-            &gt;
-
-            <span class="rarityUtl">UTL</span>
-
-            &gt;
-
-            <span class="rarityEng">ENG</span>
-
-            &gt;
-
-            <span class="rarityLeg">LEG</span>
-</div>
-</div>
-<div class="legendPanel">
-<div class="legendTitle">
-            CLUB USAGE
-        </div>
-<div class="legendContent">
-<span class="rarityUni">x1</span>
-
-            &gt;
-
-            <span class="raritySub">x2</span>
-
-            &gt;
-
-            <span class="rarityUtl">x3</span>
-
-            &gt;
-
-            <span class="rarityEng">x4</span>
-
-            &gt;
-
-            <span class="rarityLeg">x5+</span>
-</div>
-</div>
-</div>
 <!-- MAIN PLAY AREA -->
 <div class="mainLayout">
 <!-- LEFT -->
@@ -169,53 +119,103 @@
     SELECT A TEAM &gt; SELECT A POSITION &gt; ENTER A SURNAME
 </div>
 <div id="answerChoices" role="group" aria-label="Choose a player" hidden></div>
+<div class="legendRow legendRowDesktop">
+<div class="legendPanel">
+<div class="legendTitle">
+            PLAYER RARITY
+        </div>
+<div class="legendContent rarityLegend">
+<span class="legendValue rarityUni"><span>UNI</span><small>+100</small></span>
+
+
+
+            <span class="legendValue raritySub"><span>SUB</span><small>+80</small></span>
+
+
+
+            <span class="legendValue rarityUtl"><span>UTL</span><small>+60</small></span>
+
+
+
+            <span class="legendValue rarityEng"><span>ENG</span><small>+40</small></span>
+
+
+
+            <span class="legendValue rarityLeg"><span>LEG</span><small>+20</small></span>
+</div>
+</div>
+<div class="legendPanel">
+<div class="legendTitle">
+            CLUB USAGE
+        </div>
+<div class="legendContent usageLegend">
+<span class="legendValue rarityUni"><span>1</span><small>×13</small></span>
+
+
+
+            <span class="legendValue raritySub"><span>2</span><small>×8</small></span>
+
+
+
+            <span class="legendValue rarityUtl"><span>3</span><small>×5</small></span>
+
+
+
+            <span class="legendValue rarityEng"><span>4</span><small>×3</small></span>
+
+
+
+            <span class="legendValue rarityLeg"><span>5+</span><small>×1</small></span>
+</div>
+</div>
+</div>
 <div class="legendRow legendRowMobile">
 <div class="legendPanel">
 <div class="legendTitle">
             RARITY
         </div>
-<div class="legendContent">
-<span class="rarityUni">UNI</span>
+<div class="legendContent rarityLegend">
+<span class="legendValue rarityUni"><span>UNI</span><small>+100</small></span>
 
-            &gt;
 
-            <span class="raritySub">SUB</span>
 
-            &gt;
+            <span class="legendValue raritySub"><span>SUB</span><small>+80</small></span>
 
-            <span class="rarityUtl">UTL</span>
 
-            &gt;
 
-            <span class="rarityEng">ENG</span>
+            <span class="legendValue rarityUtl"><span>UTL</span><small>+60</small></span>
 
-            &gt;
 
-            <span class="rarityLeg">LEG</span>
+
+            <span class="legendValue rarityEng"><span>ENG</span><small>+40</small></span>
+
+
+
+            <span class="legendValue rarityLeg"><span>LEG</span><small>+20</small></span>
 </div>
 </div>
 <div class="legendPanel">
 <div class="legendTitle">
             CLUB BONUS
         </div>
-<div class="legendContent">
-<span class="rarityUni">x1</span>
+<div class="legendContent usageLegend">
+<span class="legendValue rarityUni"><span>1</span><small>×13</small></span>
 
-            &gt;
 
-            <span class="raritySub">x2</span>
 
-            &gt;
+            <span class="legendValue raritySub"><span>2</span><small>×8</small></span>
 
-            <span class="rarityUtl">x3</span>
 
-            &gt;
 
-            <span class="rarityEng">x4</span>
+            <span class="legendValue rarityUtl"><span>3</span><small>×5</small></span>
 
-            &gt;
 
-            <span class="rarityLeg">x5+</span>
+
+            <span class="legendValue rarityEng"><span>4</span><small>×3</small></span>
+
+
+
+            <span class="legendValue rarityLeg"><span>5+</span><small>×1</small></span>
 </div>
 </div>
 </div>
@@ -274,7 +274,7 @@
             </section>
             <section class="helpPagePanel">
                 <h2>CLUB BONUS</h2>
-                <p>Receive a higher bonus the less you use each club.</p>
+                <p>Receive a higher bonus the less you use each club. Club usage is shown as 1 &gt; 2 &gt; 3 &gt; 4 &gt; 5+, with score multipliers ×13, ×8, ×5, ×3 and ×1. Counts appear in brackets beside used clubs.</p>
                 <p class="helpHighlight">Go 11 from 11 for the best score.</p>
                 <p>Managers provide additional bonus.</p>
             </section>
@@ -389,15 +389,18 @@ window.PAGE302_RELEASES_ENABLED = window.PAGE302_RELEASES_ENABLED ?? !/^(localho
   <div class="scoresTop"><span>P302 · VGGFAX</span><span>FINAL SCORES</span></div>
   <div class="scoresLogo"><img src="assets/compact-logo.svg" alt="Page302"/></div>
   <div class="leaderboardHeading"><h1 id="leaderboardTitle">LEADERBOARD</h1><div class="headingPagination"><button id="resultPrevious" type="button" aria-label="Previous leaderboard page" hidden>&lt;</button><span id="resultPages">1/1</span><button id="resultNext" type="button" aria-label="Next leaderboard page" hidden>&gt;</button></div></div>
-  <div class="resultPackLine"><span id="resultFormation"></span><details><summary>CLUBS</summary><ul id="resultClubs"></ul></details></div>
-  <table id="leaderboard"><thead><tr><th>POS</th><th>NAME</th><th>REF</th><th>SCORE</th><th class="wideCubes">TEAM</th></tr></thead><tbody id="leaderboardRows"></tbody></table>
+  <div class="resultPackLine"><span id="resultFormation"></span><details id="resultClubDetails"><summary>CLUBS / SEASONS</summary><ul id="resultClubs"></ul></details></div>
+  <section id="rarestAward" hidden aria-label="Rarest players"></section>
+  <table id="leaderboard"><thead><tr><th>POS</th><th aria-label="Player"></th><th>SCORE</th><th>RARITY</th><th class="wideCubes"><span class="resultTeamHeading">TEAM</span></th></tr></thead><tbody id="leaderboardRows"></tbody></table>
   <section id="closedResult" hidden aria-label="Detailed result"></section>
-  <form id="resultSearch"><label>INITIALS<input id="resultInitials" maxlength="3" placeholder="VGG"/></label><label>REFERENCE<input id="resultReference" maxlength="6" inputmode="numeric" placeholder="482193"/></label><button type="submit">FIND SCORE</button><button id="resultTop" type="button">TOP 25</button></form>
+  <form id="resultSearch"><input id="resultReference" maxlength="6" inputmode="numeric" placeholder="Code" aria-label="Code"/><button type="submit">SEARCH</button><button id="resultScore" type="button" aria-pressed="true">SCORE &#8593;</button><button id="resultRarity" type="button" aria-pressed="false">RARITY &#8595;</button></form>
+  <div id="resultSortStatus" role="status" aria-live="polite"></div>
   <div id="resultsStatus" role="status" aria-live="polite"></div>
 
   <div class="resultsFooter helpPageFooter"><button type="button" class="helpBack" onclick="backFromScores()">BACK</button><button type="button" class="helpFooterHelp" onclick="hideScores();showHelp()">HELP</button><button type="button" class="helpAbout" onclick="hideScores();showAbout()">ABOUT</button><button type="button" class="helpNewGame" onclick="hideScores();newGame()">NEW GAME</button></div>
  </div>
 </div>
+<script src="results-ranking.js"></script>
 <script src="results-client.js"></script>
 <script src="challenge-client.js"></script>
 <script src="v4-ui.js"></script>
