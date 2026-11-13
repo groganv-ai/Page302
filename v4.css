@@ -90,3 +90,16 @@ button:focus-visible,input:focus-visible { outline:2px solid var(--yellow); outl
 }
 @media(max-width:400px) { #clubTitle { font-size:15px; letter-spacing:-.25px; } }
 @media(prefers-reduced-motion:reduce) { .hop { animation:none; } .dosCursor { animation:none; } }
+
+.legendContent{display:flex;justify-content:center;align-items:flex-start;gap:.4em}
+.legendValue{display:inline-flex;flex-direction:column;align-items:center;gap:4px}
+.legendValue small{font:inherit;font-size:.85em}
+.answerFeedback .feedbackRarityRow{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.feedbackRarityRow .feedbackPoints{font-size:18px;white-space:nowrap}
+
+.legendContent.usageLegend,.legendContent.rarityLegend{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;width:100%}
+.usageLegend .legendValue,.rarityLegend .legendValue{width:100%;box-sizing:border-box;text-align:center;padding:0 6px}
+.usageLegend .legendValue+.legendValue,.rarityLegend .legendValue+.legendValue{border-left:1px solid #fff}
+
+/* Separate answer feedback from the scoring hints on desktop. */
+.legendRowDesktop{margin-top:16px}

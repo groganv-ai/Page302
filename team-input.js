@@ -15,7 +15,7 @@ document.querySelectorAll('.legendRow').forEach(row=>{
  const usage=Array.from(row.children).find(panel=>/CLUB (USAGE|BONUS)/.test(panel.textContent));
  if(usage){usage.querySelector('.legendTitle').textContent='CLUB USAGE';row.prepend(usage);}
  const rarity=Array.from(row.children).find(panel=>panel!==usage);
- if(rarity)rarity.querySelector('.legendTitle').textContent='PLAYER RARITY';
+ if(rarity){rarity.querySelector('.legendTitle').textContent='PLAYER RARITY';if(row.classList.contains('legendRowMobile'))row.prepend(rarity);}
 });
 const teamContext=document.createElement('span');teamContext.className='inputContext';
 document.querySelector('.answerRow').insertBefore(teamContext,document.querySelector('.answerInputShell'));
@@ -101,7 +101,7 @@ drawClubTitle=function(){
  const board=document.getElementById('clubTitle');board.replaceChildren();
  clubPool.forEach(club=>{
   const code=club.clubCode.slice(0,3),usage=clubUsage[code]||0,season=club.season.replace(/^\d{2}(\d{2}-\d{2})$/,'$1');
-  const button=selectionRow('clubPick',club.club+' '+season+' x'+usage);
+  const button=selectionRow('clubPick',club.club+' '+season+(usage>0?' ('+usage+')':''));
   button.dataset.club=code;
   button.setAttribute('aria-pressed',String(selectedTeamClub===code));button.disabled=currentGame.gameOver;
   button.style.color=usage?feedbackTierColours[getClubTier(code)]:'#ffffff';
