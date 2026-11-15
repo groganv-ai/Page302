@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "002";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v4.1.08_002";
+const APP_BUILD = "v4.1.09_002";
 let releaseState = null;
 let playedReleaseRevision = null;
 function releaseApiUrl() {
@@ -108,6 +108,11 @@ let vggfax = FALLBACK_VGGFAX.slice();
 const vggfaxPackCache = new Map();
 
 function updateVggfaxHeader() {
+    const points = packRarityPoints();
+    for (const label of document.querySelectorAll('[data-rarity-points]')) {
+        label.textContent = '+' + points[label.dataset.rarityPoints];
+    }
+
 
     document.getElementById("vggfaxNumber").textContent =
         "VGGFAX " + currentVggfax;
@@ -1193,6 +1198,13 @@ function playerAlreadyUsed(player) {
     );
 
 }
+const previousRarityPoints = { UNI: 100, SUB: 80, UTL: 60, ENG: 40, LEG: 20 };
+const updatedRarityPoints = { UNI: 200, SUB: 100, UTL: 75, ENG: 45, LEG: 25 };
+
+function packRarityPoints() {
+    return Number(currentVggfax) >= 9 ? updatedRarityPoints : previousRarityPoints;
+}
+
 function getRarity(player) {
     if (!isEligibleRecord(player)) throw new Error("Ineligible participation record");
 
@@ -1201,7 +1213,7 @@ function getRarity(player) {
         return {
             label: "UNICORN",
             short: "UNI",
-            points: 100
+            points: packRarityPoints().UNI
         };
 
     }
@@ -1211,7 +1223,7 @@ function getRarity(player) {
         return {
             label: "SUPER SUB",
             short: "SUB",
-            points: 80
+            points: packRarityPoints().SUB
         };
 
     }
@@ -1221,7 +1233,7 @@ function getRarity(player) {
         return {
             label: "UTILITY",
             short: "UTL",
-            points: 60
+            points: packRarityPoints().UTL
         };
 
     }
@@ -1231,7 +1243,7 @@ function getRarity(player) {
         return {
             label: "ENGINE ROOM",
             short: "ENG",
-            points: 40
+            points: packRarityPoints().ENG
         };
 
     }
@@ -1241,7 +1253,7 @@ function getRarity(player) {
         return {
             label: "LEGEND",
             short: "LEG",
-            points: 20
+            points: packRarityPoints().LEG
         };
 
     }

@@ -10,8 +10,8 @@ Colour the final awarded total, including linked-club bonuses. Do not change sco
 
 | Colour | Player points | Manager points |
 |---|---|---|
-| White | 260 or below | Below 40 |
-| Yellow | 261–519 | 40–59 |
-| Green | 520–779 | 60–79 |
-| Cyan | 780–1,039 | 80–99 |
-| Magenta | 1,040+ | 100+ |
+| White | 325 or below | Below 45 |
+| Yellow | 326–584 | 45–74 |
+| Green | 585–974 | 75–99 |
+| Cyan | 975–1,299 | 100–199 |
+| Magenta | 1,300+ | 200+ |
