@@ -18,7 +18,7 @@ test('live selection flow rejects Hein with one guess and safely discards an old
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,usage:clubUsage,used:[...usedPeople]}));
   await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.07_002');
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.09_002');
   await page.locator('.clubPick[data-club="ARS"]').click();await page.locator('.positionPick[data-position="GK"]').click();
   await page.locator('#answer').fill('HEIN');await page.locator('#answer').press('Enter');
   assert.deepEqual(await stats(),{score:0,guesses:1,answers:{},usage:{},used:[]});
@@ -41,6 +41,11 @@ test('live selection flow rejects Hein with one guess and safely discards an old
   assert.match(await page.locator('#lastAnswer').textContent(),/SAVED PROGRESS COULD NOT BE RESTORED/);
   assert.equal(await page.evaluate(()=>localStorage.getItem(progressKey())),null);
   assert.equal(await page.locator('#answer').isEnabled(),true);assert.equal(submissions,0);
+  for(const [pack,points] of [['008',[100,80,60,40,20]],['009',[200,100,75,45,25]]]){
+   await page.evaluate(id=>{currentVggfax=id;updateVggfaxHeader();},pack);
+   const labels=await page.locator('[data-rarity-points]').allTextContents();
+   assert.deepEqual(labels,[...points,...points,...points].map(value=>'+'+value));
+  }
   assert.deepEqual(errors,[]);
  }finally{await browser.close();}
 });

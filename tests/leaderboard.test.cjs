@@ -24,7 +24,7 @@ test('real pack 002 squads, leaderboard search, detail and permanent link while 
  await page.locator('#resultRarity').click();assert.match(await page.locator('#resultRarity').textContent(),/RARITY/);
  assert.ok(await page.evaluate(()=>resultRows.every((r,i)=>!i||r.rarityScore>=resultRows[i-1].rarityScore)));
  await page.locator('#resultRarity').click();assert.ok(await page.evaluate(()=>resultRows.every((r,i)=>!i||r.rarityScore<=resultRows[i-1].rarityScore)));await page.locator('#resultScore').click();
- assert.equal(await page.evaluate(()=>APP_BUILD),'v4.1.08_002');
+ assert.equal(await page.evaluate(()=>APP_BUILD),'v4.1.09_002');
  assert.equal(await page.locator('#resultPrevious').isVisible(),false);assert.equal(await page.locator('#resultNext').isVisible(),false);
  await page.evaluate(()=>{resultRows=[...publishedPack.results,...publishedPack.results];renderLeaderboard()});
  assert.equal(await page.locator('#resultPrevious').isVisible(),false);assert.equal(await page.locator('#resultNext').isVisible(),true);assert.equal(await page.locator('#leaderboardRows tr').count(),15);

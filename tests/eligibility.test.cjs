@@ -105,3 +105,17 @@ test('legacy backend receipt, supplied score, rows and published leaderboard rem
   assert.equal(JSON.stringify(store.finalize('003')),published);assert.equal(store.latest().results[0].score,1580);
  }finally{store.close();}
 });
+
+test('player and manager scoring changes when the scheduler selects pack 009',()=>{
+ const e=engine();
+ for(const [pack,expected] of [['008',[100,80,60,40,20]],['009',[200,100,75,45,25]],['010',[200,100,75,45,25]]]){
+  e.context.selectedPack=pack;e.run('currentVggfax=selectedPack');
+  for(const [i,appearances] of [1,2,10,16,30].entries()){
+   for(const position of ['DF','MAN']){
+    const record={appearances,positions:[position]};
+    const rarity=position==='MAN'?e.context.getManagerRarity(record):e.context.getRarity(record);
+    assert.equal(rarity.points,expected[i]);
+   }
+  }
+ }
+});

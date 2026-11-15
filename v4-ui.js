@@ -17,10 +17,12 @@ const fullRarityNames = {UNI:'UNICORN',SUB:'SUBSTITUTE',UTL:'UTILITY PLAYER',ENG
 const feedbackTierColours = ['#ffffff','#ff00ff','#00ffff','#00ff00','#ffff00','#ffffff'];
 const feedbackRarityColours = {UNI:'#ff00ff',SUB:'#00ffff',UTL:'#00ff00',ENG:'#ffff00',LEG:'#ffffff'};
 function playerPointsColour(points) {
-    return points>=1040?'#ff00ff':points>=780?'#00ffff':points>=520?'#00ff00':points>260?'#ffff00':'#ffffff';
+    if (Number(currentVggfax) < 9) return points>=1040?'#ff00ff':points>=780?'#00ffff':points>=520?'#00ff00':points>260?'#ffff00':'#ffffff';
+    return points>=1300?'#ff00ff':points>=975?'#00ffff':points>=585?'#00ff00':points>325?'#ffff00':'#ffffff';
 }
 function managerPointsColour(points) {
-    return points>=100?'#ff00ff':points>=80?'#00ffff':points>=60?'#00ff00':points>=40?'#ffff00':'#ffffff';
+    const bands = packRarityPoints();
+    return points>=bands.UNI?'#ff00ff':points>=bands.SUB?'#00ffff':points>=bands.UTL?'#00ff00':points>=bands.ENG?'#ffff00':'#ffffff';
 }
 function feedbackNode(tag, text, className) {
     const node=document.createElement(tag);

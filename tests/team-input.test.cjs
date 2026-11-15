@@ -32,7 +32,7 @@ test('selection input preserves exact rows, recovery, retries, complete scoring 
   const ready=()=>page.waitForFunction(()=>progressReady&&clubPool.length===11&&document.querySelector('.clubPick'));
   await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test/');await ready();await page.emulateMedia({reducedMotion:'reduce'});
-  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.08_002');
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.09_002');
   assert.ok((await page.locator('.clubPick').evaluateAll(rows=>rows.map(row=>getComputedStyle(row).color))).every(colour=>colour==='rgb(255, 255, 255)'));
   assert.ok((await page.locator('.clubPick .pickLabel').allTextContents()).every(label=>!/[+x]0/.test(label)));
   const stats=()=>page.evaluate(()=>({score:currentGame.score,guesses:currentGame.totalGuesses,answers:squadDisplay,squad,usage:clubUsage}));
