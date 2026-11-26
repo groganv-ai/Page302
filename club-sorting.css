@@ -1,0 +1,5 @@
+.panelHeader.clubSortHeader{position:relative;display:flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:4px 48px}
+.clubSortToggle{position:absolute;right:0;top:0;bottom:0;width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;padding:8px;border:0;background:transparent;color:#fff;cursor:pointer}
+.clubSortToggle svg{width:24px;height:24px}
+.clubSortToggle:hover{color:#ffff00}
+.clubSortToggle:focus-visible{outline:2px solid #ffff00;outline-offset:-3px}

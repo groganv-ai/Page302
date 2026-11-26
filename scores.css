@@ -15,3 +15,13 @@
 #gameCompleteWindow { margin:auto; max-height:none; }
 #completeGrid { width:260px; max-width:100%; }
 @media(pointer:coarse) { .completeDismiss,#submitScoreButton,.completeButton { min-height:44px; min-width:44px; } }
+#newGameDialog { box-sizing:border-box; width:min(540px,calc(100% - 24px)); max-height:calc(100dvh - 32px); padding:24px; color:#fff; background:#000; border:3px solid #00ff00; font-family:"Teletext",monospace; }
+#newGameDialog::backdrop { background:rgba(0,0,0,.8); }
+#newGameDialog .completeTitle { font-size:26px; color:#ffff00; }
+#newGameMessage { font-size:20px; line-height:1.5; margin:20px 0 26px; text-align:center; }
+.newGameWarning { display:block; margin-top:18px; color:#ff0000; font-weight:700; }
+.newGameActions { display:flex; flex-wrap:wrap; justify-content:space-between; gap:16px; }
+.newGameActions button { background:#000; border:2px solid currentColor; padding:10px 12px; min-height:44px; font:inherit; font-size:18px; cursor:pointer; }
+#cancelNewGame { color:#ffff00; }
+#confirmNewGame { color:#00ffff; }
+.newGameActions button:focus-visible { outline:2px solid #fff; outline-offset:4px; }
