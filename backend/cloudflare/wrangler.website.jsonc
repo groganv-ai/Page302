@@ -1,0 +1,13 @@
+{
+  "name": "page302-website",
+  "account_id": "91931aef059c1bf55a5e2e6b8c723e22",
+  "main": "website-worker.mjs",
+  "compatibility_date": "2026-11-26",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {"directory": "../../.pages-dist", "binding": "ASSETS", "run_worker_first": true},
+  "observability": {"enabled": true, "traces": {"enabled": true}},
+  "vars": {"SITE_ACCESS": "private"}
+  // No domains or scores binding until Access and the isolated test database are ready.
+  // Set ACCESS_TEAM_DOMAIN, ACCESS_AUD and TESTER_EMAIL through Wrangler secrets.
+}

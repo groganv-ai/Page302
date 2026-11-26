@@ -1,0 +1,12 @@
+{
+  "name": "page302-scores-testing",
+  "account_id": "91931aef059c1bf55a5e2e6b8c723e22",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-02",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {"enabled": true, "traces": {"enabled": true}},
+  "vars": {"ALLOWED_ORIGINS": "https://groganv-ai.github.io,https://page302.co.uk,http://127.0.0.1:8080,http://localhost:8080"}
+  // Intentionally no DB binding: provision a NEW testing D1 database before deployment.
+  // Never bind the existing page302-scores-preview database here.
+}
