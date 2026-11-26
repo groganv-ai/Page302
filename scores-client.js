@@ -63,8 +63,6 @@ async function submitCompletedScore(event) {
     }finally{clearTimeout(timeout);attempt.saving=false;}
 }
 async function playAgainFromResult() {
-    if(scoreAttempt&&!scoreAttempt.saved&&!window.confirm('Your score has not been saved. Play again anyway?'))return;
-    closeCompleteGame();scoreAttempt=null;gameComplete=false;
     // Replay only the currently valid pack; a closed day's pack cannot be restarted.
     await newGame();
 }

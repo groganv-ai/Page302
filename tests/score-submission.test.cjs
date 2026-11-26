@@ -40,17 +40,40 @@ test('active result submits unchanged values, retries lost receipt, replays same
    }
    completeGame();
   });
+  const originalRequest=await page.evaluate(()=>scoreAttempt.requestId);
+  await page.locator('#scoreInitials').fill('vgg');
+  await page.locator('#gameCompleteOverlay .completeDismiss').click();
+  await page.locator('#reopenResults').click();
+  assert.equal(await page.evaluate(()=>scoreAttempt.requestId),originalRequest);
+  assert.equal(await page.locator('#scoreInitials').inputValue(),'vgg');
+  assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,0);
   await page.locator('#scoreInitials').fill('vgg');await page.locator('#submitScoreButton').click();
   await page.waitForFunction(()=>document.getElementById('scoreSubmissionStatus').textContent.includes('RETRY'));
   await page.locator('#submitScoreButton').click();await page.waitForFunction(()=>document.getElementById('submitScoreButton').textContent==='SAVED');
   assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,1);
   const saved=store.db.prepare('SELECT * FROM submissions').get();assert.equal(saved.score,2450);assert.equal(saved.guesses,18);
   assert.equal(await page.locator('#scoreInitials').isDisabled(),true);
+  await page.locator('#gameCompleteOverlay .completeDismiss').click();await page.locator('#reopenResults').click();
+  assert.equal(await page.evaluate(()=>scoreAttempt.requestId),originalRequest);
+  assert.equal(await page.locator('#submitScoreButton').textContent(),'SAVED');
+  assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,1);
+  // A live schedule gap must reject reopening even if the button was visible.
+  await page.locator('#gameCompleteOverlay .completeDismiss').click();
+  await page.waitForFunction(()=>!!document.getElementById('reopenResults'));
+  await page.evaluate(()=>{window.PAGE302_RELEASES_ENABLED=true;window.originalRefreshReleaseState=refreshReleaseState;refreshReleaseState=async()=>({enabled:true,currentPack:null});});
+  await page.locator('#reopenResults').click();
+  assert.equal(await page.locator('#gameCompleteOverlay').isVisible(),false);
+  assert.equal(await page.locator('#reopenResults').isVisible(),false);
+  await page.evaluate(()=>{window.PAGE302_RELEASES_ENABLED=false;refreshReleaseState=window.originalRefreshReleaseState;closeCompleteGame();});
+  await page.locator('#reopenResults').click();
   await page.setViewportSize({width:390,height:844});
   const bounds=await page.locator('#gameCompleteWindow').boundingBox();assert.ok(bounds.x>=0&&bounds.x+bounds.width<=390);
   await page.getByRole('button',{name:'PLAY AGAIN',exact:true}).click();
+  assert.equal(await page.locator('#newGameMessage').textContent(),'Are you sure you want to start a new game?');
+  await page.locator('#confirmNewGame').click();
   await page.waitForFunction(()=>!currentGame.gameOver&&currentGame.score===0);
   assert.equal(await page.evaluate(()=>currentVggfax),'003');assert.equal(await page.evaluate(()=>scoreAttempt),null);
+  assert.equal(await page.locator('#reopenResults').isVisible(),false);
   assert.deepEqual(errors,[]);
  }finally{await browser.close();store.close()}
 });

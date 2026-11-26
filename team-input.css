@@ -1,4 +1,7 @@
 .mainLayout { display:flex; flex-direction:row; align-items:stretch; }
+@media(pointer:coarse) {
+ .answerRow { scroll-margin-block:12px; padding-bottom:env(safe-area-inset-bottom,0px); }
+}
 .mainLayout .panel { flex:1; }
 .mainLayout .clubsPanel { order:0; }
 .mainLayout .teamPanel { order:1; }

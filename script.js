@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "002";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v4.1.09_002";
+const APP_BUILD = "v4.1.21_002";
 let releaseState = null;
 let playedReleaseRevision = null;
 function releaseApiUrl() {
@@ -383,6 +383,8 @@ async function newGame(options = {}) {
     currentGame.score = 0;
 
     currentGame.gameOver = false;
+    gameComplete = false;
+    closeCompleteGame();
 
     lastPlayer = null;
 
@@ -424,7 +426,6 @@ async function newGame(options = {}) {
 
     if(typeof resetProgressTracking === "function") resetProgressTracking();
     if(typeof refreshChallengeDeadline === "function") refreshChallengeDeadline();
-    if (!options.quiet) alert("New game started!");
 
 }
 
@@ -1018,9 +1019,10 @@ else {
     "answer"
     ).value = "";
 
-    document.getElementById("answer").focus();
+    if (typeof matchMedia !== 'function' || !matchMedia('(pointer: coarse)').matches) document.getElementById("answer").focus();
 
-document.getElementById("answer").select();
+if (typeof matchMedia === 'function' && matchMedia('(pointer: coarse)').matches) document.getElementById("answer").blur();
+else document.getElementById("answer").select();
 answerTargetSlot = null;
 
 }
@@ -1076,7 +1078,8 @@ function showAnswerChoices(matches, position, clubCode) {
 function cancelAnswerChoice() {
     if (!pendingAnswer) return;
     setStatus("SELECTION CANCELLED");
-    document.getElementById("answer").focus();
+    if (typeof matchMedia === 'function' && matchMedia('(pointer: coarse)').matches) document.querySelector('.answerLabel').focus({preventScroll:true});
+    else document.getElementById("answer").focus();
 }
 
 function getClubByCode(

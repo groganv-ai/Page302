@@ -7,6 +7,31 @@ function clearAnswerFeedback(){
  document.getElementById('result').textContent='';
 }
 const teamInput=document.getElementById('answer');
+let answerViewportTimer=0;
+let answerViewportSize='';
+function keepAnswerVisible(){
+ clearTimeout(answerViewportTimer);
+ answerViewportTimer=setTimeout(()=>{
+  if(document.activeElement!==teamInput||!matchMedia('(pointer: coarse)').matches)return;
+  const viewport=window.visualViewport;
+  const top=(viewport?.offsetTop||0)+24,bottom=(viewport?.offsetTop||0)+(viewport?.height||innerHeight)-64;
+  const row=teamInput.getBoundingClientRect();
+  const delta=row.bottom>bottom?row.bottom-bottom:row.top<top?row.top-top:0;
+  if(Math.abs(delta)>2)window.scrollBy({top:delta,behavior:'instant'});
+ },300);
+}
+// Correct once after a size change settles. Scroll events must never trigger
+// another correction: Safari pans the visual viewport while showing its keyboard.
+function answerViewportResized(){
+ const viewport=window.visualViewport;
+ const size=Math.round(viewport?.width||innerWidth)+':'+Math.round(viewport?.height||innerHeight);
+ if(size===answerViewportSize)return;
+ answerViewportSize=size;keepAnswerVisible();
+}
+teamInput.addEventListener('focus',keepAnswerVisible);
+teamInput.addEventListener('blur',()=>clearTimeout(answerViewportTimer));
+window.visualViewport?.addEventListener('resize',answerViewportResized);
+window.addEventListener('resize',answerViewportResized);
 const teamPanel=document.getElementById('squadBoard').closest('.panel');
 const clubsPanel=document.getElementById('clubTitle').closest('.panel');
 teamPanel.classList.add('teamPanel');clubsPanel.classList.add('clubsPanel');
@@ -47,8 +72,11 @@ function selectedAnswerRequest(){
 }
 function focusSelectedAnswer(){
  if(selectedTeamSlot===null||!selectedTeamClub)return;
- document.querySelector('.inputArea').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});
+ const touch=matchMedia('(pointer: coarse)').matches;
+ // A smooth scroll to the pre-keyboard viewport can race Safari's focus scroll.
+ document.querySelector('.answerRow').scrollIntoView({behavior:touch||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});
  teamInput.focus({preventScroll:true});
+ keepAnswerVisible();
 }
 function selectionRow(className,text){
  const button=document.createElement('button');button.type='button';button.className=className;button.setAttribute('aria-label',text);
@@ -99,14 +127,23 @@ drawSquad=function(){
 };
 drawClubTitle=function(){
  const board=document.getElementById('clubTitle');board.replaceChildren();
- clubPool.forEach(club=>{
+ if(typeof updateClubSortControls==='function')updateClubSortControls();
+ const visibleClubs=typeof sortedClubView==='function'?sortedClubView(clubPool):clubPool;
+ visibleClubs.forEach(club=>{
   const code=club.clubCode.slice(0,3),usage=clubUsage[code]||0,season=club.season.replace(/^\d{2}(\d{2}-\d{2})$/,'$1');
   const button=selectionRow('clubPick',club.club+' '+season+(usage>0?' ('+usage+')':''));
   button.dataset.club=code;
   button.setAttribute('aria-pressed',String(selectedTeamClub===code));button.disabled=currentGame.gameOver;
   button.style.color=usage?feedbackTierColours[getClubTier(code)]:'#ffffff';
   if(code===lastClubCode)button.classList.add('latestAnswer');
-  button.onclick=()=>{clearAnswerFeedback();answerTargetSlot=null;selectedTeamClub=selectedTeamClub===code?null:code;drawClubTitle();drawSquad();focusSelectedAnswer();};board.append(button);
+  button.onclick=()=>{
+   clearAnswerFeedback();answerTargetSlot=null;
+   selectedTeamClub=selectedTeamClub===code?null:code;
+   drawClubTitle();drawSquad();
+   if(selectedTeamClub&&selectedTeamSlot===null){
+    teamPanel.scrollIntoView({behavior:'instant',block:'start'});
+   }else focusSelectedAnswer();
+  };board.append(button);
  });requestAnimationFrame(fitTeamRows);
 };
 new ResizeObserver(fitTeamRows).observe(document.querySelector('.mainLayout'));
