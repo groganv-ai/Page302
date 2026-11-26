@@ -1250,6 +1250,9 @@ body {
 .aboutContact a:hover, .aboutContact a:focus-visible { background: #00ffff; color: #000; }
 .aboutThanks { border-color: #ffff00 !important; }
 .aboutThanks h2 { color: #ffff00; }
+.aboutCredits h2 { color: #00ff00; }
+.aboutCredits a { color: #00ffff; }
+.aboutCredits a:hover, .aboutCredits a:focus-visible { background: #00ffff; color: #000; }
 .aboutNotice { border-color: #ff00ff !important; }
 .aboutNotice h2 { color: #ff00ff; }
 .aboutNotice p { color: #bbb; font-size: 0.78em; }

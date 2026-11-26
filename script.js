@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "002";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v4.1.21_002";
+const APP_BUILD = "v4.1.22_002";
 let releaseState = null;
 let playedReleaseRevision = null;
 function releaseApiUrl() {
