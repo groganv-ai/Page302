@@ -7,7 +7,8 @@
   "preview_urls": false,
   "assets": {"directory": "../../.pages-dist", "binding": "ASSETS", "run_worker_first": true},
   "observability": {"enabled": true, "traces": {"enabled": true}},
-  "vars": {"SITE_ACCESS": "private"}
-  // No domains or scores binding until Access and the isolated test database are ready.
+  "vars": {"SITE_ACCESS": "private"},
+  "services": [{"binding": "SCORES", "service": "page302-scores-testing"}]
+  // No domains until Access is ready.
   // Set ACCESS_TEAM_DOMAIN, ACCESS_AUD and TESTER_EMAIL through Wrangler secrets.
 }

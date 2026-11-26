@@ -22,7 +22,7 @@ test('domain root and GitHub subpath load assets and display the reviewed build'
     return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});
    });
    await page.goto(base);
-   await page.waitForFunction(()=>document.getElementById('buildLabel')?.textContent==='v4.1.22_002');
+   await page.waitForFunction(()=>document.getElementById('buildLabel')?.textContent==='v4.1.23_002');
    assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://page302.co.uk/');
    assert.equal(await page.evaluate(()=>window.PAGE302_SCORES_API),base.includes('github.io')?'https://page302-scores-testing.vince-grogan-games.workers.dev':'https://page302.co.uk');
    assert.deepEqual(errors,[]);await page.close();

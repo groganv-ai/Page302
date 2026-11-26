@@ -6,7 +6,11 @@
   "workers_dev": true,
   "preview_urls": false,
   "observability": {"enabled": true, "traces": {"enabled": true}},
-  "vars": {"ALLOWED_ORIGINS": "https://groganv-ai.github.io,https://page302.co.uk,http://127.0.0.1:8080,http://localhost:8080"}
-  // Intentionally no DB binding: provision a NEW testing D1 database before deployment.
-  // Never bind the existing page302-scores-preview database here.
+  "vars": {"ALLOWED_ORIGINS": "https://groganv-ai.github.io,https://page302.co.uk,http://127.0.0.1:8080,http://localhost:8080"},
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "page302-scores-testing",
+    "database_id": "a1b78e57-c747-4f7e-8751-a41220916092",
+    "migrations_dir": "migrations"
+  }]
 }

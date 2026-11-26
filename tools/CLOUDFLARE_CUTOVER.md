@@ -1,7 +1,19 @@
 # Page302 Cloudflare cutover — review draft
 
-Prepared from approved main 8013ca4. Website build: v4.1.22_002 (pack unchanged).
-No remote settings, DNS, Access applications, databases or deployments have been changed.
+Prepared from approved main 8013ca4, then reconciled with approved source-credits release 45d8063. Website build: v4.1.23_002 (pack unchanged).
+
+## Provisioning status — 26 November 2026
+
+- User approved pushing and protected Cloudflare setup; public launch remains unapproved.
+- PR: https://github.com/groganv-ai/Page302/pull/14 (draft pending Access setup).
+- Created separate D1 page302-scores-testing: a1b78e57-c747-4f7e-8751-a41220916092; applied all three migrations.
+- Seeded only pack 002 metadata, with a testing-only window from 26 November through 31 December 2026. Scheduler remains disabled; no player data was copied.
+- Deployed page302-scores-testing, version be7103d7-2866-44d2-96be-3eb5978d02e1.
+- Uploaded page302-website, version d9622145-1a4d-49cd-b6e3-452c7331508b, with the test-service binding. No routes/custom domains, workers.dev disabled, preview URLs disabled, private access enforced.
+- Test API smoke passed: allowed origins, rejection of an unrelated origin, submission, idempotent retry, unchanged scores and standing lookup. Test-only request ID cloudflare-cutover-smoke-v4-1-23, initials TST, reference 492464.
+- Local token tests and browser root/GitHub-subpath tests pass with displayed v4.1.23_002.
+- Pending: Access application, One-time PIN policy, secrets, DNS/redirect inspection, custom domains, authorized/unauthorized browser checks. CLI OAuth lacks Access-management scopes; dashboard work waits for the user to return and unlock Windows.
+- No DNS changes, Access policies, GitHub Pages deployments or live database writes have been made by this cutover work.
 
 ## Intended environments
 
@@ -27,7 +39,7 @@ The Worker independently verifies signature, issuer, audience, expiry and exact 
 4. Deploy page302-scores-testing. It allows the GitHub and canonical Cloudflare origins. Test submissions and results against this database. Report sending remains disabled unless explicitly configured for a test mailbox.
 5. Add a SCORES service binding to wrangler.website.jsonc for page302-scores-testing. Create the website Worker without routes (workers.dev and preview URLs remain off), then configure Access and the three secrets above.
 6. Add custom-domain routes for page302.co.uk, www.page302.co.uk, page302.uk and www.page302.uk with custom_domain true. Review any existing DNS records first; preserve mail records. Build with node tools/build-pages.cjs. Dry-run and then deploy using wrangler.website.jsonc only after review approval.
-7. Verify anonymous requests cannot retrieve /, /script.js, /data/vggfax002.json or /api/releases. Verify the allowed mailbox can sign in, another mailbox cannot, all aliases redirect, and HTTPS works. Test an entire game, results, sharing, mobile layouts and the displayed v4.1.22 build label (pack suffix can follow the release calendar).
+7. Verify anonymous requests cannot retrieve /, /script.js, /data/vggfax002.json or /api/releases. Verify the allowed mailbox can sign in, another mailbox cannot, all aliases redirect, and HTTPS works. Test an entire game, results, sharing, mobile layouts and the displayed v4.1.23 build label (pack suffix can follow the release calendar).
 8. Publish the reviewed GitHub Pages testing build through the existing environment approval. Verify its submissions appear only in the new test database.
 
 ## Public launch — separate approval required
