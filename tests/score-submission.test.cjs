@@ -4,11 +4,15 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {chromium}=require('playwright');
 const {ScoreStore}=require('../backend/store.cjs');
-test('active result submits unchanged values, retries lost receipt, replays same pack and fits mobile',async()=>{
+const {sqliteBinding}=require('../backend/sqlite-binding.cjs');
+test('approved result rejects tampering, retries lost receipt, replays same pack and fits mobile',async()=>{
  const store=new ScoreStore();store.addPack({id:'003',formation:'5-4-1',revision:'test',opensAt:'2020-01-01T00:00Z',closesAt:'2099-01-01T00:00Z'});
+ const {D1Store}=await import('../backend/cloudflare/d1-store.mjs');
+ const remote=new D1Store(sqliteBinding(store.db));
+ store.db.prepare('INSERT INTO release_schedule VALUES(?,?,?,?)').run('003',JSON.stringify(require('../data/vggfax003.json')),'test',new Date().toISOString());
  const browser=await chromium.launch({headless:true,channel:process.env.TEST_BROWSER_CHANNEL||'msedge'});
  try{
-  const page=await browser.newPage({viewport:{width:1100,height:900}});let lose=true;const errors=[];
+  const page=await browser.newPage({viewport:{width:1100,height:900}});let lose=true,forge=true;const errors=[];
   page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await page.addInitScript(()=>window.PAGE302_SCORES_API='http://page302.test');
   const root=path.resolve(__dirname,'..');
@@ -17,7 +21,8 @@ test('active result submits unchanged values, retries lost receipt, replays same
    if(url.pathname==='/data/vggfax-manifest.json')return route.fulfill({json:{packs:['003']}});
    if(url.hostname!=='page302.test')return route.abort();
    if(url.pathname==='/api/submissions'){
-    try{const receipt=store.submit(route.request().postDataJSON());if(lose){lose=false;return route.abort()};return route.fulfill({json:receipt});}
+    try{const input=route.request().postDataJSON();if(forge){forge=false;input.score++;}
+     const receipt=await remote.submit(input);if(lose){lose=false;return route.abort()};return route.fulfill({json:receipt});}
     catch(e){return route.fulfill({status:e.status||500,json:{error:e.message}})}
    }
    const file=path.resolve(root,url.pathname.slice(1)||'index.html');
@@ -28,19 +33,23 @@ test('active result submits unchanged values, retries lost receipt, replays same
   await page.addInitScript(() => window.PAGE302_RELEASES_ENABLED = false);
         await page.goto('http://page302.test');await page.waitForFunction(()=>clubPool?.length===11);
   await page.evaluate(async()=>{
-   currentVggfax='003';await loadClub();currentGame={formation:'5-4-1',score:2450,totalGuesses:18,gameOver:false};buildSquad();squadDisplay={};
-   const used=new Set();
+   currentVggfax='003';await loadClub();currentGame={formation:'5-4-1',score:0,totalGuesses:18,gameOver:false};buildSquad();squadDisplay={};clubUsage={};usedPeople=new Set();
    for(let slot=0;slot<squad.length;slot++){
     if(!squad[slot])continue;
-    const pos=squad[slot].split(' ')[0];let found;
-    for(const club of clubPool){found=club.squad.find(p=>p.positions.includes(pos)&&!used.has(normalizePersonName(p.fullname)));if(found)break;}
-    used.add(normalizePersonName(found.fullname));
-    const links=findLinkedRecords(found.fullname,pos==='MAN');
-    addPlayerToSquad(found,pos,pos==='MAN',links.map(l=>l.clubCode),{short:'UNI'},1,100);
+    const pos=squad[slot].split(' ')[0];
+    for(const club of clubPool){
+     const found=club.squad.find(p=>isEligibleRecord(p)&&p.positions.includes(pos)&&!playerAlreadyUsed(p));
+     if(found){answerTargetSlot=slot;applyAnswer(found,pos,club.clubCode.slice(0,3),'',found.surname,true);break;}
+    }
    }
    completeGame();
   });
   const originalRequest=await page.evaluate(()=>scoreAttempt.requestId);
+  const originalScore=await page.evaluate(()=>scoreAttempt.score);
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.27_002');
+  await page.evaluate(()=>{releaseState={enabled:true};updateBuildLabels();});
+  assert.equal(await page.locator('#buildLabel').textContent(),'v4.1.27_003');
+  await page.evaluate(()=>{releaseState=null;updateBuildLabels();});
   await page.locator('#scoreInitials').fill('vgg');
   await page.locator('#gameCompleteOverlay .completeDismiss').click();
   await page.locator('#reopenResults').click();
@@ -48,10 +57,13 @@ test('active result submits unchanged values, retries lost receipt, replays same
   assert.equal(await page.locator('#scoreInitials').inputValue(),'vgg');
   assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,0);
   await page.locator('#scoreInitials').fill('vgg');await page.locator('#submitScoreButton').click();
+  await page.waitForFunction(()=>document.getElementById('scoreSubmissionStatus').textContent.includes('SCORE COULD NOT BE VERIFIED'));
+  assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,0);
+  await page.locator('#submitScoreButton').click();
   await page.waitForFunction(()=>document.getElementById('scoreSubmissionStatus').textContent.includes('RETRY'));
   await page.locator('#submitScoreButton').click();await page.waitForFunction(()=>document.getElementById('submitScoreButton').textContent==='SAVED');
   assert.equal(store.db.prepare('SELECT count(*) n FROM submissions').get().n,1);
-  const saved=store.db.prepare('SELECT * FROM submissions').get();assert.equal(saved.score,2450);assert.equal(saved.guesses,18);
+  const saved=store.db.prepare('SELECT * FROM submissions').get();assert.equal(saved.score,originalScore);assert.equal(saved.guesses,18);
   assert.equal(await page.locator('#scoreInitials').isDisabled(),true);
   await page.locator('#gameCompleteOverlay .completeDismiss').click();await page.locator('#reopenResults').click();
   assert.equal(await page.evaluate(()=>scoreAttempt.requestId),originalRequest);

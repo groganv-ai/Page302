@@ -1,4 +1,5 @@
 import validation from '../validation.cjs';
+import approvedScore from '../approved-score.cjs';
 import statusHelpers from '../challenge-status.cjs';
 const {normalize,ServiceError}=validation;
 const fail=(status,message)=>{throw new ServiceError(status,message)};
@@ -23,6 +24,12 @@ export class D1Store {
   if(control?.enabled&&!await this.query("SELECT 1 FROM release_schedule s JOIN release_events e ON e.pack_id=s.pack_id AND e.action='open' AND e.status='done' WHERE s.pack_id=?",data.packId).first())fail(409,'Pack is not open');
   const counts={GK:1,DF:Number(pack.formation[0]),MD:Number(pack.formation[2]),AT:Number(pack.formation[4]),MAN:1};
   for(const [position,count] of Object.entries(counts))if(data.answers.filter(a=>a.position===position).length!==count)fail(400,'Squad does not match formation');
+  // Only frozen administrator-approved content can authorize a new score.
+  // Existing receipts above remain retryable, including after a pack closes.
+  const approved=await this.query('SELECT payload FROM release_schedule WHERE pack_id=?',data.packId).first();
+  let scoringPack;try{scoringPack=JSON.parse(approved?.payload)}catch{fail(503,'Approved scoring data is unavailable.')}
+  if(scoringPack?.formation!==pack.formation)fail(503,'Approved scoring data is unavailable.');
+  data.score=approvedScore.verifyApprovedScore(data,input,scoringPack);
   for(let attempt=0;attempt<100;attempt++){
    const reference=this.reference();if(!/^\d{6}$/.test(reference))fail(503,'Reference generation failed');
    // Recheck the live window at the write, including administrator changes made
@@ -30,8 +37,9 @@ export class D1Store {
    const statements=[this.query(`INSERT INTO submissions(pack_id,request_id,payload,initials,reference,score,guesses,received_at)
     SELECT ?,?,?,?,?,?,?,? FROM packs p WHERE id=? AND published_at IS NULL
     AND opens_at<=? AND (closes_at='' OR closes_at>?)
+    AND formation=? AND EXISTS(SELECT 1 FROM release_schedule s WHERE s.pack_id=p.id AND s.payload=?)
     AND ((SELECT enabled FROM release_control WHERE id=1)=0 OR EXISTS(
-     SELECT 1 FROM release_schedule s JOIN release_events e ON e.pack_id=s.pack_id AND e.action='open' AND e.status='done' WHERE s.pack_id=p.id))`,data.packId,input.requestId,payload,data.initials,reference,data.score,data.guesses,timestamp,data.packId,timestamp,this.now().toISOString())];
+     SELECT 1 FROM release_schedule s JOIN release_events e ON e.pack_id=s.pack_id AND e.action='open' AND e.status='done' WHERE s.pack_id=p.id))`,data.packId,input.requestId,payload,data.initials,reference,data.score,data.guesses,timestamp,data.packId,timestamp,this.now().toISOString(),pack.formation,approved.payload)];
    data.answers.forEach((a,slot)=>statements.push(this.query('INSERT INTO answers SELECT id,?,?,?,?,?,? FROM submissions WHERE request_id=?',slot,a.personId,a.name,a.position,JSON.stringify(a.clubs),JSON.stringify(a.contributions),input.requestId)));
    try{await this.db.batch(statements);const saved=await this.retry(input.requestId,payload);if(!saved)fail(409,'Pack is not open');return saved;}
    catch(error){if(error.status)throw error;const saved=await this.retry(input.requestId,payload);if(saved)return saved;
