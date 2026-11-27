@@ -25,6 +25,8 @@ async function main() {
       }
     }
   } finally { store.close(); }
+  const approved=JSON.stringify(JSON.parse(fs.readFileSync(path.join(cwd,'../../data/vggfax002.json'),'utf8')));
+  sql += `INSERT INTO release_schedule VALUES('003',${quote(approved)},'runtime-approved',${quote(new Date().toISOString())});\n`;
   const fixture = path.join(state,'fixture.sql');
   fs.writeFileSync(fixture,sql);
   run(['d1','execute','DB','--local','--persist-to',state,'--file',fixture]);
@@ -44,10 +46,11 @@ async function main() {
     const latest=await latestResponse.json(); assert.equal(latest.packId,'002'); assert.equal(latest.totalSubmissions,10);
     const matching=await (await request('/api/results/002?initials=VGG')).json(); assert.equal(matching.length,2);
     const detail=await (await request('/api/results/002?reference='+matching[0].reference)).json(); assert.equal(detail.length,1); assert.equal(detail[0].answers.length,12);
-    const input={...generateSubmissions()[0],packId:'003',requestId:'runtime_check_submission',score:123,guesses:27};
+    const input={...generateSubmissions()[0],packId:'003',requestId:'runtime_check_submission',guesses:27};
     const post = data => request('/api/submissions',{method:'POST',headers:{Origin:'http://localhost:8080','Content-Type':'application/json'},body:JSON.stringify(data)});
     const savedResponse=await post(input); assert.equal(savedResponse.status,200); const saved=await savedResponse.json();
-    assert.equal(saved.score,123); assert.equal(saved.guesses,27); assert.match(saved.reference,/^\d{6}$/);
+    assert.equal(saved.score,input.score); assert.equal(saved.guesses,27); assert.match(saved.reference,/^\d{6}$/);
+    assert.equal((await post({...input,requestId:'runtime_forged_score',score:999999999})).status,422);
     assert.deepEqual(await (await post(input)).json(),saved);
     assert.equal((await post({...input,score:124})).status,409);
     assert.equal((await post({...input,requestId:'runtime_check_closed',packId:'002'})).status,409);
@@ -62,8 +65,7 @@ async function main() {
     const time=Date.now(),iso=n=>new Date(time+n).toISOString();
     const payload=JSON.parse(fs.readFileSync(path.join(cwd,'../../data/vggfax003.json'),'utf8'));
     payload.packNumber='004';
-    const outgoing=JSON.stringify({packNumber:'003',formation:'4-3-3',clubs:[]});
-    let releaseSql=`UPDATE packs SET closes_at=${quote(iso(-60000))} WHERE id='003';\nINSERT INTO release_schedule VALUES('003',${quote(outgoing)},'runtime-outgoing',${quote(iso(0))});\n`;
+    let releaseSql=`UPDATE packs SET closes_at=${quote(iso(-60000))} WHERE id='003';\n`;
     releaseSql+=scheduleSQL([{packId:'004',formation:payload.formation,revision:'runtime-release',sha256:'runtime-release',payload:JSON.stringify(payload),opensAt:iso(-60000),closesAt:iso(3600000)}]);
     releaseSql+=adminSQL('enable',[]);
     const releaseFile=path.join(state,'release-fixture.sql');fs.writeFileSync(releaseFile,releaseSql);

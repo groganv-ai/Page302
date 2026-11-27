@@ -48,7 +48,7 @@ async function submitCompletedScore(event) {
             body:JSON.stringify({requestId:attempt.requestId,packId:attempt.packId,initials:attempt.initials,
                 score:attempt.score,guesses:attempt.guesses,answers:attempt.answers})});
         const receipt=await response.json();
-        if(!response.ok)throw new Error(receipt.error||'Unable to save');
+        if(!response.ok)throw Object.assign(new Error(receipt.error||'Unable to save'), {status:response.status});
         if(!/^\d{6}$/.test(receipt.reference)||receipt.packId!==attempt.packId||receipt.score!==attempt.score||receipt.initials!==attempt.initials)throw new Error('Invalid receipt');
         attempt.saved=true;attempt.receipt=receipt;
         if(typeof saveGameProgress==='function')saveGameProgress();
@@ -59,7 +59,7 @@ async function submitCompletedScore(event) {
             if(typeof refreshCurrentStanding==='function')refreshCurrentStanding();
         }
     }catch(error){
-        if(scoreAttempt===attempt){button.disabled=false;button.textContent='RETRY SUBMISSION';scoreMessage(error.message==='Pack is not open'?'PACK CLOSED OR NOT YET OPEN · SCORE NOT SAVED':'SAVE NOT CONFIRMED · RETRY WITH THE SAME INITIALS');}
+        if(scoreAttempt===attempt){button.disabled=false;button.textContent='RETRY SUBMISSION';scoreMessage(error.status===422?'SCORE COULD NOT BE VERIFIED · NOT SAVED · PLEASE REPORT THIS ISSUE':error.message==='Pack is not open'?'PACK CLOSED OR NOT YET OPEN · SCORE NOT SAVED':'SAVE NOT CONFIRMED · RETRY WITH THE SAME INITIALS');}
     }finally{clearTimeout(timeout);attempt.saving=false;}
 }
 async function playAgainFromResult() {
