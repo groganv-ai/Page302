@@ -6,17 +6,17 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Page302 | The Daily Teletext Football Puzzle</title>
 <meta name="description" content="Complete your squad in Page302, the daily teletext football puzzle. Find Premier League players, use every club and chase a rare XI.">
-<link rel="canonical" href="https://groganv-ai.github.io/Page302/">
+<link rel="canonical" href="https://page302.co.uk/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Page302 | The Daily Teletext Football Puzzle">
 <meta property="og:description" content="Complete the squad. Use every club. Find your rare XI.">
-<meta property="og:url" content="https://groganv-ai.github.io/Page302/">
-<meta property="og:image" content="https://groganv-ai.github.io/Page302/assets/social-card.png?v=4.1.04">
+<meta property="og:url" content="https://page302.co.uk/">
+<meta property="og:image" content="https://page302.co.uk/assets/social-card.png?v=4.1.04">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Page302 | The Daily Teletext Football Puzzle">
 <meta name="twitter:description" content="Complete the squad. Use every club. Find your rare XI.">
-<meta name="twitter:image" content="https://groganv-ai.github.io/Page302/assets/social-card.png?v=4.1.04">
+<meta name="twitter:image" content="https://page302.co.uk/assets/social-card.png?v=4.1.04">
 <link rel="icon" href="assets/app-icon.svg?v=4.1.19" type="image/svg+xml">
 <link rel="icon" href="assets/favicon-32.png?v=4.1.19" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=4.1.19" sizes="180x180">
@@ -30,6 +30,7 @@
 <link rel="stylesheet" href="v4.css">
 <link href="team-input.css" rel="stylesheet"/>
 <link href="club-sorting.css" rel="stylesheet"/>
+<script src="site-config.js"></script>
 </head>
 <body>
 <!-- PAGE HEADER -->
@@ -357,7 +358,6 @@
 </div>
 <script src="progress.js"></script>
 <script>
-window.PAGE302_SCORES_API = window.PAGE302_SCORES_API || (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? '' : 'https://page302-scores-preview.vince-grogan-games.workers.dev');
 window.PAGE302_RELEASES_ENABLED = window.PAGE302_RELEASES_ENABLED ?? !/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
 </script>
 <script src="script.js"></script>
@@ -384,7 +384,6 @@ window.PAGE302_RELEASES_ENABLED = window.PAGE302_RELEASES_ENABLED ?? !/^(localho
     <div class="completeButtons"><button type="button" id="shareButton" class="completeButton completeButtonShare" onclick="shareResult()">SHARE</button><button type="button" class="completeButton completePlayAgain" onclick="playAgainFromResult()">PLAY AGAIN</button></div>
   </div>
 </div>
-<script>window.PAGE302_SCORES_API = window.PAGE302_SCORES_API || (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? '' : 'https://page302-scores-preview.vince-grogan-games.workers.dev');</script>
 <script src="scores-client.js"></script>
 <div id="scoresOverlay" hidden role="dialog" aria-modal="true" aria-label="Page302 scores">
  <div class="scoresPage">

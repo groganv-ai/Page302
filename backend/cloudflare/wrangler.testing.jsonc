@@ -1,0 +1,17 @@
+{
+  "name": "page302-scores-testing",
+  "account_id": "91931aef059c1bf55a5e2e6b8c723e22",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-02",
+  "workers_dev": true,
+  "preview_urls": false,
+  "triggers": {"crons": ["* * * * *"]},
+  "observability": {"enabled": true, "traces": {"enabled": true}},
+  "vars": {"ALLOWED_ORIGINS": "https://groganv-ai.github.io,https://page302.co.uk,http://127.0.0.1:8080,http://localhost:8080"},
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "page302-scores-testing",
+    "database_id": "a1b78e57-c747-4f7e-8751-a41220916092",
+    "migrations_dir": "migrations"
+  }]
+}
