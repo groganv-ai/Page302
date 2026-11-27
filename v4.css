@@ -103,3 +103,10 @@ button:focus-visible,input:focus-visible { outline:2px solid var(--yellow); outl
 
 /* Separate answer feedback from the scoring hints on desktop. */
 .legendRowDesktop{margin-top:16px}
+
+/* Social links beneath the main footer navigation. */
+.footerSocial { display:flex; justify-content:center; gap:12px; padding:4px 0; }
+.footerSocial a { display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; color:#00ffff; border-radius:4px; }
+.footerSocial svg { width:24px; height:24px; }
+.footerSocial a:hover { color:#000; background:#00ffff; }
+.footerSocial a:focus-visible { outline:2px solid #ffff00; outline-offset:2px; }
