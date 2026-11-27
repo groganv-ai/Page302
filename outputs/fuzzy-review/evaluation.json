@@ -1,0 +1,66 @@
+{
+  "note": "Wider-stage synthetic evaluation; variants filtered when exact/one-edit precedence applies. Recall denominator is remaining generated typo cases. No real user data. Adversarial hits require manual review.",
+  "config": {
+    "margin": 0.12,
+    "bands": [
+      {
+        "min": 6,
+        "max": 8,
+        "edits": 2,
+        "similarity": 0.75
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "edits": 3,
+        "similarity": 0.78
+      },
+      {
+        "min": 13,
+        "max": null,
+        "edits": 4,
+        "similarity": 0.8
+      }
+    ]
+  },
+  "rows": {
+    "6-8": {
+      "cases": 11982,
+      "suggestions": 1545,
+      "correct": 1545,
+      "ambiguous": 8,
+      "wrongPositionLeaks": 0,
+      "precision": 1,
+      "recall": 0.12894341512268404
+    },
+    "1-5": {
+      "cases": 6871,
+      "suggestions": 0,
+      "correct": 0,
+      "ambiguous": 0,
+      "wrongPositionLeaks": 0,
+      "precision": null,
+      "recall": 0
+    },
+    "9-12": {
+      "cases": 2875,
+      "suggestions": 761,
+      "correct": 761,
+      "ambiguous": 4,
+      "wrongPositionLeaks": 0,
+      "precision": 1,
+      "recall": 0.26469565217391305
+    },
+    "13+": {
+      "cases": 130,
+      "suggestions": 79,
+      "correct": 79,
+      "ambiguous": 0,
+      "wrongPositionLeaks": 0,
+      "precision": 1,
+      "recall": 0.6076923076923076
+    }
+  },
+  "falseReveals": [],
+  "adversarial": []
+}
