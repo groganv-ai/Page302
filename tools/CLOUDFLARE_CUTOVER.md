@@ -1,6 +1,16 @@
 # Page302 Cloudflare cutover — review draft
 
-Prepared from approved main 8013ca4, then reconciled with approved source-credits release 45d8063. Website build: v4.1.23_002 (pack unchanged).
+Prepared from approved main 8013ca4, then reconciled with approved source-credits release 45d8063. Website build: v4.1.24_002; the active release changes the displayed suffix to 015.
+
+## Leaderboard switch — 27 November 2026
+
+The user explicitly requested that the private domain use the existing leaderboard and all future live submissions, while GitHub Pages uses the sandbox leaderboard. This supersedes the initial private-domain test binding described in the historical provisioning notes below. Public access remains unapproved.
+
+- Existing results service remains page302-scores-preview, D1 e38a4c54-9f24-47c5-8f95-03948e774015. Added canonical origin and deployed version 800b4e5d-8d09-4882-9a0b-9ff40f78844a. No player data migration or synthetic live submissions.
+- Private domain now binds SCORES to that existing service. Website version 3c0d5af9-7ec1-4494-8b5f-621f5e4387fd, SITE_ACCESS private, same Access secrets and protected domains.
+- GitHub frontend selects page302-scores-testing through site-config.js. Its publication still requires the separate github-pages environment approval. Until deployment completes, the currently published GitHub build still uses the existing results service.
+- Keep GitHub's allowed origin on the existing results service during transition; remove it after the sandbox Pages build is verified. This blocks browser requests from stale GitHub tabs; CORS is not API authentication.
+- Validation: five Worker security/routing tests, domain/subpath browser test, score submission/retry/mobile test, scheduled pack transition and leaderboard browser test, and both Wrangler dry runs passed. Updated the old scheduler test's version assertions, confirmation flow, timer mock and full-results fixture to reflect existing application behaviour.
 
 ## Provisioning status — 26 November 2026
 
@@ -12,21 +22,27 @@ Prepared from approved main 8013ca4, then reconciled with approved source-credit
 - Uploaded page302-website, version d9622145-1a4d-49cd-b6e3-452c7331508b, with the test-service binding. No routes/custom domains, workers.dev disabled, preview URLs disabled, private access enforced.
 - Test API smoke passed: allowed origins, rejection of an unrelated origin, submission, idempotent retry, unchanged scores and standing lookup. Test-only request ID cloudflare-cutover-smoke-v4-1-23, initials TST, reference 492464.
 - Local token tests and browser root/GitHub-subpath tests pass with displayed v4.1.23_002.
-- Pending: Access application, One-time PIN policy, secrets, DNS/redirect inspection, custom domains, authorized/unauthorized browser checks. CLI OAuth lacks Access-management scopes; dashboard work waits for the user to return and unlock Windows.
-- No DNS changes, Access policies, GitHub Pages deployments or live database writes have been made by this cutover work.
+- 27 November: user created Worker-wide Access application and One-time PIN configuration. User screenshot confirms exact-email Include rule; user confirms Allow action. Session is 12 hours. Three authentication secrets uploaded and verified by name.
+- Inspected user screenshots: .co.uk had no DNS records or rules; .uk has two proxied placeholder A records and a zone-wide redirect. User corrected a malformed Markdown URL in that redirect.
+- Connected page302.co.uk and www.page302.co.uk as Worker Custom Domains, version 840335d6-f311-4f89-86da-44e393792a3f. Existing application assets unchanged (v4.1.23_002). SITE_ACCESS remains private; SCORES remains bound to testing.
+- Anonymous HTTPS checks passed: canonical root, script.js, pack JSON, API releases and www all return 302 to the expected Cloudflare Access login. Both .uk hosts return 301 to canonical, preserving test path and query.
+- User confirmed authorized browser sign-in loads the game. Authenticated www redirect and full end-to-end game submission remain to be checked. No GitHub Pages deployments or live database writes have been made by this cutover work.
+- 27 November release parity correction: user requires the private site to follow the live release behaviour, currently pack 015. Backed up testing D1 to ignored backend/cloudflare/.local/testing-before-release-copy.sql. Read-only exported 22 live pack payloads/calendar entries, release control and opening events; validated all payload SHA-256 values. Imported metadata into testing only, preserving its submissions. Historical result publications are generated from test data, not copied from live.
+- Enabled the same once-per-minute scheduler on testing; deployed testing Worker a8c4601e-1ebc-4fa1-979a-9a12d3c24ad8. Live and testing manifests match except server time; pack 015 payloads are identical. Next opening 28 November 00:01 UTC. Current copied schedule runs through pack 021 closing 4 December; later live calendar edits must also be applied to testing.
+- Headless browser using prepared assets and real testing API shows v4.1.23_015, current pack 015, no JavaScript errors. No frontend source changed for this database/configuration correction; displayed suffix follows the active release.
 
 ## Intended environments
 
 - GitHub Pages stays the public testing website. Its API becomes page302-scores-testing.
 - page302.co.uk is the Cloudflare website; page302.uk and both www variants redirect to it.
 - During private testing, the Cloudflare website also uses the isolated test API through a SCORES service binding.
-- At approved public cutover, change only the Cloudflare website's SCORES binding to the existing page302-scores-preview service, which currently holds real results despite its name.
+- The user has now approved the real-results binding independently of public launch; the private Cloudflare website uses page302-scores-preview, which holds real results despite its name.
 - Keep the real database and scheduler intact. Never import test scores into it.
 
 ## Access settings to apply before attaching domains
 
 Create a Cloudflare Access self-hosted application protecting all four exact hostnames, all paths. Alternatively use Worker-wide protection for page302-website covering all traffic.
-Enable One-time PIN. The sole Allow policy uses the exact email supplied in this chat (not the gmail.com domain). Set session duration to 8 hours. Do not add bypass or Everyone policies.
+Enable One-time PIN. The sole Allow policy uses the exact email supplied in this chat (not the gmail.com domain). Set session duration to 12 hours. Do not add bypass or Everyone policies.
 Configure ACCESS_TEAM_DOMAIN (https://TEAM.cloudflareaccess.com, no trailing slash), ACCESS_AUD (application audience) and TESTER_EMAIL as secrets on page302-website. Keep the tester email out of public GitHub files.
 
 The Worker independently verifies signature, issuer, audience, expiry and exact email. Missing configuration fails closed. Every asset runs through the Worker; workers.dev and preview URLs are disabled. Keep SITE_ACCESS private until explicit public-launch approval.
@@ -45,7 +61,7 @@ The Worker independently verifies signature, issuer, audience, expiry and exact 
 ## Public launch — separate approval required
 
 Before launch, add https://page302.co.uk to the existing scores backend ALLOWED_ORIGINS and remove the GitHub origin only after its test API transition is verified. Local developer origins should be reviewed separately. CORS is not authentication or anti-cheat protection.
-Change the website SCORES service binding to page302-scores-preview, set SITE_ACCESS public, and remove the temporary Access restriction only after explicit launch approval. Do not disable protection on unrelated Workers. Re-test the real service without inserting disposable scores. Test emails and submissions are not automatically migrated.
+The SCORES binding is already switched by separate user approval. Set SITE_ACCESS public and remove the temporary Access restriction only after explicit public-launch approval. Do not disable protection on unrelated Workers. Re-test the real service without inserting disposable scores. Test emails and submissions are not automatically migrated.
 
 Frontend share links, canonical URLs, social previews and privacy canonical now use page302.co.uk. Assets and manifest paths remain relative for GitHub /Page302/ compatibility. Browser storage does not migrate between domains; old progress needs a separate migration feature if required. GitHub testing remains public and may reveal client-side game data.
 

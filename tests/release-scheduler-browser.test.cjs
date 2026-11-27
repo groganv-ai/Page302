@@ -15,12 +15,15 @@ test('website selects scheduled pack, shows midnight gap and final leaderboard, 
  const browser=await chromium.launch({headless:true,channel:process.env.TEST_BROWSER_CHANNEL||'msedge'});
  try{
   const page=await browser.newPage({viewport:{width:1100,height:900}}),errors=[],requested=[];
+  page.setDefaultTimeout(15000);
   await page.emulateMedia({reducedMotion:'reduce'});
   page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await page.addInitScript(()=>{
    window.PAGE302_SCORES_API='http://page302.test';window.PAGE302_RELEASES_ENABLED=true;
    const interval=window.setInterval.bind(window);
-   window.setInterval=(fn,delay,...args)=>{if(delay===30000){window.tickRelease=fn;return 1}return interval(fn,delay,...args)};
+   const releaseTicks=[];
+   window.tickRelease=async()=>{for(const fn of releaseTicks)await fn();};
+   window.setInterval=(fn,delay,...args)=>{if(delay===30000){releaseTicks.push(()=>fn(...args));return releaseTicks.length}return interval(fn,delay,...args)};
   });
   await page.route('**/*',async route=>{
    const url=new URL(route.request().url());if(url.hostname!=='page302.test')return route.abort();
@@ -31,6 +34,7 @@ test('website selects scheduled pack, shows midnight gap and final leaderboard, 
     return route.fulfill({status:payload?200:404,json:payload||{error:'Pack unavailable'}});
    }
    if(url.pathname==='/api/results/latest')return route.fulfill({json:store.latest()});
+   if(/^\/api\/results\/\d+$/.test(url.pathname))return route.fulfill({json:store.find(url.pathname.split('/').pop(),{})});
    if(url.pathname.startsWith('/api/challenges/')){
     try{return route.fulfill({json:store.challenge(url.pathname.split('/').pop())})}
     catch(error){return route.fulfill({status:error.status||500,json:{error:error.message}})}
@@ -44,13 +48,15 @@ test('website selects scheduled pack, shows midnight gap and final leaderboard, 
   assert.equal(await page.evaluate(()=>currentVggfax),'002');
   assert.equal(await page.evaluate(()=>currentGame.formation),'4-3-3');
   assert.equal(requested.includes('/api/packs/003'),false);
-  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.07_002/);
+  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.24_002/);
   await page.waitForFunction(()=>/^\d{2}:\d{2}:\d{2}$/.test(document.querySelector('#submissionDeadline').textContent));
   for(let i=0;i<3;i++){
    await page.evaluate(()=>newGame({quiet:true}));
    assert.equal(await page.evaluate(()=>currentVggfax),'002');
   }
-  await page.evaluate(()=>playAgainFromResult());
+  await page.evaluate(()=>{window.testReplay=playAgainFromResult();});
+  await page.locator("#confirmNewGame").click();
+  await page.evaluate(()=>window.testReplay);
   assert.equal(await page.evaluate(()=>currentVggfax),'002');
   assert.equal(requested.includes('/api/packs/003'),false);
   const positions=['GK',...Array(4).fill('DF'),...Array(3).fill('MD'),...Array(3).fill('AT'),'MAN'];
@@ -74,14 +80,14 @@ test('website selects scheduled pack, shows midnight gap and final leaderboard, 
   await page.evaluate(()=>newGame({quiet:true}));
   assert.equal(await page.evaluate(()=>currentVggfax),'003');
   assert.equal(await page.evaluate(()=>currentGame.formation),'5-4-1');
-  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.07_003/);
+  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.24_003/);
   assert.equal(await page.locator('#answer').isDisabled(),false);
   await page.waitForFunction(()=>/^\d{2}:\d{2}:\d{2}$/.test(document.querySelector('#submissionDeadline').textContent));
   assert.equal(await page.locator('img').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0)),true);
   fs.mkdirSync(path.join(ROOT,'outputs/release-scheduler'),{recursive:true});
   await page.screenshot({path:path.join(ROOT,'outputs/release-scheduler/desktop.png'),fullPage:true,animations:'disabled',timeout:15000});
   await page.setViewportSize({width:390,height:844});
-  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.07_003/);
+  assert.match(await page.locator('#buildLabel').textContent(),/v4\.1\.24_003/);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   await page.screenshot({path:path.join(ROOT,'outputs/release-scheduler/mobile.png'),fullPage:true,animations:'disabled',timeout:15000});
   assert.deepEqual(errors,[]);

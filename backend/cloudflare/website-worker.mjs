@@ -29,8 +29,8 @@ export async function serve(request, env) {
         return Response.redirect(url.toString(), 308);
     }
     if (url.pathname.startsWith('/api/')) {
-        // No live service binding is installed until the approved cutover.
-        if (!env.SCORES) return Response.json({error: 'Testing scores service is not configured yet.'}, {status: 503});
+        // Use only the explicitly configured service; never fall back to another database.
+        if (!env.SCORES) return Response.json({error: 'Scores service is not configured yet.'}, {status: 503});
         return env.SCORES.fetch(request);
     }
     if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', {status: 405});
