@@ -75,7 +75,7 @@ let gameComplete = false;
 let currentVggfax = "002";
 
 // Update this one value whenever a new code version is created.
-const APP_BUILD = "v4.1.24_002";
+const APP_BUILD = "v4.1.25_002";
 let releaseState = null;
 let playedReleaseRevision = null;
 function releaseApiUrl() {
@@ -792,6 +792,10 @@ function submitAnswer() {
     drawGuesses();
 
 const matches = findPlayers(surname, position, clubCode);
+if (window.PAGE302_FUZZY_NAMES_ENABLED === true && position !== 'MAN') {
+    resolveSpellingAnswer(surname, position, clubCode, playerAnswer);
+    return;
+}
 if (matches.length > 1) {
     showAnswerChoices(matches, position, clubCode);
     return;
@@ -1035,7 +1039,14 @@ function clearPendingAnswer() {
     document.getElementById("result").classList.remove("selectionPrompt");
 }
 
-function showAnswerChoices(matches, position, clubCode) {
+function answerChoiceAllowed(request) {
+    return pendingAnswer === request && !currentGame.gameOver && hasFreePosition(request.position) &&
+        (!request.slot || !squadDisplay[request.slot]) &&
+        !(window.PAGE302_RELEASES_ENABLED && (document.getElementById('answer').disabled || !releaseState ||
+            (releaseState.enabled && releaseState.currentPack !== currentVggfax)));
+}
+
+function showAnswerChoices(matches, position, clubCode, surnamesOnly = false) {
     setStatus("DID YOU MEAN?");
     document.getElementById("result").classList.add("selectionPrompt");
     const request = { matches, position, clubCode, slot: answerTargetSlot };
@@ -1049,8 +1060,8 @@ function showAnswerChoices(matches, position, clubCode) {
         const button = document.createElement("button");
         button.type = "button";
         button.className = "answerChoice";
-        button.textContent = player.fullname.toUpperCase();
-        button.disabled = playerAlreadyUsed(player);
+        button.textContent = (surnamesOnly ? player.surname : player.fullname).toUpperCase();
+        button.disabled = !surnamesOnly && playerAlreadyUsed(player);
         if (button.disabled) {
             const label = document.createElement("span");
             label.className = "answerAlreadyUsed";
@@ -1058,10 +1069,11 @@ function showAnswerChoices(matches, position, clubCode) {
             button.append(label);
         }
         button.addEventListener("click", function() {
-            if (pendingAnswer !== request || currentGame.gameOver) return;
+            if (!answerChoiceAllowed(request)) return;
             clearPendingAnswer();
             answerTargetSlot = request.slot;
-            applyAnswer(player, position, clubCode, "", player.surname, true);
+            if (surnamesOnly) resolveSpellingAnswer(player.surname, position, clubCode, '', true);
+            else applyAnswer(player, position, clubCode, "", player.surname, true);
         });
         options.append(button);
     });
@@ -1942,6 +1954,43 @@ function normalizeSearchName(name) {
         .toUpperCase()
         .toLowerCase()
         .replace(/[\s'\u2018\u2019\u02BC\uFF07\-\u2010-\u2015]/gu, "");
+}
+
+const fuzzyClubIndexes = new WeakMap();
+function resolveSpellingAnswer(surname, position, clubCode, playerAnswer, accepted = false) {
+    const club = getClubByCode(clubCode);
+    if (!club) return applyAnswer(null, position, clubCode, playerAnswer, surname);
+    const key = normalizeSearchName(surname);
+    const exact = club.squad.filter(p => validAnswerNames(p).some(n => normalizeSearchName(n) === key));
+    const eligible = club.squad.filter(p => isEligibleRecord(p) && !recordIsManager(p));
+    const one = exact.length ? [] : eligible.filter(p => isOneLetterTypo(key, normalizeSearchName(p.surname)));
+    const records = exact.length ? exact.filter(isEligibleRecord) : one;
+    const matches = records.filter(p => p.positions.includes(position));
+    if (exact.length || one.length) {
+        if (!matches.length) return finishSpellingMiss(records.length ? 'TRY ANOTHER POSITION' : playerAnswer.toUpperCase() + ' - NOT FOUND');
+        if (!exact.length && !accepted && matches.length > 1) {
+            const distinct = [...new Map(matches.map(p => [normalizeSearchName(p.surname), p])).values()];
+            return showAnswerChoices(distinct, position, clubCode, true);
+        }
+        if (matches.length > 1) return showAnswerChoices(matches, position, clubCode);
+        return applyAnswer(matches[0], position, clubCode, playerAnswer, matches[0].surname);
+    }
+    if (!fuzzyClubIndexes.has(club)) fuzzyClubIndexes.set(club, Page302Fuzzy.index(eligible));
+    const result = Page302Fuzzy.rank(surname, fuzzyClubIndexes.get(club), position);
+    if (result.kind === 'confident_same_position') {
+        return showAnswerChoices([{surname: result.surname}], position, clubCode, true);
+    }
+    if (result.kind === 'confident_other_position') return finishSpellingMiss('CLOSE — TRY ANOTHER POSITION');
+    return applyAnswer(null, position, clubCode, playerAnswer, surname);
+}
+
+function finishSpellingMiss(message) {
+    setStatus(message);
+    const input = document.getElementById('answer');
+    input.value = '';
+    if (typeof matchMedia === 'function' && matchMedia('(pointer: coarse)').matches) input.blur();
+    else input.focus();
+    answerTargetSlot = null;
 }
 
 function isOneLetterTypo(answer, surname) {
